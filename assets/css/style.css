@@ -26,7 +26,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #777777;
+  color: #000;
   overflow-x: hidden; }
 
 * {
@@ -93,7 +93,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #777777;
+  color: #000;
   margin: 0px; }
 
 .bg_cover {
@@ -790,7 +790,7 @@ p {
       text-transform: uppercase;
       font-size: 24px;
       font-weight: 600;
-      color: #777777;
+      color: #000;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -804,7 +804,7 @@ p {
           font-size: 18px; } }
     .event-tab .nav .nav-item a span {
       font-size: 16px;
-      color: #777777;
+      color: #000;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -906,7 +906,7 @@ p {
           display: inline-block;
           padding-top: 10px;
           font-size: 16px;
-          color: #777777;
+          color: #000;
           margin-right: 20px; }
           @media only screen and (min-width: 992px) and (max-width: 1200px) {
             .event-tab .tab-content .event-content .single-event .event-content .event-meta li {
@@ -1192,7 +1192,7 @@ p {
     text-transform: uppercase; }
   .single-pricing .pricing-name .sub-title {
     font-size: 16px;
-    color: #777777;
+    color: #000;
     margin-top: 10px; }
   .single-pricing .pricing-price {
     background-image: url(../images/pricing-bg.jpg);
@@ -1223,7 +1223,7 @@ p {
     padding-top: 15px; }
     .single-pricing .pricing-list ul li {
       font-size: 16px;
-      color: #777777;
+      color: #000;
       margin-top: 15px; }
   .single-pricing .pricing-btn {
     padding-top: 30px; }
@@ -1264,7 +1264,7 @@ p {
   .single-info .info-content .info-title {
     font-size: 18px;
     font-weight: 400;
-    color: #777777; }
+    color: #000; }
   .single-info .info-content .text {
     font-size: 16px;
     font-weight: 600;
@@ -1293,23 +1293,23 @@ p {
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     padding: 0 25px;
-    color: #777777; }
+    color: #000; }
     .single-form input::placeholder,
     .single-form textarea::placeholder {
       opacity: 1;
-      color: #777777; }
+      color: #000; }
     .single-form input::-moz-placeholder,
     .single-form textarea::-moz-placeholder {
       opacity: 1;
-      color: #777777; }
+      color: #000; }
     .single-form input::-moz-placeholder,
     .single-form textarea::-moz-placeholder {
       opacity: 1;
-      color: #777777; }
+      color: #000; }
     .single-form input::-webkit-input-placeholder,
     .single-form textarea::-webkit-input-placeholder {
       opacity: 1;
-      color: #777777; }
+      color: #000; }
     .single-form input:focus,
     .single-form textarea:focus {
       border-color: #1863ff;
@@ -1323,7 +1323,7 @@ p {
     right: 25px;
     top: 22px;
     font-size: 16px;
-    color: #777777; }
+    color: #000; }
 
 .contact-map .gmap_canvas {
   padding: 8px;
