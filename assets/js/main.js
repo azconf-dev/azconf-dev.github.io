@@ -1,10 +1,27 @@
 $(function() {
     
+
     "use strict";
-    
+  
+    //jQuery for page scrolling feature - requires jQuery Easing plugin
+
+  $('a.page-scroll[href*="#"]:not([href="#"])').on('click', function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+              $('html, body').animate({
+                  scrollTop: (target.offset().top -70)
+              }, 1200, "easeInOutExpo");
+              return false;
+          }
+      }
+  });
     //===== Prealoder
     
-   
+    $(window).on('load', function(event) {
+        $('.preloader').delay(500).fadeOut(500);
+    });
     
     
     //===== Sticky
@@ -77,13 +94,8 @@ $(function() {
     });
     
     
-    //===== Counter Up
-    
-    $('.counter').counterUp({
-        delay: 10,
-        time: 2000
-    });
-    
+     
+ 
     
     $('.client-active').slick({
         dots: false,
