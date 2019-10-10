@@ -665,7 +665,8 @@ p {
 .header-content {
   margin-top: 60px; }
   .header-content .header-title {
-    font-size: 70px;
+    font-size: 60px;
+    font-weight:300;
     color: #fff; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .header-content .header-title {
@@ -678,9 +679,8 @@ p {
         font-size: 30px; } }
   .header-content .sub-title {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     color: #fff;
-    text-transform: uppercase;
     margin-top: 22px; }
     @media (max-width: 767px) {
       .header-content .sub-title {
