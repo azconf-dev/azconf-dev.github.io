@@ -13,7 +13,7 @@
                     </div> <!-- section title -->
 
                     <p class="text mt-30">
-                            
+                            {{ site.data[page.year].about.about }}
                         <ul style="margin: 0 20px;">
                             {% for topic in site.data[page.year].about.topics  %}
                                 <li style="line-height: 30px;  list-style-type: square;">{{ topic }}

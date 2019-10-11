@@ -6,10 +6,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div data-countdown="2020/06/18"></div>
+                    <div data-countdown="{{ site.data[page.year].about.header_countdown }}"></div>
                     <div class="header-content text-center">
-                        <h2 class="header-title">{{page.header_title}}</h2>
-                        <h3 class="sub-title">{{page.header_subtitle}}</h3>
+                        <h2 class="header-title">{{ site.data[page.year].about.header_title }}</h2>
+                        <h3 class="sub-title">{{ site.data[page.year].about.header_subtitle }}</h3>
                         <ul class="header-btn">
                             <li><a class="main-btn main-btn-2 page-scroll" href="#tickets">Register Now</a></li>
                             <li><a class="main-btn page-scroll" href="#about">Learn More</a></li>
