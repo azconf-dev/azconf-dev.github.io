@@ -9,7 +9,13 @@
             </div>
         </div> <!-- row -->
         <div class="row">
-                {% for member in site.data.team limit:4 %}
+                {% if page.limit %}
+                    {% assign limit = page.limit %}
+                {% else %}
+                    {% assign limit = site.data[page.year].team.size %}
+                {% end %}
+
+                {% for member in site.data[page.year].team limit:limit %}
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                             <div class="team-image">
