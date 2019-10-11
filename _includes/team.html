@@ -10,82 +10,26 @@
         </div> <!-- row -->
 
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="team-image">
-                        <img src="assets/images/team-1.jpg" alt="Team">
-                    </div>
-                    <div class="team-content">
-                        <div class="team-social">
-                            <ul class="social">
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4 class="team-name"><a href="#">Speaker 1</a></h4>
-                        <span class="sub-title">Web Developer</span>
-                    </div>
-                </div> <!-- single team -->
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <div class="team-image">
-                        <img src="assets/images/team-2.jpg" alt="Team">
-                    </div>
-                    <div class="team-content">
-                        <div class="team-social">
-                            <ul class="social">
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4 class="team-name"><a href="#">Speaker 2</a></h4>
-                        <span class="sub-title">UX Person</span>
-                    </div>
-                </div> <!-- single team -->
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-                    <div class="team-image">
-                        <img src="assets/images/team-3.jpg" alt="Team">
-                    </div>
-                    <div class="team-content">
-                        <div class="team-social">
-                            <ul class="social">
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4 class="team-name"><a href="#">Ilyas</a></h4>
-                        <span class="sub-title">KeyNote</span>
-                    </div>
-                </div> <!-- single team -->
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-                    <div class="team-image">
-                        <img src="assets/images/team-3.jpg" alt="Team">
-                    </div>
-                    <div class="team-content">
-                        <div class="team-social">
-                            <ul class="social">
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4 class="team-name"><a href="#">Swaminathan Vetri Velayutham</a></h4>
-                        <span class="sub-title">Cloud Person</span>
-                    </div>
-                </div> <!-- single team -->
-            </div>
+                {%- for member in site.data.team limit:4 -%}
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="team-image">
+                                <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-social">
+                                    <ul class="social">
+                                        <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
+                                        <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                        <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4 class="team-name"><a href="#">{{ member.name }}</a></h4>
+                                <span class="sub-title">{{ member.title }}</span>
+                            </div>
+                        </div> <!-- single team -->
+                    </div>   
+                {%- endfor -%}
         </div> <!-- row -->
     </div> <!-- container -->
 </section>
