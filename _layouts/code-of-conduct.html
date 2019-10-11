@@ -1,24 +1,4 @@
-<!doctype html>
-<html lang="en">
-    {% include head.html %}
-    <style>
-    .navbar-area {
-        background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
-    }
-    </style>
-<body>    
-    {% include loader.html %}
-    {% include navbar.html %}
-    {% include codeofconduct-detailed.html%}      
-    {% include footer.html %}
-    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
-    <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>    
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script>
-        $(window).on('load', function (event) {
-            $('.preloader').delay(500).fadeOut(500);
-        });
-    </script>
-</body>
-</html>
+---
+layout: content
+---
+{% include codeofconduct-detailed.html%}      
