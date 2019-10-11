@@ -8,7 +8,6 @@
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
-
         <div class="row">
                 {% for member in site.data.team %}
                     <div class="col-lg-3 col-sm-6">
@@ -24,7 +23,7 @@
                                         <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4 class="team-name"><a href="#">{{ member.name }}</a></h4>
+                                <h4 class="team-name">{{ member.name }}</h4>
                                 <span class="sub-title">{{ member.title }}</span>
                             </div>
                         </div> <!-- single team -->

@@ -1088,7 +1088,7 @@ p {
             -o-transition: all 0.3s ease-out 0s;
             transition: all 0.3s ease-out 0s; }
             
-    .single-team .team-content .team-name a {
+    .single-team .team-content .team-name {
       color: #1b273d;
       font-size: 24px;
       font-weight: 600;
@@ -1098,7 +1098,7 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       @media (max-width: 767px) {
-        .single-team .team-content .team-name a {
+        .single-team .team-content .team-name  {
           font-size: 18px; } }
     .single-team .team-content .sub-title {
       font-size: 13px;
@@ -1120,7 +1120,7 @@ p {
       top: -20px;
       visibility: visible;
       opacity: 1; }
-    .single-team:hover .team-content .team-name a {
+    .single-team:hover .team-content .team-name {
       color: #fff; }
     .single-team:hover .team-content .sub-title {
       color: #fff; }
