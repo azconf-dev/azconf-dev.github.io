@@ -10,7 +10,7 @@
         </div> <!-- row -->
 
         <div class="row">
-            {%- for speaker in site.data.speakers limit:4 -%}
+            {% for speaker in site.data.speakers %}
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
@@ -29,7 +29,7 @@
                         </div>
                     </div> <!-- single team -->
                 </div>   
-            {%- endfor -%}
+            {% endfor %}
         </div> <!-- row -->
     </div> <!-- container -->
 </section>         
