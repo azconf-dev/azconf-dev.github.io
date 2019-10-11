@@ -11,7 +11,7 @@
 
         <div class="row">
             {% if page.limit %}
-                {% for speaker in site.data[page.year].speakers limit:page.limit %}
+                {% for speaker in site.data[page.year].speakers %}
                     <div class="col-lg-3 limit col-sm-6">
                         <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                             <div class="team-image">
@@ -52,7 +52,7 @@
                         </div> <!-- single team -->
                     </div>   
                 {% endfor %}
-            {% end %}
+            {% endif %}
 
           
         </div> <!-- row -->
