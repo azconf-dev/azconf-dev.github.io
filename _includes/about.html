@@ -13,18 +13,12 @@
                     </div> <!-- section title -->
 
                     <p class="text mt-30">
-                            Az Conf will be a 2 day multi-track conference at Bangalore, India on June 18th and 19th. 
-                            The conference is aimed at Cloud and Web Development with open source and cloud native technologies while gently leaning towards the Microsoft Stack. 
-                            We expect an audience count of 800+ developers from India. <br/>
-                            There will be a pre-day workshop on June 17th.
-                            The conference will feature talks on
+                            
                         <ul style="margin: 0 20px;">
-                            <li style="line-height: 30px;  list-style-type: square;">.NET and Azure</li>
-                            <li style="line-height: 30px;  list-style-type: square;">DevOps and Continuous Delivery</li>
-                            <li style="line-height: 30px;  list-style-type: square;">Cloud Native Technologies</li>
-                            <li style="line-height: 30px;  list-style-type: square;">Javascript and Web Development </li>
-                            <li style="line-height: 30px;  list-style-type: square;">Life Hacks / Career / Work Skills</li>
-                            <li style="line-height: 30px;  list-style-type: square;">IoT & Open Source Hardware</li>
+                            {% for topic in site.data[page.year].about.topics  %}
+                                <li style="line-height: 30px;  list-style-type: square;">{{ topic }}
+                                </li>
+                            {% endfor %}
                         </ul>
                     </p>
                     <p class="date"><span>18<sup>th</sup>-19<sup>th</sup></span> June 2020</p>

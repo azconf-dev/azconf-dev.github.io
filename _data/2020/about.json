@@ -1,0 +1,11 @@
+{
+    "about": "Az Conf will be a 2 day multi-track conference at Bangalore, India on June 18th and 19th. The conference is aimed at 800+ Cloud and Web Developers working with open source and cloud native technologies.  There will be a workshop on June 17th (day 0) and the conference will feature talks on",
+    "topics": [
+        ".NET and Azure",
+        "DevOps and Continuous Delivery",
+        "Cloud Native Technologies",
+        "Javascript and Web Development",
+        "Life Hacks / Career / Work Skills",
+        "IoT & Software Security"
+    ]
+}
