@@ -9,32 +9,49 @@
             </div>
         </div> <!-- row -->
         <div class="row">
-                {% if page.limit %}
-                    {% assign limit = page.limit %}
-                {% else %}
-                    {% assign limit = site.data[page.year].team.size %}
-                {% end %}
-
-                {% for member in site.data[page.year].team limit:limit %}
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                            <div class="team-image">
-                                <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+            {% if page.limit %}
+                {% for member in site.data[page.year].team limit:page.limit %}
+                <div class="col-lg-3 limit col-sm-6">
+                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
+                                    <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                    <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                </ul>
                             </div>
-                            <div class="team-content">
-                                <div class="team-social">
-                                    <ul class="social">
-                                        <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
-                                        <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                        <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h4 class="team-name">{{ member.name }}</h4>
-                                <span class="sub-title">{{ member.title }}</span>
-                            </div>
-                        </div> <!-- single team -->
-                    </div>   
+                            <h4 class="team-name">{{ member.name }}</h4>
+                            <span class="sub-title">{{ member.title }}</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
                 {% endfor %}
+            {% else %}
+                {% for member in site.data[page.year].team %}
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
+                                    <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                    <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name">{{ member.name }}</h4>
+                            <span class="sub-title">{{ member.title }}</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                {% endfor %}
+            {% end %}
         </div> <!-- row -->
     </div> <!-- container -->
 </section>

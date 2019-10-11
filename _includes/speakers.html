@@ -11,31 +11,50 @@
 
         <div class="row">
             {% if page.limit %}
-                {% assign limit = page.limit %}
+                {% for speaker in site.data[page.year].speakers limit:page.limit %}
+                    <div class="col-lg-3 limit col-sm-6">
+                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="team-image">
+                                <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-social">
+                                    <ul class="social">
+                                        <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                        <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                        <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4 class="team-name">{{ speaker.name }}</h4>
+                                <span class="sub-title">{{ speaker.title }}</span>
+                            </div>
+                        </div> <!-- single team -->
+                    </div>   
+                {% endfor %}
             {% else %}
-                {% assign limit = site.data[page.year].team.size %}
+                {% for speaker in site.data[page.year].speakers %}
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="team-image">
+                                <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                            </div>
+                            <div class="team-content">
+                                <div class="team-social">
+                                    <ul class="social">
+                                        <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                        <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                        <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4 class="team-name">{{ speaker.name }}</h4>
+                                <span class="sub-title">{{ speaker.title }}</span>
+                            </div>
+                        </div> <!-- single team -->
+                    </div>   
+                {% endfor %}
             {% end %}
 
-            {% for speaker in site.data[page.year].speakers limit:limit %}
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
-                                    <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                    <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name">{{ speaker.name }}</h4>
-                            <span class="sub-title">{{ speaker.title }}</span>
-                        </div>
-                    </div> <!-- single team -->
-                </div>   
-            {% endfor %}
+          
         </div> <!-- row -->
     </div> <!-- container -->
 </section>         
