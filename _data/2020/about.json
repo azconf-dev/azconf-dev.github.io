@@ -1,11 +1,12 @@
 {
     "about": "Az Conf will be a 2 day multi-track conference at Bangalore, India on June 18th and 19th. The conference is aimed at 800+ Cloud and Web Developers working with open source and cloud native technologies.  There will be a workshop on June 17th (day 0) and the conference will feature talks on",
     "topics": [
-        "Cloud / Web Development with .NET and Javascript",
+        "-C#, .NET and ASP.NET Core",
+        "Web Development with Javascript",
         "DevOps and Cloud Native Technologies on Azure",
         "Data, IoT, Open Source Hardware and Security",
         "Life Hacks / Career & Work Skills",
-        "any developer centric topic"
+        "other developer centric topics"
     ],
     "header_title": "Az Conf | 18-19 June, 2020",
     "header_subtitle" : "Venue TBD <br />  Bangalore, India.",
