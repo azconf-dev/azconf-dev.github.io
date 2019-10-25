@@ -1026,7 +1026,7 @@ p {
   .single-team .team-image img {
     width: 100%; }
   .single-team .team-content {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
