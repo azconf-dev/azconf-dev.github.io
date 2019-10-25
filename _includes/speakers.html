@@ -18,11 +18,17 @@
                             </div>
                             <div class="team-content">
                                 <div class="team-social">
-                                    <ul class="social">
-                                        <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
-                                        <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                        <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                    </ul>
+                                        <ul class="social">
+                                                {% if member.website %}
+                                                    <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                                {% endif %}
+                                                {% if member.twitter %}
+                                                    <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                                    {% endif %}
+                                                {% if member.linkedin %}
+                                                    <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                                {% endif %}
+                                                </ul>
                                 </div>
                                 <h4 class="team-name">{{ speaker.name }}</h4>
                                 <span class="sub-title">{{ speaker.title }}</span>
