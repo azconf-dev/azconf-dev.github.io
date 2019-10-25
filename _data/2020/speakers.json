@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Speaker 1",
+    "pic": "/assets/images/team-1.jpg",
+    "title": "Speaker 1 Bio",
+    "website": "#",
+    "linkedin": "#",
+    "twitter": "#"
+  },
+  {
+    "name": "Speaker 2 with a very long name",
+    "pic": "/assets/images/team-1.jpg",
+    "title": "Speaker 2 with a very long bio that does not fit in a single line.",
+    "linkedin": "#"
+  }
+]

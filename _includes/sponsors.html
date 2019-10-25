@@ -9,18 +9,11 @@
             </div>
         </div> <!-- row -->
         <div class="row">
-            <div class="col-lg-3">
-                <img src="/assets/images/client-2.png" alt="client">
-            </div>
-            <div class="col-lg-3">
-                <img src="/assets/images/client-2.png" alt="client">
-            </div>
-            <div class="col-lg-3">
-                <img src="/assets/images/client-2.png" alt="client">
-            </div>
-            <div class="col-lg-3">
-                <img src="/assets/images/client-2.png" alt="client">
-            </div>
+                {% for sponsor in site.data[page.year].sponsors %}
+                    <div class="col-lg-3">
+                        <img src="{{ sponsor.pic }}" alt="{{ sponsor.name }} photo">
+                    </div>
+                {% endfor %}            
         </div> <!-- row -->
     </div> <!-- container -->
 </section>
