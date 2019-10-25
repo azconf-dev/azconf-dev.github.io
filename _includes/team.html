@@ -10,7 +10,7 @@
         <div class="row">
             {% if page.limit %}
                 {% for member in site.data[page.year].team limit:page.limit %}
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
                             <img src="{{ member.pic }}" alt="{{ member.name }} photo">
