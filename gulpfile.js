@@ -1,7 +1,7 @@
 const { src,dest } = require('gulp');
 var concat = require('gulp-concat');
 
-function defaultTask() {
+function bundlejs() {
     return src( ['assets/js/vendor/modernizr-3.6.0.min.js',
                 'assets/js/vendor/jquery-3.4.1.min.js', 
                 'assets/js/bootstrap.min.js', 
@@ -16,5 +16,25 @@ function defaultTask() {
     .pipe(concat('bundle.js'))
     .pipe(dest('assets/dist/'));
 }
-  
-  exports.default = defaultTask
+
+function bundlecss() {
+  return src( ['assets/css/bootstrap.min.css',
+              'assets/css/flaticon.css',
+              'assets/css/LineIcons.css',
+              'assets/css/animate.css',
+              'assets/css/magnific-popup.css',
+              'assets/css/slick.css',
+              'assets/css/default.css',
+              'assets/css/style.css'            
+            ])
+  .pipe(concat('bundle.css'))
+  .pipe(dest('assets/dist/'));
+}
+
+function defaultTask(){
+  bundlejs();
+  bundlecss();
+  return;
+}
+
+exports.default = defaultTask
