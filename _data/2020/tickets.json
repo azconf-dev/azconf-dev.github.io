@@ -1,0 +1,14 @@
+[
+    {
+        "type": "Early Bird",
+        "description": "Discounted Price for early registrations",
+        "price": "3000 INR",
+        "checkoutLink": "#"
+    },
+    {
+        "type": "Regular",
+        "description": "Regular Registrations",
+        "price": "4200 INR",
+        "checkoutLink": "#"
+    }  
+]
