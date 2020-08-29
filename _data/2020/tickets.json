@@ -1,14 +1,14 @@
 [
     {
-        "type": "Early Bird",
-        "description": "Discounted Price for early registrations",
-        "price": "3000 INR",
+        "type": "Conference Only",
+        "description": "Access to all the Live technical sessions",
+        "price": "Free",
         "checkoutLink": "#"
     },
     {
-        "type": "Regular",
-        "description": "Regular Registrations",
-        "price": "4200 INR",
+        "type": "Conference + Online Handson Workshops",
+        "description": "Access to all the Live technical sessions + Online handson workshops",
+        "price": "Free",
         "checkoutLink": "#"
     }  
 ]
