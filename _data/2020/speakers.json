@@ -1,8 +1,32 @@
 [
-    {
-        "name": "Nish Anil",
-        "pic": "/assets/images/Nish.jpeg",
-        "title": "Senior Program Manager, Dotnet, Microsoft",
-        "linkedin": "https://www.linkedin.com/in/nanil/"
-      }
+  {
+    "name": "Nishu Goel",
+    "pic": "/assets/images/niss.jpeg",
+    "title": "Nishu Goel, Engineer@TheDataworks, Microsoft MVP, Google Developer Expert in Angular and Web technologies. Skilled in Angular, React, Web components",
+    "linkedin": "https://www.linkedin.com/in/nishu-goel/",
+    "facebook": "#",
+    "twitter": "https://twitter.com/dcoustawilson"
+  },
+  {
+    "name": "Nish Anil",
+    "pic": "/assets/images/Nish.jpeg",
+    "title": "Senior Program Manager, Dotnet, Microsoft",
+    "linkedin": "https://www.linkedin.com/in/nanil/",
+    "facebook": "#"
+  },
+  {
+    "name": "Swaminathan Vetri",
+    "pic": "/assets/images/Swami.jpg",
+    "title": "Cloud Architect, Maersk",
+    "linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
+    "facebook": "#",
+    "twitter": "#"
+  },
+  {
+    "name": "Ilyas F",
+    "pic": "/assets/images/ilyas.png",
+    "title": "IoT Evangelist at ABB, Microsoft MVP",
+    "linkedin": "https://www.linkedin.com/in/ilyasf/",
+    "twitter": "#"
+  }
 ]

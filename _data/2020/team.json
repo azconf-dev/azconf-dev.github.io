@@ -11,6 +11,15 @@
     "name": "Ilyas F",
     "pic": "/assets/images/ilyas.png",
     "title": "IoT Evangelist at ABB, Microsoft MVP",
-    "linkedin": "https://www.linkedin.com/in/ilyasf/"
+    "linkedin": "https://www.linkedin.com/in/ilyasf/",
+    "twitter": "#"
+  },
+  {
+    "name": "Swaminathan Vetri",
+    "pic": "/assets/images/Swami.jpg",
+    "title": "Cloud Architect, Maersk",
+    "linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
+    "facebook" : "#",
+    "twitter": "#"
   }
 ]
