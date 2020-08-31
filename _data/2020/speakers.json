@@ -28,5 +28,19 @@
 		"title": "IoT Evangelist at ABB, Microsoft MVP",
 		"linkedin": "https://www.linkedin.com/in/ilyasf/",
 		"twitter": "#"
+	},
+	{
+		"name": "Dhananjay Kumar",
+		"pic": "/assets/images/dj.jpeg",
+		"title": "Teacher, Microsoft MVP, Google GDE",
+		"linkedin": "https://www.linkedin.com/in/dhananjaykumar07/",
+		"twitter": "https://twitter.com/debug_mode"
+	},
+	{
+		"name": "Neependra Khare",
+		"pic": "/assets/images/Neependra.jpeg",
+		"title": "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies",
+		"linkedin": "https://www.linkedin.com/in/neependra/",
+		"twitter": "#"
 	}
 ]
