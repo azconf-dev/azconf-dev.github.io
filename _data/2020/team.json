@@ -1,25 +1,25 @@
 [
-  {
-    "name": "Gurucharan Subramani",
-    "pic": "/assets/images/gurucharan.jpg",
-    "title": "IoT against Climate Change at ABB, Member of .NET Foundation",
-    "website": "https://www.gurucharan.in",
-    "linkedin": "https://linkedin.com/in/gurucharan94",
-    "twitter": "https://twitter.com/GuruCharan94"
-  },
-  {
-    "name": "Ilyas F",
-    "pic": "/assets/images/ilyas.png",
-    "title": "IoT Evangelist at ABB, Microsoft MVP",
-    "linkedin": "https://www.linkedin.com/in/ilyasf/",
-    "twitter": "#"
-  },
-  {
-    "name": "Swaminathan Vetri",
-    "pic": "/assets/images/swami.jpg",
-    "title": "Cloud Architect, Maersk",
-    "linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
-    "facebook" : "#",
-    "twitter": "#"
-  }
+	{
+		"name": "Gurucharan Subramani",
+		"pic": "/assets/images/gurucharan.jpg",
+		"title": "IoT against Climate Change at ABB, Member of .NET Foundation",
+		"website": "https://www.gurucharan.in",
+		"linkedin": "https://linkedin.com/in/gurucharan94",
+		"twitter": "https://twitter.com/GuruCharan94"
+	},
+	{
+		"name": "Ilyas F",
+		"pic": "/assets/images/ilyas.png",
+		"title": "IoT Evangelist at ABB, Microsoft MVP",
+		"linkedin": "https://www.linkedin.com/in/ilyasf/",
+		"twitter": "#"
+	},
+	{
+		"name": "Swaminathan Vetri",
+		"pic": "/assets/images/swami.jpg",
+		"title": "Cloud Architect, Maersk",
+		"linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
+		"facebook": "#",
+		"twitter": "#"
+	}
 ]
