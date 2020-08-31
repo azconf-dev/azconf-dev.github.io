@@ -29,5 +29,21 @@
 		"linkedin": "https://www.linkedin.com/in/nishu-goel/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/dcoustawilson"
+	},
+	{
+		"name": "Dhananjay Kumar",
+		"pic": "/assets/images/dj.jpeg",
+		"title": "Teacher, Microsoft MVP, Google GDE",
+		"linkedin": "https://www.linkedin.com/in/dhananjaykumar07/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/debug_mode"
+	},
+	{
+		"name": "Alagunila Meganathan",
+		"pic": "/assets/images/nila.jpeg",
+		"title": "Founder & CEO at InnovoTree Technologies, Microsoft MVP(4 times) & C# Corner MVP(4 times). C# Corner Coimbatore Chapter Lead",
+		"linkedin": "https://www.linkedin.com/in/alagunilam/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/alagunilam"
 	}
 ]
