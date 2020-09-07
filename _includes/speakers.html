@@ -7,10 +7,10 @@
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
-
+        
         <div class="row justify-content-md-center">
-            {% if page.limit %}
-                {% for speaker in site.data[page.year].speakers limit:page.limit %}
+            {% if page.speakerlimit %}
+                {% for speaker in site.data[page.year].speakers limit:page.speakerlimit %}
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                             <div class="team-image">

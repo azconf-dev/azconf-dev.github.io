@@ -37,6 +37,13 @@
 		"twitter": "#"
 	},
 	{
+		"name": "Janakiram MSV",
+		"pic": "/assets/images/janakiram.png",
+		"title": "Founder and CTO at Get Cloud Ready Consulting, Microsoft RD, Google Developer Expert",
+		"linkedin": "https://www.linkedin.com/in/janakiramm/",
+		"twitter": "#"
+	},
+	{
 		"name": "Dhananjay Kumar",
 		"pic": "/assets/images/dj.jpeg",
 		"title": "Teacher, Microsoft MVP, Google GDE",
@@ -55,6 +62,13 @@
 		"pic": "/assets/images/Karthikeyan.jpg",
 		"title": "VP-Engineering - Botcode Technologies, Cloud-Native Architect, Microsoft MVP",
 		"linkedin": "https://www.linkedin.com/in/karthikeyanvk/",
+		"twitter": "#"
+	},
+	{
+		"name": "Abdul Majed Raja RS",
+		"pic": "/assets/images/abdul_majed.jpg",
+		"title": "Analytics Consultant, Atlassian",
+		"linkedin": "https://www.linkedin.com/in/amrrs/",
 		"twitter": "#"
 	}
 ]
