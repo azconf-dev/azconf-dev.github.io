@@ -30,6 +30,20 @@
 		"twitter": "#"
 	},
 	{
+		"name": "Dr. Venkat Subramaniam",
+		"pic": "/assets/images/venkat_subramaniam.jpg",
+		"title": "Founder at Agile Developer Inc, Award Winning Author, Instructional professor at the University of Houston",
+		"linkedin": "https://www.linkedin.com/in/vsubramaniam/",
+		"twitter": "#"
+	},
+	{
+		"name": "Janakiram MSV",
+		"pic": "/assets/images/janakiram.PNG",
+		"title": "Founder and CTO at Get Cloud Ready Consulting, Microsoft RD, Google Developer Expert",
+		"linkedin": "https://www.linkedin.com/in/janakiramm/",
+		"twitter": "#"
+	},
+	{
 		"name": "Dhananjay Kumar",
 		"pic": "/assets/images/dj.jpeg",
 		"title": "Teacher, Microsoft MVP, Google GDE",
@@ -41,6 +55,20 @@
 		"pic": "/assets/images/Neependra.jpeg",
 		"title": "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies",
 		"linkedin": "https://www.linkedin.com/in/neependra/",
+		"twitter": "#"
+	},
+	{
+		"name": "Karthikeyan VK",
+		"pic": "/assets/images/Karthikeyan.jpg",
+		"title": "VP-Engineering - Botcode Technologies, Cloud-Native Architect, Microsoft MVP",
+		"linkedin": "https://www.linkedin.com/in/karthikeyanvk/",
+		"twitter": "#"
+	},
+	{
+		"name": "Abdul Majed Raja RS",
+		"pic": "/assets/images/abdul_majed.jpg",
+		"title": "Analytics Consultant, Atlassian",
+		"linkedin": "https://www.linkedin.com/in/amrrs/",
 		"twitter": "#"
 	}
 ]
