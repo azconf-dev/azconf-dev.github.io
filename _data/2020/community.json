@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Bengaluru Azure User Group",
+		"pic": "/assets/images/bengaluru-aug.jpg",
+        "website": "https://www.meetup.com/en-AU/Microsoft-Azure-Bangalore/",
+		"facebook": "#",
+		"twitter": "#"
+    },
+    {
+		"name": "BDotNet-Bangalore .Net User Group",
+		"pic": "/assets/images/bdotnet.jpg",
+        "website": "https://www.meetup.com/en-AU/BDotNetUG/",
+		"facebook": "https://facebook.com/groups/bdotnet",
+		"twitter": "https://twitter.com/bdotnetug"
+    },
+    {
+		"name": "XMonkeys360",
+		"pic": "/assets/images/x360.png",
+        "website": "https://www.meetup.com/en-AU/XMonkeys360/",
+		"facebook": "https://www.facebook.com/xmonkeys360/",
+		"twitter": "https://twitter.com/XMonkeys360"
+    },
+    {
+		"name": "BangaloreITPro User Group",
+		"pic": "/assets/images/bitpro.jpg",
+        "website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
+		"facebook": "#",
+		"twitter": "#"
+    }
+]
