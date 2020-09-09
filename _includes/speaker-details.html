@@ -1,0 +1,43 @@
+<!-- Speaker Modals -->
+{% for speaker in site.data[page.year].speakers %}
+<div class="speaker-modal modal fade" id="speakerModal{{ speaker.speaker-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <a href="#speakerModal{{ speaker.speaker-id }}" class="speaker-link" data-toggle="modal">
+                                <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                            </a>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                    <ul class="social">
+                                            {% if speaker.website %}
+                                                <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                            {% endif %}
+                                            {% if speaker.twitter %}
+                                                <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                                {% endif %}
+                                            {% if speaker.linkedin %}
+                                                <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                            {% endif %}
+                                            </ul>
+                            </div>
+                            <h4 class="team-name">{{ speaker.name }}</h4>
+                            <span class="sub-title">{{ speaker.title }}</span>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

@@ -14,7 +14,9 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                             <div class="team-image">
-                                <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                                <a href="#speakerModal{{ speaker.speaker-id }}" class="speaker-link" data-toggle="modal">
+                                    <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                                </a>
                             </div>
                             <div class="team-content">
                                 <div class="team-social">
