@@ -26,5 +26,12 @@
         "website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
 		"facebook": "#",
 		"twitter": "#"
+    },
+    {
+		"name": "Microsoft User Group - Chandigarh",
+		"pic": "/assets/images/mugchd.jpg",
+        "website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/MugCHD"
     }
 ]
