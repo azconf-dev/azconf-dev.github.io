@@ -10,7 +10,7 @@
 	{
 		"name": "Nish Anil",
 		"pic": "/assets/images/Nish.jpeg",
-		"title": "Senior Program Manager, Dotnet, Microsoft",
+		"title": "Senior Program Manager, .NET, Microsoft",
 		"linkedin": "https://www.linkedin.com/in/nanil/",
 		"facebook": "#"
 	},
@@ -58,6 +58,13 @@
 		"twitter": "#"
 	},
 	{
+		"name": "Ritesh M",
+		"pic": "/assets/images/ritesh.jpg",
+		"title": "Senior Engineer - Commercial Engineering, Microsoft",
+		"linkedin": "https://www.linkedin.com/in/nishithpathak/",
+		"twitter": "#"
+	},
+	{
 		"name": "Karthikeyan VK",
 		"pic": "/assets/images/Karthikeyan.jpg",
 		"title": "VP-Engineering - Botcode Technologies, Cloud-Native Architect, Microsoft MVP",
@@ -75,13 +82,6 @@
 		"name": "Nishith Pathak",
 		"pic": "/assets/images/nishith.jpg",
 		"title": "Vice President and Head of Emerging Technologies, Publicis Sapient, Microsoft MVP & RD",
-		"linkedin": "https://www.linkedin.com/in/nishithpathak/",
-		"twitter": "#"
-	},
-	{
-		"name": "Ritesh M",
-		"pic": "/assets/images/ritesh.jpg",
-		"title": "Senior Engineer - Commercial Engineering, Microsoft",
 		"linkedin": "https://www.linkedin.com/in/nishithpathak/",
 		"twitter": "#"
 	}
