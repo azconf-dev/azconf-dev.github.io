@@ -28,7 +28,6 @@
 		"twitter": "#"
     },
     {
-<<<<<<< HEAD
 		"name": "ngIndia",
 		"pic": "/assets/images/ngIndia.png",
         "website": "https://www.ng-ind.com/",
@@ -43,8 +42,6 @@
 		"twitter": "https://twitter.com/womenwhocode"
 	},
 	{
-=======
->>>>>>> ce32dc0bf12b3a1356ae7919703f2d29de21d784
 		"name": "Microsoft User Group - Chandigarh",
 		"pic": "/assets/images/mugchd.jpeg",
         "website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
