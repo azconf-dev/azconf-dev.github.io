@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Women Who Code",
+		"pic": "/assets/images/womenwhocode.png",
+        "website": "https://www.womenwhocode.com/",
+		"facebook": "https://facebook.com/womenwhocode",
+		"twitter": "https://twitter.com/womenwhocode"
+	},
+	{
 		"name": "Bengaluru Azure User Group",
 		"pic": "/assets/images/bengaluru-aug.jpg",
         "website": "https://www.meetup.com/en-AU/Microsoft-Azure-Bangalore/",
@@ -35,10 +42,10 @@
 		"twitter": "https://twitter.com/geeknineseven"
     },
     {
-		"name": "Women Who Code",
-		"pic": "/assets/images/womenwhocode.png",
-        "website": "https://www.womenwhocode.com/",
-		"facebook": "https://facebook.com/womenwhocode",
-		"twitter": "https://twitter.com/womenwhocode"
+		"name": "Microsoft User Group - Chandigarh",
+		"pic": "/assets/images/mugchd.jpeg",
+        "website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/MugCHD"
     }
 ]

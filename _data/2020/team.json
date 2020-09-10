@@ -31,6 +31,14 @@
 		"twitter": "https://twitter.com/dcoustawilson"
 	},
 	{
+		"name": "Amal Dev",
+		"pic": "/assets/images/amal.jpeg",
+		"title": "Software Architect, Microsoft MVP",
+		"linkedin": "https://www.linkedin.com/in/amaldevv/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/amaldevv"
+	},
+	{
 		"name": "Dhananjay Kumar",
 		"pic": "/assets/images/dj.jpeg",
 		"title": "Teacher, Microsoft MVP, Google GDE",
