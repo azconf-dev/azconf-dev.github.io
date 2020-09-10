@@ -26,5 +26,19 @@
         "website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
 		"facebook": "#",
 		"twitter": "#"
+    },
+    {
+		"name": "ngIndia",
+		"pic": "/assets/images/ngIndia.png",
+        "website": "https://www.ng-ind.com/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/geeknineseven"
+    },
+    {
+		"name": "Women Who Code",
+		"pic": "/assets/images/womenwhocode.png",
+        "website": "https://www.womenwhocode.com/",
+		"facebook": "https://facebook.com/womenwhocode",
+		"twitter": "https://twitter.com/womenwhocode"
     }
 ]
