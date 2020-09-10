@@ -1,0 +1,63 @@
+<section id="speaker-wrapper" class="about-area mt-50 pt-80 pb-130">
+
+
+    <div class="row justify-content-md-center">
+        <div class="col-lg-3 col-sm-6">
+            <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeIn;">
+
+                <div class="team-image">
+                    <img src="{{ page.pic }}" alt="{{ page.name }}">
+                </div>
+
+                <div class="team-content">
+                    <div class="team-social">
+                        <ul class="social">
+                            {% if page.website %}
+                            <li><a href="{{ page.website }}"><i class="lni-website"></i></a></li>
+                            {% endif %}
+                            {% if page.twitter %}
+                            <li><a href="{{ page.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                            {% endif %}
+                            {% if page.linkedin %}
+                            <li><a href="{{ page.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                    <h4 class="team-name">{{ page.name }}</h4>
+                    <span class="sub-title">{{ page.title }}</span>
+                </div>
+            </div> <!-- single team -->
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="row  justify-content-md-center">
+                <p class="text mt-30 mb-30">
+                    {{ content }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="events">
+        <h2>Talks and workshops</h2>
+        <ul>
+            <li>
+                <div class="grid-item msnry-item">
+                    <a class="boxed boxed-talk boxed-talk-summary boxed-linear"
+                        data-slugs="level-intermediate,architecture,net,mobile"
+                        href="https://ndcoslo.com/talk/fluxing-up-your-net-apps/">
+                        <div class="boxed-linear-content">
+                            <p class="venue">Thursday 16:20 - 17:20</p>
+                            <h2 class="keep-colored">Fluxing Up Your .NET Apps</h2>
+                            <p>Learn about the Flux design pattern and how to implement it in your C# client
+                                applications like UWP, Xamarin, and all the other platforms .NET is touching now.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section> -->
+</section>
