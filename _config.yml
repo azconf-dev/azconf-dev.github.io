@@ -73,3 +73,15 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections:
+  speakers:
+    output: true
+    sort_by: name
+
+defaults:
+  - scope:
+      path: ""
+      type: "speakers"
+    values:
+      layout: "speaker"

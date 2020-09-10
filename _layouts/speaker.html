@@ -9,8 +9,11 @@
 </style>
 <body>
         {% include loader.html %}
-        {% include navbar-mini.html %}
-        {% include speaker-bio.html%}      
+        <header class="header-area">
+            {% include navbar.html %}
+        </header>
+        {% include speaker.html%}      
+        {% include speakers.html%}  
         {% include footer.html %}
         <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
         {% include scripts.html %}
