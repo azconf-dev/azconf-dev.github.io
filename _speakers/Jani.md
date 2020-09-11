@@ -6,6 +6,7 @@ pic: "/assets/images/janakiram.PNG"
 title: "Founder and CTO at Get Cloud Ready Consulting, Microsoft RD, Google Developer Expert"
 linkedin: "https://www.linkedin.com/in/janakiramm/"
 twitter: "#"
+featured: true
 
 ---
 

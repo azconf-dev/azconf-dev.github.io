@@ -7,6 +7,7 @@ title: "Engineer@TheDataworks, Microsoft MVP, Google Developer Expert"
 linkedin: "https://www.linkedin.com/in/nishu-goel/"
 facebook: "#"
 twitter: "https://twitter.com/dcoustawilson"
+featured: false
 
 ---
 

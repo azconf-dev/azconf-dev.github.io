@@ -6,6 +6,7 @@ pic: "/assets/images/Karthikeyan.jpg"
 title: "VP-Engineering - Botcode Technologies, Cloud-Native Architect, Microsoft MVP"
 linkedin: "https://www.linkedin.com/in/karthikeyanvk/"
 twitter: "#"
+featured: false
 
 ---
 

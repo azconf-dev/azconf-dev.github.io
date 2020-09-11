@@ -6,6 +6,7 @@ pic: "/assets/images/nishith.jpg"
 title: "Vice President and Head of Emerging Technologies, Publicis Sapient, Microsoft MVP & RD"
 linkedin: "https://www.linkedin.com/in/nishithpathak/"
 twitter: "#"
+featured: false
 
 ---
 

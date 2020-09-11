@@ -6,6 +6,7 @@ pic: "/assets/images/ilyas.png"
 title: "IoT Evangelist at ABB, Microsoft MVP"
 linkedin: "https://www.linkedin.com/in/ilyasf/"
 twitter: "#"
+featured: false
 
 ---
 
