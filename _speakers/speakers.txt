@@ -1,0 +1,93 @@
+
+Dhananjay Kumar
+
+
+Dhananjay Kumar is an independent trainer and consultant from India. He is a published author, a well-known speaker, a Google Developer Expert, and a 10-time winner of the Microsoft MVP Award. He is the founder of geek97, which trains developers on various technologies so that they can be job-ready, and organizes India's largest Angular Conference, ng-India.
+
+---------
+
+Ilyas F
+
+A seasoned Cloud Solution Architect and Microsoft Most Valuable Professional with deep expertise in designing, developing and architecting cloud solutions for Public Clouds (Azure & AWS), Private clouds & Hybrid Clouds. Complete exposure towards all the services offered by Microsoft Azure cloud including PaaS, IaaS, Big Data, Application Life Cycle Management, DevOps Automation, Storage, Networking, Security, Internet of Things and Advanced Analytics.
+
+---------
+
+Janakiram MSV
+
+Janakiram is an industry analyst, strategic advisor, and a practicing architect. Through my speaking, writing, and analysis, I help businesses take advantage of emerging technologies. Recognized as a Google Developer Expert for Cloud and IoT, Microsoft Most Valuable Professional, Microsoft Regional Director, IBM Champion, Intel Software Innovator, and a Cloud Native Computing Foundation Ambassador.
+
+---------
+
+Karthikeyan VK
+
+Karthikeyan VK is passionate about learning new technology to solve business and developer challenges. He conducts various workshops & bootcamps on Micro-services and DevOps. He is an expert in building highly scalable solutions with cloud-native architecture. He also has a huge experience in reducing your cloud cost. He loves to talk about new technology in meetups and writes blogs on the last challenge he faced.
+
+---------
+
+Mads Torgersen
+
+Mads is the lead designer of the C# language, and a Program Manager at Microsoft since 2005. Over the years he’s helped design TypeScript, Visual Basic and even Java.
+
+---------
+
+Abdul Majed Raja RS
+
+
+
+---------
+
+James Montemagno
+
+James Montemagno is a Principal Program Manager for Mobile Developer Tools at Microsoft. He has been a .NET developer since 2005, working in a wide range of industries including game development, printer software, and web services. Prior to becoming a Principal Program Manager, James was a professional mobile developer and has now been crafting apps since 2011 with Xamarin. In his spare time, he is most likely cycling around Seattle or guzzling gallons of coffee at a local coffee shop. He blogs code regularly on his personal blog @ [www.montemagno.com][1] and co-hosts the weekly development podcast Merge Conflict @ [mergeconflict.fm.][2]
+
+
+[1]: http://www.montemagno.com
+[2]: http://mergeconflict.fm
+
+---------
+
+Neependra Khare
+
+
+Neependra Khare is the Founder and Principal Consultant at CloudYuga Technologies, which offers training and consulting services around cloud-native technologies such as Kubernetes, Prometheus, Service Mesh, etc. He is an CNCF Ambassador and Certified Kubernetes Administrator (CKA). He is based out of Bangalore, India.
+
+Neependra has authored Introduction to Kubernetes course on Edx for the CNCF, which has been taken by more than 68K participants. He also authored a book on Docker – Docker Cookbook – in 2015 and co-authored a course on Cloud Infrastructure Technologies on edX for The Linux Foundation. He ran a Docker meetup group in Bangalore, India for more than 5 years and is very active in other meetups like Kubernetes, AWS, DevOps, etc.
+
+---------
+
+
+Nish Anil
+
+Nish is part of the .NET PM team working on Cloud-Native Apps, Microservices architectures, and App Modernization. He creates and maintains Architecture Guides for .NET developers (dot.net/architecture).
+
+---------
+
+Nishith Pathak
+
+Nishith Pathak is India's 1st and only Artificial Intelligence(AI) Most Valuable Professional(MVP), a Microsoft Regional Director (RD), Lead architect, speaker, AI thinker, innovator, and strategist. Nishith’s expertise lies in helping Fortune 100 companies design and Architect next-generation solutions that incorporate AI, ML, cognitive services, Blockchain, and many more. He also laid his expertise in defining, strategizing Technology roadmaps for customers and companies using emerging technologies. He sits on several technical advisory boards across the globe. He has also authored more than half a dozen international books for Springer Publication, US. Last 3 books have been on Artificial Intelligence(AI). Earlier, Nishith has also played PAN account enterprise Architect role where he was responsible for overall architecture to design in multiple projects. He is an international acclaimed speaker on technologies like AI,IOT, Blockchain and regularly speaks at various technical conferences. He advices and mentors a lot of starups as a community initiative.
+
+---------
+
+Nishu Goel
+
+Nishu is an Angular developer, Author, and Speaker. She is working as a Developer at IBM with her major interest in technologies and frameworks like Angular, JavaScript, CSS. She also works towards achieving the SDGs by United Nations, by applying technology towards better livelihood.
+
+---------
+
+Ritesh M
+
+Ritesh have 17+ years of rich IT experience in architecture, solutioning, planning, design, development, delivery of large and complex digital transformation projects and programs.
+
+Architect, Senior Evangelist, Cloud Architect, author, International Speaker and known leader for his contribution towards Data center, Blockchain, Ethereum, Solidity, Bots, Cognitive Services, DevOps, Business intelligence and automation. Holder of more than 25 certifications. Evangelist and community person from heart, loves to contribute to community by conducting free meetups and conferences.
+
+---------
+
+Swaminathan Vetri
+
+Software architect with expertise on Windows/Web/Cross platform mobile application development, Microservices architecture and a DevOps enthusiast. An inquisitive guy, passionate about exploring, learning and sharing about new technologies. Amateur Photographer, Motorcycle tourer, Biker, novice blogger
+
+---------
+
+Dr. Venkat Subramaniam
+
+Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., and an instructional professor at the University of Houston. He has mentored tens of thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with agile practices on their software projects.

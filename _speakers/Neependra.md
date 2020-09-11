@@ -6,6 +6,7 @@ pic: "/assets/images/Neependra.jpeg"
 title: "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies"
 linkedin: "https://www.linkedin.com/in/neependra/"
 twitter: "#"
+featured: false
 
 ---
 

@@ -6,6 +6,7 @@ pic: "/assets/images/dj.jpeg"
 title: "Teacher, Microsoft MVP, Google GDE"
 linkedin: "https://www.linkedin.com/in/dhananjaykumar07/"
 twitter: "https://twitter.com/debug_mode"
+featured: false
 
 ---
 

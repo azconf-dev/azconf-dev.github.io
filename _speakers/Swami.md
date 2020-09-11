@@ -7,6 +7,7 @@ title: "Cloud Architect, Maersk"
 linkedin: "https://www.linkedin.com/in/swaminathanvetri/"
 facebook: "#"
 twitter: "#"
+featured: false
 
 ---
 
