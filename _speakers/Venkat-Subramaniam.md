@@ -1,7 +1,7 @@
 ---
 
 short_name : "Venkat"
-name: "Dr. Venkat Subramaniam"
+name: "Venkat Subramaniam"
 pic: "/assets/images/venkat_subramaniam.jpg"
 title: "Founder at Agile Developer Inc, Award Winning Author, Instructional professor at the University of Houston"
 linkedin: "https://www.linkedin.com/in/vsubramaniam/"
