@@ -35,6 +35,13 @@
 		"twitter": "#"
     },
     {
+		"name": "MobConf",
+		"pic": "/assets/images/mobconf.jpeg",
+        "website": "https://www.eventbrite.com/o/mobconf-8404319286",
+		"facebook": "#",
+		"twitter": "https://twitter.com/mobdevcon"
+    },
+    {
 		"name": "ngIndia",
 		"pic": "/assets/images/ngIndia.png",
         "website": "https://www.ng-ind.com/",
