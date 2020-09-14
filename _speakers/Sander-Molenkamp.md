@@ -1,7 +1,7 @@
 ---
 
 short_name : "Sander"
-name: Sander Molenkamp"
+name: "Sander Molenkamp"
 pic: "/assets/images/Sander Molenkamp.png"
 title: "Principal Cloud Architect at Info Support, Microsoft MVP"
 linkedin: "https://www.linkedin.com/in/amolenk/"
