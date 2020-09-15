@@ -134,9 +134,11 @@ $(function() {
     // Show or hide the sticky footer button
     $(window).on('scroll', function(event) {
         if($(this).scrollTop() > 600){
-            $('.back-to-top').fadeIn(200)
+            $('.back-to-top').fadeIn(200);
+            $('.main-container').fadeIn(200);
         } else{
-            $('.back-to-top').fadeOut(200)
+            $('.back-to-top').fadeOut(200);
+            $('.main-container').fadeOut(200);
         }
     });
     
@@ -147,5 +149,36 @@ $(function() {
         $('html, body').animate({
             scrollTop: 0,
         }, 1500);
-    });   
+    });  
+
+    //chat bot
+    $("#chat-bot .bot-header").on("click",function (e) {
+      e.preventDefault();
+      var t = $("#chat-bot");
+      parseInt(t.css("bottom").substring(0, t.css("bottom").lastIndexOf("px"))) < -100 && ($("#chat-bot").animate({
+        bottom: "-5px"
+      }), $("#chat-bot .bot-header button").show(), $(this).removeClass("hvr-bob-hover"))
+    });
+  
+    $("#chat-bot .bot-header .btn-min").on("click",function () {
+      $("#chat-bot").animate({
+        bottom: "-523px"
+      }), $("#chat-bot .bot-header button").hide(), $("#chat-bot .bot-header").addClass("hvr-bob-hover")
+    });
+  
+    $("#chat-bot .bot-header .btn-refresh").on("click",function () { });
+  
+    $(".round, .minimize").on("click",function () {
+      $(".chatContainer").toggleClass("chatContainer-rotate")
+    });
+  
+    $(".clear-re").on("click",function () {
+      $(".app-container iframe").attr("src", $(".app-container iframe").attr("src"));
+    });
+  
+    $('#botDiv').load(function() {
+  
+      $("#botDiv").contents().find(".wc-header").hide();
+    });
+    //chat bot ends
 });

@@ -25,7 +25,8 @@ function bundlecss() {
               'assets/css/magnific-popup.css',
               'assets/css/slick.css',
               'assets/css/default.css',
-              'assets/css/style.css'            
+              'assets/css/style.css'     ,
+              'assets/css/chat-bot.css'       
             ])
   .pipe(concat('bundle.css'))
   .pipe(dest('assets/dist/'));
