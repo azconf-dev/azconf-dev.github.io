@@ -5,7 +5,7 @@ name: "Nish Anil"
 pic: "/assets/images/Nish.jpeg"
 title: "Senior Program Manager - .NET, Microsoft"
 linkedin: "https://www.linkedin.com/in/nanil/"
-twitter: "https://twitter.com/nishanil",
+twitter: "https://twitter.com/nishanil"
 featured: true
 ---
 
