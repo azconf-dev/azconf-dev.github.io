@@ -2,7 +2,7 @@
 
 short_name : "Amit"
 name: "Amit Malik"
-pic: "/assets/images/Amit-Malik.jpg"
+pic: "/assets/images/amit-malik.jpg"
 title: "Director of Technology @ Spektra Systems"
 linkedin: "https://www.linkedin.com/in/amitmalik99/"
 twitter: "#"
