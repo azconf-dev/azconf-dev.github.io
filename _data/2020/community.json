@@ -22,11 +22,11 @@
 	},
 	{
 		"name": "Chennai Azure User Group",
-		"pic": "/assets/images/chennai-aug.jpg",
-        "website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
+		"pic": "/assets/images/chennai-aug.png",
+		"website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
 		"facebook": "#",
 		"twitter": "#"
-    },
+	},
     {
 		"name": "XMonkeys360",
 		"pic": "/assets/images/x360.png",
@@ -57,11 +57,11 @@
 	},
 	{
 		"name": "Techmeet360",
-		"pic": "/assets/images/techmeet360.png",
-        "website": "https://www.meetup.com/techmeet360/",
+		"pic": "/assets/images/techmeet360.jpg",
+		"website": "https://www.meetup.com/techmeet360/",
 		"facebook": "https://www.facebook.com/groups/techmeet360",
 		"twitter": "https://twitter.com/TechMeet360"
-    },
+	},
     {
 		"name": "Microsoft User Group - Chandigarh",
 		"pic": "/assets/images/mugchd.jpeg",
