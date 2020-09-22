@@ -19,13 +19,6 @@
         "website": "https://www.meetup.com/en-AU/BDotNetUG/",
 		"facebook": "https://facebook.com/groups/bdotnet",
 		"twitter": "https://twitter.com/bdotnetug"
-	},
-	{
-		"name": "Chennai Azure User Group",
-		"pic": "/assets/images/chennai-aug.jpg",
-        "website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
-		"facebook": "#",
-		"twitter": "#"
     },
     {
 		"name": "XMonkeys360",
@@ -54,13 +47,6 @@
         "website": "https://www.ng-ind.com/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/geeknineseven"
-	},
-	{
-		"name": "Techmeet360",
-		"pic": "/assets/images/techmeet360.png",
-        "website": "https://www.meetup.com/techmeet360/",
-		"facebook": "https://www.facebook.com/groups/techmeet360",
-		"twitter": "https://twitter.com/TechMeet360"
     },
     {
 		"name": "Microsoft User Group - Chandigarh",
@@ -68,12 +54,5 @@
         "website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/MugCHD"
-	},
-	{
-		"name": "Microsoft DEV Geeks",
-		"pic": "/assets/images/msdevgeeks.png",
-        "website": "https://www.meetup.com/MSDEVGeeks/",
-		"facebook": "https://www.facebook.com/msdevgeeks",
-		"twitter": "https://twitter.com/msdevgeeks"
     }
 ]
