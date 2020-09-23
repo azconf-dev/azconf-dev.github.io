@@ -8,54 +8,54 @@
             </div>
         </div> <!-- row -->
         <div class="row justify-content-md-center">
-            {% if page.limit %}
-                {% for member in site.data[page.year].team limit:page.limit %}
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="{{ member.pic }}" alt="{{ member.name }} photo">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
+            {% if page.teamlimit %}
+            {% for member in site.data[page.year].team limit:page.teamlimit %}
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-image">
+                        <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <ul class="social">
                                 {% if member.website %}
-                                    <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
+                                <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
                                 {% endif %}
                                 {% if member.twitter %}
-                                    <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                    {% endif %}
-                                {% if member.linkedin %}
-                                    <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
                                 {% endif %}
-                                </ul>
-                            </div>
-                            <h4 class="team-name">{{ member.name }}</h4>
-                            <span class="sub-title">{{ member.title }}</span>
+                                {% if member.linkedin %}
+                                <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                {% endif %}
+                            </ul>
                         </div>
-                    </div> <!-- single team -->
-                </div>
-                {% endfor %}
+                        <h4 class="team-name">{{ member.name }}</h4>
+                        <span class="sub-title">{{ member.title }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
             {% else %}
-                {% for member in site.data[page.year].team %}
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+            {% for member in site.data[page.year].team %}
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-image">
+                        <img src="{{ member.pic }}" alt="{{ member.name }} photo">
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <ul class="social">
+                                <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
+                                <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="{{ member.website }}"><i class="lni-website"></i></a></li>
-                                    <li><a href="{{ member.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                    <li><a href="{{ member.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name">{{ member.name }}</h4>
-                            <span class="sub-title">{{ member.title }}</span>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                {% endfor %}
+                        <h4 class="team-name">{{ member.name }}</h4>
+                        <span class="sub-title">{{ member.title }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
             {% endif %}
         </div> <!-- row -->
     </div> <!-- container -->
