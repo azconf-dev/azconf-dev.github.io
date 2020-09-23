@@ -53,5 +53,21 @@
 		"linkedin": "https://www.linkedin.com/in/alagunilam/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/alagunilam"
-	}
+	},
+	{
+		"name": "Nivedha Lakshmanan",
+		"pic": "/assets/images/Nivedha.jpeg",
+		"title": "Software Engineer, CADS Software India Pvt Limited",
+		"linkedin": "https://www.linkedin.com/in/nivedha-lakshmanan-736719119/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/NivedhaLakshma2"
+	},
+	{
+		"name": "Logesh Palani",
+		"pic": "/assets/images/Logesh.jpg",
+		"title": "Associate Software Engineer, Hakuna Matata Solutions Pvt. Ltd.",
+		"linkedin": "https://www.linkedin.com/in/logeshpalani98/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/logeshpalani98"
+	} 
 ]
