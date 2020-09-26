@@ -75,5 +75,26 @@
         "website": "https://www.meetup.com/MSDEVGeeks/",
 		"facebook": "https://www.facebook.com/msdevgeeks",
 		"twitter": "https://twitter.com/msdevgeeks"
+	},
+	{
+		"name": "Elastic",
+		"pic": "/assets/images/elastic.png",
+        "website": "https://www.elastic.co/community/",
+		"facebook": "https://www.facebook.com/elastic.co",
+		"twitter": "https://www.twitter.com/elastic"
+    },
+	{
+		"name": "Dear Azure",
+		"pic": "/assets/images/dear-azure.jpg",
+        "website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
+		"facebook": "https://www.facebook.com/dearazure.net/",
+		"twitter": "https://twitter.com/dearazure_net"
+	},
+	{
+		"name": "Pune User Group",
+		"pic": "/assets/images/pug.png",
+        "website": "https://www.meetup.com/en-AU/puneusergroup/",
+		"facebook": "https://www.facebook.com/puneusergroup/",
+		"twitter": "https://twitter.com/puneusergroup"
     }
 ]
