@@ -1,0 +1,21 @@
+
+<!doctype html>
+<html lang="en">
+
+{% include head.html %}
+<style>
+    .navbar-area {
+        background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
+    }
+</style>
+<body>
+        {% include loader.html %}
+        <header class="header-area">
+            {% include navbar.html %}
+        </header>
+        {% include call-for-speakers.html%}
+        {% include footer.html %}
+        <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+        {% include scripts.html %}
+</body>
+</html>
