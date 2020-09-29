@@ -89,6 +89,13 @@
 		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
 		"facebook": "https://www.facebook.com/dearazure.net/",
 		"twitter": "https://twitter.com/dearazure_net"
+	},
+	{
+		"name": "WomenTech Network",
+		"pic": "/assets/images/womentech.png",
+		"website": "http://womentech.net",
+		"facebook": "https://www.facebook.com/womentech.net/",
+		"twitter": "https://twitter.com/WomenTechNet"
 	}
 	
 ]
