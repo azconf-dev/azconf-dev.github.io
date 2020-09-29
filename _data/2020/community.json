@@ -86,15 +86,16 @@
 	{
 		"name": "Dear Azure",
 		"pic": "/assets/images/dear-azure.jpg",
-        "website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
+		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
 		"facebook": "https://www.facebook.com/dearazure.net/",
 		"twitter": "https://twitter.com/dearazure_net"
-	},
-	{
-		"name": "Pune User Group",
-		"pic": "/assets/images/pug.png",
-        "website": "https://www.meetup.com/en-AU/puneusergroup/",
-		"facebook": "https://www.facebook.com/puneusergroup/",
-		"twitter": "https://twitter.com/puneusergroup"
-    }
+	}
+	//,
+	//{
+	//	"name": "Pune User Group",
+	//	"pic": "/assets/images/pug.png",
+  //      "website": "https://www.meetup.com/en-AU/puneusergroup/",
+	//	"facebook": "https://www.facebook.com/puneusergroup/",
+	//	"twitter": "https://twitter.com/puneusergroup"
+  //  }
 ]
