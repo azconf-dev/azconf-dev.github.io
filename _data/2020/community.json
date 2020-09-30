@@ -91,6 +91,13 @@
 		"twitter": "https://twitter.com/dearazure_net"
 	},
 	{
+		"name": "WomenTech Network",
+		"pic": "/assets/images/womentech.png",
+		"website": "http://womentech.net",
+		"facebook": "https://www.facebook.com/womentech.net/",
+		"twitter": "https://twitter.com/WomenTechNet"
+	},
+	{
 		"name": "XHackers",
 		"pic": "/assets/images/xhackers.jpg",
 		"website": "https://www.meetup.com/XHackers/",
