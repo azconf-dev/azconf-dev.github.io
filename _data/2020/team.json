@@ -1,4 +1,4 @@
-[	
+[
 	{
 		"name": "Ilyas F",
 		"pic": "/assets/images/ilyas.png",
@@ -61,5 +61,13 @@
 		"linkedin": "https://www.linkedin.com/in/logeshpalani98/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/logeshpalani98"
-	} 
+	},
+	{
+		"name": "Anbu Mani",
+		"pic": "/assets/images/Anbu.jpg",
+		"title": "Associate Technical Analyst, Microsoft MVP",
+		"linkedin": "https://www.linkedin.com/in/anbumani27/",
+		"facebook": "https://www.facebook.com/AnbuMani27",
+		"twitter": "https://twitter.com/anbu_mani27"
+	}
 ]
