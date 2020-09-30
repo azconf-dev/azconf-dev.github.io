@@ -3,7 +3,7 @@
 short_name : "Jani"
 name: "Janakiram MSV"
 pic: "/assets/images/janakiram.PNG"
-title: "Founder and CTO at Get Cloud Ready Consulting, Microsoft RD, Google Developer Expert"
+title: "Principal Analyst, Janakiram & Associates, Microsoft MVP and Microsoft RD"
 linkedin: "https://www.linkedin.com/in/janakiramm/"
 twitter: "#"
 featured: true
