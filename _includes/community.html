@@ -1,4 +1,4 @@
-<section id="community" class="team-area pt-115 pb-130">
+<section id="community" class="community-area pt-115 pb-130">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -11,13 +11,13 @@
         <div class="row justify-content-md-center">
             {% if page.communitylimit %}
                 {% for community in site.data[page.year].community limit:page.communitylimit %}
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                            <div class="team-image">
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="single-community text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="community-image">
                                 <img src="{{ community.pic }}" alt="{{ community.name }} photo">
                             </div>
-                            <div class="team-content">
-                                <div class="team-social">
+                            <div class="community-content">
+                                <div class="community-social">
                                         <ul class="social">
                                                 {% if community.website %}
                                                     <li><a target="_blank" href="{{ community.website }}"><i class="lni-website"></i></a></li>
@@ -30,31 +30,31 @@
                                                 {% endif %}
                                                 </ul>
                                 </div>
-                                <h4 class="team-name">{{ community.name }}</h4>
+                                <h4 class="community-name">{{ community.name }}</h4>
                                 <!-- <span class="sub-title">{{ speaker.title }}</span> -->
                             </div>
-                        </div> <!-- single team -->
+                        </div> <!-- single community -->
                     </div>   
                 {% endfor %}
             {% else %}
                 {% for community in site.data[page.year].community %}
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                            <div class="team-image">
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="single-community text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="community-image">
                                 <img src="{{ community.pic }}" alt="{{ community.name }} photo">
                             </div>
-                            <div class="team-content">
-                                <div class="team-social">
+                            <div class="community-content">
+                                <div class="community-social">
                                     <ul class="social">
                                         <li><a href="{{ community.website }}"><i class="lni-website"></i></a></li>
                                         <li><a href="{{ community.twitter }}"><i class="lni-twitter-original"></i></a></li>
                                         <li><a href="{{ community.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4 class="team-name">{{ community.name }}</h4>
+                                <h4 class="community-name">{{ community.name }}</h4>
                                 <!-- <span class="sub-title">{{ speaker.title }}</span> -->
                             </div>
-                        </div> <!-- single team -->
+                        </div> <!-- single community -->
                     </div>   
                 {% endfor %}
             {% endif %}          

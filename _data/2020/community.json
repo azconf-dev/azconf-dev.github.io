@@ -1,10 +1,17 @@
 [
 	{
-		"name": "Women Who Code",
-		"pic": "/assets/images/womenwhocode.png",
-		"website": "https://www.womenwhocode.com/",
-		"facebook": "https://facebook.com/womenwhocode",
-		"twitter": "https://twitter.com/womenwhocode"
+		"name": "BDotNet-Bangalore .Net User Group",
+		"pic": "/assets/images/bdotnet-new.png",
+		"website": "https://www.meetup.com/en-AU/BDotNetUG/",
+		"facebook": "https://facebook.com/groups/bdotnet",
+		"twitter": "https://twitter.com/bdotnetug"
+	},
+	{
+		"name": "BangaloreITPro User Group",
+		"pic": "/assets/images/bitpro.jpg",
+		"website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
+		"facebook": "#",
+		"twitter": "#"
 	},
 	{
 		"name": "Bengaluru Azure User Group",
@@ -14,13 +21,6 @@
 		"twitter": "#"
 	},
 	{
-		"name": "BDotNet-Bangalore .Net User Group",
-		"pic": "/assets/images/bdotnet-new.png",
-		"website": "https://www.meetup.com/en-AU/BDotNetUG/",
-		"facebook": "https://facebook.com/groups/bdotnet",
-		"twitter": "https://twitter.com/bdotnetug"
-	},
-	{
 		"name": "Chennai Azure User Group",
 		"pic": "/assets/images/chennai-aug.png",
 		"website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
@@ -28,18 +28,32 @@
 		"twitter": "#"
 	},
 	{
-		"name": "XMonkeys360",
-		"pic": "/assets/images/x360.png",
-		"website": "https://www.meetup.com/en-AU/XMonkeys360/",
-		"facebook": "https://www.facebook.com/xmonkeys360/",
-		"twitter": "https://twitter.com/XMonkeys360"
+		"name": "Dear Azure",
+		"pic": "/assets/images/dear-azure.jpg",
+		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
+		"facebook": "https://www.facebook.com/dearazure.net/",
+		"twitter": "https://twitter.com/dearazure_net"
 	},
 	{
-		"name": "BangaloreITPro User Group",
-		"pic": "/assets/images/bitpro.jpg",
-		"website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
+		"name": "Elastic",
+		"pic": "/assets/images/elastic.png",
+		"website": "https://www.elastic.co/community/",
+		"facebook": "https://www.facebook.com/elastic.co",
+		"twitter": "https://www.twitter.com/elastic"
+	},
+	{
+		"name": "Microsoft DEV Geeks",
+		"pic": "/assets/images/msdevgeeks.png",
+		"website": "https://www.meetup.com/MSDEVGeeks/",
+		"facebook": "https://www.facebook.com/msdevgeeks",
+		"twitter": "https://twitter.com/msdevgeeks"
+	},
+	{
+		"name": "Microsoft User Group - Chandigarh",
+		"pic": "/assets/images/mugchd.jpeg",
+		"website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
 		"facebook": "#",
-		"twitter": "#"
+		"twitter": "https://twitter.com/MugCHD"
 	},
 	{
 		"name": "MobConf",
@@ -63,32 +77,11 @@
 		"twitter": "https://twitter.com/TechMeet360"
 	},
 	{
-		"name": "Microsoft User Group - Chandigarh",
-		"pic": "/assets/images/mugchd.jpeg",
-		"website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/MugCHD"
-	},
-	{
-		"name": "Microsoft DEV Geeks",
-		"pic": "/assets/images/msdevgeeks.png",
-		"website": "https://www.meetup.com/MSDEVGeeks/",
-		"facebook": "https://www.facebook.com/msdevgeeks",
-		"twitter": "https://twitter.com/msdevgeeks"
-	},
-	{
-		"name": "Elastic",
-		"pic": "/assets/images/elastic.png",
-		"website": "https://www.elastic.co/community/",
-		"facebook": "https://www.facebook.com/elastic.co",
-		"twitter": "https://www.twitter.com/elastic"
-	},
-	{
-		"name": "Dear Azure",
-		"pic": "/assets/images/dear-azure.jpg",
-		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
-		"facebook": "https://www.facebook.com/dearazure.net/",
-		"twitter": "https://twitter.com/dearazure_net"
+		"name": "Women Who Code",
+		"pic": "/assets/images/womenwhocode.png",
+		"website": "https://www.womenwhocode.com/",
+		"facebook": "https://facebook.com/womenwhocode",
+		"twitter": "https://twitter.com/womenwhocode"
 	},
 	{
 		"name": "WomenTech Network",
@@ -103,6 +96,12 @@
 		"website": "https://www.meetup.com/XHackers/",
 		"facebook": "https://www.facebook.com/groups/xhackersco/",
 		"twitter": "https://twitter.com/xhackersco"
+	},
+	{
+		"name": "XMonkeys360",
+		"pic": "/assets/images/x360.png",
+		"website": "https://www.meetup.com/en-AU/XMonkeys360/",
+		"facebook": "https://www.facebook.com/xmonkeys360/",
+		"twitter": "https://twitter.com/XMonkeys360"
 	}
-
 ]
