@@ -8111,6 +8111,142 @@ p {
       color: #fff; }
     .single-team:hover .team-content .sub-title {
       color: #fff; }
+/*===========================
+         6.Community css 
+===========================*/
+.single-community {
+  position: relative;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
+  box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1); }
+  .single-community .community-image img {
+    width: 100%; }
+  .single-community .community-content {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    .single-community .community-content-extended {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
+      background-color: #fff;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      z-index: 5;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+    @media (max-width: 767px) {
+      .single-community .community-content {
+        padding-top: 15px;
+        padding-bottom: 15px; } }
+    .single-community .community-content::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: -webkit-linear-gradient(left, #102baf 0%, #1664ff 100%);
+      background: -o-linear-gradient(left, #102baf 0%, #1664ff 100%);
+      background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
+      z-index: -1;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s;
+      opacity: 0; }
+    .single-community .community-content .community-social {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 100%;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s;      
+       }
+      .single-community .community-content .community-social .social {
+        background-color: #fff;
+        display: inline-block;
+        padding: 10px 20px 6px;
+        border-radius: 50px; }
+        .single-community .community-content .community-social .social li {
+          display: inline-block;
+          margin: 0 8px; }
+          .single-community .community-content .community-social .social li a {
+            font-size: 16px;
+            color: #1863ff;
+            -webkit-transition: all 0.3s ease-out 0s;
+            -moz-transition: all 0.3s ease-out 0s;
+            -ms-transition: all 0.3s ease-out 0s;
+            -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s; }
+            
+    .single-community .community-content .community-name {
+      color: #1b273d;
+      font-size: 14px;
+      font-weight: 400;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      @media (max-width: 767px) {
+        .single-community .community-content .community-name  {
+          font-size: 18px; } }
+    .single-community .community-content .sub-title {
+      font-size: 13px;
+      color: #1863ff;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .single-community .community-content .sub-title-small {
+        font-size: 12px;
+        color: #1863ff;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s; }
+      @media (max-width: 767px) {
+        .single-community .community-content .sub-title {
+          font-size: 14px; } }
+      @media (max-width: 767px) {
+        .single-community .community-content .sub-title-small {
+          font-size: 14px; } }
+    @media (max-width: 767px) {
+      .single-community:hover .community-content {
+        padding-top: 35px; } }
+    .single-community:hover .community-content::before {
+      opacity: 1; }
+    .single-community:hover .community-content .community-social {
+      top: -20px;
+      visibility: visible;
+      opacity: 1; }
+    .single-community:hover .community-content .community-name {
+      color: #fff; }
+    .single-community:hover .community-content .sub-title {
+      color: #fff; }
 
 /*===========================
        7.GALLERY css 

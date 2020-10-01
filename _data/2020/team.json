@@ -1,73 +1,73 @@
 [
 	{
-		"name": "Ilyas F",
-		"pic": "/assets/images/ilyas.png",
-		"title": "IoT Evangelist at ABB, Microsoft MVP",
-		"linkedin": "https://www.linkedin.com/in/ilyasf/",
-		"twitter": "#"
+	  "name": "Alagunila Meganathan",
+	  "pic": "/assets/images/nila.jpeg",
+	  "title": "Founder & CEO at InnovoTree Technologies, Microsoft MVP(4 times) & C# Corner MVP(4 times). C# Corner Coimbatore Chapter Lead",
+	  "linkedin": "https://www.linkedin.com/in/alagunilam/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/alagunilam"
 	},
 	{
-		"name": "Swaminathan Vetri",
-		"pic": "/assets/images/swami.jpg",
-		"title": "Cloud Architect, Maersk",
-		"linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
-		"facebook": "#",
-		"twitter": "#"
+	  "name": "Amal Dev",
+	  "pic": "/assets/images/amal.jpeg",
+	  "title": "Software Architect, Microsoft MVP",
+	  "linkedin": "https://www.linkedin.com/in/amaldevv/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/amaldevv"
 	},
 	{
-		"name": "Nishu Goel",
-		"pic": "/assets/images/niss.jpeg",
-		"title": "Engineer@TheDataworks, Microsoft MVP, Google Developer Expert",
-		"linkedin": "https://www.linkedin.com/in/nishu-goel/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/dcoustawilson"
+	  "name": "Anbu Mani",
+	  "pic": "/assets/images/Anbu.jpg",
+	  "title": "Associate Technical Analyst, Microsoft MVP",
+	  "linkedin": "https://www.linkedin.com/in/anbumani27/",
+	  "facebook": "https://www.facebook.com/AnbuMani27",
+	  "twitter": "https://twitter.com/anbu_mani27"
 	},
 	{
-		"name": "Amal Dev",
-		"pic": "/assets/images/amal.jpeg",
-		"title": "Software Architect, Microsoft MVP",
-		"linkedin": "https://www.linkedin.com/in/amaldevv/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/amaldevv"
+	  "name": "Dhananjay Kumar",
+	  "pic": "/assets/images/dj.jpeg",
+	  "title": "Teacher, Microsoft MVP, Google GDE",
+	  "linkedin": "https://www.linkedin.com/in/dhananjaykumar07/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/debug_mode"
 	},
 	{
-		"name": "Dhananjay Kumar",
-		"pic": "/assets/images/dj.jpeg",
-		"title": "Teacher, Microsoft MVP, Google GDE",
-		"linkedin": "https://www.linkedin.com/in/dhananjaykumar07/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/debug_mode"
+	  "name": "Ilyas F",
+	  "pic": "/assets/images/ilyas.png",
+	  "title": "IoT Evangelist at ABB, Microsoft MVP",
+	  "linkedin": "https://www.linkedin.com/in/ilyasf/",
+	  "twitter": "#"
 	},
 	{
-		"name": "Alagunila Meganathan",
-		"pic": "/assets/images/nila.jpeg",
-		"title": "Founder & CEO at InnovoTree Technologies, Microsoft MVP(4 times) & C# Corner MVP(4 times). C# Corner Coimbatore Chapter Lead",
-		"linkedin": "https://www.linkedin.com/in/alagunilam/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/alagunilam"
+	  "name": "Logesh Palani",
+	  "pic": "/assets/images/Logesh.jpg",
+	  "title": "Associate Software Engineer, Hakuna Matata Solutions Pvt. Ltd.",
+	  "linkedin": "https://www.linkedin.com/in/logeshpalani98/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/logeshpalani98"
 	},
 	{
-		"name": "Nivedha Lakshmanan",
-		"pic": "/assets/images/Nivedha.jpeg",
-		"title": "Software Engineer, CADS Software India Pvt Limited",
-		"linkedin": "https://www.linkedin.com/in/nivedha-lakshmanan-736719119/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/NivedhaLakshma2"
+	  "name": "Nishu Goel",
+	  "pic": "/assets/images/niss.jpeg",
+	  "title": "Engineer@TheDataworks, Microsoft MVP, Google Developer Expert",
+	  "linkedin": "https://www.linkedin.com/in/nishu-goel/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/dcoustawilson"
 	},
 	{
-		"name": "Logesh Palani",
-		"pic": "/assets/images/Logesh.jpg",
-		"title": "Associate Software Engineer, Hakuna Matata Solutions Pvt. Ltd.",
-		"linkedin": "https://www.linkedin.com/in/logeshpalani98/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/logeshpalani98"
+	  "name": "Nivedha Lakshmanan",
+	  "pic": "/assets/images/Nivedha.jpeg",
+	  "title": "Software Engineer, CADS Software India Pvt Limited",
+	  "linkedin": "https://www.linkedin.com/in/nivedha-lakshmanan-736719119/",
+	  "facebook": "#",
+	  "twitter": "https://twitter.com/NivedhaLakshma2"
 	},
 	{
-		"name": "Anbu Mani",
-		"pic": "/assets/images/Anbu.jpg",
-		"title": "Associate Technical Analyst, Microsoft MVP",
-		"linkedin": "https://www.linkedin.com/in/anbumani27/",
-		"facebook": "https://www.facebook.com/AnbuMani27",
-		"twitter": "https://twitter.com/anbu_mani27"
+	  "name": "Swaminathan Vetri",
+	  "pic": "/assets/images/swami.jpg",
+	  "title": "Cloud Architect, Maersk",
+	  "linkedin": "https://www.linkedin.com/in/swaminathanvetri/",
+	  "facebook": "#",
+	  "twitter": "#"
 	}
-]
+  ]
