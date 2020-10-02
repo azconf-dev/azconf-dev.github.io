@@ -1,16 +1,19 @@
 <section id="speakers" class="team-area pt-115 pb-130">
     <div class="container">
+
+        <!-- Keynote Speakers-->
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-20">
-                    <h2 class="title">Speakers</h2>
+                    <h2 class="title">Keynote Speakers</h2>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
+            {% assign keynotspeakers = site.speakers | where: 'featured', true %}
             {% if page.speakerlimit %}
-            {% for speaker in  site.speakers  limit:page.speakerlimit %}
+            {% for speaker in  keynotspeakers  limit:page.speakerlimit %}
             <div class="col-lg-3 col-sm-6">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <a href="{{speaker.url}}">
@@ -39,7 +42,7 @@
             </div>
             {% endfor %}
             {% else %}
-            {% for speaker in site.speakers %}
+            {% for speaker in keynotspeakers %}
             <div class="col-lg-3 col-sm-6">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="team-image">
@@ -63,5 +66,72 @@
             {% endfor %}
             {% endif %}
         </div> <!-- row -->
+         <!-- Keynote Speaker ends-->
+        <!-- Speakers-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center pb-20">
+                    <h2 class="title">Speakers</h2>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+
+        <div class="row justify-content-md-center">
+            {% assign speakers = site.speakers | where: 'featured', false %}
+            {% if page.speakerlimit %}
+            {% for speaker in  speakers  limit:page.speakerlimit %}
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <a href="{{speaker.url}}">
+                        <div class="team-image">
+                            <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                        </div>
+                    </a>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <ul class="social">
+                                {% if speaker.website %}
+                                <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                {% endif %}
+                                {% if speaker.twitter %}
+                                <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                {% endif %}
+                                {% if speaker.linkedin %}
+                                <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <h4 class="team-name">{{ speaker.name }}</h4>
+                        <span class="sub-title">{{ speaker.title }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
+            {% else %}
+            {% for speaker in speakers %}
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-image">
+                        <a href="{{speaker.url}}">
+                            <img src="{{ speaker.pic }}" alt="{{ speaker.name }} photo">
+                        </a>
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <ul class="social">
+                                <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div>
+                        <h4 class="team-name">{{ speaker.name }}</h4>
+                        <span class="sub-title">{{ speaker.title }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div> <!-- row -->
+          <!-- Speakers ends-->
     </div> <!-- container -->
 </section>

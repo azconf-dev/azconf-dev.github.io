@@ -6,7 +6,7 @@ pic: "/assets/images/janakiram.PNG"
 title: "Principal Analyst, Janakiram & Associates, Microsoft MVP and Microsoft RD"
 linkedin: "https://www.linkedin.com/in/janakiramm/"
 twitter: "#"
-featured: true
+featured: false
 
 ---
 

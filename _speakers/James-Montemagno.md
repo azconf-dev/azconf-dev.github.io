@@ -6,7 +6,7 @@ pic: "/assets/images/montemagno.jpg"
 title: "Principal Program Manager, Mobile Developer Tools - Microsoft"
 linkedin: "https://www.linkedin.com/in/jamesmontemagno/"
 twitter: "https://twitter.com/jamesmontemagno"
-featured: true
+featured: false
 
 ---
 

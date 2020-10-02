@@ -6,7 +6,7 @@ pic: "/assets/images/venkat_subramaniam.jpg"
 title: "Founder at Agile Developer Inc, Award Winning Author, Instructional professor at the University of Houston"
 linkedin: "https://www.linkedin.com/in/vsubramaniam/"
 twitter: "#"
-featured: true
+featured: false
 
 ---
 
