@@ -6,7 +6,7 @@ pic: "/assets/images/madstorgersen.jpg"
 title: "Lead Designer - C#, Microsoft"
 linkedin: "https://www.linkedin.com/in/madst/"
 twitter: "https://twitter.com/MadsTorgersen"
-featured: true
+featured: false
 
 ---
 
