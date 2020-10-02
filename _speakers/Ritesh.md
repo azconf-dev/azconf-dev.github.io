@@ -6,7 +6,7 @@ pic: "/assets/images/ritesh.jpg"
 title: "Senior Engineer - Commercial Engineering, Microsoft"
 linkedin: "https://www.linkedin.com/in/nishithpathak/"
 twitter: "#"
-featured: true
+featured: false
 
 ---
 
