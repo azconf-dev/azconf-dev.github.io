@@ -8004,6 +8004,7 @@ p {
 /*===========================
          6.TEAM css 
 ===========================*/
+
 .single-team {
   position: relative;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
@@ -8026,6 +8027,11 @@ p {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
+    @media (min-width: 992px) {
+      #speakers .col-lg-3{
+        max-width: 20%;
+      }
+    }
     @media (max-width: 767px) {
       .single-team .team-content {
         padding-top: 15px;
@@ -8077,7 +8083,7 @@ p {
             
     .single-team .team-content .team-name {
       color: #1b273d;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 600;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -8088,7 +8094,7 @@ p {
         .single-team .team-content .team-name  {
           font-size: 18px; } }
     .single-team .team-content .sub-title {
-      font-size: 13px;
+      font-size: 12px;
       color: #1863ff;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -8247,6 +8253,8 @@ p {
       color: #fff; }
     .single-community:hover .community-content .sub-title {
       color: #fff; }
+      .single-community:hover .community-content .sub-title-small {
+        color: #fff; }
 
 /*===========================
        7.GALLERY css 
