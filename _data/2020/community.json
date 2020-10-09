@@ -41,10 +41,10 @@
 	},		
 	{
 		"name": "Docker Bangalore",
-		"pic": "/assets/images/opensource-blr.jpg",
-		"website": "https://www.meetup.com/opensourceblr",
+		"pic": "/assets/images/dockerbangalore.png",
+		"website": "https://www.meetup.com/Docker-Bangalore/",
 		"facebook": "#",
-		"twitter": "#",
+		"twitter": "https://twitter.com/bangaloredocker",
 		"section" : "3"
 	},
 	{
@@ -110,7 +110,7 @@
 		"website": "https://www.meetup.com/opensourceblr",
 		"facebook": "#",
 		"twitter": "#",
-		"section" : "2"
+		"section" : "3"
 	},
 	{
 		"name": "TechMeet360",
