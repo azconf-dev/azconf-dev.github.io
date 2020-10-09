@@ -77,7 +77,7 @@
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
-            {% assign speakers = site.speakers | where: 'featured', false  %}
+            {% assign speakers = site.speakers   %}
             {% if page.speakerlimit %}
             {% for speaker in  speakers  limit:page.speakerlimit %}
             <div class="col-lg-3 col-sm-6">
