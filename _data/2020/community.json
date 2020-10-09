@@ -38,6 +38,14 @@
 		"facebook": "https://www.facebook.com/dearazure.net/",
 		"twitter": "https://twitter.com/dearazure_net",
 		"section" : "2"
+	},		
+	{
+		"name": "Docker Bangalore",
+		"pic": "/assets/images/opensource-blr.jpg",
+		"website": "https://www.meetup.com/opensourceblr",
+		"facebook": "#",
+		"twitter": "#",
+		"section" : "3"
 	},
 	{
 		"name": "Elastic",
@@ -47,6 +55,15 @@
 		"twitter": "https://www.twitter.com/elastic",
 		"section" : "2"
 	},
+	{
+		"name": "Kubernetes-Pune",
+		"pic": "/assets/images/kubernetes-pune.png",
+		"website": "https://www.meetup.com/Kubernetes-Pune/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/kubernetes_pune",
+		"section" : "2"
+	},
+
 	{
 		"name": "Microsoft DEV Geeks",
 		"pic": "/assets/images/msdevgeeks.png",
@@ -85,6 +102,14 @@
 		"website": "https://www.ng-ind.com/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/geeknineseven",
+		"section" : "2"
+	},	
+	{
+		"name": "Open Source Bangalore",
+		"pic": "/assets/images/opensource-blr.jpg",
+		"website": "https://www.meetup.com/opensourceblr",
+		"facebook": "#",
+		"twitter": "#",
 		"section" : "2"
 	},
 	{
