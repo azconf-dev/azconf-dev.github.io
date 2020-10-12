@@ -3,7 +3,7 @@
 short_name : "Nishith"
 name: "Nishith Pathak"
 pic: "/assets/images/nishith.jpg"
-title: "Vice President and Head of Emerging Technologies, Publicis Sapient, Microsoft MVP & RD"
+title: "AI MVP & Regional Director"
 linkedin: "https://www.linkedin.com/in/nishithpathak/"
 twitter: "#"
 featured: false
