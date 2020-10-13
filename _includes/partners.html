@@ -1,0 +1,66 @@
+<section id="sponsors" class="community-area pt-115 pb-130">
+    <div class="container">
+        <!--Diverse communities-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center pb-20">
+                    <h2 class="title">DevOps Partner</h2>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        
+        <div class="row justify-content-md-center">
+            {% assign partners = site.data[page.year].partners | where:"section","1"   %}
+            {% if page.sponsorlimit %}
+                {% for partner in partners limit:page.sponsorlimit %}
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="single-community text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="community-image">
+                                <img src="{{ partner.pic }}" alt="{{ partner.name }} photo">
+                            </div>
+                            <div class="community-content">
+                                <div class="community-social">
+                                        <ul class="social">
+                                                {% if partner.website %}
+                                                    <li><a target="_blank" href="{{ community.website }}"><i class="lni-website"></i></a></li>
+                                                {% endif %}
+                                                {% if partner.twitter %}
+                                                    <li><a target="_blank" href="{{ community.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                                    {% endif %}
+                                                {% if partner.linkedin %}
+                                                    <li><a target="_blank" href="{{ community.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                                {% endif %}
+                                                </ul>
+                                </div>
+                                <h4 class="community-name">{{ partner.name }}</h4>
+                                <!-- <span class="sub-title">{{ speaker.title }}</span> -->
+                            </div>
+                        </div> <!-- single community -->
+                    </div>   
+                {% endfor %}
+            {% else %}
+                {% for partner in partners %}
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="single-community text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            <div class="community-image">
+                                <img src="{{ partner.pic }}" alt="{{ partner.name }} photo">
+                            </div>
+                            <div class="community-content">
+                                <div class="community-social">
+                                    <ul class="social">
+                                        <li><a href="{{ partner.website }}"><i class="lni-website"></i></a></li>
+                                        <li><a href="{{ partner.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                        <li><a href="{{ partner.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4 class="partner-name">{{ partner.name }}</h4>
+                                <!-- <span class="sub-title">{{ speaker.title }}</span> -->
+                            </div>
+                        </div> <!-- single community -->
+                    </div>   
+                {% endfor %}
+            {% endif %}          
+        </div> <!-- row -->
+        
+    </div> <!-- container -->
+</section>
