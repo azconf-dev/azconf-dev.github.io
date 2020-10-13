@@ -16,6 +16,22 @@
 		"section" : "2"
 	},
 	{
+		"name": "Bangalore CNCF Meetup",
+		"pic": "/assets/images/bangalore-cncf.png",
+		"website": "https://www.meetup.com/en-AU/Bangalore-CNCF-Meetup/",
+		"facebook": "#",
+		"twitter": "#",
+		"section" : "3"
+	},
+	{
+		"name": "Bangalore Redis Meetup",
+		"pic": "/assets/images/bangalore-redis.jpg",
+		"website": "https://www.meetup.com/en-AU/bangalore-redis/",
+		"facebook": "#",
+		"twitter": "#",
+		"section" : "3"
+	},
+	{
 		"name": "Bengaluru Azure User Group",
 		"pic": "/assets/images/bengaluru-aug.jpg",
 		"website": "https://www.meetup.com/en-AU/Microsoft-Azure-Bangalore/",
@@ -53,7 +69,7 @@
 		"website": "https://www.elastic.co/community/",
 		"facebook": "https://www.facebook.com/elastic.co",
 		"twitter": "https://www.twitter.com/elastic",
-		"section" : "2"
+		"section" : "3"
 	},
 	{
 		"name": "Kubernetes-Pune",
@@ -61,7 +77,7 @@
 		"website": "https://www.meetup.com/Kubernetes-Pune/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/kubernetes_pune",
-		"section" : "2"
+		"section" : "3"
 	},
 
 	{
@@ -103,11 +119,19 @@
 		"facebook": "#",
 		"twitter": "https://twitter.com/geeknineseven",
 		"section" : "2"
-	},	
+	},
 	{
 		"name": "Open Source Bangalore",
 		"pic": "/assets/images/opensource-blr.jpg",
 		"website": "https://www.meetup.com/opensourceblr",
+		"facebook": "#",
+		"twitter": "#",
+		"section" : "3"
+	},	
+	{
+		"name": "Open Data Autonomy",
+		"pic": "/assets/images/opendataautonomy.jpg",
+		"website": "https://www.meetup.com/en-AU/OpenDataAutonomy/",
 		"facebook": "#",
 		"twitter": "#",
 		"section" : "3"
