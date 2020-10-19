@@ -1,15 +1,15 @@
 ﻿@charset 'UTF-8';
 
 .slick-loading .slick-list {
-    background: #fff url(ajax-loader.gif) center center no-repeat
+    background: #fff url(/assets/images/ajax-loader.gif) center center no-repeat
 }
 
 @font-face {
     font-family: slick;
     font-weight: 400;
     font-style: normal;
-    src: url(fonts/slick.eot);
-    src: url(fonts/slick.eot?#iefix) format('embedded-opentype'),url(fonts/slick.woff) format('woff'),url(fonts/slick.ttf) format('truetype'),url(fonts/slick.svg#slick) format('svg')
+    src: url(/assets/fonts/slick.eot);
+    src: url(/assets/fonts/slick.eot?#iefix) format('embedded-opentype'),url(/assets/fonts/slick.woff) format('woff'),url(/assets/fonts/slick.ttf) format('truetype'),url(/assets/fonts/slick.svg#slick) format('svg')
 }
 
 .slick-next, .slick-prev {
