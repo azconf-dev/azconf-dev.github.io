@@ -315,9 +315,9 @@ $(function () {
         $(".app-container iframe").attr("src", $(".app-container iframe").attr("src"));
     });
 
-    $('#botDiv').load(function () {
+    // $('#botDiv').load(function () {
 
-        $("#botDiv").contents().find(".wc-header").hide();
-    });
+    //     $("#botDiv").contents().find(".wc-header").hide();
+    // });
     //chat bot ends  
 });

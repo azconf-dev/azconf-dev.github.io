@@ -20599,7 +20599,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, .3);*/
 
 
     .chatContainer .chat-header {
-        background: #1664ff;
+        background: #0056b3;
         border-radius: 10px 10px 0 0;
         color: #fff;
         height: 54px;
@@ -20684,7 +20684,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, .3);*/
     .round {
         background: url(/assets/images/chat-bot.png) no-repeat;
         background-size: 100%;
-        border: solid 3px #1664ff;
+        border: solid 3px #0056b3;
         border-radius: 100%;
         display: block;
         width: 65px;
@@ -20696,7 +20696,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, .3);*/
 
     .round-pulse {
         content: '';
-        border: 40px solid #1664ff;
+        border: 40px solid #0056b3;
         border-radius: 100%;
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
