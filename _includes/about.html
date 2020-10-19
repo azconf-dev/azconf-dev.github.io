@@ -1,41 +1,54 @@
-<section id="about" class="about-area pb-130 pt-80">
+<!--<section class="countdown-timer section-padding-timer">
     <div class="container">
-        <div class="section-title text-center">
-            <h2 class="title">About Azure Community Conference</h2>
+        <div class="row text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title">
+                    <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div id="clock" class="time-count"></div>
+                </div>-->
+                <!--<a href="pricing.html" class="btn btn-common wow fadeInUp" data-wow-delay="0.3s">Add to My Calender</a>-->
+            <!--</div>
+        </div>
+    </div>
+</section>-->
+
+
+<section id="about" class="about-area pt-60">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-8 text-center mx-auto">
+                <div class="section-title">
+                    <h2 class="title">About Azure <br />Community Conference</h2>
+                </div>
+                <p class="text mt-30">
+                    {{ site.data[page.year].about.about_line1 }}
+                </p>
+                <p class="text mt-3 mb-4"> {{ site.data[page.year].about.about_line2 }}</p>
+            </div>
         </div>
         <div class="row align-items-center">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="about-image mt-50 wow fadeInLeft" data-wow-duration="1s">
-                    <img src="assets/images/about.png" alt="About">
-                </div> <!-- about image -->
+                    <img src="assets/images/about.jpg" alt="About">
+                </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1s">
-                    <p class="text mt-30" style="margin: 0 0 20px 0 " >
-                            {{ site.data[page.year].about.about_line1 }}
-                    </p>
-                    <p class="text mt-30" style="margin: 0 0 20px 0 " >
-                        {{ site.data[page.year].about.about_line2 }}
-                </p>
-                    <p class="text mt-30" style="margin: 0 0 20px 0 " >
-                        <ul style="margin: 0 20px;">
-                            {% for topic in site.data[page.year].about.topics  %}
-                                <li style="line-height: 30px;  list-style-type: square;">{{ topic }}
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </p>
-                    
-                    <p class="text mt-30 mb-30">
-                        Community-based learning is the best way to enhance the concepts being discussed by connecting with tech enthusiasts and experts on a live platform. Learn from shared first-hand experiences adding familiarity with accessible examples.
-                    </p>
-                    <p class="text mt-30 mb-30">
-                        All skill levels are welcome to help accomplish our motto of learning, sharing and networking. Let's join hands to empower the Technology Community to make it bigger and better!
-                    </p>
-                    <p class="date"><span>24<sup>th</sup>-26<sup>th</sup></span>
-                        November 2020</p>
-                </div> <!-- about content -->
+
+                    <ul class="expert-list">
+                        {% for topic in site.data[page.year].about.topics  %}
+                        <li><i class="fa fa-check"></i><span>{{ topic }}</span></li>
+                        {% endfor %}
+                    </ul>
+                    <p class="text mt-30 mb-4">Community-based learning is the best way to enhance the concepts being discussed by connecting with tech enthusiasts and experts on a live platform. Learn from shared first-hand experiences adding familiarity with accessible examples.</p>
+                    <p class="text mt-30 mb-4">All skill levels are welcome to help accomplish our motto of learning, sharing and networking. Let's join hands to empower the Technology Community to make it bigger and better!</p>
+                    <p class="date"><span>24<sup>th</sup></span> - <span>26<sup>th</sup></span> November 2020</p>
+                </div>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
+        </div>
+    </div>
 </section>

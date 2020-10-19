@@ -1,4 +1,4 @@
-<section id="team" class="community-area pt-115 pb-130">
+<section id="team" class="community-area  pt-5 pb-5 gray-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -7,7 +7,7 @@
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
-        <div class="row justify-content-md-center">
+        <div class="row slider autoplay justify-content-md-center vol-slider">
             {% if page.teamlimit %}
             {% for member in site.data[page.year].team limit:page.teamlimit %}
             <div class="col-lg-2 col-sm-4">

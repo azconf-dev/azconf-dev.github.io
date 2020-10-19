@@ -1,16 +1,16 @@
 {
-    "about_line1": "Azure Community Conference will be a 3 day multi-track virtual conference between 24-26 November 2020. The conference is aimed at Cloud and Web Developers working with open source and cloud native technologies on the Microsoft Stack.",
-    "about_line2": "We host technology experts around the globe to educate, network, and share their expertise with our global attendees on",
-    "topics": [
-        ".NET/C#/ASP.NET/Developer Technologies (anything that runs on Azure)",
-        "Front-end/Javascript Frameworks/UI/UX",
-        "DevOps and Cloud Native Technologies on Azure",
-        "Data, IoT and Application Security",
-        "Life Hacks / Career & Work Skills",
-        "Other developer centric topics"
-    ],
-    "header_title": "Azure Community Conference <br/> 24-26 November, 2020",
-    "header_subtitle" : "Azure Community Developer Conference",
-    "organizer": "Bangalore Azure User Group Community",
-    "header_countdown" : "2020/11/24"
+  "about_line1": "Azure Community Conference will be a 3 day multi-track virtual conference between 24-26 November 2020. The conference is aimed at Cloud and Web Developers working with open source and cloud native technologies on the Microsoft Stack.",
+  "about_line2": "We host technology experts around the globe to educate, network, and share their expertise with our global attendees on:",
+  "topics": [
+    ".NET/C#/ASP.NET/Developer Technologies (anything that runs on Azure)",
+    "Front-end/Javascript Frameworks/UI/UX",
+    "DevOps and Cloud Native Technologies on Azure",
+    "Data, IoT and Application Security",
+    "Life Hacks / Career & Work Skills",
+    "Other developer centric topics"
+  ],
+  "header_title": "Azure Community Conference <br/> 24-26 November, 2020",
+  "header_subtitle": "Azure Community Developer Conference",
+  "organizer": "Bangalore Azure User Group Community",
+  "header_countdown": "2020/11/24"
 }

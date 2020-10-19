@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Bangalore CNCF Meetup",
+    "pic": "/assets/images/bangalore-cncf.png",
+    "website": "https://www.meetup.com/en-AU/Bangalore-CNCF-Meetup/",
+    "facebook": "#",
+    "twitter": "#"  
+  },
+  {
+    "name": "Bangalore Redis Meetup",
+    "pic": "/assets/images/bangalore-redis.jpg",
+    "website": "https://www.meetup.com/en-AU/bangalore-redis/",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "Docker Bangalore",
+    "pic": "/assets/images/dockerbangalore.png",
+    "website": "https://www.meetup.com/Docker-Bangalore/",
+    "facebook": "#",
+    "twitter": "https://twitter.com/bangaloredocker" 
+   
+  },
+  {
+    "name": "Elastic",
+    "pic": "/assets/images/elastic.png",
+    "website": "https://www.elastic.co/community/",
+    "facebook": "https://www.facebook.com/elastic.co",
+    "twitter": "https://www.twitter.com/elastic" 
+  },
+  {
+    "name": "Kubernetes-Pune",
+    "pic": "/assets/images/kubernetes-pune.png",
+    "website": "https://www.meetup.com/Kubernetes-Pune/",
+    "facebook": "#",
+    "twitter": "https://twitter.com/kubernetes_pune" 
+  },
+  {
+    "name": "Open Source Bangalore",
+    "pic": "/assets/images/opensource-blr.jpg",
+    "website": "https://www.meetup.com/opensourceblr",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "Open Data Autonomy",
+    "pic": "/assets/images/opendataautonomy.jpg",
+    "website": "https://www.meetup.com/en-AU/OpenDataAutonomy/",
+    "facebook": "#",
+    "twitter": "#" 
+  }
+]

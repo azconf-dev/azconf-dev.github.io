@@ -1,27 +1,54 @@
-<header class="header-area">
-   {% include navbar.html %}
 
-    <div id="home" class="header-content-area bg_cover d-flex align-items-center"
-        style="background-image: url(/assets/images/header-bg.jpg)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div data-countdown="{{ site.data[page.year].about.header_countdown }}"></div>
-                    <div class="header-content text-center">
-                        <h2 class="header-title">{{
-                        site.data[page.year].about.header_title }}</h2>
-                        <h3 class="sub-title">{{site.data[page.year].about.header_subtitle }}</a></h3>
-                        <h3 class="sub-title text-center">Organized by</h3>
-                        <h3 class="sub-title"><a
-                        href="https://www.meetup.com/Microsoft-Azure-Bangalore/"
-                        target="_blank">{{ site.data[page.year].about.organizer }}</a></h3>
-                        <ul class="header-btn">
-                            <li><a class="main-btn main-btn-2" href="#tickets">Register Now</a></li>
-                            <li><a class="main-btn " href="#about">Learn More</a></li>
+<header class="header-area">
+    {% include navbar.html %}
+  
+    <div id="home" class="header-content-area bg_cover d-flex align-items-center">
+ 
+            <div id="hero-area" class="hero-area-bg">
+                <div class="overlay"></div>
+                <div class="col-12 row justify-content-center">
+                    <div class="col-md-4">
+                        <img src="assets/images/bg3left.png" class="img-alt">
+                    </div>
+                    <div class="col-md-4 imgdiv">
+                        <img src="assets/images/Logo_AZ-01.png" class="img-alt1">
+
+
+                        <ul style="color:#fff;top: 73%;text-align: center;" class="img-alt1">
+                            <li  class="headertext">
+                                24<sup style="font-style:italic">th</sup> - 26<sup style="font-style: italic">th</sup> November, 2020
+
+                            </li>
+                            <li class="headertext1">
+                                09.00 am to 05.00 pm - IST
+                            </li>
+                            <li>
+
+                                <a id="eventbrite-widget-modal-trigger-118751921193" class="btnRegister btnRegister-common">Register</a>
+
+                            </li>
                         </ul>
-                    </div> <!-- header content -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/images/bg3-01right.png" class="img-alt">
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </div> <!-- header content -->
+            </div>
+        
+    </div>
 </header>
+ 
+<section id="count">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="count-wrapper text-center">
+                    <div class="time-countdown wow fadeInUp" data-wow-delay="0.2s">
+                        <div id="clock" class="time-count"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

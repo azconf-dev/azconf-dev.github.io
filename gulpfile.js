@@ -26,7 +26,8 @@ function bundlecss() {
               'assets/css/slick.css',
               'assets/css/default.css',
               'assets/css/style.css'     ,
-              'assets/css/chat-bot.css'       
+              'assets/css/chat-bot.css'         
+              
             ])
   .pipe(concat('bundle.css'))
   .pipe(dest('assets/dist/'));

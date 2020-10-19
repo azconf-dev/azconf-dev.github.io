@@ -5,7 +5,7 @@
 		"website": "https://www.meetup.com/en-AU/BDotNetUG/",
 		"facebook": "https://facebook.com/groups/bdotnet",
 		"twitter": "https://twitter.com/bdotnetug",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "BangaloreITPro User Group",
@@ -13,23 +13,7 @@
 		"website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
 		"facebook": "#",
 		"twitter": "#",
-		"section" : "2"
-	},
-	{
-		"name": "Bangalore CNCF Meetup",
-		"pic": "/assets/images/bangalore-cncf.png",
-		"website": "https://www.meetup.com/en-AU/Bangalore-CNCF-Meetup/",
-		"facebook": "#",
-		"twitter": "#",
-		"section" : "3"
-	},
-	{
-		"name": "Bangalore Redis Meetup",
-		"pic": "/assets/images/bangalore-redis.jpg",
-		"website": "https://www.meetup.com/en-AU/bangalore-redis/",
-		"facebook": "#",
-		"twitter": "#",
-		"section" : "3"
+		"section": "2"
 	},
 	{
 		"name": "Bengaluru Azure User Group",
@@ -37,7 +21,7 @@
 		"website": "https://www.meetup.com/en-AU/Microsoft-Azure-Bangalore/",
 		"facebook": "#",
 		"twitter": "#",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "Chennai Azure User Group",
@@ -45,7 +29,7 @@
 		"website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
 		"facebook": "#",
 		"twitter": "#",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "Dear Azure",
@@ -53,40 +37,15 @@
 		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
 		"facebook": "https://www.facebook.com/dearazure.net/",
 		"twitter": "https://twitter.com/dearazure_net",
-		"section" : "2"
-	},		
-	{
-		"name": "Docker Bangalore",
-		"pic": "/assets/images/dockerbangalore.png",
-		"website": "https://www.meetup.com/Docker-Bangalore/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/bangaloredocker",
-		"section" : "3"
+		"section": "2"
 	},
-	{
-		"name": "Elastic",
-		"pic": "/assets/images/elastic.png",
-		"website": "https://www.elastic.co/community/",
-		"facebook": "https://www.facebook.com/elastic.co",
-		"twitter": "https://www.twitter.com/elastic",
-		"section" : "3"
-	},
-	{
-		"name": "Kubernetes-Pune",
-		"pic": "/assets/images/kubernetes-pune.png",
-		"website": "https://www.meetup.com/Kubernetes-Pune/",
-		"facebook": "#",
-		"twitter": "https://twitter.com/kubernetes_pune",
-		"section" : "3"
-	},
-
 	{
 		"name": "Microsoft DEV Geeks",
 		"pic": "/assets/images/msdevgeeks.png",
 		"website": "https://www.meetup.com/MSDEVGeeks/",
 		"facebook": "https://www.facebook.com/msdevgeeks",
 		"twitter": "https://twitter.com/msdevgeeks",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "Microsoft User Group - Chandigarh",
@@ -94,7 +53,7 @@
 		"website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/MugCHD",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "Microsoft User Group Hyderabad",
@@ -102,7 +61,7 @@
 		"website": "https://mugh.net/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/mughtwits",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "MobConf",
@@ -110,7 +69,7 @@
 		"website": "https://www.eventbrite.com/o/mobconf-8404319286",
 		"facebook": "#",
 		"twitter": "https://twitter.com/mobdevcon",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "ngIndia",
@@ -118,23 +77,7 @@
 		"website": "https://www.ng-ind.com/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/geeknineseven",
-		"section" : "2"
-	},
-	{
-		"name": "Open Source Bangalore",
-		"pic": "/assets/images/opensource-blr.jpg",
-		"website": "https://www.meetup.com/opensourceblr",
-		"facebook": "#",
-		"twitter": "#",
-		"section" : "3"
-	},	
-	{
-		"name": "Open Data Autonomy",
-		"pic": "/assets/images/opendataautonomy.jpg",
-		"website": "https://www.meetup.com/en-AU/OpenDataAutonomy/",
-		"facebook": "#",
-		"twitter": "#",
-		"section" : "3"
+		"section": "2"
 	},
 	{
 		"name": "TechMeet360",
@@ -142,7 +85,7 @@
 		"website": "https://www.meetup.com/techmeet360/",
 		"facebook": "https://www.facebook.com/groups/techmeet360",
 		"twitter": "https://twitter.com/TechMeet360",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "Women Who Code",
@@ -150,7 +93,7 @@
 		"website": "https://www.womenwhocode.com/",
 		"facebook": "https://facebook.com/womenwhocode",
 		"twitter": "https://twitter.com/womenwhocode",
-		"section" : "1"
+		"section": "1"
 	},
 	{
 		"name": "WomenTech Network",
@@ -158,7 +101,7 @@
 		"website": "http://womentech.net",
 		"facebook": "https://www.facebook.com/womentech.net/",
 		"twitter": "https://twitter.com/WomenTechNet",
-		"section" : "1"
+		"section": "1"
 	},
 	{
 		"name": "XHackers",
@@ -166,7 +109,7 @@
 		"website": "https://www.meetup.com/XHackers/",
 		"facebook": "https://www.facebook.com/groups/xhackersco/",
 		"twitter": "https://twitter.com/xhackersco",
-		"section" : "2"
+		"section": "2"
 	},
 	{
 		"name": "XMonkeys360",
@@ -174,6 +117,6 @@
 		"website": "https://www.meetup.com/en-AU/XMonkeys360/",
 		"facebook": "https://www.facebook.com/xmonkeys360/",
 		"twitter": "https://twitter.com/XMonkeys360",
-		"section" : "2"
+		"section": "2"
 	}
 ]
