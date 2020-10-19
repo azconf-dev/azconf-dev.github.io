@@ -140,13 +140,14 @@ $(function () {
     $(".navbar-nav a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
     });
-
+ 
 
     window.addEventListener('load', (event) => {
       
-        var currentLocation = window.location;
-         
-        if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/"))) {
+        var currentLocation = window.location; 
+       
+        if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
+        {
             $('#lion_image').show();
             $("#navbarTwo").removeClass("overridenav");
             $("#navbarTwo").addClass("overridenavcol");
@@ -167,7 +168,8 @@ $(function () {
             $("#navbarTwo").addClass("overridenavcol");
         } else { 
             var currentLocation = window.location; 
-            if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/"))) {
+            if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
+            {
                 $('#lion_image').show();
                 $("#navbarTwo").removeClass("overridenav");
                 $("#navbarTwo").addClass("overridenavcol");
