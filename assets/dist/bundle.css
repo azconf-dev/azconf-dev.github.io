@@ -10260,20 +10260,10 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .img-alt1 {
-    width: 80%;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.img-navbar {
     width: 80% !important;
     margin: 0;
     position: absolute;
-    text-align: center;
-    top: 72%;
+    top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -10282,8 +10272,8 @@ a.text-dark:focus, a.text-dark:hover {
     .imgdiv {
         margin-top: 15%;
         padding-left: 10%;
-        display: block;
-        justify-content: normal;
+        display: block !important;
+        justify-content: normal !important;
     }
 
     .hero-area-bg {
@@ -10295,22 +10285,12 @@ a.text-dark:focus, a.text-dark:hover {
     }
 
     .img-alt1 {
-        width: 100%;
+        width: 100% !important;
         margin: 0;
         position: initial !important;
         top: 40%;
-        -ms-transform: translateY(-0%);
-        transform: translateY(-0%);
-    }
-
-    .img-navbar {
-        width: 80% !important;
-        margin: 0px 0px 0px 20px;
-        text-align: center;
-        position: absolute;
-        top: 100%;
-        -ms-transform: translateY(-30%);
-        transform: translateY(-30%);
+        -ms-transform: translateY(-0%) !important;
+        transform: translateY(-0%) !important;
     }
 
     .headertext {
@@ -10320,8 +10300,8 @@ a.text-dark:focus, a.text-dark:hover {
 
     .headertext1 {
         font-size: large;
-        padding-top: 2%;
-        padding-bottom: 3%;
+        padding-top: 2% !important;
+        padding-bottom: 6% !important;
     }
 
     .count-wrapper {
@@ -10338,7 +10318,6 @@ a.text-dark:focus, a.text-dark:hover {
         width: 100%;
     }
 }
-
 
 @font-face {
     font-family: "Flaticon";
@@ -18807,185 +18786,10 @@ ul.sub-menu {
     }
 
 @media only screen and (min-width: 414px) and (max-width: 736px) {
-    .headertext1 {
-        font-size: large;
-        padding-top: 2% !important;
-        padding-bottom: 2% !important;
+    .header-content-area {
+        height: 137px !important;
     }
 }
-
-@media only screen and (min-width: 320px) and (max-width: 568px) {
-    .headertext1 {
-        padding-bottom: 4%;
-    }
-}
-
-@media only screen and (min-width: 280px) and (max-width: 653px) {
-
-    .headertext {
-        font-size: 15px;
-        padding-bottom: 2% !important;
-    }
-    .headertext1 {
-        font-size: 15px;
-        padding-bottom: 2% !important;
-    }
-        .img-alt1 {
-        width: 100%;
-        margin: 0;
-        position: initial !important;
-        top: 40%;
-        -ms-transform: translateY(25%);
-        transform: translateY(25%);
-    }
-        .img-navbar {
-        width: 80% !important;
-        margin: 0px 0px 0px 20px;
-        text-align: center;
-        position: absolute;
-        -ms-transform: translateY(60%);
-        transform: translateY(60%);
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .headertext1 {
-        font-size: 15px;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .headertext {
-        font-size: 15px;
-        padding-top: 0%;
-    }
-
-    .img-alt1 {
-        width: 80% !important;
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        -ms-transform: translateY(-100%) !important;
-        transform: translateY(-100%) !important;
-    }
-
-    .img-navbar {
-        width: 80% !important;
-        margin: 0;
-        text-align: center;
-        position: absolute;
-        top: 75%;
-        -ms-transform: translateY(-100%) !important;
-        transform: translateY(-100%) !important;
-    }
-}
-
-@media only screen and (min-width: 411px) and (max-width: 731px) {
-    .headertext1 {
-        font-size: 15px;
-        padding-top: 2% !important;
-        padding-bottom: 3% !important;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 568px) {
-    /*  .headertext1 {
-        font-size: 15px;
-        padding-top: 2% !important;
-        padding-bottom: 3% !important;
-    }*/
-    .img-alt1 {
-        transform: translateY(20%);
-    }
-
-    .img-navbar {
-        text-align: center;
-        transform: translateY(30%);
-    }
-}
-
-@media only screen and (min-width: 540px) and (max-width: 720px) {
-    /*  .headertext1 {
-        font-size: 15px;
-        padding-top: 2% !important;
-        padding-bottom: 3% !important;
-    }*/
-    .img-alt1 {
-        transform: translateY(60%);
-        width: 60%;
-    }
-
-    .img-navbar {
-        text-align: center;
-        transform: translateY(30%);
-    }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 667px) {
-    /*  .headertext1 {
-        font-size: 15px;
-        padding-top: 2% !important;
-        padding-bottom: 3% !important;
-    }*/
-    .img-alt1 {
-        transform: translateY(0%);
-    }
-
-    .img-navbar {
-        text-align: center;
-        transform: translateY(0%);
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    /*  .headertext1 {
-        font-size: 15px;
-        padding-top: 2% !important;
-        padding-bottom: 2% !important;
-    }
-
-    .headertext {
-        font-size: 15px;
-        padding-top: 0%;
-    }
-*/
-    .img-alt1 {
-        width: 80% !important;
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        -ms-transform: translateY(-60%) !important;
-        transform: translateY(-60%) !important;
-    }
-
-    .img-navbar {
-        width: 80% !important;
-        margin: 0;
-        text-align: center;
-        position: absolute;
-        top: 72%;
-        -ms-transform: translateY(-60%) !important;
-        transform: translateY(-60%) !important;
-    }
-}
-
-
-@media only screen and (min-width: 1080px) and (max-width: 1980px) {
-
-    .img-navbar {
-        width: 80% !important;
-        margin: 0;
-        text-align: center;
-        position: absolute;
-        top: 72%;
-        -ms-transform: translateY(-60%) !important;
-        transform: translateY(-60%) !important;
-    }
-}
-
-
-
-
 
 /*===== Header =====*/
 .header-content-area {
