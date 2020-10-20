@@ -10272,6 +10272,8 @@ a.text-dark:focus, a.text-dark:hover {
     .imgdiv {
         margin-top: 15%;
         padding-left: 10%;
+        display: block !important;
+        justify-content: normal !important;
     }
 
     .hero-area-bg {
@@ -10299,7 +10301,7 @@ a.text-dark:focus, a.text-dark:hover {
     .headertext1 {
         font-size: large;
         padding-top: 2% !important;
-        padding-bottom: 8% !important;
+        padding-bottom: 6% !important;
     }
 
     .count-wrapper {
