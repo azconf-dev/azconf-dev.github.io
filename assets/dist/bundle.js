@@ -277,9 +277,11 @@ $(function () {
         if ($(this).scrollTop() > 600) {
             $('.back-to-top').fadeIn(200)
             $('.main-container').fadeIn(200);
+            $('.register-btn-float').fadeIn(200)
         } else {
             $('.back-to-top').fadeOut(200)
             $('.main-container').fadeOut(200);
+            $('.register-btn-float').fadeOut(200);
         }
     });
 

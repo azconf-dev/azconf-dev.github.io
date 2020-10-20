@@ -20469,10 +20469,36 @@ a.text-dark:focus, a.text-dark:hover {
     display: none;
 }
 
-        .back-to-top:hover {
-            color: #fff;
-            background-position: right center;
-        }
+.back-to-top:hover {
+    color: #fff;
+    background-position: right center;
+}
+
+.register-btn-float {
+    background-image: linear-gradient(65deg, #00467b 0, #0078D4 100%);
+    position: fixed;
+    writing-mode: vertical-rl;
+    /* word-wrap: break-word !important; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    right: 0px;
+    top: 200px;
+    width: 50px;
+    height: 200px;
+    z-index: 99999;
+    /* transform: rotate(90deg); */
+    /* transform-origin: left top 0; */
+    display: inline-block;
+    text-orientation: upright;
+}
+
 
     /* chat bot */
 
@@ -20806,7 +20832,10 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, .3);*/
         border-color: transparent transparent transparent black !important;
     }
     /* chat bot ends */
-
+    .navbar-register-btn
+    {
+        display:none;
+    }
 
     /* only small desktops */
     @media (min-width: 992px) and (max-width: 1199px) {
@@ -21095,11 +21124,17 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, .3);*/
             min-width: 5rem;
             padding: 18px 20px;
         }
+        .register-btn-float{
+            display: none !important;
+        }
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
         .btn {
             padding: 5px 7px;
             font-size: 13px;
+        }
+        .register-btn-float{
+            display: none !important;
         }
     }
