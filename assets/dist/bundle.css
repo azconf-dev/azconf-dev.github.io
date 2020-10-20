@@ -18940,7 +18940,7 @@ ul.sub-menu {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 2200px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .imgdiv { 
         display: flex;
         justify-content: center;
@@ -18965,6 +18965,12 @@ ul.sub-menu {
     }
 }
 
+@media only screen and (min-width: 1366px) and (max-width: 2048px) {
+    .imgdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 /*===== Header =====*/
