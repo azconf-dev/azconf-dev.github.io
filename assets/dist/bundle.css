@@ -10273,7 +10273,7 @@ a.text-dark:focus, a.text-dark:hover {
     margin: 0;
     position: absolute;
     text-align: center;
-    top: 72%;
+    top: 42%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
