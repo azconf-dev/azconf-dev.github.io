@@ -20497,6 +20497,7 @@ a.text-dark:focus, a.text-dark:hover {
     /* transform-origin: left top 0; */
     display: inline-block;
     text-orientation: upright;
+    display: none;
 }
 
 
