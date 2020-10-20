@@ -274,7 +274,11 @@ $(function () {
 
     // Show or hide the sticky footer button
     $(window).on('scroll', function (event) {
-        if ($(this).scrollTop() > 600) {
+        var currentLocation = window.location; 
+        var scrollTopPos = 600;
+        if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
+            scrollTopPos = 10;
+        if ($(this).scrollTop() > scrollTopPos) {
             $('.back-to-top').fadeIn(200)
             $('.main-container').fadeIn(200);
             $('.register-btn-float').fadeIn(200)
