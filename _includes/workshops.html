@@ -1,0 +1,72 @@
+<section id="workshops" class="team-area pt-60">
+    <div class="container">
+
+       
+        <!-- Speakers-->
+        <div class="row justify-content-center pt-60">
+            <div class="col-lg-8">
+                <div class="section-title text-center pb-20">
+                    <h2 class="title">Online Workshops</h2>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+
+        <div class="row justify-content-md-center">
+            {% assign workshops = site.data[page.year].workshops   %}
+            {% if page.limit %}
+            {% for workshop in  workshops  limit:page.limit %}
+            <div class="col-lg-2 col-sm-3">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <a href="{{workshop.url}}">
+                        <div class="team-image">
+                            <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
+                        </div>
+                    </a>
+                    <div class="team-content">
+                        <!-- <div class="team-social">
+                            <ul class="social">
+                                {% if speaker.website %}
+                                <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                {% endif %}
+                                {% if speaker.twitter %}
+                                <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                {% endif %}
+                                {% if speaker.linkedin %}
+                                <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                {% endif %}
+                            </ul>
+                        </div> -->
+                        <h4 class="team-name">{{ workshop.name }}</h4>
+                        <span class="sub-title">{{ workshop.desc }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
+            {% else %}
+            {% for workshop in workshops %}
+            <div class="col-lg-2 col-sm-3">
+                <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-image">
+                        <a href="{{workshop.url}}">
+                            <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
+                        </a>
+                    </div>
+                    <div class="team-content">
+                        <!-- <div class="team-social">
+                            <ul class="social">
+                                <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div> -->
+                        <h4 class="team-name">{{ workshop.name }}</h4>
+                        <span class="sub-title">{{ workshop.desc }}</span>
+                    </div>
+                </div> <!-- single team -->
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div> <!-- row -->
+          <!-- Speakers ends-->
+    </div> <!-- container -->
+</section>

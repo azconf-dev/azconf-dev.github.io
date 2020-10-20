@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Terraform Workshop",
+        "pic": "/assets/images/workshops/terraform.png",
+        "trainer": "Founder & CEO at InnovoTree Technologies, Microsoft MVP",
+        "desc": "Use Infrastructure as Code to provision and manage any cloud, infrastructure, or service"
+    },
+    {
+        "name": "GitHub Actions",
+        "pic": "/assets/images/workshops/git-hub-actions.png",
+        "trainer": "GitHub Team",
+        "desc": "Automate your workflow from idea to production"
+    },
+    {
+        "name": "AKS",
+        "pic": "/assets/images/workshops/aks-logo.png",
+        "trainer": "TBA",
+        "desc": "Announcing soon"
+    },
+    {
+        "name": "Serverless Functions",
+        "pic": "/assets/images/workshops/serverless-logo.png",
+        "trainer": "TBA",
+        "desc": "Announcing soon"
+    }
+]
