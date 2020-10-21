@@ -1,5 +1,12 @@
 [
   {
+    "name": ".NET Foundation",
+    "pic": "/assets/images/dotnetfoundation.jpg",
+    "website": "https://dotnetfoundation.org/",
+    "facebook": "https://www.facebook.com/dotnetfoundation/",
+    "twitter": "https://twitter.com/dotnetfdn"  
+  },
+  {
     "name": "Bangalore CNCF Meetup",
     "pic": "/assets/images/bangalore-cncf.png",
     "website": "https://www.meetup.com/en-AU/Bangalore-CNCF-Meetup/",
