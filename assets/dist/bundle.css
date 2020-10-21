@@ -20626,6 +20626,2101 @@ span.text-white.logo-txt {
                 color: #1e73be;
             }
 
+/*============ AGENDA =================*/
+    /*  ICONS */
+
+
+
+    .gray-color {
+        background-color: #f0f0f0;
+    }
+
+    .az-events-schedule {
+        overflow: hidden;
+    }
+
+    .az-events-schedule .events-schedule-tabs {
+        width: 100%;
+        position: relative;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list {
+        max-width: 100%;
+        list-style: none;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 56px;
+        text-align: center;
+        border-top: 2px solid #0078d4;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li {
+        line-height: normal;
+        display: inline-block;
+        width: 33.33%;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li+li {
+        padding-left: 30px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li span {
+        display: block;
+        font-size: 14px;
+        color: #676767;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li a {
+        color: #212121;
+        margin: 4px 0 0;
+        padding: 13px 45px;
+        border: 1px solid #ccc;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li a:hover,
+    .az-events-schedule .events-schedule-tabs .eventday-list li a.active {
+        background: #0078d4;
+        color: #fff;
+        margin: 0;
+        padding: 15px 45px;
+        border-color: #0078d4;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-list li a:hover span,
+    .az-events-schedule .events-schedule-tabs .eventday-list li a.active span {
+        color: #ccc;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-sublist {
+        display: block;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li {
+        display: inline-block;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li a {
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #676767;
+    }
+
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li a:hover,
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li a.active {
+        color: #0078d4;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .fade {
+        height: 0;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .fade.show {
+        height: 100%;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 {
+        overflow: hidden;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .event-btn {
+        float: left;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .event-btn .primary-btn {
+        width: 120px;
+        text-transform: capitalize;
+        border-bottom: 0;
+        padding: 4px 0;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .social-shareicons {
+        float: right;
+        padding-top: 1px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .social-shareicons .share-title {
+        margin-right: 15px;
+        font-weight: 500;
+        display: inline-block;
+        padding-top: 3px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .share-link {
+        float: right;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .share-link li {
+        float: left;
+        list-style: none;
+        padding: 2px 0;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .share-link li:first-child a {
+        margin-left: 0;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .share-link li a {
+        font-size: 12px;
+        font-weight: 500;
+        color: #676767;
+        padding: 7px 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-left: 14px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .share-section2 .share-link li a:hover {
+        background: #0078d4;
+        color: #fff;
+        border: 1px solid #0078d4;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .event-schedule-info .meta-date {
+        display: block;
+        margin: 0 0 5px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .event-schedule-info h3 {
+        margin: 0 0 6px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .event-schedule-info p {
+        margin: 0 0 20px;
+    }
+
+    .az-events-schedule .events-schedule-tabs .events-schedule-subitmes>.eventday-sublist {
+        text-align: center;
+    }
+
+    .az-events-schedule .events-schedule-contents .events-subinner {
+        background: #fafafa;
+    }
+
+    .az-events-schedule .events-schedule-contents .events-subinner .events-schedule-subdes .events-items {
+        border-radius: 6px;
+    }
+
+    .az-events-schedule .events-schedule-contents .events-subinner .events-schedule-subdes .events-items+.events-items {
+        margin-top: 30px;
+    }
+
+    .az-events-schedule .events-schedule-contents .event-author img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+        border: 3px solid #0078d4;
+    }
+
+    .az-events-schedule .events-schedule-contents .event-author span {
+        display: block;
+    }
+
+    .az-events-schedule .events-schedule-contents .event-author span.author-cty {
+        color: #0078d4;
+        margin: 15px 0 0;
+    }
+
+    .az-events-schedule .events-schedule-contents .event-author h4 {
+        margin: 3px 0;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list {
+        border-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a {
+        margin: 0;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.show,
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a:hover {
+        padding: 13px 45px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.show span,
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a:hover span {
+        color: #ccc;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active {
+        position: relative;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active span {
+        color: #ccc;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active:hover {
+        position: relative;
+        padding: 13px 45px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active:hover span {
+        color: #ccc;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active:before {
+        content: "";
+        border: solid #0078d4;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 8px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        position: absolute;
+        bottom: -10px;
+        left: 47%;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items {
+        padding: 0 30px;
+        margin: 0 5px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items:first-child {
+        padding-top: 30px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items:last-child {
+        padding-bottom: 30px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-4 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-8 {
+        padding-left: 30px;
+        background: #fff;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .event-schedule-info {
+        padding-top: 20px;
+    }
+
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .event-author {
+        border: 1px solid #e1e1e1;
+        padding: 25px 0;
+        border-radius: 5px 0 0 5px;
+        height:100%;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-subinner {
+        padding: 50px 25px;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-subinner .events-items {
+        background: #fff;
+        padding: 30px;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs {
+        padding: 0 0 0 80px;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list {
+        top: 0;
+        left: 40px;
+        max-width: 100%;
+        list-style: none;
+        position: absolute;
+        text-transform: uppercase;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transform-origin: 20px 20px;
+        -moz-transform-origin: 20px 20px;
+        -ms-transform-origin: 20px 20px;
+        -o-transform-origin: 20px 20px;
+        transform-origin: 20px 20px;
+        z-index: 1;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list li {
+        width: 200px;
+        text-align: center;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list li a {
+        padding: 13px 0;
+    }
+
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list .active span {
+        color: #ccc;
+    }
+
+    .az-events-schedule.drak-color .event-author span {
+        color: #ccc;
+    }
+
+    .az-events-schedule.drak-color.az-events-schedule1 .eventday-list li a {
+        border-color: #0078d4;
+    }
+
+    .az-events-schedule.drak-color.az-events-schedule1 .event-author h4 {
+        color: #fff;
+    }
+
+    .az-events-schedule.drak-color .events-schedule-contents .events-subinner {
+        background: #000929;
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline .cd-is-hidden {
+            visibility: hidden;
+        }
+    }
+
+    .event-schedule-timeline .cd-timeline {
+        overflow: hidden;
+        margin: 2em auto;
+    }
+
+    .event-schedule-timeline .cd-timeline__container {
+        position: relative;
+        width: 90%;
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 2em 0;
+    }
+
+    .event-schedule-timeline .cd-timeline__container::before {
+        /* this is the vertical line */
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 18px;
+        height: 100%;
+        width: 4px;
+        background: #fdd245;
+    }
+
+    @media only screen and (max-width: 1170px) {
+
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-1 span.cd-timeline__date,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-2 span.cd-timeline__date,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-3 span.cd-timeline__date,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-4 span.cd-timeline__date,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-5 span.cd-timeline__date,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-6 span.cd-timeline__date {
+            color: #fff !important;
+            padding-top: 0;
+        }
+
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-1 span.cd-timeline__date i,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-2 span.cd-timeline__date i,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-3 span.cd-timeline__date i,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-4 span.cd-timeline__date i,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-5 span.cd-timeline__date i,
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-6 span.cd-timeline__date i {
+            padding-right: 5px;
+        }
+
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-1:before {
+            border-color: transparent !important;
+            border-right-color: #800080 !important;
+        }
+
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-3:before {
+            border-color: transparent !important;
+            border-right-color: #2b93ea !important;
+        }
+
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content.bg-color-5:before {
+            border-color: transparent !important;
+            border-right-color: #0078d4 !important;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .event-schedule-timeline .cd-timeline .cd-timeline__block .cd-timeline__content .event-schedule-info .event-title {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline .cd-timeline {
+            margin-top: 34px;
+            margin-bottom: 3em;
+        }
+
+        .event-schedule-timeline .cd-timeline__container::before {
+            left: 50%;
+            margin-left: -2px;
+        }
+    }
+
+    .event-schedule-timeline .cd-timeline__block {
+        position: relative;
+        margin: 2em 0;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-1 {
+        background: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-1 .cd-timeline__date {
+        color: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-1:before {
+        border-color: transparent !important;
+        border-left-color: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-2 {
+        background: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-2 .cd-timeline__date {
+        color: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-2:before {
+        border-color: transparent !important;
+        border-right-color: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-3 {
+        background: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-3 .cd-timeline__date {
+        color: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-3:before {
+        border-color: transparent !important;
+        border-left-color: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-4 {
+        background: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-4 .cd-timeline__date {
+        color: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-4:before {
+        border-color: transparent !important;
+        border-right-color: #800080 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-5 {
+        background: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-5 .cd-timeline__date {
+        color: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-5:before {
+        border-color: transparent !important;
+        border-left-color: #0078d4 !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-6 {
+        background: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-6 .cd-timeline__date {
+        color: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content.bg-color-6:before {
+        border-color: transparent !important;
+        border-right-color: #2b93ea !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info {
+        color: #fff;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info .speaker-name,
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info .speaker-name a {
+        color: #f5f5f5;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info .event-des {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info .event-title {
+        color: #fff !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        font-size: 24px;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info .event-title a {
+        color: #fff !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__content .event-schedule-info p {
+        margin-top: 10px;
+    }
+
+    .event-schedule-timeline .cd-timeline__block:after {
+        /* clearfix */
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .event-schedule-timeline .cd-timeline__block:first-child {
+        margin-top: 0;
+    }
+
+    .event-schedule-timeline .cd-timeline__block:last-child {
+        margin-bottom: 0;
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline .cd-timeline__block {
+            margin: 4em 0;
+        }
+    }
+
+    .event-schedule-timeline .cd-timeline__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .event-schedule-timeline .cd-timeline__img img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 100% !important;
+    }
+
+    .event-schedule-timeline .cd-timeline__img.cd-timeline__img--picture {
+        background: #75ce66;
+    }
+
+    .event-schedule-timeline .cd-timeline__img.cd-timeline__img--movie {
+        background: #c03b44;
+    }
+
+    .event-schedule-timeline .cd-timeline__img.cd-timeline__img--location {
+        background: #f0ca45;
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline .cd-timeline__img {
+            width: 60px;
+            height: 60px;
+            left: 50%;
+            margin-left: -30px;
+            /* Force Hardware Acceleration */
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .event-schedule-timeline .cd-timeline__img.cd-timeline__img--bounce-in {
+            visibility: visible;
+            -webkit-animation: cd-bounce-1 0.6s;
+            animation: cd-bounce-1 0.6s;
+        }
+    }
+
+    @-webkit-keyframes cd-bounce-1 {
+        0% {
+            opacity: 0;
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    @keyframes cd-bounce-1 {
+        0% {
+            opacity: 0;
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    .event-schedule-timeline .cd-timeline__content {
+        position: relative;
+        margin-left: 60px;
+        background: #fdd245;
+        border-radius: 0.25em;
+        padding: 1em;
+        -webkit-box-shadow: 0 3px 0 #d7e4ed;
+        box-shadow: 0 3px 0 #d7e4ed;
+    }
+
+    .event-schedule-timeline .cd-timeline__content:after {
+        /* clearfix */
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .event-schedule-timeline .cd-timeline__content::before {
+        /* triangle next to content block */
+        content: '';
+        position: absolute;
+        top: 16px;
+        right: 100%;
+        height: 0;
+        width: 0;
+        border: 7px solid transparent;
+        border-right: 7px solid #fdd245;
+    }
+
+    .event-schedule-timeline .cd-timeline__content h2 {
+        color: #fff;
+    }
+
+    .event-schedule-timeline .cd-timeline__content p,
+    .event-schedule-timeline .cd-timeline__read-more,
+    .event-schedule-timeline .cd-timeline__date {
+        font-size: 1.3rem;
+    }
+
+    .event-schedule-timeline .cd-timeline__content p {
+        margin: 1em 0;
+        line-height: 1.6;
+    }
+
+    .event-schedule-timeline .cd-timeline__read-more,
+    .event-schedule-timeline .cd-timeline__date {
+        display: inline-block;
+    }
+
+    .event-schedule-timeline .cd-timeline__read-more {
+        float: right;
+        padding: .8em 1em;
+        background: #acb7c0;
+        color: white;
+        border-radius: 0.25em;
+    }
+
+    .event-schedule-timeline .cd-timeline__read-more:hover {
+        background-color: #bac4cb;
+    }
+
+    .event-schedule-timeline .cd-timeline__date {
+        float: left;
+        padding: .8em 0;
+        opacity: .7;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .event-schedule-timeline .cd-timeline__content h2 {
+            font-size: 2rem;
+        }
+
+        .event-schedule-timeline .cd-timeline__content p {
+            font-size: 1.6rem;
+        }
+
+        .event-schedule-timeline .cd-timeline__read-more,
+        .event-schedule-timeline .cd-timeline__date {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline .cd-timeline__content {
+            margin-left: 0;
+            padding: 1.6em;
+            width: 45%;
+            /* Force Hardware Acceleration */
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .event-schedule-timeline .cd-timeline__content::before {
+            top: 24px;
+            left: 100%;
+            border-color: transparent;
+            border-left-color: #fdd245;
+        }
+
+        .event-schedule-timeline .cd-timeline__read-more {
+            float: left;
+        }
+
+        .event-schedule-timeline .cd-timeline__date {
+            position: absolute;
+            width: 100%;
+            left: 122%;
+            top: 6px;
+            font-size: 1.6rem;
+        }
+
+        .event-schedule-timeline .cd-timeline__block:nth-child(even) .cd-timeline__content {
+            float: right;
+        }
+
+        .event-schedule-timeline .cd-timeline__block:nth-child(even) .cd-timeline__content::before {
+            top: 24px;
+            left: auto;
+            right: 100%;
+            border-color: transparent;
+            border-right-color: #fdd245;
+        }
+
+        .event-schedule-timeline .cd-timeline__block:nth-child(even) .cd-timeline__read-more {
+            float: right;
+        }
+
+        .event-schedule-timeline .cd-timeline__block:nth-child(even) .cd-timeline__date {
+            left: auto;
+            right: 122%;
+            text-align: right;
+        }
+
+        .event-schedule-timeline .cd-timeline__content.cd-timeline__content--bounce-in {
+            visibility: visible;
+            -webkit-animation: cd-bounce-2 0.6s;
+            animation: cd-bounce-2 0.6s;
+        }
+    }
+
+    @media only screen and (min-width: 1170px) {
+        .event-schedule-timeline {
+            /* inverse bounce effect on even content blocks */
+        }
+
+        .event-schedule-timeline .cd-timeline__block:nth-child(even) .cd-timeline__content.cd-timeline__content--bounce-in {
+            -webkit-animation: cd-bounce-2-inverse 0.6s;
+            animation: cd-bounce-2-inverse 0.6s;
+        }
+    }
+
+    @-webkit-keyframes cd-bounce-2 {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+        }
+
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes cd-bounce-2 {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+        }
+
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @-webkit-keyframes cd-bounce-2-inverse {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+        }
+
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes cd-bounce-2-inverse {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+        }
+
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+    #rs-team3 .owl-carousel .team-item .team-img .normal-text{
+        bottom: -23%;
+    }
+    .container-fullwidth {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .home1 .rs-menu ul.nav-menu > li {
+        margin-right: 35px;
+    }
+    .rs-team.fullwidth-team .team-item .team-social.icons-1:before{
+        left: 2px;
+    }
+    .rs-team.fullwidth-team .team-item .team-social.icons-2:before{
+        right: 2px;
+    }
+    .rs-team#rs-team3.bg4:after{
+        height: 430px;
+    }
+}
+/* Layout: Large Devices. */
+@media only screen and (max-width: 1300px) {
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list {
+        left: 50px;
+    }
+    #rs-slider .slide-content .slider-title {
+        font-size: 50px;
+        line-height: 56px;
+    }
+}
+
+/* Layout: Large Devices. */
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .rs-team .team-item .team-social li {
+        padding: 24px;
+    }
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs {
+        padding: 0 0 0 90px;
+    }
+}
+
+/* Tablet Layout: 991px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .rs-breadcrumbs .breadcrumbs-inner {
+        top: 58%;
+    }
+    .slider-shape2 {
+        height: 140px;
+        margin-top: -175px;
+    }
+	.rs-team .team-item .team-social li,
+    .rs-team .team-item .team-content{
+        padding: 20px;
+    }
+    .rs-team .team-item .team-social li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .rs-menu a {
+        padding: 0px 15px;
+    }
+    .az-events-schedule2 .events-schedule-tabs .events-shedule-subitmes .share-section2 .event-btn,
+    .az-events-schedule2 .events-schedule-tabs .events-shedule-subitmes .share-section2 .social-shareicons {
+        float: none;
+    }
+    .az-events-schedule2 .events-schedule-tabs .events-shedule-subitmes .share-section2 .social-shareicons {
+        padding-top: 10px;
+    }
+    .home4 .rs-about{
+        padding-top: 190px;
+    }
+}
+/* Tablet Layout: 1199px. */
+@media only screen and (max-width: 1199px) {
+    .sec-title h2,
+    .sec-title2 h2,
+    .sec-title3 h2{
+        font-size: 30px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li{
+        width: 25% !important;
+    }
+    .sec-title span,
+    .sec-title2 span,
+    .sec-title3 span{
+        font-size: 20px;
+        margin-bottom: 6px;
+        line-height: normal;
+    }
+    h3.venues-title{
+        font-size: 24px;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-desc {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-title {
+        margin-bottom: 25px;
+    }
+    /*.sidebar-area .product-search ul li {
+        width: 50px;
+    }
+    .sidebar-area .product-search ul li.dash {
+        width: 16px;
+    }
+    .sidebar-area .product-search ul li.button-field {
+        width: 70px;
+    }*/
+    .rs-event-details .share-area .share-inner a {
+        padding: 6px 10px;
+    }
+    .rs-upcoming-event .events-details .primary-btn {
+        margin-top: 0;
+    }
+    .rs-upcoming-event .events-details .event-title {
+        margin: 5px 0 12px;
+    }
+    /*.shop-single-page .single-product-area .product-overview .product-title,
+    h4.event-title,
+    .single-blog-details .leave-comments-area h4,
+    .single-blog-details .author-comment h4.title-bg,
+    .sidebar-area .title,
+    .rs-blog .blog-item .blog-details .blog-title {
+        font-size: 18px;
+    }*/
+    .rs-breadcrumbs:after {
+        display: none;
+    }
+    .rs-team-single .skill-title,
+    .rs-team-single .team-name,
+    .price-table h3,
+    h3.contact-title,
+    .event-shedule-info h3,
+    .join-our-events .choose-item .choose-title{
+        font-size: 24px;
+    }
+   .rs-header.fullwidth-header .main-menu .nav-menu {
+        padding-right: 160px;
+    }
+    #rs-slider .countdown-section #countdown-3 {
+        margin-bottom: 20px;
+    }
+    .rs-header.fullwidth-header .buy-tickets .primary-btn,
+    .nav-menu > li > a {
+        font-size: 14px;
+    }
+    .nav-menu > li > a {
+        line-height: 80px;
+        height: 80px;
+    }
+    .rs-header.fullwidth-header .buy-tickets .primary-btn{
+        white-space: 125px;
+    }
+    .home1 .rs-menu ul.nav-menu > li {
+        margin-right: 18px;
+    }
+    .logo-area {
+        height: 80px;
+        line-height: 77px;
+        margin: 0 auto;
+    }
+    /*#rs-slider .slide-content .slider-title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    #rs-slider.rs-slider-banner .banner-counter5 .coming-soon-part{
+        max-width: 500px;
+    }
+    #rs-slider .slide-content .slider-desc{
+        margin-bottom: 20px;
+    }
+    #rs-slider .slide-content .slider-desc{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .rs-slider-banner5 .coming-soon-part .coming-soon-text .time_circles div span, 
+    .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .time_circles div span {
+        font-size: 34px !important;
+        margin-bottom: 5px;
+    }
+    .rs-slider-banner5 .coming-soon-part .coming-soon-text .time_circles div h4, 
+    .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .time_circles div h4 {
+        font-size: 14px !important;
+    }*/
+    .secondary-btn, 
+    .primary-btn {
+        padding: 10px 25px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    /*#rs-slider .countdown-section #countdown-3 figure {
+        max-width: 100px !important;
+        width: 100px !important;
+        padding: 0 !important;
+    }
+    #rs-slider .countdown-section #countdown-3 figure div {
+        width: 40px !important;
+        height: 50px !important;
+    }
+    #rs-slider .countdown-section #countdown-3 figure div ul {
+        left: 6px !important;
+        top: -54px !important;
+    }
+    #rs-slider .countdown-section #countdown-3 figure div ul li{
+        font-size: 36px;
+    }*/
+    .timeTo span{
+        top: -4px;
+    }
+    /*#rs-slider .countdown-section #countdown-3 figcaption{
+        font-size: 16px !important;
+    }*/
+    .rs-about .plr-70{
+        padding: 0;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li a {
+        padding: 12px 30px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list {
+        font-size: 24px;
+    }
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs .eventday-list {
+        position: static;
+        -webkit-transform: rotate(0deg);
+         -moz-transform: rotate(0deg);
+         -ms-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+         transform: rotate(0deg);
+        -webkit-transform-origin: 0;
+        -moz-transform-origin: 0;
+        -ms-transform-origin: 0;
+        -o-transform-origin: 0;
+        transform-origin: 0;
+        margin-bottom: 20px;
+    }
+    .az-events-schedule.az-events-schedule2 .events-schedule-tabs {
+        padding: 0;
+    }
+    .az-events-schedule.az-events-schedule2 .events-subinner {
+        padding: 30px;
+    }
+    /*#rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Days h3, 
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Hours h3 {
+        padding-bottom: 15px;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .coming-soon-text .time_circles div span{
+        font-size: 20px !important;
+    }
+    
+    #rs-slider.rs-slider-banner2 .coming-soon-part .coming-soon-text .time_circles div h3 {
+        font-size: 16px !important;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .coming-soon-text .time_circles div span{
+        padding: 4px 0;
+        max-width: 80px;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Minutes, 
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Seconds {
+        padding-top: 15px;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles {
+        padding: 24px 0 18px;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Seconds h3:before,
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Days h3::before {
+        height: 70px;
+    }
+    #rs-slider.rs-slider-banner2 .coming-soon-part .time_circles .textDiv_Seconds h3:before{
+        top: -45px;
+    }
+    #rs-slider .rs-slider-banner2.slide-content{
+        top: 60%;
+    }*/
+}
+
+/* Tablet Layout: 1024px. */
+@media only screen and (max-width: 1024px) {
+    .rs-timecoun-ceremony,
+    .rs-slider-banner5 .coming-soon-part .time_circles{
+        display: none;
+    }
+}
+
+/* Medium Layout: 991px. */
+@media only screen and (max-width: 991px) {
+    .sec-spacer,
+    .shop-page-area.single-product-page{
+        padding: 80px 0;
+    }
+    .shop-page-area {
+        padding: 74px 0;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-desc {
+        font-size: 28px;
+    }
+    .rs-venues-section .venues-inner {
+        padding: 76px 0 34px;
+    }
+    .join-our-events{
+        padding-bottom: 72px;
+    }
+    .mmb-40{
+        margin-bottom: 40px;
+    }
+    .mmt-40{
+        margin-top: 40px;
+    }
+    .mmt-10{
+        margin-top: 10px;
+    }
+    .rs-footer .footer-content-box [class*="col-"] + [class*="col-"] {
+        margin-top: 45px;
+    }
+    .rs-footer .footer-content-box .content-grid{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .home5 .rs-about .about-des,
+    .home5 .rs-about .about-des .sec-title3,
+    .rs-footer .footer-content-box .content-grid .title,
+    .rs-about .about-single-image{
+        text-align: center !important;
+    }
+    .rs-about .about-single-image{
+        margin-top: 0;
+    }
+    .rs-footer .footer-content-box .content-grid .form-inner{
+        max-width: 100%;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-8{
+        background: transparent;
+    }
+    .az-events-schedule1 .events-schedule-contents .events-items .col-lg-8 .event-shedule-info{
+        background: #fff;
+        padding: 15px;
+    }
+    .az-events-schedule2 .events-items .event-shedule-info{
+        border-top: 1px solid #f0f0f0;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    .rs-event-details{
+        padding: 75px 0 80px;
+    }
+    .rs-upcoming-event .pl-0{
+        padding-left: 15px !important;
+    }
+    .nav-menu .mega-menu .mega-menu-container{
+        padding: 0;
+    }
+    .rs-upcoming-event .pr-0{
+        padding-right: 15px !important;
+    }
+    .rs-testimonial3,
+    .rs-upcoming-event,
+    .pt-100{
+        padding-top: 80px !important;
+    }
+    /*#rs-slider.rs-slider-banner3 .slide-content{
+        text-align: center;
+    }
+    #rs-slider .slide-content .slider-title span{
+        display: inline-block;
+    }*/
+    .pb-100{
+        padding-bottom: 80px !important;
+    }
+    .pb-70,
+    .rs-testimonial3{
+        padding-bottom: 50px !important;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .shop-single-page {
+        padding: 80px 0 72px;
+    }
+    .rs-breadcrumbs .breadcrumbs-inner {
+        top: 50%;
+    }
+    .rs-upcoming-event .pr-0 .events-details,
+    .rs-upcoming-event .events-details {
+        border-radius: 10px;
+    }
+    .shop-page-area .single-details,
+    .rs-upcoming-event .rs-vertical-middle {
+        margin-bottom: 30px;
+    }
+    .shop-page-area .single-details .product-images img,
+    .rs-upcoming-event .events-image img{
+        width: 100%;
+    }
+    .rs-event-details .event-meta
+    /*.sidebar-area .latest-courses,
+    .sidebar-area .search-box,
+    .sidebar-area .cate-box*/
+    {
+        margin-bottom: 20px;
+    }
+    /* .rs-search-event .search-field, 
+    .rs-search-event .select-option,
+    .rs-blog.blog-pages .blog-item, */
+    .rs-about .about-des p {
+        margin-bottom: 30px;
+    }
+    .rs-breadcrumbs .page-title {
+        padding-bottom: 14px;
+        margin: 0 0 8px;
+        font-size: 30px;
+    }
+    .rs-menu a {
+        padding: 0px;
+    }
+    .rs-header.inner-page .menu-area,
+    .home5 .rs-header .menu-area,
+    .home4 .rs-header .menu-area{
+        background-color: transparent;
+    }
+    #rs-slider.rs-slider-banner3 .item img{
+        height: auto;
+    }
+    .rs-timecoun-ceremony .timecounter-inner{
+        padding: 72px 0 52px;
+    }
+    .hidden-md,
+    .slider-shape1,
+    .slider-shape2,
+    .rs-slider-banner3 .register-section,
+    .home4 .rs-header .menu-area .toggle-btn, 
+    .home5 .rs-header .menu-area .toggle-btn {
+        display: none !important;
+    }
+    .rs-event-details div.event-title{
+        font-size: 22px;
+    }
+    .home5 .rs-about.about-shape{
+        padding-bottom: 80px;
+    }
+    /* .home5 .rs-about.about-shape,
+    #rs-newsletter{
+        padding-top: 78px;
+    }
+    .rs-blog.blog-pages{
+        padding-top: 80px;
+        padding-bottom: 42px;
+    }
+    
+    .join-our-events .choose-item{
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+    .join-our-events .col-lg-4:last-child .choose-item{
+        margin-bottom: 0;
+    }
+    .our-event-sponsors2{
+        padding-top: 76px;
+        padding-bottom: 20px;
+    }
+    .buy-tickets{
+        position: relative;
+        bottom: 28px;
+    } */
+    .drak-color.az-events-schedule1 .events-schedule-contents .events-items .col-lg-8,
+    .menu-area{
+        background: transparent !important;
+    }
+    .az-events-schedule1.drak-color .events-schedule-contents .events-items .event-shedule-info{
+        background: #fff;
+        padding: 15px;
+    }
+    .rs-header,
+    .menu-sticky.sticky{
+        position: static !important;
+        transition: 0s;
+        -webkit-transition: 0s;
+        background: #000929;
+    }
+    .rs-header .rs-menu-toggle{
+        color: #fff !important;
+    }
+    .inner-page .rs-menu ul,
+    .home4 .rs-header .rs-menu ul, 
+    .home5 .rs-header .rs-menu ul,
+    .home1 .rs-menu ul.nav-menu > li{
+        margin-right: 0;
+    }
+    .about-image .large{
+        width: 100%;
+    }
+    .home4 .rs-header .rs-menu ul, 
+    .home5 .rs-header .rs-menu ul{
+        visibility: visible;
+        opacity: 1;
+    }
+    #rs-slider.rs-slider-banner3 .slide-content .slider-title {
+        margin: 15px 0;
+        line-height: 50px;
+    }
+    .rs-header.fullwidth-header .buy-tickets .primary-btn{
+        right: 0;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .event-author {
+        border-radius: 0;
+    }
+    .rs-header{
+        padding: 8px 0;
+    }
+    .rs-header.fullwidth-header .main-menu .nav-menu{
+        padding-right: 0;
+    }
+    .nav-menu > li > a {
+        line-height: 60px;
+        height: 60px;
+    }
+    #rs-slider .slide-content{
+        top: 50%;
+    }
+    #rs-slider .slide-content .slider-title{
+        font-size: 40px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li a{
+        padding: 9px !important;
+        font-size: 20px !important;
+    }
+    .owl-controls .owl-dots{
+        margin-top: 20px;
+    }
+    .price-table-section .price-table.style-one .cl-pricetable-wrap .top .cl-header span{
+        font-size: 24px;
+    }
+    .price-table-section .price-table h3{
+        line-height: 32px;
+    }
+    .g-map{
+        height: 360px;
+    }
+    .rs-footer{
+        padding-top: 80px;
+    }
+    .rs-footer .contact-bg{
+        margin-top: 0;
+    }
+    .rs-footer .contact-form{
+        padding-bottom: 80px;
+    }
+    .rs-footer .contact-bg .contact-address p {
+        margin-bottom: 25px;
+    }
+    .rs-footer .contact-bg .contact-address .social-icon-bottom {
+        margin-top: 30px;
+    }
+    .rs-footer .contact-form,
+    .rs-footer .contact-bg .contact-address{
+        padding-bottom: 50px;
+    }
+    .rs-coming-soon .right-btn{
+        margin-top: 24px;
+    }
+    .newsletter-section .sec-title,
+    .rs-coming-soon .countdown-section,
+    .rs-coming-soon .right-btn{
+        text-align: center !important;
+    }
+    .home3 .coming-soon-part{
+        display: none;
+    }
+    .home3 .rs-header.fullwidth-header .main-menu .nav-menu{
+        padding-right: 0;
+    }
+    #rs-testimonial3 .card-columns {
+        column-count: 2;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-4 {
+        padding: 0 15px;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-8 {
+        padding-left: 15px;
+    }
+    .rs-team#rs-team3 .team-item .team-img .normal-text {
+        height: auto;
+        bottom: 0;
+        padding: 15px 0;
+        border-radius: 30px 30px 0 0;
+    }
+    .rs-venues-section #googleMap {
+        height: 350px;
+    }
+    .contact-page-section .contact-address-section .contact-info h4{
+        font-size: 18px;
+    }
+    .our-event-sponsors .sponsors-list li {
+        width: 32%;
+        margin-bottom: 30px;
+    } 
+    #rs-footer.brackground-image{
+        padding-top: 80px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .price-table-section .price-table.style-one .cl-pricetable-wrap .bottom {
+        margin: 24px 0 20px;
+    }
+    .price-table-section .price-table.style-one .cl-pricetable-wrap .featured {
+        margin-top: 24px;
+    }
+    .price-table-section .price-table.style-one .price-1:hover .featured, 
+    .price-table-section .price-table.style-one .price-3:hover .featured,
+    .price-table-section .price-table.style-one .popular_plan .featured {
+        margin-top: 50px;
+    }
+    .price-table-section .price-table.style-one .price-1:hover .bottom, .price-table-section .price-table.style-one .price-3:hover .bottom,
+    .price-table-section .price-table.style-one .popular_plan .bottom {
+        margin: 40px 0 30px;
+    }
+    .logo-area{
+        position: absolute;
+        z-index: 1;
+        line-height: 58px;
+    }
+    .rs-header .rs-menu-toggle{
+        text-align: right;
+        padding-right: 160px;
+    }
+    .home2 .rs-header .rs-menu-toggle,
+    .home4 .rs-header .rs-menu-toggle{
+        padding-right: 0;
+    }
+    .rs-testimonial .testi-content::before {
+        top: -20%;
+    }
+    .rs-team .team-item .share-icons{
+        margin-top: -10px;
+    }
+    .contact-page-section .contact-address-section .contact-info p{
+        font-size: 14px;
+    }
+    .join-our-events.left-alignment .choose-item{
+        margin-left: 0;
+    }
+}
+    
+/* Mobile Layout: 767px. */
+@media only screen and (max-width: 767px) {
+    .sec-title,
+    .sec-title2{
+        margin-bottom: 26px;
+    }
+    .sec-title3{
+        margin-bottom: 36px;
+    }
+    .sec-title h2,
+    .sec-title2 h2,
+    .sec-title3 h2{
+        font-size: 26px;
+    }
+    .our-event-sponsors .sponsors-list li {
+        width: 49%;
+    }
+    .price-table-section .price-table.style-one .price-3{
+        margin-top: 20px;
+    }
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .share-link{
+        text-align: left;
+        margin-top: 8px;
+        float: none;
+    }
+    .contact-page-section .contact-address-section .contact-phone,
+    .shop-single-page .single-product-area .product-overview,
+    .single-blog-details .like-section .col-lg-4 + .col-lg-4{
+        margin-top: 30px;
+    }
+    .contact-page-section .contact-address-section .contact-phone,
+    .rs-team-single .team-skill .col-md-6:first-child{
+        margin-bottom: 28px;
+    }
+    .rs-team .team-item .team-social li {
+        padding: 30px;
+    }
+    .our-event-sponsors2.sponsors-border-style{
+        padding-bottom: 50px !important;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-desc{
+        font-size: 24px;
+    }
+    .join-our-events .choose-item i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 50px;
+    }
+    .rs-about .sec-title,
+    .rs-about .sec-title2{
+        margin-bottom: 18px;
+    }
+    .rs-event-details .share-area .share-inner {
+        text-align: left;
+        padding-top: 15px;
+    }
+    h3.venues-title{
+        font-size: 20px;
+    }
+    #rs-slider.rs-slider-banner .slide-content .slider-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .rs-upcoming-event .events-details {
+        padding: 15px 20px 20px;
+    }
+    .owl-controls .owl-nav > div,
+    #rs-slider .owl-dots{
+        display: none !important;
+    }
+    #rs-slider.rs-slider-banner5 .slide-content .slider-desc{
+        display: block !important;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    .gallery-section-page .single-gallery img,
+    .rs-blog .blog-img img{
+        width: 100%;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-title{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    #rs-slider .slide-content .slider-title span:last-child {
+        margin-top: 10px;
+    }
+    
+    #rs-slider.rs-slider-banner3 .slide-content .slider-title {
+        margin: 10px 0 15px;
+        line-height: 40px;
+    }
+    .our-event-sponsors2.sponsors-border-style .sponsors-list ul li,
+    .our-event-sponsors2.sponsors-border-style .sponsors-list{
+        border: none !important;
+    }
+    .our-event-sponsors2.sponsors-border-style .sponsors-list ul li{
+        width: 49%;
+    }
+    .banner-counter5 .coming-soon-part .time_circles div h3,
+    .rs-timecoun-ceremony .coming-soon-part .time_circles div h3 {
+        font-size: 14px !important;
+    }
+    .coming-soon-part .coming-soon-text .time_circles div span {
+        font-size: 22px !important;
+    }
+    .logo-area {
+        height: auto;
+        line-height: normal;
+        text-align: center;
+    }
+    .home2 .logo-area,
+    .home4 .logo-area {
+        position: absolute;
+        z-index: 1;
+        left: 15px;
+        line-height: 54px;
+        max-width: 140px;
+    }
+    .home2 .rs-menu-toggle,
+    .home4 .rs-menu-toggle {
+        text-align: right;
+    }
+    .home2 .rs-header,
+    .home4 .rs-header {
+        padding: 4px 0;
+    }
+    .rs-header{
+        padding: 20px 0 10px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li{
+        display: block;
+        width: 100% !important;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li + li{
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .event-btn,
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .social-shareicons{
+        float: none;
+        padding-bottom: 7px;
+    }
+    .our-event-sponsors2 .sponsor-tabs-list ul li a {
+        width: 130px;
+        margin: 0 8px;
+    }
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .event-btn{
+        padding-bottom: 10px;
+    }
+    .rs-about .sec-title3{
+        margin-bottom: 30px;
+    }
+    .price-table-section .price-table.style-one .price-3,
+    .join-our-events .col-lg-4:last-child .choose-item{
+        margin-bottom: 0;
+    }
+    .shop-single-page .tabs-wrapper ul {
+        margin-top: 0px;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+    }
+    .container-fullwidth {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .shop-page-area .product-topbar .show{
+        text-align: left !important;
+    }
+    .shop-page-area .product-topbar .sort-by,
+    .shop-page-area .product-topbar .show-icon{
+        text-align: right !important;
+    }
+    .our-event-sponsors2 .sponsors-list{
+        text-align: center;
+    }
+    .our-event-sponsors2 .sponsors-list li {
+        width: 49%;
+    }
+    .rs-testimonial .testi-content:before {
+        display: none;
+    }
+    .rs-search-event .button-field,
+    .rs-testimonial .testi-content{
+        margin-top: 30px;
+    }
+    .rs-testimonial .testi-filter li .active .testi-name{
+        color: #d90845;
+    }
+    .single-blog-details .author-comment ul li:nth-child(2) {
+        margin-left: 20px;
+    }
+    .single-blog-details .author-comment ul li .image-comments {
+        margin-bottom: 12px;
+    }
+    .single-blog-details .share-section2 .share-link,
+    .single-blog-details .share-section .share-link1 {
+        padding: 10px 0;
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+    .price-table-section .price-table.style-one .price-1{
+        margin-top: 0;
+    }
+    .contact-page-section #googleMap {
+        height: 250px;
+    }
+    
+}
+/* Small Device : 590px. */
+@media only screen and (max-width: 575px) {
+    .rs-team .team-item .share-icons {
+        max-width: 230px;
+    }
+    #rs-slider.rs-slider-banner .slide-content .slider-title {
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    #rs-slider.rs-slider-banner2 .slide-content .slider-title {
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+    .shop-page-area .product-topbar .show-list{
+        text-align: left !important;
+    }
+    #rs-slider .countdown-section #countdown-3 {
+        margin-bottom: 12px;
+    }
+    .contact-page-section .contact-comment-section h3,
+    #rs-slider.rs-slider-banner .slide-content .slider-title,
+    .timeTo span{
+        font-size: 18px;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items .col-lg-8{
+        background: #fafafa;
+    }
+    .az-events-schedule2 .events-schedule-contents .events-subinner {
+        background: #fff;
+    }
+    .contact-page-section .contact-comment-section h3 {
+        padding-bottom: 20px;
+    }
+    .countdown-section #countdown-3 figure div,
+    #rs-slider .countdown-section #countdown-3 figure div {
+        width: 27px !important;
+        height: 37px !important;
+        margin-right: 0 !important;
+    }
+    
+    #rs-slider .countdown-section #countdown-3 figure div ul li {
+        font-size: 15px;
+    }
+    .rs-coming-soon .countdown-section #countdown-3 figure div ul li{
+        font-size: 25px;
+    }
+    #rs-slider .countdown-section #countdown-3 figure {
+        max-width: 68px !important;
+        width: 100px !important;
+    }
+    .countdown-section #countdown-3 figure{
+        max-width: 58px !important;
+        width: 100px !important;
+    }
+    .countdown-section .timeTo span,
+    #rs-slider .countdown-section .timeTo span {
+        top: 0;
+    }
+    .countdown-section #countdown-3 figcaption,
+    #rs-slider .countdown-section #countdown-3 figcaption {
+        font-size: 12px !important;
+    }
+    .countdown-section #countdown-3 figure div ul,
+    #rs-slider .countdown-section #countdown-3 figure div ul {
+        left: 7px !important;
+        top: -59px !important;
+    }
+    .rs-slider-banner5 .coming-soon-part .coming-soon-text .time_circles div span, 
+    .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .time_circles div span {
+        font-size: 28px !important;
+    }
+    .rs-slider-banner5 .coming-soon-part .coming-soon-text .time_circles div h4, 
+    .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .time_circles div h4 {
+        font-size: 12px !important;
+    }
+    #rs-slider .secondary-btn, 
+    #rs-slider .primary-btn {
+        padding: 7px 0 5px;
+        width: 120px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    #rs-slider .secondary-btn.mr-30, 
+    #rs-slider .primary-btn.mr-30{
+        margin-right: 12px !important;
+    }
+    #rs-slider.rs-slider-section .slide-content .slider-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    #rs-slider.rs-slider-banner5 .slide-content .slider-title{
+        margin-bottom: 0;
+    }
+    #rs-slider.rs-slider-banner .slide-content .date-meta,
+    #rs-slider.rs-slider-banner3 .slide-content .date-meta{
+        font-size: 14px;
+    }
+    #rs-slider.rs-slider-banner3 .slide-content .date-meta{
+        margin-bottom: 7px;
+    }
+    #rs-slider.rs-slider-banner3 .slide-content .slider-title{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li a{
+        margin-top: 0;
+    }
+    .az-events-schedule.az-events-schedule2 .events-subinner {
+        padding: 0;
+    }
+    .az-events-schedule.az-events-schedule2 .events-subinner .events-items{
+        padding: 30px 0 0;
+    }
+    .az-events-schedule2.drak-color .events-items .event-shedule-info{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 24px;
+    }
+    .rs-testimonial .testi-filter li + li{
+        margin-top: 30px;
+    }
+    .az-events-schedule .events-schedule-contents .events-subinner .events-shedule-subdes .events-items{
+        border-radius: 0;
+    }
+    .join-our-events .choose-item i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 50px;
+    }
+    .rs-venues-section #googleMap {
+        height: 250px;
+    }
+    #rs-slider.rs-slider-banner3 .slide-content .primary-btn, #rs-slider.rs-slider-banner5 .slide-content .primary-btn{
+        margin-top: 0;
+    }
+}
+
+/* Small Device : 480px. */
+@media only screen and (max-width: 480px) {
+    .sec-title h2,
+    .sec-title2 h2,
+    .sec-title3 h2{
+        font-size: 22px;
+    }
+    #rs-slider.rs-slider-banner5 .slide-content{
+        top: 45%;
+    }
+    .price-table h3,
+    .shop-single-page .single-product-area .product-overview .product-title,
+    .rs-event-details div.event-title,
+    .rs-coming-soon .countdown-section #countdown-3 figure div ul li{
+        font-size: 20px;
+    }
+    .price-table-section .price-table.style-one .cl-pricetable-wrap .top .cl-header span,
+    .single-blog-details blockquote {
+        font-size: 18px;
+    }
+    .rs-coming-soon .timeTo figure {
+        margin-right: 10px;
+    }
+    .rs-coming-soon .timeTo figure:last-child{
+        margin-right: 0;
+    }
+    .events-schedule-contents .event-author h4,
+    .rs-testimonial2 .single-testimonials .cl-author-info li:first-child,
+    .sec-title span,
+    .sec-title2 span,
+    .sec-title3 span {
+        font-size: 16px;
+    }
+    .our-event-sponsors2.sponsors-border-style .sponsors-list ul li,
+    .our-event-sponsors2 .sponsors-list li,
+    .our-event-sponsors .sponsors-list li {
+        width: 100%;
+        display: block;
+    }
+    .single-blog-details ul.blog-list {
+        padding-left: 20px;
+    }
+    .rs-event-details .share-area .share-inner span {
+        display: block;
+        margin: 0 0 10px;
+    }
+    .sidebar-area .tags-cloud ul li a {
+        padding: 4px 10px;
+    }
+    .single-blog-details blockquote {
+        padding: 25px;
+    }
+    .single-blog-details .author-comment h4.title-bg {
+        margin: 20px 0 0;
+    }
+    .single-blog-details .author-comment ul li .reply {
+        display: block;
+        position: static;
+        text-align: left;
+        width: 100%;
+        margin: 0 0 2px;
+    }
+    .single-blog-details .share-section2 .share-link li a {
+        padding: 6px;
+    }
+    .rs-breadcrumbs img{
+        min-height: 116px;
+    }
+    .rs-breadcrumbs .page-title {
+        font-size: 24px;
+    }
+    .rs-about .about-des h4 {
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .rs-testimonial .testi-content p::after {
+        display: none;
+    }
+    .single-blog-details .author-comment ul li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-blog-details .author-comment ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .rs-team-single .skill-title,
+    .rs-team-single .team-name,
+    h3.contact-title,
+    .join-our-events .choose-item .choose-title,
+    .event-shedule-info h3{
+        font-size: 20px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-list li a{
+        font-size: 18px !important;
+    }
+    .rs-blog .blog-item .blog-details .blog-title{
+        line-height: 26px;
+    }
+    #rs-slider .item img{
+        min-height: 220px;
+    }
+    .rs-header.fullwidth-header .buy-tickets .primary-btn {
+        width: 125px;
+        padding: 4px 0;
+    }
+    .rs-team .team-item .team-social li {
+        padding: 24px;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-sublist {
+        display: block;
+        padding: 10px 0;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li {
+        display: block;
+    }
+    .az-events-schedule .events-schedule-tabs .eventday-sublist li a{
+        padding: 0;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items {
+        padding: 0;
+    }
+    .az-events-schedule1.drak-color .events-schedule-contents .events-items:first-child{
+        padding-top: 0;
+    }
+    .az-events-schedule1.drak-color .events-schedule-contents .events-subinner .events-shedule-subdes .events-items{
+        margin-top: 0;
+    }
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .share-link {
+        float: none;
+        overflow: hidden;
+        padding-bottom: 2px;
+        padding-top: 10px;
+    }
+    .g-map {
+        height: 240px;
+    }
+    .rs-footer .contact-bg .contact-address .social-icon-bottom ul li a i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .rs-footer .contact-form,
+    .rs-footer .contact-bg .contact-address {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .rs-blog .blog-item .blog-details {
+        padding: 15px;
+    }
+    .rs-testimonial .testi-content p {
+        padding: 12px 20px;
+    }
+    .banner-counter5 .coming-soon-part .time_circles canvas,
+    .rs-timecoun-ceremony .coming-soon-part .time_circles canvas{
+        opacity: 0;
+    }
+    .rs-timecoun-ceremony .coming-soon-part .time_circles div h3 {
+        font-size: 13px !important;
+    }
+    .our-event-sponsors2 .sponsor-tabs-list ul li + li{
+        margin-top: 20px;
+    }
+    .our-event-sponsors2 .sponsor-tabs-list ul li {
+        display: block;
+    }
+    .our-event-sponsors2 .sponsor-tabs-list ul li a{
+        width: 100%;
+        margin: 0;
+    }
+    .rs-testimonial3 .single-testimonials {
+        padding: 20px 15px 15px;
+    }
+    #rs-testimonial3 .card-columns {
+        column-count: 1;
+    }
+    .shop-single-page .tabs-wrapper ul li{
+        display: block;
+    }
+    .shop-single-page .tabs-wrapper ul li + li{
+        margin-top: 5px;
+    }
+    .rs-venues-section #googleMap {
+        height: 200px;
+    }
+    .az-events-schedule1{
+        background-color: #fafafa;
+    }
+    .az-events-schedule.az-events-schedule1 .events-schedule-contents .events-items:last-child {
+        padding-bottom: 0;
+    }
+    .az-events-schedule .events-schedule-tabs .events-shedule-subitmes .share-section2 .share-link li a{
+        padding: 7px;
+    }
+}
+
+/* Extra Small Device : 320px. */
+@media only screen and (max-width: 320px) {
+	.rs-team .team-item .team-content .display-table{
+        position: relative;
+        top: -10px;
+    }
+    .rs-team .team-item .team-social li {
+        padding: 20px;
+    }
+    .rs-team-single .skill-title,
+    .rs-team-single .team-name,
+    h3.contact-title, 
+    .join-our-events .choose-item .choose-title, 
+    .event-shedule-info h3 {
+        font-size: 18px;
+    }
+}
+/*============ AGENDA ENDS ================*/
+
+
 
 
 /*===== BACK TO TOP =====*/
