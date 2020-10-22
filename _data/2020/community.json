@@ -1,5 +1,13 @@
 [
 	{
+		"name": "AzureEzy",
+		"pic": "/assets/images/AzureEzy.jpg",
+		"website": "#",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+	{
 		"name": "BDotNet-Bangalore .Net User Group",
 		"pic": "/assets/images/bdotnet-new.png",
 		"website": "https://www.meetup.com/en-AU/BDotNetUG/",
@@ -77,6 +85,22 @@
 		"website": "https://www.ng-ind.com/",
 		"facebook": "#",
 		"twitter": "https://twitter.com/geeknineseven",
+		"section": "2"
+	},
+	{
+		"name": " Pune User Group",
+		"pic": "/assets/images/pug.png",
+		"website": "http://puneusergroup.org/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/puneusergroup",
+		"section": "2"
+	},
+	{
+		"name": "Talklify",
+		"pic": "/assets/images/talklify-logo.png",
+		"website": "https://talklify.com/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/talklify",
 		"section": "2"
 	},
 	{
