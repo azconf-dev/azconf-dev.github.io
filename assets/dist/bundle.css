@@ -20708,7 +20708,11 @@ span.text-white.logo-txt {
 
     .az-events-schedule .events-schedule-tabs .eventday-sublist li a:hover,
     .az-events-schedule .events-schedule-tabs .eventday-sublist li a.active {
-        color: #0078d4;
+        /* color: #0078d4; */
+        color: #ffffff;
+        background-color: #0078d4;
+        border-color: #0078d4;
+    
     }
 
     .az-events-schedule .events-schedule-tabs .events-schedule-subitmes .fade {
