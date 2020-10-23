@@ -53,6 +53,9 @@
                                         </li>
                                     </ul>
                                     <div class="events-subinner">
+                                        {% assign day1Sessions = site.data[page.year].agenda | where_exp: "item", "item.day == 'DAY1' and ( item.event_type == 'DEV'  ) "  %}
+                                        {% assign day1DevTrack = day1Sessions   %}
+                                        {{ site.data[page.year].agenda | where_exp: "item", "item.day == 'DAY1' "  }}
                                         <!--Hall room 1 start-->
                                         <div class="tab-pane events-schedule-subdes active show fade" id="room1">
                                             <div class="events-items">
