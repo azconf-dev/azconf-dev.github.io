@@ -34,73 +34,61 @@
 
                         <!-- Tab panes -->
                         <div class="events-schedule-contents tab-content">
+                            <div style="float: right;">
+                                <small><a href="assets/downloads/Agenda.xlsx" target="_blank">Download Agenda</a></small>
+                            </div>
                             <!-- schedule day1 start -->
                             <div class="tab-pane events-schedule-days active show fade" id="sunday">
                                 <div class="events-schedule-subitmes">
-                                    <ul class="nav eventday-sublist gray-color">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#room1">Dev</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room2">DevOps</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room3">Data</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room4">Future is now</a>
-                                        </li>
-                                    </ul>
                                     <div class="events-subinner">
-                                        {% assign daySessions = site.data[page.year].agenda | where: "day", "DAY1" | first %}
-                                        {% assign tracks = daySessions.tracks  %}
-                                        {%  for track in tracks %}
-                                       <!--Hall room {{forloop.index + 1}} start-->
-                                        {% assign activeShow  = ""  %}
-                                        {% if forloop.index == 1  %}
-                                            {% assign activeShow = " active show " %}
-                                        {% endif %}
-                                        <div class="tab-pane events-schedule-subdes  {{activeShow}} fade" id="room{{forloop.index + 1}}">
-                                            {% assign sessions = track.titles %}
+                                        
+                                        {% assign day2Slots = site.data[page.year].agenda | where: "day", "DAY1" | first %}
+                                        
+                                        {% assign day2sessions = day2Slots.slot  %}
+                                        
+                                        
                                             
-                                            {% for session in sessions |   sort: "sessionTags" %}
+                                            
+                                            {% for item in day2sessions %}
+                                            {% assign day2Sessions = item.sessions %}
                                             <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            {% for image in session.image %}
-                                                                <img src="assets/images/{{image.url}}" alt="" />
-                                                            {% endfor %}
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>{{ session.speakers }}
-                                                            </span>
-                                                            <!-- <h4>Scott Hanselman</h4> -->
-                                                            <!-- <span class="author-position">CEO &amp; Founder</span> -->
+                                                <div class="row event-author">
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
+                                                                <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }}
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <span class="meta-date">{{ session.event_start }} - {{ session.event_end }}</span>
-                                                            <h3 class="event-title">{{ session.name }}</h3>
-                                                            <p class="event-des"> {{ session.description }}
-                                                            </p>
-                                                        
+                                                        <div class="row ">
+                                                            {% for day2session in day2Sessions  %}
+                                                            {% if day2session.speakers != "TBA" %}
+                                                           
+                                                            <div class="col-md-4 col-sm-6 text-center">
+                                                                <div>
+                                                                    <div  class="agenda-speaker-img-div">
+                                                                        {% for day2image in day2session.image %}
+                                                                        <img class="agenda-speaker-img" src="assets/images/{{day2image.url}}" alt="">
+                                                                        {% endfor %}
+                                                                    </div>
+                                                                    <div class="agenda-item-content"><span>{{ day2session.name }}</span>
+                                                                    <span>{{ day2session.speakers }}</span>
+                                                                    <span class="badge badge-info agenda-item-badge text-uppercase">{{day2session.tags}}</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            {% endif %}
+                                                            {% endfor %}
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             
                                             {% endfor %}
-                                        </div>
-                                        <!--Hall room {{forloop.index + 1}} end-->
-                                        {% endfor %}
                                         
                                         
-                                                                              
-                                        
-                                        
-                                       
+                                    </div>
+                                    <div>
+                                        <small>* Confirmation of sessions are in progress, agenda will be updated frequently</small>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +96,7 @@
                             <!-- schedule day2 start -->
                             <div class="tab-pane events-schedule-days fade" id="monday">
                                 <div class="events-schedule-subitmes">
-                                    <ul class="nav eventday-sublist gray-color">
+                                    <!-- <ul class="nav eventday-sublist gray-color">
                                         <li class="nav-item">
                                             <a class="nav-link active" data-toggle="tab" href="#day2room1">Dev</a>
                                         </li>
@@ -123,557 +111,191 @@
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="tab" href="#day2room4">Future is now</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                     <div class="events-subinner">
                                         
-                                        {% assign day2Sessions = site.data[page.year].agenda | where: "day", "DAY2" | first %}
-                                        {% assign day2tracks = day2Sessions.tracks  %}
-                                        {%  for day2track in day2tracks %}
+                                        {% assign day2Slots = site.data[page.year].agenda | where: "day", "DAY2" | first %}
                                         
-                                       <!--Hall Day2 room {{forloop.index}} start-->
-                                        {% assign day2activeShow  = ""  %}
-                                        {% if forloop.index == 1  %}
-                                            {% assign day2activeShow = " active show " %}
-                                        {% endif %}
-                                        <div class="tab-pane events-schedule-subdes  {{day2activeShow}} fade" id="day2room{{forloop.index}}">
-                                            {% assign day2sessions = day2track.titles %}
+                                        {% assign day2sessions = day2Slots.slot  %}
+                                        
+                                        
                                             
-                                            {% for day2session in day2sessions |   sort: "sessionTags" %}
+                                            
+                                            {% for item in day2sessions %}
+                                            {% assign day2Sessions = item.sessions %}
                                             <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            {% for day2image in day2session.image %}
-                                                                <img src="assets/images/{{day2image.url}}" alt="" />
-                                                            {% endfor %}
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>{{ day2session.speakers }}
-                                                            </span>
-                                                            <!-- <h4>Scott Hanselman</h4> -->
-                                                            <!-- <span class="author-position">CEO &amp; Founder</span> -->
+                                                <div class="row event-author">
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
+                                                                <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }}
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <span class="meta-date">{{ day2session.event_start }} - {{ day2session.event_end }}</span>
-                                                            <h3 class="event-title">{{ day2session.name }}</h3>
-                                                            <p class="event-des"> {{ day2session.description }}
-                                                            </p>
-                                                        
+                                                        <div class="row">
+                                                            {% for day2session in day2Sessions  %}
+                                                            {% if day2session.speakers != "TBA" %}
+                                                            <div class="col-md-4 col-sm-6 text-center">
+                                                                <div>
+                                                                    <div  class="agenda-speaker-img-div">
+                                                                        {% for day2image in day2session.image %}
+                                                                        <img class="agenda-speaker-img" src="assets/images/{{day2image.url}}" alt="">
+                                                                        {% endfor %}
+                                                                    </div>
+                                                                    <div class="agenda-item-content"><span>{{ day2session.name }}</span>
+                                                                    <span>{{ day2session.speakers }}</span>
+                                                                    <span class="badge badge-info agenda-item-badge text-uppercase">{{day2session.tags}}</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            {% endif %}
+                                                            {% endfor %}
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             
                                             {% endfor %}
-                                        </div>
-                                        <!--Hall Day2 room {{forloop.index}} end-->
-                                        {% endfor %}
+                                        
+                                        
                                     </div>
+                                </div>
+                                <div>
+                                    <small>* Confirmation of sessions are in progress, agenda will be updated frequently</small>
                                 </div>
                             </div>
                             <!-- schedule day2 end -->
                             <!-- schedule day3 start -->
                             <div class="tab-pane events-schedule-days fade" id="tuesday">
                                 <div class="events-schedule-subitmes">
-                                    <ul class="nav eventday-sublist gray-color">
-                                        <li class="nav-item">
-                                            <a class="nav-link active show" data-toggle="tab" href="#room9">Dev</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room10">DevOps</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room11">Data</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#room12">Future is now</a>
-                                        </li>
-                                    </ul>
                                     <div class="events-subinner">
-                                        <!--Hall room 1 start-->
-                                        <div class="tab-pane events-schedule-subdes  active show fade" id="room9">
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
+                                        <div class="events-items">
+                                            <div class="row event-author">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
+                                                            <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;10:00 AM  - 4:00 PM - Online Workshops
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
+                                                    
+                                                    <div class="row justify-content-md-center">
+                                                        {% assign workshops = site.data[page.year].workshops   %}
+                                                        {% if page.limit %}
+                                                        {% for workshop in  workshops  limit:page.limit %}
+                                                        <div class="col-lg-2 col-sm-3">
+                                                            <div class="single-team text-center mt-30 ">
+                                                                <a href="{{workshop.url}}">
+                                                                    <div class="team-image">
+                                                                        <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
+                                                                    </div>
+                                                                </a>
+                                                                <div class="team-content">
+                                                                    <!-- <div class="team-social">
+                                                                        <ul class="social">
+                                                                            {% if speaker.website %}
+                                                                            <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                                                            {% endif %}
+                                                                            {% if speaker.twitter %}
+                                                                            <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                                                            {% endif %}
+                                                                            {% if speaker.linkedin %}
+                                                                            <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                                                            {% endif %}
+                                                                        </ul>
+                                                                    </div> -->
+                                                                    <h4 class="team-name">{{ workshop.name }}</h4>
+                                                                    <span class="sub-title">{{ workshop.desc }}</span>
+                                                                </div>
+                                                            </div> <!-- single team -->
+                                                        </div>
+                                                        {% endfor %}
+                                                        {% else %}
+                                                        {% for workshop in workshops %}
+                                                        <div class="col-lg-2 col-sm-3">
+                                                            <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                                                                <div class="team-image">
+                                                                    <a href="{{workshop.url}}">
+                                                                        <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
                                                                     </a>
                                                                 </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
+                                                                <div class="team-content">
+                                                                    <!-- <div class="team-social">
+                                                                        <ul class="social">
+                                                                            <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
+                                                                            <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                                                            <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                                                        </ul>
+                                                                    </div> -->
+                                                                    <h4 class="team-name">{{ workshop.name }}</h4>
+                                                                    <span class="sub-title">{{ workshop.desc }}</span>
                                                                 </div>
-                                                            </div>
+                                                            </div> <!-- single team -->
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        {% endfor %}
+                                                        {% endif %}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--Hall room 1 end-->
-                                        <!--Hall room 2 start-->
-                                        <div class="tab-pane events-schedule-subdes fade" id="room10">
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Hall room 2 end-->
-                                        <!--Hall room 3 start-->
-                                        <div class="tab-pane events-schedule-subdes fade" id="room11">
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Hall room 3 end-->
-                                        <!--Hall room 4 start-->
-                                        <div class="tab-pane events-schedule-subdes fade" id="room12">
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="events-items">
-                                                <div class="row">
-                                                    <div class="col-lg-4 text-center">
-                                                        <div class="event-author">
-                                                            <img src="assets/images/speaker-placeholder.png" alt="" />
-                                                            <span class="author-cty">
-                                                                <i class="icofont icofont-radio-mic"></i>Speaker
-                                                            </span>
-                                                            <!-- <h4>Rubrash Caprio</h4>
-                                                    <span class="author-position">CEO &amp; Founder</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="event-schedule-info">
-                                                            <h3 class="event-title">Announcing Soon</h3>
-                                                            <!-- <span class="meta-date">08.00 AM - 03.00 PM</span>
-                                                    <h3 class="event-title">Demonstration Sunday 2018</h3>
-                                                    <p class="event-des">
-                                                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                                                      cupiditate non provi dent, similique sunt in culpa.
-                                                    </p> -->
-                                                            <div class="share-section2" style="display: none;">
-                                                                <div class="event-btn">
-                                                                    <a class="primary-btn" href="#">
-                                                                        View Details
-                                                                    </a>
-                                                                </div>
-                                                                <div class="social-shareicons">
-                                                                    <span class="share-title">
-                                                                        You Can Share It :
-                                                                    </span>
-                                                                    <ul class="share-link">
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i> Facebook
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i> Twitter
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="fa fa-google"
-                                                                                   aria-hidden="true"></i> Google
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Hall room 4 end-->
                                     </div>
                                 </div>
+                                 <!-- <div class="row event-author mt-5">
+                                    <span>10.00 AM - 11.00 AM</span>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/scott-hanselman.jpg" alt="">
+                                          <span>Keynote Address</span>
+                                          <span>Scott Hanselman</span>
+                                          <span class="badge badge-info sample-badge">Dev-1</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/jon-galloway.jpg" alt="">
+                                          <span>Simplify Microservices development with Tye</span>
+                                          <span>Jon Galloway</span>
+                                          <span class="badge badge-info sample-badge">Dev-2</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/scott-hanselman.jpg" alt="">
+                                          <span>Architect using Serverless to save cost</span>
+                                          <span> Karthikeyan V K</span>
+                                          <span class="badge badge-info sample-badge">Dev-3</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/Sander%20Molenkamp.png" alt="">
+                                          <img src="assets/images/EdwinvanWijk.png" alt="">
+                                          <span>eShop on Dapr: Build microservice applications the easy way</span>
+                                          <span>Sander Molenkamp; Edwin</span>
+                                          <span class="badge badge-info sample-badge">DevOps</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/scott-hanselman.jpg" alt="">
+                                          <span>Architect using Serverless to save cost</span>
+                                          <span> Karthikeyan V K</span>
+                                          <span class="badge badge-info sample-badge">Data</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                       <div>
+                                          <img src="assets/images/scott-hanselman.jpg" alt="">
+                                          <span>Architect using Serverless to save cost</span>
+                                          <span> Karthikeyan V K</span>
+                                          <span class="badge badge-info sample-badge">Future</span>
+                                       </div>
+                                    </div>
+                                 </div> -->
                             </div>
                             <!-- schedule day3 end -->
                             <!-- schedule day4 start -->
                             <!-- schedule day4 end -->
                         </div>
-                        <div>
-                            <small>* Confirmation of sessions are in progress, agenda will be updated frequently</small>
-                        </div>
+                        
 
                     </div>
                 </div>
@@ -682,3 +304,27 @@
         </div>
     </div>
 </section>
+<style>
+.agenda-item-content{
+    float: right;
+    width: 80%;
+    text-align: left;
+    font-size: 12px;
+    
+}
+.agenda-item-badge
+{
+    width: fit-content;
+    background-color: #0078d4;
+    font-size: 11px;
+}
+.agenda-speaker-img-div
+{
+    width: 50px !important;
+    float: left;
+}
+.agenda-speaker-img 
+{
+    border: none !important;
+}
+</style>
