@@ -10,7 +10,7 @@
         <div class="row justify-content-md-center">
                 {% for sponsor in site.data[page.year].sponsors %}
                     <div class="col-lg-6">
-                        <img src="{{ sponsor.pic }}" alt="{{ sponsor.name }} Logo">
+                       <a href="{{ sponsor.url }}" target="_blank"> <img src="{{ sponsor.pic }}" alt="{{ sponsor.name }} Logo"></a>
                     </div>
                 {% endfor %}            
         </div> <!-- row -->
