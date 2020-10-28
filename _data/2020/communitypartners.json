@@ -20,6 +20,14 @@
     "facebook": "#",
     "twitter": "#" 
   },
+	{
+		"name": "Bengaluru R UseR Group",
+		"pic": "/assets/images/Bengaluru-R-UseR Group.jpeg",
+		"website": "https://www.meetup.com/BengaluRu-use-R-gRoup/",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
   {
     "name": "Docker Bangalore",
     "pic": "/assets/images/dockerbangalore.png",
