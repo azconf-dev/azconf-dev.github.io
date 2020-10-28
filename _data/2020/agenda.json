@@ -1,11 +1,13 @@
 [
     {
         "day": "DAY1",
-        "tracks": [
-            {
-                "name": "DEV",
-                "titles": [
+        "slot": [
+            { 
+                "event_start": "9:00 AM",
+                "event_end": "10:00 AM",
+                "sessions": [
                     {
+                      
                         "event_key": "D01-KA01",
                         "name": "Keynote Address",
                         "image" : [ 
@@ -21,150 +23,32 @@
                         "description": "Keynote address",
                         "venue": "TBA",
                         "sessionTags": "02-00-00-00",
-                        "day": "DAY1"
-                    },
+                        "day": "DAY1",
+                        "tags": "Keynote"
+                    }
+                ]
+            },
+            {
+                "event_start": "10:00 AM",
+                "event_end": "11:00 AM",
+                "sessions": [
                     {
                         "event_key": "D01-DEV01",
-                        "name": "TBA",
+                        "name": "Simplify Micro services development with Tye",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "jon-galloway.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Jon Galloway",
+                        "description": "",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-01",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DEV02",
-                        "name": "TBA",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-00-01-02",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-00-00",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DEV03",
-                        "name": "eShop on Dapr: Build microservice applications the easy way",
-                        "image" : [
-                           { "url" :  "Sander%20Molenkamp.png" },
-                           { "url": "EdwinvanWijk.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DEV",
-                        "description": "Dapr is an open source, event-driven, portable runtime for building microservices. It provides powerful building blocks to make it easy for developers to build resilient microservice applications using a variety of languages and frameworks. In this session we'll introduce the Dapr building blocks and show how they can be applied to 'eShop on Containers'; a .NET microservices reference application. You'll learn about both the benefits and the limitations of using Dapr in your microservice applications.",
-                        "speakers": "Sander Molenkamp; Edwin",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-01-03",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DEV04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-01-04",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DEV05",
-                        "name": "What’s new with Xamarin?",
-                        "image" : [
-                            { "url" : "maddy-leger.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "DEV",
-                        "description": "Xamarin developers are creating beautiful cross-platform mobile apps faster and easier than ever. Xamarin.Forms 5 introduces new controls to help developers create modern, appealing app UX with less code. Along with the new SDK, the Xamarin team has been hard at work making improvements to every aspect of the .NET mobile development process. We’ve made it more intuitive to write code, faster to build and deploy your apps, and easier to iterate on your UIs with a wide variety of tools and features. Join Maddy Leger, Xamarin Program Manager, to learn about some of the latest features coming to Xamarin like XAML Hot Reload for Xamarin.Forms, Hot Restart for iOS development on Windows, custom drawn UI, and more!",
-                        "speakers": "Maddy Leger",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-01-05",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "sandeep-alur.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "speakers": "Sandeep Alur",
-                        "venue": "TBA",
-                        "sessionTags": "01-02-00-00",
-                        "day": "DAY1"
-                    }
-                ]
-            },
-            {
-                "name": "OPS",
-                "titles": [
-                    {
-                        "event_key": "D01-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "scott-hanselman.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers" : "Scott Hanselman",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags": "Dev"
                     },
                     {
                         "event_key": "D01-OPS01",
@@ -181,132 +65,8 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-02-01",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-OPS02",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-00-02-02",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-00-00",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-OPS03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-02-03",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-OPS04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-02-04",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-OPS05",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-02-05",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "sandeep-alur.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "speakers": "Sandeep Alur",
-                        "venue": "TBA",
-                        "sessionTags": "01-02-00-00",
-                        "day": "DAY1"
-                    }
-                ]
-            },
-            {
-                "name": "DATA",
-                "titles": [
-                    {
-                        "event_key": "D01-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "scott-hanselman.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers": "Scott Hanselman",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags": "DevOps"
                     },
                     {
                         "event_key": "D01-DAT01",
@@ -323,7 +83,69 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-03-01",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Data"
+                    },
+                    {
+                        "event_key": "D01-FUT01",
+                        "name": "Towards an Evolutionary Architecture",
+                        "image" : [
+                            { "url" : "venkat_subramaniam.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "FUTURE",
+                        "description": "Big up front design is discouraged in agile development. However, we know that architecture plays a significant part in software systems. Evolving architecture during the development of an application seems to be a risky business. In this presentation, we will discuss the reasons to evolve the architecture, some of the core principles that can help us develop in such a manner, and the ways to minimize the risk and succeed in creating a practical and useful architecture.",
+                        "speakers": "Venkat Subramaniam",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-04-01",
+                        "day": "DAY1",
+                        "tags": "Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "11:00 AM",
+                "event_end": "12:00 PM",
+                "sessions": [
+                    {
+                        "event_key": "D01-DEV02",
+                        "name": "Architect using Serverless to save cost",
+                        "image" : [
+                            { "url" : "Karthikeyan.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Karthikeyan V K",
+                        "description": "",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-02",
+                        "day": "DAY1",
+                        "tags":"Dev"
+                    },
+                    
+                    {
+                        "event_key": "D01-OPS02",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-02-02",
+                        "day": "DAY1",
+                        "tags": "DevOps"
                     },
                     {
                         "event_key": "D01-DAT02",
@@ -340,131 +162,8 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-03-02",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-00-00",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DAT03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-03-03",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DAT04",
-                        "name": "Simplifying Blockchain with the help of Cloud",
-                        "image" : [
-                            { "url" : "Gnana-Lakshmi.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "Gnana Lakshmi",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-03-04",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-DAT05",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "ilyas.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "DATA",
-                        "description": "Announcing soon",
-                        "speakers": "Ilyas",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-03-05",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "sandeep-alur.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "speakers":"Sandeep Alur",
-                        "venue": "TBA",
-                        "sessionTags": "01-02-00-00",
-                        "day": "DAY1"
-                    }
-                ]
-            },
-            {
-                "name": "FUTURE",
-                "titles": [
-                    {
-                        "event_key": "D01-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "scott-hanselman.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers": "Scott Hanselman",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY1"
-                    },
-                    {
-                        "event_key": "D01-FUT01",
-                        "name": "Spearheading the future of programming",
-                        "image" : [
-                            { "url" : "venkat_subramaniam.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "10:00 AM",
-                        "event_end": "11:00 AM",
-                        "event_type": "FUTURE",
-                        "description": "The exciting field of programming is one part engineering and one part art. We, as humans, have been programming for a few decades. Every few years we see a significant change to how we develop applications. Some changes are small, while others are significant. They're disruptive and change the way we think, design, and develop. In this presentation we will take a look at some changes that are currently happening and some that are just around the corner. We will take a look at why these changes are important and how they will change the way we create and deliver application.",
-                        "speakers": "Venkat Subramaniam",
-                        "venue": "TBA",
-                        "sessionTags": "01-00-04-01",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Data"
                     },
                     {
                         "event_key": "D01-FUT02",
@@ -481,11 +180,18 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-04-02",
-                        "day": "DAY1"
-                    },
+                        "day": "DAY1",
+                        "tags":"Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "12:00 PM",
+                "event_end": "1:00 PM",
+                "sessions":[
                     {
                         "event_key": "D01-BRK01",
-                        "name": "Lunch Break",
+                        "name": "Lunch  & Virtual Networking",
                         "image" : [
                             { "url" : "speaker-placeholder.png" }
                         ],
@@ -498,7 +204,69 @@
                         "description": "Lunch Break",
                         "venue": "TBA",
                         "sessionTags": "01-01-00-00",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Break"
+                    }
+                ]
+            },
+            {
+                "event_start": "1:00 PM",
+                "event_end": "2:00 PM",
+                "sessions":[
+                    {
+                        "event_key": "D01-DEV03",
+                        "name": "eShop on Dapr: Build microservice applications the easy way",
+                        "image" : [
+                           { "url" :  "Sander%20Molenkamp.png" },
+                           { "url": "EdwinvanWijk.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "DEV",
+                        "description": "Dapr is an open source, event-driven, portable runtime for building microservices. It provides powerful building blocks to make it easy for developers to build resilient microservice applications using a variety of languages and frameworks. In this session we'll introduce the Dapr building blocks and show how they can be applied to 'eShop on Containers'; a .NET microservices reference application. You'll learn about both the benefits and the limitations of using Dapr in your microservice applications.",
+                        "speakers": "Sander Molenkamp; Edwin",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-01-03",
+                        "day": "DAY1",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D01-OPS03",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-02-03",
+                        "day": "DAY1",
+                        "tags":"DevOps"
+                    },
+                    {
+                        "event_key": "D01-DAT03",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-03-03",
+                        "day": "DAY1",
+                        "tags":"Data"
                     },
                     {
                         "event_key": "D01-FUT03",
@@ -515,7 +283,67 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-01-04-01",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Future"
+                    }
+                ]
+            },
+            {
+                "event_start":  "2:00 PM",
+                "event_end": "3:00 PM",
+                "sessions": [
+                    {
+                        "event_key": "D01-DEV04",
+                        "name": "The world of Web Components",
+                       "image" : [
+                            { "url" : "niss.jpeg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Nishu Goel",
+                        "description": "",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-01-04",
+                        "day": "DAY1",
+                        "tags":"Dev"
+                    },
+                    {
+                        "event_key": "D01-OPS04",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-02-04",
+                        "day": "DAY1",
+                        "tags":"DevOps"
+                    },
+                    {
+                        "event_key": "D01-DAT04",
+                        "name": "Simplifying Blockchain with the help of Cloud",
+                        "image" : [
+                            { "url" : "Gnana-Lakshmi.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "Gnana Lakshmi",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-03-04",
+                        "day": "DAY1",
+                        "tags":"Data"
                     },
                     {
                         "event_key": "D01-FUT04",
@@ -532,7 +360,68 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-01-04-02",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "3:00 PM",
+                "event_end": "4:00 PM",
+                "sessions": [
+                    {
+                        "event_key": "D01-DEV05",
+                        "name": "What’s new with Xamarin?",
+                        "image" : [
+                            { "url" : "maddy-leger.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "DEV",
+                        "description": "Xamarin developers are creating beautiful cross-platform mobile apps faster and easier than ever. Xamarin.Forms 5 introduces new controls to help developers create modern, appealing app UX with less code. Along with the new SDK, the Xamarin team has been hard at work making improvements to every aspect of the .NET mobile development process. We’ve made it more intuitive to write code, faster to build and deploy your apps, and easier to iterate on your UIs with a wide variety of tools and features. Join Maddy Leger, Xamarin Program Manager, to learn about some of the latest features coming to Xamarin like XAML Hot Reload for Xamarin.Forms, Hot Restart for iOS development on Windows, custom drawn UI, and more!",
+                        "speakers": "Maddy Leger",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-01-05",
+                        "day": "DAY1",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D01-OPS05",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-02-05",
+                        "day": "DAY1",
+                        "tags":"DevOps"
+                    },                    
+                    {
+                        "event_key": "D01-DAT05",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "ilyas.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "DATA",
+                        "description": "Announcing soon",
+                        "speakers": "Ilyas",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-03-05",
+                        "day": "DAY1",
+                        "tags":"Data"
                     },
                     {
                         "event_key": "D01-FUT05",
@@ -549,8 +438,15 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-01-04-03",
-                        "day": "DAY1"
-                    },
+                        "day": "DAY1",
+                        "tags":"Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "4:00 PM",
+                "event_end": "4:30 PM",
+                "sessions":[
                     {
                         "event_key": "D01-CN01",
                         "name": "Closing Note",
@@ -566,7 +462,8 @@
                         "speakers": "Sandeep Alur",
                         "venue": "TBA",
                         "sessionTags": "01-02-00-00",
-                        "day": "DAY1"
+                        "day": "DAY1",
+                        "tags":"Keynote"
                     }
                 ]
             }
@@ -574,13 +471,15 @@
     },
     {
         "day": "DAY2",
-        "tracks": [
+        "slot": [
             {
-                "name": "DEV",
-                "titles": [
+                "event_start": "9:00 AM",
+                "event_end": "10:00 AM",
+                "sessions": [
                     {
+                        
                         "event_key": "D02-KA01",
-                        "name": "Keynote Address",
+                        "name": "Keynote Address - Exploring The Multi-Cloud Paradigm Through Azure Arc",
                         "image" : [
                             { "url" : "janakiram.PNG" }
                         ],
@@ -591,151 +490,35 @@
                         "event_type": "GENERAL",
                         "event_subtype": "KEYNOTE",
                         "speakers": "Janakiram MSV",
-                        "description": "Keynote address",
+                        "description": "Azure Arc is Microsoft’s hybrid and multi-cloud platform. It has three components – Arc enabled servers, Arc enabled Kubernetes clusters, and Arc enabled data services. Attend this session to learn everything about Azure Arc capabilities. From registering and managing VMs to Kubernetes clusters to scaling PostgreSQL Hyperscale, this session has it all.",
                         "venue": "TBA",
                         "sessionTags": "02-00-00-00",
-                        "day": "DAY2"
-                    },
+                        "day": "DAY2",
+                        "tags": "Keynote"
+                    }
+                ]
+            },
+            { 
+                "event_start": "10:00 AM",
+                "event_end": "11:00 AM",
+                "sessions" : [
                     {
                         "event_key": "D02-DEV01",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Managing Microservices with Servicemesh",
+                        "image" : [
+                            { "url" : "swami.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "description": "Announcing soon",
-                        "speakers": "Tom Kerkhove",
+                        "description": "",
+                        "speakers": "Swaminathan Vetri",
                         "venue": "TBA",
                         "sessionTags": "02-00-01-01",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DEV02",
-                        "name": "Distributed Messaging patterns",
-                        "image" : [
-                            { "url" : "Cecil-Phillip.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "DEV",
-                        "description": "Distributed systems are composed of a collection of services that each have their own roles and requirements. As we’re designing these systems, it’s important for us to understand how we communicate with these services and also how they communicate with each other. In this session, we will explore some of the options for communicating between distributed services. We’ll see some of the standard protocols and patterns that we can all use today, regardless of whether you’re running in the cloud, on-premises or a little of both.",
-                        "speakers": "Cecil Philip",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-01-02",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-00-00",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DEV03",
-                        "name": "Build high-performance APIs with gRPC and .NET",
-                        "image" : [
-                            { "url" : "james-newtonsoft.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DEV",
-                        "description": "gRPC is a modern high performance RPC (Remote Procedure Call) framework with excellent cross-platform support. gRPC is based on HTTP/2, Protocol Buffers and other modern standards-based technologies. Together with excellent tooling, gRPC helps you create high throughput, low latency, real-time services. In this talk I'll introduce gRPC and compare it with familiar REST-based JSON APIs. You will see how to create gRPC services on ASP.NET Core, and how to integrate gRPC with dependency injection, logging, and authentication. Learn how to use gRPC to create lightning fast microservices and frontend applications",
-                        "speakers": "James Newton-King",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-01-03",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DEV04",
-                        "name": "Infrastructure as Code with Terraform - The Fundamentals",
-                        "image" : [
-                            { "url" : "ravikant.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "DEV",
-                        "description": "With the emergence of DevOps / SRE / Agile methods of application deployment and management, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session, you will have the necessary knowledge to get started with Terraform for Azure deployments.",
-                        "speakers": "Ravikanth",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-01-04",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DEV05",
-                        "name": "Taking Mobile Development Serverless with C#",
-                        "image" : [
-                            { "url" : "montemagno.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "DEV",
-                        "description": "Join James as he walks through his latest creation, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned, preparing for release, continuous integration, user testing, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in",
-                        "speakers": "James Montemagno",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-01-05",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "venue": "TBA",
-                        "sessionTags": "02-02-00-00",
-                        "day": "DAY2"
-                    }
-                ]
-            },
-            {
-                "name": "OPS",
-                "titles": [
-                    {
-                        "event_key": "D02-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "janakiram.PNG" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers": "Janakiram MSV",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Dev"
                     },
                     {
                         "event_key": "D02-OPS01",
@@ -752,131 +535,8 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-00-02-01",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-OPS02",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-02-02",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-00-00",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-OPS03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-02-03",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-OPS04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-02-04",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-OPS05",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-02-05",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "venue": "TBA",
-                        "sessionTags": "02-02-00-00",
-                        "day": "DAY2"
-                    }
-                ]
-            },
-            {
-                "name": "DATA",
-                "titles": [
-                    {
-                        "event_key": "D02-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "janakiram.PNG" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers": "Janakiram MSV",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "DevOps"
                     },
                     {
                         "event_key": "D02-DAT01",
@@ -893,131 +553,8 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-00-03-01",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DAT02",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-03-02",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-BRK01",
-                        "name": "Lunch Break",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "12:00 PM",
-                        "event_end": "1:00 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "BREAK",
-                        "description": "Lunch Break",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-00-00",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DAT03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-03-03",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DAT04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-03-04",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-DAT05",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "3:00 PM",
-                        "event_end": "4:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-03-05",
-                        "day": "DAY2"
-                    },
-                    {
-                        "event_key": "D02-CN01",
-                        "name": "Closing Note",
-                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "4:00 PM",
-                        "event_end": "4:30 PM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "CLOSINGNOTE",
-                        "venue": "TBA",
-                        "sessionTags": "02-02-00-00",
-                        "day": "DAY2"
-                    }
-                ]
-            },
-            {
-                "name": "FUTURE",
-                "titles": [
-                    {
-                        "event_key": "D02-KA01",
-                        "name": "Keynote Address",
-                        "image" : [
-                            { "url" : "janakiram.PNG" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "9:00 AM",
-                        "event_end": "10:00 AM",
-                        "event_type": "GENERAL",
-                        "event_subtype": "KEYNOTE",
-                        "speakers": "Janakiram MSV",
-                        "description": "Keynote address",
-                        "venue": "TBA",
-                        "sessionTags": "02-00-00-00",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Data"
                     },
                     {
                         "event_key": "D02-FUT01",
@@ -1034,14 +571,76 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-00-04-02",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Future"
+                    }
+
+                ]
+            },
+            {
+                "event_start": "11:00 AM",
+                "event_end": "12:00 PM",
+                "sessions" : [
+                    {
+                        "event_key": "D02-DEV02",
+                        "name": "Distributed Messaging patterns",
+                        "image" : [
+                            { "url" : "Cecil-Phillip.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "DEV",
+                        "description": "Distributed systems are composed of a collection of services that each have their own roles and requirements. As we’re designing these systems, it’s important for us to understand how we communicate with these services and also how they communicate with each other. In this session, we will explore some of the options for communicating between distributed services. We’ll see some of the standard protocols and patterns that we can all use today, regardless of whether you’re running in the cloud, on-premises or a little of both.",
+                        "speakers": "Cecil Philip",
+                        "venue": "TBA",
+                        "sessionTags": "02-00-01-02",
+                        "day": "DAY2",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D02-OPS02",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-00-02-02",
+                        "day": "DAY2",
+                        "tags": "DevOps"
+                    },
+                    {
+                        "event_key": "D02-DAT02",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-00-03-02",
+                        "day": "DAY2",
+                        "tags": "Data"
                     },
                     {
                         "event_key": "D02-FUT02",
                         "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
+                        "image" : [
+                                { "url" : "speaker-placeholder.png" }
+                            ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
@@ -1051,8 +650,15 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-00-04-03",
-                        "day": "DAY2"
-                    },
+                        "day": "DAY2",
+                        "tags": "Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "12:00 PM",
+                "event_end": "1:00 PM",
+                "sessions" : [
                     {
                         "event_key": "D02-BRK01",
                         "name": "Lunch Break",
@@ -1068,7 +674,68 @@
                         "description": "Lunch Break",
                         "venue": "TBA",
                         "sessionTags": "02-01-00-00",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Break"
+                    }
+                ]
+            },
+            {
+                "event_start": "1:00 PM",
+                "event_end": "2:00 PM",
+                "sessions" : [
+                    {
+                        "event_key": "D02-DEV03",
+                        "name": "Build high-performance APIs with gRPC and .NET",
+                        "image" : [
+                            { "url" : "james-newtonsoft.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "DEV",
+                        "description": "gRPC is a modern high performance RPC (Remote Procedure Call) framework with excellent cross-platform support. gRPC is based on HTTP/2, Protocol Buffers and other modern standards-based technologies. Together with excellent tooling, gRPC helps you create high throughput, low latency, real-time services. In this talk I'll introduce gRPC and compare it with familiar REST-based JSON APIs. You will see how to create gRPC services on ASP.NET Core, and how to integrate gRPC with dependency injection, logging, and authentication. Learn how to use gRPC to create lightning fast microservices and frontend applications",
+                        "speakers": "James Newton-King",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-01-03",
+                        "day": "DAY2",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D02-OPS03",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-02-03",
+                        "day": "DAY2",
+                        "tags": "DevOps"
+                    },
+                    {
+                        "event_key": "D02-DAT03",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-03-03",
+                        "day": "DAY2",
+                        "tags": "Data"
                     },
                     {
                         "event_key": "D02-FUT03",
@@ -1085,7 +752,68 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-03",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Future"
+                    }
+                ]
+            },
+            {
+                "event_start":  "2:00 PM",
+                "event_end": "3:00 PM",
+                "sessions" : [
+                    {
+                        "event_key": "D02-DEV04",
+                        "name": "Infrastructure as Code with Terraform - The Fundamentals",
+                        "image" : [
+                            { "url" : "ravikant.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DEV",
+                        "description": "With the emergence of DevOps / SRE / Agile methods of application deployment and management, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session, you will have the necessary knowledge to get started with Terraform for Azure deployments.",
+                        "speakers": "Ravikanth",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-01-04",
+                        "day": "DAY2",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D02-OPS04",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-02-04",
+                        "day": "DAY2",
+                        "tags": "DevOps"
+                    },
+                    {
+                        "event_key": "D02-DAT04",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-03-04",
+                        "day": "DAY2",
+                        "tags": "Data"
                     },
                     {
                         "event_key": "D02-FUT04",
@@ -1102,7 +830,67 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-04",
-                        "day": "DAY2"
+                        "day": "Future"
+                    }
+                ]
+            },
+            {
+                "event_start": "3:00 PM",
+                "event_end": "4:00 PM",
+                "sessions" : [
+                    {
+                        "event_key": "D02-DEV05",
+                        "name": "Taking Mobile Development Serverless with C#",
+                        "image" : [
+                            { "url" : "montemagno.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "DEV",
+                        "description": "Join James as he walks through his latest creation, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned, preparing for release, continuous integration, user testing, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in",
+                        "speakers": "James Montemagno",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-01-05",
+                        "day": "DAY2",
+                        "tags": "Dev"
+                    },
+                    {
+                        "event_key": "D02-OPS05",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-02-05",
+                        "day": "DAY2",
+                        "tags": "DevOps"
+                    },
+                    {
+                        "event_key": "D02-DAT05",
+                        "name": "TBA",
+                       "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "3:00 PM",
+                        "event_end": "4:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-03-05",
+                        "day": "DAY2",
+                        "tags": "Data"
                     },
                     {
                         "event_key": "D02-FUT05",
@@ -1119,8 +907,13 @@
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-05",
-                        "day": "DAY2"
-                    },
+                        "day": "DAY2",
+                        "tags": "Future"
+                    }
+                ]
+            },
+            {
+                "sessions" : [
                     {
                         "event_key": "D02-CN01",
                         "name": "Closing Note",
@@ -1135,10 +928,12 @@
                         "event_subtype": "CLOSINGNOTE",
                         "venue": "TBA",
                         "sessionTags": "02-02-00-00",
-                        "day": "DAY2"
+                        "day": "DAY2",
+                        "tags": "Break"
                     }
                 ]
             }
         ]
+            
     }
 ]
