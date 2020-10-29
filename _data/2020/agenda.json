@@ -33,22 +33,58 @@
                 "event_end": "11:00 AM",
                 "sessions": [
                     {
-                        "event_key": "D01-DEV01",
-                        "name": "Simplify Micro services development with Tye",
+                        "event_key": "D01-DEV101",
+                        "name": "Building Intelligent Bots using Microsoft Bot Framework and Cognitive Services",
                        "image" : [
-                            { "url" : "jon-galloway.jpg" }
+                            { "url" : "Prashant_G_Bhoyar.PNG" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "Jon Galloway",
-                        "description": "",
+                        "speakers": "Prashant G Bhoyar",
+                        "description": "Microsoft Cognitive Services let you build apps with powerful algorithms to see, hear, speak, understand, and interpret our needs using natural methods of communication, with just a few lines of code. Easily add intelligent features – such as emotion and sentiment detection, vision and speech recognition, language understanding, knowledge, and search – into your app, across devices and platforms such as iOS, Android, and Windows, keep improving, and are easy to set up. In this demo-driven session, we will cover how to build the intelligent bots in using Microsoft Bot Framework and Cognitive Services and deploy in multiple platforms (channels) like Microsoft Teams, SharePoint, Public-Facing Web Sites, etc",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-01",
                         "day": "DAY1",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D01-DEV201",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-11",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D01-DEV301",
+                        "name": "Towards an Evolutionary Architecture",
+                        "image" : [
+                            { "url" : "venkat_subramaniam.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Venkat Subramaniam",
+                        "description": "Big up front design is discouraged in agile development. However, we know that architecture plays a significant part in software systems. Evolving architecture during the development of an application seems to be a risky business. In this presentation, we will discuss the reasons to evolve the architecture, some of the core principles that can help us develop in such a manner, and the ways to minimize the risk and succeed in creating a practical and useful architecture.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-21",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D01-OPS01",
@@ -70,17 +106,17 @@
                     },
                     {
                         "event_key": "D01-DAT01",
-                        "name": "TBA",
+                        "name": "Say YES! to NoSQL: A Guide on When to Ditch Relational Databases",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Adrienne_Tacke.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Adrienne Tacke",
+                        "description": "If you're like many developers, relational databases are your bread and butter. They work (mostly) and are a logical solution to your application's data management needs. They've been the standard and that's what's always worked. And then...NoSQL databases came along. You may find that you're now in a spiral of questions: What is this? Is this better than a relational database? What do we need another database technology for? Does this mean there's no structured query language? Do I migrate my existing database to this model? In this talk, I'll answer these questions (and many more) to help you understand the what, how, and why of NoSQL databases as it relates to the modern applications we strive to build today. You'll leave with a definitive guide on NoSQL databases and be confident in deciding whether or not it is the right database solution for you!",
                         "venue": "TBA",
                         "sessionTags": "01-00-03-01",
                         "day": "DAY1",
@@ -88,17 +124,17 @@
                     },
                     {
                         "event_key": "D01-FUT01",
-                        "name": "Towards an Evolutionary Architecture",
+                        "name": "TBA",
                         "image" : [
-                            { "url" : "venkat_subramaniam.jpg" }
+                            { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "FUTURE",
-                        "description": "Big up front design is discouraged in agile development. However, we know that architecture plays a significant part in software systems. Evolving architecture during the development of an application seems to be a risky business. In this presentation, we will discuss the reasons to evolve the architecture, some of the core principles that can help us develop in such a manner, and the ways to minimize the risk and succeed in creating a practical and useful architecture.",
-                        "speakers": "Venkat Subramaniam",
+                        "description": "",
+                        "speakers": "TBA",
                         "venue": "TBA",
                         "sessionTags": "01-00-04-01",
                         "day": "DAY1",
@@ -111,37 +147,72 @@
                 "event_end": "12:00 PM",
                 "sessions": [
                     {
-                        "event_key": "D01-DEV02",
-                        "name": "Architect using Serverless to save cost",
+                        "event_key": "D01-DEV102",
+                        "name": "",
                         "image" : [
-                            { "url" : "Karthikeyan.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "11:00 AM",
-                        "event_end": "12:00 PM",
-                        "event_type": "DEV",
-                        "speakers": "Karthikeyan V K",
-                        "description": "",
-                        "venue": "TBA",
-                        "sessionTags": "01-00-01-02",
-                        "day": "DAY1",
-                        "tags":"Dev"
-                    },
-                    
-                    {
-                        "event_key": "D01-OPS02",
-                        "name": "TBA",
-                       "image" : [
                             { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
-                        "event_type": "OPS",
+                        "event_type": "DEV",
                         "speakers": "TBA",
                         "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-02",
+                        "day": "DAY1",
+                        "tags":"Dev-1"
+                    },
+                    {
+                        "event_key": "D01-DEV202",
+                        "name": "Dapr for building distributed .NET Core applications",
+                        "image" : [
+                            { "url" : "Alex_Thissen.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Alex Thissen",
+                        "description": "Modern distributed applications require much more than just application logic. Features such as state management for services, communication using publish/subscribe messaging and event driven binding to cloud resources might be needed. Dapr introduces a runtime to offer such building blocks, and is less invasive in your application, allowing you to pick-and-choose what you need. In this session we will look at the approach that the Dapr runtime takes with a sidecar architecture, separating application logic from the Dapr runtime components. You will also see what it takes to develop distributed applications in .NET Core using Dapr's features and how to bind to messaging infrastructure, cloud resources and use the actor programming model and client proxies. At the end you know what it takes to combine Dapr in your ASP.NET Core applications using routing, controllers or using gRPC clients.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-12",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D01-DEV302",
+                        "name": "Who tests their cloud code anyway?",
+                        "image" : [
+                            { "url" : "lars-klint.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Lars Klint",
+                        "description": "If you are a developer, you know as well as me that testing your code is optional. And when we suddenly involve cloud computing, there are even more excuses not to test your applications and infrastructure. In this talk, I will explain and demonstrate some of the many options you have in Azure for testing every part of your development life cycle. I go through everything from A/B testing to performance testing to architecture testing, all sprinkled with animal photos. Join me. Enough of your excuses.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-22",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
+                    },
+                    {
+                        "event_key": "D01-OPS02",
+                        "name": "Logging, instrumentation, dashboards, alerts and all that - for developers",
+                       "image" : [
+                            { "url" : "Henry_Been.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "11:00 AM",
+                        "event_end": "12:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "Henry Been",
+                        "description": "Embracing DevOps entails more than just shipping changes to production faster and faster. Your team is suddenly also responsible for monitoring your software in production and detecting and troubleshooting issues. To work together with operation specialists in your team or maybe even embrace a #NoOps approach, you as the developer, need to learn about monitoring. We will discuss logging frameworks and log analytics solutions. Next to that we will explore metrics: your software's KPI's. What metrics to choose and how to gather them. To let information come to us, we will use both logging and metrics to create dashboards and alerts that notify us when things go south. Or better yet: before things go south! Finally, we will combine all of this to see how we can quickly investigate and resolve production issues. Join Henry Been for a demo heavy session, including like NLog, Application Insights, Seq and more to see how to implement all of the above from scratch. During this session, you will learn everything you need to know to start monitoring your solutions and never lose any sleep ever again!",
                         "venue": "TBA",
                         "sessionTags": "01-00-02-02",
                         "day": "DAY1",
@@ -151,14 +222,14 @@
                         "event_key": "D01-DAT02",
                         "name": "TBA",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Javier_Villegas.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
+                        "speakers": "Javier Villegas",
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-03-02",
@@ -214,7 +285,7 @@
                 "event_end": "2:00 PM",
                 "sessions":[
                     {
-                        "event_key": "D01-DEV03",
+                        "event_key": "D01-DEV103",
                         "name": "eShop on Dapr: Build microservice applications the easy way",
                         "image" : [
                            { "url" :  "Sander%20Molenkamp.png" },
@@ -230,21 +301,57 @@
                         "venue": "TBA",
                         "sessionTags": "01-01-01-03",
                         "day": "DAY1",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D01-DEV203",
+                        "name": "ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup",
+                        "image" : [
+                            { "url" : "Peter_De_Tender.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Peter De Tender",
+                        "description": "The world is wild about Containers, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now, based on the recent amount of questions I got on the topic, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure, by using the different Azure Container solutions available. Starting from the basics, moving to more complex architectures and scenarios. And as usual in Peter's sessions, more live demos than PPTX-talk",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-13",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D01-DEV303",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-23",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D01-OPS03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Event-driven autoscaling on Kubernetes with KEDA and Azure Functions",
+                        "image" : [
+                            { "url" : "Erwin_Staal.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Erwin Staal",
+                        "description": "Event-driven, serverless architectures are a hot topic in today’s cloud-native application development. To take full advantage of the serverless benefits of event-driven, your application needs to scale and react to those events instantly. It needs to be able to scale from zero to potentially thousands of instances. KEDA is an open-sourced component that provides event-driven autoscaling for your Kubernetes workloads. KEDA works with any container, but to enable additional serverless capabilities within Kubernetes you can pair KEDA with the Azure Functions runtime. Don't get fooled by 'Azure' in the name. Azure Functions provides a programming model that can run anywhere: in a container running on-premises, fully managed in Azure, or in any Kubernetes cluster and they can be written in many languages. It allows application developers not to worry anymore about writing the code to connect, trigger, and pull from an event source like RabbitMQ, Kafka, or Azure Event Hubs. That’s all handled for you. In this demo-filled session, we will start with a quick introduction to both Kubernetes and Azure Functions. You will then see how you can create your first cluster and install KEDA, deploy a function and scale that to thousands of instances based on events.",
                         "venue": "TBA",
                         "sessionTags": "01-01-02-03",
                         "day": "DAY1",
@@ -252,17 +359,17 @@
                     },
                     {
                         "event_key": "D01-DAT03",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Men from Mars, Women from Venus: both can code .NET in Jupyter",
+                        "image" : [
+                            { "url" : "Ron_Dagdag.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Ron Dagdag",
+                        "description": "Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Attend this session and learn how you can write .NET code with Jupyter Notebooks running in Raspberry Pi; read sensor data, build dashboard and control an IoT device all from the browser.",
                         "venue": "TBA",
                         "sessionTags": "01-01-03-03",
                         "day": "DAY1",
@@ -293,36 +400,72 @@
                 "event_end": "3:00 PM",
                 "sessions": [
                     {
-                        "event_key": "D01-DEV04",
-                        "name": "The world of Web Components",
+                        "event_key": "D01-DEV104",
+                        "name": "How I built cloudskew.com on Azure",
                        "image" : [
-                            { "url" : "niss.jpeg" }
+                            { "url" : "Mithun_Shanbhag.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "DEV",
-                        "speakers": "Nishu Goel",
-                        "description": "",
+                        "speakers": "Mithun Shanbhag",
+                        "description": "I'll talk about lessons learnt, key decisions & tradeoffs made while building cloudskew.com (an online editor for creating cloud architecture diagrams). The architecture of cloudskew is publicly documented: https://assets.cloudskew.com/assets/misc/cloudskew-architecture-20200116.png",
                         "venue": "TBA",
                         "sessionTags": "01-01-01-04",
                         "day": "DAY1",
-                        "tags":"Dev"
+                        "tags":"Dev-1"
+                    },
+                    {
+                        "event_key": "D01-DEV204",
+                        "name": "Getting Started with Microservices using Clean Architecture",
+                        "image" : [
+                            { "url" : "Rahul_Sahay.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Rahul Sahay",
+                        "description": "In this session, you will get to know about clean architecture basics and how to separate the domain and bounded contexts. You will also learn how to apply best practices from Microservices world to build the Enterprise app. A comprehensive introduction into the modern microservices architecture based on the most popular technologies such as .NET Core, Docker, DDD, Clean architecture and many more. Session, will be completely demo and based on actual enterprise practices.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-14",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D01-DEV304",
+                        "name": "What you need to know about security for cloud DevOps",
+                        "image" : [
+                            { "url" : "Mohamed_Radwan.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DEV",
+                        "speakers": "Mohamed Radwan",
+                        "description": "DevOps is all about speeding up the cadence of delivering software to provide continuous values to the end-users. So, how can you embrace DevOps practices without compromise security? In this session, you will learn how to use governance technologies, security best practices, and tools to secure source code, infrastructure-as-code, the actual environment as well as the application. You will learn how DevOps improves security not only for the application or environment but for the entire end-to-end Lifecycle.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-24",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D01-OPS04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Supercharge your App Service to a Global scal",
+                        "image" : [
+                            { "url" : "Tiago_Costa.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Tiago Costa",
+                        "description": "When architecting applications today, making then globally available is the standard. When designing the infrastructure for a new application we need to start from the premises that we have a global disperse customer base. This is a good challenge for Azure Architects. Creating global applications is no easy piece, we can hit a lot of concerns, not only technical but also business related and even legal. In this session, we will check how Azure App Service can helps us reach this global application goal and how other related services, like: Azure Front Door, Traffic Manager, Azure Storage, Azure CDN, Azure Functions, Cognitive Search, Azure Redis Caches, Cosmos DB and messaging services can help you to create a global scale application. Expect a heavily-demo depended session, based on the real-world experience in implementing this services in several customer",
                         "venue": "TBA",
                         "sessionTags": "01-01-02-04",
                         "day": "DAY1",
@@ -330,6 +473,24 @@
                     },
                     {
                         "event_key": "D01-DAT04",
+                        "name": "Process large-scale data and computational function in serverless manner",
+                        "image" : [
+                            { "url" : "Reenu_Saluja.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start":  "2:00 PM",
+                        "event_end": "3:00 PM",
+                        "event_type": "DATA",
+                        "speakers": "Reenu Saluja",
+                        "description": "There are challenges for large scale data processing which include analyzing rapidly growing data, getting data insights, calculating complex computational functions etc. During this session, we will discuss about, how these challenges can be addressed using serverless distributed data processing system with a demonstration",
+                        "venue": "TBA",
+                        "sessionTags": "01-01-03-04",
+                        "day": "DAY1",
+                        "tags":"Data"
+                    },
+                    {
+                        "event_key": "D01-FUT04",
                         "name": "Simplifying Blockchain with the help of Cloud",
                         "image" : [
                             { "url" : "Gnana-Lakshmi.jpg" }
@@ -338,26 +499,9 @@
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "Gnana Lakshmi",
-                        "venue": "TBA",
-                        "sessionTags": "01-01-03-04",
-                        "day": "DAY1",
-                        "tags":"Data"
-                    },
-                    {
-                        "event_key": "D01-FUT04",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
                         "event_type": "FUTURE",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Gnana Lakshmi",
+                        "description": "Blockchain has become a pivotal technology in the way it has revolutionized the industry. Starting from Decentralized finance, Supply chain management to Self Sovereign Identity, blockchain has shown immense potential to manage transactions across various domains. One of the drawbacks when it comes to working with blockchain is the bandwidth required to deploy your own network and perform operations on it. This is where cloud can make a big difference. Cloud platforms like Microsoft Azure have built Blockchain offerings in a short span of time to address the challenges faced by developers during deployment and operations. With cloud offerings like Azure Blockchain service, everything is available at one-click. This talk is designed for beginners, where I will introduce blockchain and also talk about how blockchain network deployment and operations can be simplified using Azure Blockchain Service.",
                         "venue": "TBA",
                         "sessionTags": "01-01-04-02",
                         "day": "DAY1",
@@ -370,7 +514,7 @@
                 "event_end": "4:00 PM",
                 "sessions": [
                     {
-                        "event_key": "D01-DEV05",
+                        "event_key": "D01-DEV105",
                         "name": "What’s new with Xamarin?",
                         "image" : [
                             { "url" : "maddy-leger.jpg" }
@@ -385,7 +529,43 @@
                         "venue": "TBA",
                         "sessionTags": "01-01-01-05",
                         "day": "DAY1",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D01-DEV205",
+                        "name": "Simplify Micro services development with Tye",
+                        "image" : [
+                            { "url" : "jon-galloway.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Jon Galloway",
+                        "description": "Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-15",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D01-DEV305",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-25",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D01-OPS05",
@@ -407,7 +587,7 @@
                     },                    
                     {
                         "event_key": "D01-DAT05",
-                        "name": "TBA",
+                        "name": "Azure IoT Edge Deployment using Kubernetes APIs",
                        "image" : [
                             { "url" : "ilyas.png" }
                         ],
@@ -416,7 +596,7 @@
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "DATA",
-                        "description": "Announcing soon",
+                        "description": "K8s arguably the developer's haven and of course a clear winner and a market leader with 70,000 stars on Github. K8s greatly simplifies how developers build and run container-based solutions without the need for deep Kubernetes experience. With the support for K8s with IoTEdge, we could deploy custom modules, third party components, AI/ML models using K8s APIs. In this demo-heavy session, let's learn why K8s deployment model for IoT Edge over the native option, use-cases/scenarios, and of course will see a complete demo of deploying modules using K8s APIs.",
                         "speakers": "Ilyas",
                         "venue": "TBA",
                         "sessionTags": "01-01-03-05",
@@ -503,22 +683,58 @@
                 "event_end": "11:00 AM",
                 "sessions" : [
                     {
-                        "event_key": "D02-DEV01",
-                        "name": "Managing Microservices with Servicemesh",
+                        "event_key": "D02-DEV101",
+                        "name": "TBA",
                         "image" : [
-                            { "url" : "swami.jpg" }
+                            { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
+                        "speakers": "TBA",
                         "description": "",
-                        "speakers": "Swaminathan Vetri",
                         "venue": "TBA",
                         "sessionTags": "02-00-01-01",
                         "day": "DAY2",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D02-DEV201",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-11",
+                        "day": "DAY2",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D02-DEV301",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-21",
+                        "day": "DAY2",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D02-OPS01",
@@ -541,7 +757,7 @@
                     {
                         "event_key": "D02-DAT01",
                         "name": "TBA",
-                       "image" : [
+                        "image" : [
                             { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
@@ -558,17 +774,17 @@
                     },
                     {
                         "event_key": "D02-FUT01",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Future of developers in the age of AI",
+                        "image" : [
+                            { "url" : "venkat-rangan.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "FUTURE",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Venkatarangan Thirumalai",
+                        "description": "We will explore whether AI will replace software developers by 2040 and how to stay relevant",
                         "venue": "TBA",
                         "sessionTags": "02-00-04-02",
                         "day": "DAY2",
@@ -582,22 +798,58 @@
                 "event_end": "12:00 PM",
                 "sessions" : [
                     {
-                        "event_key": "D02-DEV02",
-                        "name": "Distributed Messaging patterns",
+                        "event_key": "D02-DEV102",
+                        "name": "Building better security for your API platform using Azure API Management",
                         "image" : [
-                            { "url" : "Cecil-Phillip.jpg" }
+                            { "url" : "Eldert_Grootenboer.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "DEV",
-                        "description": "Distributed systems are composed of a collection of services that each have their own roles and requirements. As we’re designing these systems, it’s important for us to understand how we communicate with these services and also how they communicate with each other. In this session, we will explore some of the options for communicating between distributed services. We’ll see some of the standard protocols and patterns that we can all use today, regardless of whether you’re running in the cloud, on-premises or a little of both.",
-                        "speakers": "Cecil Philip",
+                        "speakers": "Eldert Grootenboer",
+                        "description": "These days we use APIs to expose all our microservices , processes, and data, and all this while working in a PaaS or serverless environment. But how do we ensure this is done in a secure and governed way? This is where Azure API Management comes in, where we can create a repository of all our APIs, and make sure to expose all of these securely in a standardized manner. In this session we will dive into the most common security hazards, and see how API Management helps us solve these. You will learn all about the strengths and weaknesses of the product, best practices, and how to harden the defenses of your services.",
                         "venue": "TBA",
                         "sessionTags": "02-00-01-02",
                         "day": "DAY2",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D02-DEV202",
+                        "name": "Managing Microservices with Servicemesh",
+                        "image" : [
+                            { "url" : "swami.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Swaminathan Vetri",
+                        "description": "Getting started with microservices is easy. As you start building tens/hundreds of microservices is when you would notice things are going out of control. That's where Service mesh comes to the rescue. In this session, you will learn how service mesh can help with easy traffic management & observability for your microservices. The session would cover specifically about SMI (Service Mesh Interface) and OSM - Open Service Mesh",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-12",
+                        "day": "DAY1",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D02-DEV302",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-22",
+                        "day": "DAY1",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D02-OPS02",
@@ -620,7 +872,7 @@
                     {
                         "event_key": "D02-DAT02",
                         "name": "TBA",
-                        "image" : [
+                       "image" : [
                             { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
@@ -684,25 +936,7 @@
                 "event_end": "2:00 PM",
                 "sessions" : [
                     {
-                        "event_key": "D02-DEV03",
-                        "name": "Build high-performance APIs with gRPC and .NET",
-                        "image" : [
-                            { "url" : "james-newtonsoft.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DEV",
-                        "description": "gRPC is a modern high performance RPC (Remote Procedure Call) framework with excellent cross-platform support. gRPC is based on HTTP/2, Protocol Buffers and other modern standards-based technologies. Together with excellent tooling, gRPC helps you create high throughput, low latency, real-time services. In this talk I'll introduce gRPC and compare it with familiar REST-based JSON APIs. You will see how to create gRPC services on ASP.NET Core, and how to integrate gRPC with dependency injection, logging, and authentication. Learn how to use gRPC to create lightning fast microservices and frontend applications",
-                        "speakers": "James Newton-King",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-01-03",
-                        "day": "DAY2",
-                        "tags": "Dev"
-                    },
-                    {
-                        "event_key": "D02-OPS03",
+                        "event_key": "D02-DEV103",
                         "name": "TBA",
                         "image" : [
                             { "url" : "speaker-placeholder.png" }
@@ -711,9 +945,63 @@
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
-                        "event_type": "OPS",
+                        "event_type": "DEV",
                         "speakers": "TBA",
                         "description": "Announcing soon",
+                        "venue": "TBA",
+                        "sessionTags": "02-01-01-03",
+                        "day": "DAY2",
+                        "tags": "Dev-1"
+                    },
+                    {
+                        "event_key": "D02-DEV203",
+                        "name": "Build high-performance APIs with gRPC and .NET",
+                        "image" : [
+                            { "url" : "james-newtonsoft.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "James Newton-King",
+                        "description": "gRPC is a modern high performance RPC (Remote Procedure Call) framework with excellent cross-platform support. gRPC is based on HTTP/2, Protocol Buffers and other modern standards-based technologies. Together with excellent tooling, gRPC helps you create high throughput, low latency, real-time services. In this talk I'll introduce gRPC and compare it with familiar REST-based JSON APIs. You will see how to create gRPC services on ASP.NET Core, and how to integrate gRPC with dependency injection, logging, and authentication. Learn how to use gRPC to create lightning fast microservices and frontend applications",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-13",
+                        "day": "DAY2",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D02-DEV303",
+                        "name": "TBA",
+                        "image" : [
+                            { "url" : "speaker-placeholder.png" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "TBA",
+                        "description": "",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-23",
+                        "day": "DAY2",
+                        "tags": "Dev-3"
+                    },
+                    {
+                        "event_key": "D02-OPS03",
+                        "name": "Jamstack, static sites and Azure",
+                        "image" : [
+                            { "url" : "Facundo_Giuliani.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "1:00 PM",
+                        "event_end": "2:00 PM",
+                        "event_type": "OPS",
+                        "speakers": "Facundo Giuliani",
+                        "description": "Do you remember Microsoft FrontPage? Static web pages are back with the Jamstack! With some of the tools and concepts developed in the last years, we can get advantage of features that static web pages offer and get web apps with better performance, more security, easier scaling and cheaper costs.",
                         "venue": "TBA",
                         "sessionTags": "02-01-02-03",
                         "day": "DAY2",
@@ -721,8 +1009,8 @@
                     },
                     {
                         "event_key": "D02-DAT03",
-                        "name": "TBA",
-                       "image" : [
+                        "name": "Never miss the bus with Azure Function, IFTTT, Azure SQL and GeoSpatial data",
+                        "image" : [
                             { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
@@ -730,8 +1018,8 @@
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Davide Mauri",
+                        "description": "Public transportation is a blessing, but sometimes it can be a challenge. If I miss my bus, I might have to wait for 30 minutes to catch the next one. It would be great if someone could create a simple application that gets real-time bus information, also allowing the creation of geofence: when the bus enters that area, you know it’s time to leave the office. You can catch the bus right on time and never have to wait for the next one! I’ve been using it for more than a year now and it…just works. Like magic. With the aid of Azure Function, Azure SQL and a service like IFTTT, creating such solutions is fun, and paves the way for improvements and integrations that make people’s lives easier. In this session we’ll analyze the solution from the inside out.",
                         "venue": "TBA",
                         "sessionTags": "02-01-03-03",
                         "day": "DAY2",
@@ -762,7 +1050,7 @@
                 "event_end": "3:00 PM",
                 "sessions" : [
                     {
-                        "event_key": "D02-DEV04",
+                        "event_key": "D02-DEV104",
                         "name": "Infrastructure as Code with Terraform - The Fundamentals",
                         "image" : [
                             { "url" : "ravikant.jpg" }
@@ -777,7 +1065,44 @@
                         "venue": "TBA",
                         "sessionTags": "02-01-01-04",
                         "day": "DAY2",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    
+                    {
+                        "event_key": "D02-DEV204",
+                        "name": "What you need to know about security for cloud DevOps",
+                        "image" : [
+                            { "url" : "Mohamed_Radwan.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Mohamed Radwan",
+                        "description": "DevOps is all about speeding up the cadence of delivering software to provide continuous values to the end-users. So, how can you embrace DevOps practices without compromise security? In this session, you will learn how to use governance technologies, security best practices, and tools to secure source code, infrastructure-as-code, the actual environment as well as the application. You will learn how DevOps improves security not only for the application or environment but for the entire end-to-end Lifecycle.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-14",
+                        "day": "DAY2",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D02-DEV304",
+                        "name": "Function Orchestration in the world of Serverless",
+                        "image" : [
+                            { "url" : "Daron_Yondem.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Daron Yöndem",
+                        "description": "You have a function, or two, or maybe more? Now is the time to talk about making sure you have full control on how data and communication flows between your functions. You need something to control how your functions interact to each other. You need something that can give you granular control, or sometimes maybe a simple user interface to get it done. This session is about your options in Azure to accomplish all that. We will look into Durable Functions and Logic Apps to understand where they can help us scaling our serverless move.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-24",
+                        "day": "DAY2",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D02-OPS04",
@@ -799,17 +1124,17 @@
                     },
                     {
                         "event_key": "D02-DAT04",
-                        "name": "TBA",
+                        "name": "Building enterprise-grade data pipelines using Azure Data Factory",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Abhishek_Narain.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Abhishek Narain",
+                        "description": "Azure Data Factory is a a fully managed, serverless data integration service. In this workshop, we will focus on data data engineers targeting to integrate and transform batch-based big data workloads on Azure using code-free data flows transformation.",
                         "venue": "TBA",
                         "sessionTags": "02-01-03-04",
                         "day": "DAY2",
@@ -817,20 +1142,21 @@
                     },
                     {
                         "event_key": "D02-FUT04",
-                        "name": "TBA",
+                        "name": "Do No Harm - A Checklist for Responsible AI",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Priyansha_Mishra.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "FUTURE",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Priyansha Mishra",
+                        "description": "The session will cover the guiding principles of Responsible AI and showcase demos of the tools and technology Microsoft offers to put these principles into action. This will be a detailed technical discussion with demos and is intended to be a L300-L400 session.",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-04",
-                        "day": "Future"
+                        "day": "Day2",
+                        "tags": "Future"
                     }
                 ]
             },
@@ -839,36 +1165,74 @@
                 "event_end": "4:00 PM",
                 "sessions" : [
                     {
-                        "event_key": "D02-DEV05",
-                        "name": "Taking Mobile Development Serverless with C#",
+                        "event_key": "D02-DEV105",
+                        "name": "The world of Web Components",
                         "image" : [
-                            { "url" : "montemagno.jpg" }
+                            { "url" : "niss.jpeg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "DEV",
-                        "description": "Join James as he walks through his latest creation, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned, preparing for release, continuous integration, user testing, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in",
-                        "speakers": "James Montemagno",
+                        "speakers": "Nishu Goel",
+                        "description": "In the era of changing frameworks and technologies in the world of web, the idea of finding something consistent is a bliss. In this session, we will see how Polymer components, Angular components can be created as custom elements to be used in other frameworks and how the issues like learning curve of different frameworks, reusability, etc. can be looked into, using Web components.",
                         "venue": "TBA",
                         "sessionTags": "02-01-01-05",
                         "day": "DAY2",
-                        "tags": "Dev"
+                        "tags": "Dev-1"
+                    },
+                    
+                    {
+                        "event_key": "D02-DEV205",
+                        "name": "Taking Mobile Development Serverless with C#",
+                        "image" : [
+                            { "url" : "montemagno.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "James Montemagno",
+                        "description": "Join James as he walks through his latest creation, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned, preparing for release, continuous integration, user testing, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-15",
+                        "day": "DAY2",
+                        "tags": "Dev-2"
+                    },
+                    {
+                        "event_key": "D02-DEV305",
+                        "name": "Distributed Messaging patterns",
+                        "image" : [
+                            { "url" : "Cecil-Phillip.jpg" }
+                        ],
+                        "active": "Y",
+                        "pinned": "N",
+                        "event_start": "10:00 AM",
+                        "event_end": "11:00 AM",
+                        "event_type": "DEV",
+                        "speakers": "Cecil Philip",
+                        "description": "Distributed systems are composed of a collection of services that each have their own roles and requirements. As we’re designing these systems, it’s important for us to understand how we communicate with these services and also how they communicate with each other. In this session, we will explore some of the options for communicating between distributed services. We’ll see some of the standard protocols and patterns that we can all use today, regardless of whether you’re running in the cloud, on-premises or a little of both.",
+                        "venue": "TBA",
+                        "sessionTags": "01-00-01-25",
+                        "day": "DAY2",
+                        "tags": "Dev-3"
                     },
                     {
                         "event_key": "D02-OPS05",
-                        "name": "TBA",
+                        "name": "Deployment Certifications at Scale on AKS with Azure Policy and Azure Functions",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Rahul_Rai.jpg" },
+                            { "url" : "Tarun_Pabbi.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Rahul Rai, Tarun Pabbi",
+                        "description": "Do you know that your Kubernetes cluster can talk to you? And that too, with voice or SMS messages? Controlling resource deployments on an Azure Kubernetes Service (AKS) cluster can quickly become challenging, particularly when multiple Continuous Delivery pipelines target the same cluster. In such scenarios, you want to build smarts within the Kubernetes cluster to admit or deny pods that do not meet your admission criteria. With Azure Policy for AKS, you can write static admission rules for your Kubernetes cluster. But what if your admission demands are dynamic or you want to roll out custom admission policies? By creating custom admission webhooks for Kubernetes, you can define custom policies that regulate the deployment of resources to a cluster. In this session, we will present how you can administer Azure Policies for AKS and subsequently build a serverless validating admission webhook with Azure Functions to apply governance policies on the deployments in Kubernetes. Azure Functions allow you to integrate with external services without writing a single line of integration code. We will use the Azure Function’s native Twilio binding to send SMS updates on Kubernetes deployments to the Ops/SRE team. After participating in this session, you will understand how easy it is to write custom validating webhooks for Kubernetes. Also, you will learn to build and deploy a serverless infrastructure to certify deployments at scale.",
                         "venue": "TBA",
                         "sessionTags": "02-01-02-05",
                         "day": "DAY2",
@@ -894,17 +1258,17 @@
                     },
                     {
                         "event_key": "D02-FUT05",
-                        "name": "TBA",
-                       "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                        "name": "Architect using Serverless to save cost",
+                        "image" : [
+                            { "url" : "Karthikeyan.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "FUTURE",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Karthikeyan V K",
+                        "description": "This session is to help you to save cloud cost by moving your workload to serverless technologies. We will look into how you can leverage all the serverless options available in Azure. You will learn Autoscaling using Virtual Nodes, How you can use KEDA to leverage HPA(Horizontal Pod Autoscaler), and pay less than a dollar to run your workloads in the cloud. You will also look into all the real-time problems faced by the speaker and how you can learn from his experience. This will be a session packed with demos and real-time problems and solutions",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-05",
                         "day": "DAY2",
