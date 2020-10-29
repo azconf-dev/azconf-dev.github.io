@@ -167,17 +167,17 @@
                     },
                     {
                         "event_key": "D01-FUT02",
-                        "name": "TBA",
+                        "name": "Power of Azure in Mixed Reality",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "abhilash-ashok.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "FUTURE",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Abhilash Ashok",
+                        "description": "The session gives an overview on building secure, collaborative solutions using various mixed reality solutions available in Azure. Get to know how to build rich immersive 3D applications and experiences that map, persist, and restore 3D content at real-world scale using Azure Spatial Anchors. The talk also shows how to render high-quality, interactive 3D content, and stream it to your devices in real time using Azure Remote Rendering. The talk covers technology overview, getting started, code samples and cross-platform live demos.",
                         "venue": "TBA",
                         "sessionTags": "01-00-04-02",
                         "day": "DAY1",
