@@ -61,7 +61,7 @@
                                                         </div>
                                                         <div class="row ">
                                                             {% for day2session in day2Sessions  %}
-                                                            {% if day2session.speakers != "TBA" %}
+                                                            {% if day2session.speakers != "TBA" and day2session.active == "Y" %}
                                                            
                                                             <div class="col-md-4 col-sm-6 text-center mb-3">
                                                                 <div>

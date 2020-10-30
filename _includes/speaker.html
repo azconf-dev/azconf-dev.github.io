@@ -1,7 +1,7 @@
 <section id="speaker-wrapper" class="about-area mt-50 pt-80">
      
     <div class="row justify-content-md-center">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-2 col-sm-6">
             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s"
                 style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeIn;">
 
@@ -32,11 +32,21 @@
     </div>
     <div class="container">
         <div class="col-sm-12">
-            <div class="row  justify-content-md-center">
-                <p class="text mt-30 mb-30">
-                    {{ content }}
+            <div class="row  justify-content-md-left">
+                <p class="text mt-50 mb-30">
+                    {{ page.speakerbio  | markdownify }}
                 </p>
             </div>
+            <div class="row  justify-content-md-left mt-30">
+                
+                    {{ page.session  | markdownify }}
+                
+            </div>
+            <div class="row  justify-content-md-left mt-10">
+                
+                {{ page.sessiontitle  | markdownify }}
+            
+        </div>
         </div>
     </div>
 
