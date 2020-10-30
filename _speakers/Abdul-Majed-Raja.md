@@ -7,5 +7,10 @@ title: "Analytics Consultant, Atlassian"
 linkedin: "https://www.linkedin.com/in/amrrs/"
 twitter: "#"
 featured: false
-
+speakerbio: |
+    
+session: |
+    
+sessiontitle: |
+    
 ---
