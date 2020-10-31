@@ -361,7 +361,7 @@
                         "event_key": "D01-DAT03",
                         "name": "Men from Mars, Women from Venus: both can code .NET in Jupyter",
                         "image" : [
-                            { "url" : "Ron_Dagdag.jpg" }
+                          { "url": "RonDagdag.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
