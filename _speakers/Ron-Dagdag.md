@@ -2,7 +2,7 @@
 
 short_name : "Ron Dagdag"
 name: "Ron Dagdag"
-pic: "/assets/images/Ron Dagdag.jpg"
+pic: "/assets/images/RonDagdag.jpg"
 title: "Lead Software Engineer at Spacee"
 linkedin: "https://www.linkedin.com/in/rondagdag"
 twitter: "https://twitter.com/rondagdag"
