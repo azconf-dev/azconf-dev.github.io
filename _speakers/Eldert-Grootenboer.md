@@ -7,6 +7,7 @@ title: "Cloud Solution Architect, Azure MVP"
 linkedin: "https://www.linkedin.com/in/eldert-grootenboer-6592b925"
 twitter: "https://twitter.com/egrootenboer"
 featured: false
+active: Y
 speakerbio: |
     Eldert can be described as an Azure MVP, Cloud Solution Architect, blogger, public speaker and technical author. He can regularly be seen on conferences and user groups, speaking on Cloud related topics, with a strong focus on Azure. His experience with the Cloud comes from his daily work with these technologies in many innovative projects with various clients, as well as his drive to further dive into the latest developments in his spare time. Eldert enjoys sharing his knowledge with the community, and believes this is the best way to each other obtain more and better opportunities.
 

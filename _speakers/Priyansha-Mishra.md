@@ -7,6 +7,7 @@ title: "Senior Program Manager - Azure Data, Microsoft"
 linkedin: "https://www.linkedin.com/in/priyansha-mishra-372050111/"
 twitter: "#"
 featured: false
+active: Y
 speakerbio: |
     Technology Strategist to Microsoft Partners, bringing digital ambitions to life by helping them empower their employees, engage their customers, optimize their operations, and transform their products. Passionate driver of Microsoft's AI Country Plan, contributing to closing the skills gap and enhancing employability in AI.    
 session: |

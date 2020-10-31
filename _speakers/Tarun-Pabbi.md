@@ -7,6 +7,7 @@ title: "Author, Cloud Architect"
 linkedin: "#"
 twitter: "https://twitter.com/tarunpabbi7"
 featured: false
+active: Y
 speakerbio: |
     Tarun works as a Senior Engineer with Nine Technology in Sydney, Australia with over twelve years of work experience. He has extensive experience working as a Cloud Architect with various MNCs throughout the world.
 

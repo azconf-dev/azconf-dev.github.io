@@ -7,6 +7,7 @@ title: "Partner Technical Strategist , Microsoft"
 linkedin: "#"
 twitter: "https://twitter.com/MahesKBlr"
 featured: false
+active: Y
 speakerbio: |
     Maheshkumar R is a Partner Technology Strategist at Microsoft India. As a Cloud Architect, he provides technical architecture guidance for numerous ISV Partners and help modernize their solutions using Cloud native tech. His expertise includes .NET, Serverless, Kubernetes, Big compute & OSS. He is certified for Azure Architect, CKAD, LFCS and recently Terraform. He has represented Microsoft at various industry events. His hobbies includes cycling, running and reading books.  
 session: |

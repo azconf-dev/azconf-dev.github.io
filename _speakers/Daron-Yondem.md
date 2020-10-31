@@ -7,6 +7,7 @@ title: "Microsoft MVP & RD"
 linkedin: "https://www.linkedin.com/in/daronyondem"
 twitter: "http://www.twitter.com/daronyondem"
 featured: false
+active: Y
 speakerbio: |
     Hi, I am Daron.
 

@@ -7,6 +7,7 @@ title: "Senior Program Manager - Microsoft"
 linkedin: "https://www.linkedin.com/in/davidemauri"
 twitter: "https://twitter.com/mauridb"
 featured: false
+active: Y
 speakerbio: |
     Azure Data Platform MVP for 12 years in a row, now Program Manager in Azure SQL team, focusing on Hyperscale. Developer at heart, heavy metal lover; once a biker, now waiting for kids to grow old to start to travel the world again.
     
