@@ -7,6 +7,7 @@ title: "Solutions Architect - AR/VR, Cyient"
 linkedin: "https://www.linkedin.com/in/abhilashca/"
 twitter: "https://twitter.com/abhilashca"
 featured: false
+active: Y
 speakerbio: |
     Solution Architect, Technology Evangelist and Intrapreneur with 12+ years of experience in Microsoft Technology Stack, currently helping engineering and industrial customers modernizing business using AR/VR/MR and Azure cloud technologies for industrial 4.0 transformations.
 

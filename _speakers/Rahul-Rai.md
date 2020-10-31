@@ -7,6 +7,7 @@ title: "Engineering Manager - Zip Co"
 linkedin: "https://www.linkedin.com/in/rahulrai-in/"
 twitter: "https://twitter.com/rahulrai_in"
 featured: false
+active: Y
 speakerbio: |
     I am a versatile Cloud Architect with a passion for leadership and problem-solving with over 12 years of hands-on experience in cloud and web technologies. I have a proven record of applying emerging technologies and processes to bring efficiency to enterprise technology operations. I have successfully designed enterprise applications and fostered innovation, collaboration, and improvement in my clients' and employers' teams.
 

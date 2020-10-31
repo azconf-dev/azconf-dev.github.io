@@ -7,6 +7,7 @@ title: "Azure Technical Trainer, Microsoft"
 linkedin: "http://www.linkedin.com/in/pdtit"
 twitter: "http://www.twitter.com/pdtit"
 featured: false
+active: Y
 speakerbio: |
     Peter is a +20 year IT expert, with a background in Microsoft datacenter technologies. Since early 2012, Peter started shifting to cloud technologies (Office 365, Intune), and quickly jumped onto the Azure platform, working as cloud solution architect and trainer. Mid 2019, Peter took on a position as Azure Technical Trainer within Microsoft Corp, providing Azure Readiness Workshops to larger customers and partners within the EMEA Region and global, with a focus on Azure DevOps, Apps and Infra and SAP workloads.
 

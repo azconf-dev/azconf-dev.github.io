@@ -7,6 +7,7 @@ title: "CEO - Penthara Technologies, Microsoft MVP"
 linkedin: "https://www.linkedin.com/in/jasjitchopra/"
 twitter: "#"
 featured: false
+active: Y
 speakerbio: |
     Certified Cloud Architect and Microsoft Azure MVP with strong background in Azure, SharePoint and Microsoft 365. As a global consultant he has worked with many multinational clients including HP, Avanade, Accenture, Unistar Nuclear Energy, Warner Music Group, Inventiv Health and iHeartMedia.
 

@@ -7,6 +7,7 @@ title: "Senior Program Manager - Azure Data, Microsoft"
 linkedin: "https://sg.linkedin.com/in/abhishek-narain-11a456b"
 twitter: "https://twitter.com/narainabhishek"
 featured: false
+active: Y
 speakerbio: |
     Abhishek works as a Program Manager in Azure Data group, focusing on Azure Data Factory. He has earlier worked as a Consultant and Technical Evangelist within Microsoft working on Azure - IoT, Big Data, PaaS services and helped Partners/ ISVs architect scalable applications on Azure.
 session: |

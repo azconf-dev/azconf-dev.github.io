@@ -7,6 +7,7 @@ title: "Sr. Technical Program Manager - Azure Cosmos DB, Microsoft"
 linkedin: "https://www.linkedin.com/in/abhilashca/"
 twitter: "https://twitter.com/abhilashca"
 featured: false
+active: Y
 speakerbio: |
     Manish Sharma is experienced profession with over 16 years and have experience in architecting high volume/large scale databases ranging from RDBMS, NoSQL & BigData. Currently, he is responsible for Technological product adoption in India & APAC.
 

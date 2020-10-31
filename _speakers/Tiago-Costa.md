@@ -7,6 +7,7 @@ title: "Cloud Architect and Advisor"
 linkedin: "https://www.linkedin.com/in/tiagocosta/"
 twitter: "http://twitter.com/tiagocostapt"
 featured: false
+active: Y
 speakerbio: |
     Tiago Costa is a Cloud Architect and Advisor for the Microsoft Cloud. For the past years he has been architecting and developing solutions using Microsoft Azure. He has a strong real-world experience and regularly teaches Microsoft Azure around the world.
 

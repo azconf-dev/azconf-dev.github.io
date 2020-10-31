@@ -7,6 +7,7 @@ title: "Full Stack Developer - MultiTracks.com, GitKraken Ambassador"
 linkedin: "https://www.linkedin.com/in/facundogiuliani/"
 twitter: "https://twitter.com/facundozurdo"
 featured: false
+active: Y
 speakerbio: |
     Software Engineer from Buenos Aires, Argentina, with 13+ years of experience in software development. Full Stack web developer. Auth0 Ambassador. GitKraken Ambassador. Facundo is a Lead Web Developer at MultiTracks.com, a music and tech company from Austin, Texas. He is also an open source contributor.    
 session: |

@@ -7,6 +7,8 @@ title: "Azure Technical Trainer, Microsoft"
 linkedin: "https://www.linkedin.com/in/mithunshanbhag/"
 twitter: "https://twitter.com/MithunShanbhag"
 featured: false
+active: Y
+speakerbio: |
 speakerbio: |
     I'm a jack-of-all-trades, splitting my time between writing code and wearing other hats for my startup (cloudskew.com). Ex-MSFT. Trying to be an active tweeter [https://twitter.com/mithunshanbhag][1] and blogger [https://mithunshanbhag.github.io/][2] these days.
 

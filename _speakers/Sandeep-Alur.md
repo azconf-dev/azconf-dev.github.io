@@ -7,6 +7,7 @@ title: " Director – Microsoft Technology Center, Microsoft India"
 linkedin: "https://www.linkedin.com/in/sandeepalur/  "
 twitter: "https://twitter.com/saalur  "
 featured: false
+active: Y
 speakerbio: |
     As a Technology Leader at Microsoft India, Sandeep Alur heads ‘Microsoft Technology Center’, an Experience Center focusing on helping Customers accelerate their digital transformation journey. In addition, he is one of the leads driving Microsoft’s AI Country Plan charter with key focus on ‘Closing the Skills Gap and to Enhance Employability’ in the ecosystem. He has donned various technology leadership roles at Microsoft while he managed Technical Evangelism, ISV and MSP charters for India.
 

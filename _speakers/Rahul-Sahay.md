@@ -7,6 +7,7 @@ title: "Technical Fellow, Kongsberg Digital"
 linkedin: "https://www.linkedin.com/in/rahulsahay19/"
 twitter: "https://twitter.com/rahulsahay19"
 featured: false
+active: Y
 speakerbio: |
     I'm Microsoft MVP specializing in Web technologies. You can often find me speaking and training at various events around. I am a technical fellow at Kongsberg Digital. I have been working in various aspects of the software development life cycle for 12+ years, focusing on web
     stack development. I have been part of software development in different applications, ranging from client applications to web services to websites. I am well versed with C#, ASP.NET, .Net Core, Angular, Microservices, Azure, Kubernetes, Docker, DevOps, Power BI etc. I am also involved in designing application architecture from scratch. Most of the time spend writing platform agnostic, cloud agnostic code. As a code junkie, I love to craft software, not only I enjoy writing software, I love sharing my knowledge via my blog [http://myview.rahulnivi.net][1].

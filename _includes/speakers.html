@@ -14,6 +14,7 @@
             {% assign keynotspeakers = site.speakers | where: 'featured', true  %}
             {% if page.speakerlimit %}
             {% for speaker in  keynotspeakers  limit:page.speakerlimit %}
+            {% if speaker.active == "Y" %}
             <div class="col-lg-4 col-sm-6">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <a href="{{speaker.url}}">
@@ -40,9 +41,11 @@
                     </div>
                 </div> <!-- single team -->
             </div>
+            {% endif %}
             {% endfor %}
             {% else %}
             {% for speaker in keynotspeakers %}
+            {% if speaker.active == "Y" %}
             <div class="col-lg-4 col-sm-6">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="team-image">
@@ -63,6 +66,7 @@
                     </div>
                 </div> <!-- single team -->
             </div>
+            {% endif %}
             {% endfor %}
             {% endif %}
         </div> <!-- row -->
@@ -77,7 +81,7 @@
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
-            {% assign speakers = site.speakers   %}
+            {% assign speakers = site.speakers | where: "active", "Y"  %}
             {% if page.speakerlimit %}
             {% for speaker in  speakers  limit:page.speakerlimit %}
             <div class="col-lg-3 col-sm-6">
