@@ -110,7 +110,7 @@
                        "image" : [
                             { "url" : "Adrienne_Tacke.jpg" }
                         ],
-                        "active": "Y",
+                        "active": "N",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
