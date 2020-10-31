@@ -222,14 +222,14 @@
                         "event_key": "D01-DAT02",
                         "name": "TBA",
                        "image" : [
-                            { "url" : "Javier_Villegas.jpg" }
+                            { "url" : "speaker-placeholder.png" }
                         ],
-                        "active": "Y",
+                        "active": "N",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "DATA",
-                        "speakers": "Javier Villegas",
+                        "speakers": "TBA",
                         "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-03-02",
@@ -305,17 +305,17 @@
                     },
                     {
                         "event_key": "D01-DEV203",
-                        "name": "ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup",
+                        "name": "TBA",
                         "image" : [
-                            { "url" : "Peter_De_Tender.jpg" }
+                            { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "DEV",
-                        "speakers": "Peter De Tender",
-                        "description": "The world is wild about Containers, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now, based on the recent amount of questions I got on the topic, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure, by using the different Azure Container solutions available. Starting from the basics, moving to more complex architectures and scenarios. And as usual in Peter's sessions, more live demos than PPTX-talk",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-13",
                         "day": "DAY1",
@@ -363,7 +363,7 @@
                         "image" : [
                             { "url" : "Ron_Dagdag.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
@@ -702,17 +702,17 @@
                     },
                     {
                         "event_key": "D02-DEV201",
-                        "name": "TBA",
+                        "name": "Running VM workload on Kubernetes using KubeVirt",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Neependra.jpeg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Neependra Khare",
+                        "description": "Kubernetes Project was started to orchestrate containers only but over time it evolved now it can orchestrate serverless and VM workload as well. It has truly become a general-purpose orchestrator to run a mixed workload, which is a real need for many companies. In this session, I'll provide the introduction to the KubeVirt project using which we can orchestrate VM workload along with container workload on Kubernetes and give few demos along on how we are using in production.",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-11",
                         "day": "DAY2",
@@ -738,17 +738,17 @@
                     },
                     {
                         "event_key": "D02-OPS01",
-                        "name": "TBA",
+                        "name": "Build great solution with Microsoft Well Architected Framework(WAF)",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Maheshkumar_R.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Maheshkumar R",
+                        "description": "Come and join why WAF maters to you be it a Developer or Architect or DevOps. Running Day1 job on Azure or any cloud is easy but Day2 onwards require certain maturity and best practices to leverage the fullest potential. We will be learning the pillars of WAF with demos to visualize better. I am sure, you will start implement some of them on the same day once you the gap. Cloud is a moving target as they keep improvise or update the stuff all the time. How can someone tell me cloud adoption maturity and comment the gap? I know it may looks like a consultation work and taxing but trust me, its so easy to learn WAF and implement them to reap the benefits.",
                         "venue": "TBA",
                         "sessionTags": "02-00-02-01",
                         "day": "DAY2",
@@ -756,17 +756,17 @@
                     },
                     {
                         "event_key": "D02-DAT01",
-                        "name": "TBA",
+                        "name": "How I have improved the Database performance from 5 seconds to 1 millisecond?",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Manish_Sharma.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Manish Sharma",
+                        "description": "In this session, I will talk about a customer engagement which got started from customer getting 5 seconds against their expected benchmark of 50 milliseconds. I will discuss the optimization pointers and how we implemented them.",
                         "venue": "TBA",
                         "sessionTags": "02-00-03-01",
                         "day": "DAY2",
@@ -853,17 +853,17 @@
                     },
                     {
                         "event_key": "D02-OPS02",
-                        "name": "TBA",
+                        "name": "Infrastructure as Code with Terraform - The Fundamentals",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "ravikant.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "OPS",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Ravikanth Chaganti",
+                        "description": "With the emergence of DevOps / SRE / Agile methods of application deployment and management, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session, you will have the necessary knowledge to get started with Terraform for Azure deployments.",
                         "venue": "TBA",
                         "sessionTags": "02-00-02-02",
                         "day": "DAY2",
@@ -871,17 +871,17 @@
                     },
                     {
                         "event_key": "D02-DAT02",
-                        "name": "TBA",
+                        "name": "I(o)T takes two! Meet Azure Digital Twins",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Glenn_Colpaert.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Glenn Colpaert",
+                        "description": "As announced at Microsoft Build 2020, Azure Digital Twins has a new public preview. Azure Digital Twins allow the customer to create rich models that allow optimizations of the general flow of business. Digital Twins is a platform for developers to model the real world, controlled using a rich set of REST APIs and C# SDK. In this session, we are going through all the new capabilities of the new Azure Digital Twin platform. Glenn will show you how to model your Digital Twin Graph and use the live execution environment to create a rich ecosystem for your IoT data processing. Attendees will learn when and how Azure Digital Twins is ideal for their IoT solution. Making sure they are ready to build the next generation of IoT platforms.",
                         "venue": "TBA",
                         "sessionTags": "02-00-03-02",
                         "day": "DAY2",
@@ -937,17 +937,17 @@
                 "sessions" : [
                     {
                         "event_key": "D02-DEV103",
-                        "name": "TBA",
+                        "name": "ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Peter_De_Tender.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Peter De Tender",
+                        "description": "The world is wild about Containers, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now, based on the recent amount of questions I got on the topic, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure, by using the different Azure Container solutions available. Starting from the basics, moving to more complex architectures and scenarios. And as usual in Peter's sessions, more live demos than PPTX-talk",
                         "venue": "TBA",
                         "sessionTags": "02-01-01-03",
                         "day": "DAY2",
@@ -973,17 +973,17 @@
                     },
                     {
                         "event_key": "D02-DEV303",
-                        "name": "TBA",
+                        "name": "DevOps: The Return of Security",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Mustafa_Toroman.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "TBA",
-                        "description": "",
+                        "speakers": "Mustafa Toroman",
+                        "description": "In DevOps processes, security is often forgotten or neglected. Increasingly more companies are recognizing this problem. But this doesn’t have to be a problem as long as you start implementing security in DevOps on time. Lot of features, that DevOps processes use, can be turned to our favor and used to increase security . Join us in this feature-packed session where you will discover DevOps security nuggets, see real world examples and learn to become DevOps security expert!",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-23",
                         "day": "DAY2",
@@ -1011,7 +1011,7 @@
                         "event_key": "D02-DAT03",
                         "name": "Never miss the bus with Azure Function, IFTTT, Azure SQL and GeoSpatial data",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Davide_Mauri.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
@@ -1051,17 +1051,17 @@
                 "sessions" : [
                     {
                         "event_key": "D02-DEV104",
-                        "name": "Infrastructure as Code with Terraform - The Fundamentals",
+                        "name": "TBA",
                         "image" : [
-                            { "url" : "ravikant.jpg" }
+                            { "url" : "speaker-placeholder.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "DEV",
-                        "description": "With the emergence of DevOps / SRE / Agile methods of application deployment and management, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session, you will have the necessary knowledge to get started with Terraform for Azure deployments.",
-                        "speakers": "Ravikanth",
+                        "speakers": "TBA",
+                        "description": "Announcing soon",
                         "venue": "TBA",
                         "sessionTags": "02-01-01-04",
                         "day": "DAY2",
@@ -1277,12 +1277,14 @@
                 ]
             },
             {
+                "event_start": "4:00 PM",
+                "event_end": "4:30 PM",
                 "sessions" : [
                     {
                         "event_key": "D02-CN01",
                         "name": "Closing Note",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "aditee-rele.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",

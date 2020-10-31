@@ -12,8 +12,8 @@ speakerbio: |
 
     Ravikanth is a multi-year recipient of Microsoft MVP award and he is a published author specializing in DevOps and Infrastructure As Code.    
 session: |
-    
+    **Session : Infrastructure as Code with Terraform - The Fundamentals**
 sessiontitle: |
-    
+    With the emergence of DevOps / SRE / Agile methods of application deployment and management, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session, you will have the necessary knowledge to get started with Terraform for Azure deployments.
 
 ---
