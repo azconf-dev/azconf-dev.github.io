@@ -7,14 +7,14 @@ title: "Technology Consultant - DXC"
 linkedin: "https://www.linkedin.com/in/keshav-jain-016427121/"
 twitter: "https://twitter.com/KeshavJain13"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Building monitoring solution for 'Workplace and Mobility' and 'Modern Workplace'.
 
     Rich experience in Infrastructure Management and Monitoring. Experience in System Center Operations Manager (SCOM), Azure Monitor, Azure Log Analytics (OMS), Azure automation, Azure Infrastructure. Good experience in MSI Packaging and Application Virtualization.
     
 session: |
-    **SEssion : Managing SIEM And SOAR using Azure Sentinel**    
+    **Session : Managing SIEM And SOAR using Azure Sentinel**    
 sessiontitle: |
     Microsoft Azure Sentinel is a scalable, cloud-native, security information event management (SIEM) and security orchestration automated response (SOAR) solution. Azure Sentinel, as a cloud security solution can play in securing enterprise.
 

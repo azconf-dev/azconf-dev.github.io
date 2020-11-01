@@ -7,7 +7,7 @@ title: "Sr. Director Technology - Publicis Sapient"
 linkedin: "https://www.linkedin.com/in/vinci/"
 twitter: "https://www.twitter.com/areai51"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Google Developer Expert - Web. Speaker and mentor at JSFoo.
     

@@ -7,7 +7,7 @@ title: "Cloud Solution Architect - Capgemini"
 linkedin: "https://www.linkedin.com/in/kasamshaikh/"
 twitter: "https://www.twitter.com/KasamShaikh"
 featured: false
-active: N
+active: Y
 speakerbio: |
     A seasoned professional with ‘Could be’ attitude having 10+ years of determined industry experience in software development, deployment, warranty support and team leading. Also, a core member with Cloud Research & Development and Azure practicing team.
     

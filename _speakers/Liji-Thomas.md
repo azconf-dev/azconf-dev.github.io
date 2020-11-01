@@ -7,7 +7,7 @@ title: "Manager, Modern Application Development - Valorem Reply"
 linkedin: "https://www.linkedin.com/in/liji-thomas/"
 twitter: "#"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Liji is a technophile with over a decade's industry experience in technical and leadership roles. She is currently associated with Valorem Reply as Manager, Modern Application Development where she's focused on digital transformation consultancy. She's passionate about emerging technologies, particularly building AI powered (delightful) conversational experiences for a global clientele.
     
