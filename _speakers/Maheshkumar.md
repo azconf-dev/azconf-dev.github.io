@@ -4,7 +4,7 @@ short_name : "Maheshkumar"
 name: "Maheshkumar"
 pic: "/assets/images/Maheshkumar_R.png"
 title: "Partner Technical Strategist , Microsoft"
-linkedin: "#"
+linkedin: "https://www.linkedin.com/in/mfcmahesh/"
 twitter: "https://twitter.com/MahesKBlr"
 featured: false
 active: Y
