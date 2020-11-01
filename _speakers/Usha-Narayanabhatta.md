@@ -7,7 +7,7 @@ title: "Senior Product Manager - GitHub"
 linkedin: "#"
 twitter: "#"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Product Manager working with Microsoft for close to 10 years of experience on various globally successful products such as Microsoft Windows, Azure DevOps (VSTS) and AZURE. Currently working with GitHub.
 

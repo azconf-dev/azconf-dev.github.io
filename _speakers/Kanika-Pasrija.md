@@ -7,7 +7,7 @@ title: "Software Developer - GitHub"
 linkedin: "https://www.linkedin.com/in/kanika-pasrija/"
 twitter: "#"
 featured: false
-active: Y
+active: N
 speakerbio: |
     Kanika is a curious technology enthusiast, working as a software developer in Azure integration team in GitHub, India. Being confident, having good networking and leadership skills, she has created a versatile work profile.
 
