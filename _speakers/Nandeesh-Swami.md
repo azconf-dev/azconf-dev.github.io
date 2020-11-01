@@ -1,7 +1,7 @@
 ---
 
 short_name : "Nandeesh Swami"
-name: Nandeesh Swami"
+name: "Nandeesh Swami"
 pic: "/assets/images/Nandeesh_Swami.jpg"
 title: "Azure Rapid Response - Microsoft"
 linkedin: "https://www.linkedin.com/in/nandeesh-swami-301a7514/"
