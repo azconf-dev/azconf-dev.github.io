@@ -13,7 +13,7 @@ speakerbio: |
 session: |
     **Session : Build great solution with Microsoft Well Architected Framework(WAF)**
 sessiontitle: |
-    Come and join why WAF maters to you be it a Developer or Architect or DevOps. Running Day1 job on Azure or any cloud is easy but Day2 onwards require certain maturity and best practices to leverage the fullest potential. We will be learning the pillars of WAF with demos to visualize better. I am sure, you will start implement some of them on the same day once you the gap.
+    Come and join why WAF maters to you be it a Developer or Architect or DevOps. Running Day1 job on Azure or any cloud is easy but Day2 onwards require certain maturity and best practices to leverage the fullest potential. We will be learning the pillars of WAF with demos to visualize better. I am sure, you will start implement some of them on the same day once you see the gap.
     
     Cloud is a moving target as they keep improvise or update the stuff all the time. How can someone tell me cloud adoption maturity and comment the gap? I know it may looks like a consultation work and taxing but trust me, its so easy to learn WAF and implement them to reap the benefits.
 
