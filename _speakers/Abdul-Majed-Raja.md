@@ -9,7 +9,7 @@ twitter: "#"
 featured: false
 active: Y
 speakerbio: |
-    
+    Abdul Majed Raja is an Analytics Consultant helping Organizations make Data-driven Business Decisions. For much of his career, he has worked in analytics in different companies from Public Firms to Start-ups. He's a passionate trainer of Data Science with R and Python and a Community Builder who leads the Bengaluru R user Group. He's also a Published Writer on Tech Sites and a strong FOSS supporter and contributor.
 session: |
     **Session : Interpretable Machine Learning with Python Examples**
 sessiontitle: |
