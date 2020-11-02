@@ -288,8 +288,8 @@
                         "event_key": "D01-DEV103",
                         "name": "eShop on Dapr: Build microservice applications the easy way",
                         "image" : [
-                           { "url" :  "Sander%20Molenkamp.png" },
-                           { "url": "EdwinvanWijk.png" }
+                           { "url" :  "Sander%20Molenkamp.png", "name" : "Sander Molenkamp" },
+                           { "url": "EdwinvanWijk.png" , "name" : "Edwin"}
                         ],
                         "active": "Y",
                         "pinned": "N",
@@ -1223,8 +1223,8 @@
                         "event_key": "D02-OPS05",
                         "name": "Deployment Certifications at Scale on AKS with Azure Policy and Azure Functions",
                         "image" : [
-                            { "url" : "Rahul_Rai.jpg" },
-                            { "url" : "Tarun_Pabbi.jpg" }
+                            { "url" : "Rahul_Rai.jpg" , "name" : "Rahul Rai"},
+                            { "url" : "Tarun_Pabbi.jpg" , "name" : "Tarun Pabbi" }
                         ],
                         "active": "Y",
                         "pinned": "N",
