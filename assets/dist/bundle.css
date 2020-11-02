@@ -19916,6 +19916,7 @@ span.text-white.logo-txt {
 @media (max-width: 767px) {
     .single-team .team-content .team-name {
         font-size: 18px;
+        margin-top: 10px;
     }
 }
 
@@ -20080,6 +20081,7 @@ span.text-white.logo-txt {
 @media (max-width: 767px) {
     .single-community .community-content .community-name {
         font-size: 18px;
+        margin-top:10px;
     }
 }
 
@@ -20846,10 +20848,12 @@ span.text-white.logo-txt {
     .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.show span,
     .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a:hover span {
         color: #ccc;
+        
     }
 
     .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active {
         position: relative;
+        background-image: linear-gradient(65deg, #00467b 0, #0078D4 100%);
     }
 
     .az-events-schedule.az-events-schedule1 .events-schedule-tabs .eventday-list li a.active span {

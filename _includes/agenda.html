@@ -39,126 +39,182 @@
                             </div> -->
                             <!-- schedule day1 start -->
                             <div class="tab-pane events-schedule-days active show fade" id="sunday">
-                                <div class="events-schedule-subitmes">
-                                    <div class="events-subinner">
-                                        
-                                        {% assign day2Slots = site.data[page.year].agenda | where: "day", "DAY1" | first %}
-                                        
-                                        {% assign day2sessions = day2Slots.slot  %}
-                                        
-                                        
-                                            
-                                            
-                                            {% for item in day2sessions %}
-                                            {% assign day2Sessions = item.sessions %}
-                                            <div class="events-items">
-                                                <div class="row event-author">
-                                                    <div class="col-md-12">
-                                                        <div class="row">
-                                                            <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
-                                                                <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }}
-                                                            </div>
-                                                        </div>
-                                                        <div class="row ">
-                                                            {% for day2session in day2Sessions  %}
-                                                            {% if day2session.speakers != "TBA" and day2session.active == "Y" %}
-                                                           
-                                                            <div class="col-md-4 col-sm-6 text-center mb-3">
-                                                                <div>
-                                                                    <div  class="agenda-speaker-img-div">
-                                                                        {% for day2image in day2session.image %}
-                                                                        <img class="agenda-speaker-img" src="assets/images/{{day2image.url}}" alt="">
-                                                                        {% endfor %}
-                                                                    </div>
-                                                                    <div class="agenda-item-content"><span>{{ day2session.name }}</span>
-                                                                    <span>{{ day2session.speakers }}</span>
-                                                                    <span class="badge badge-info agenda-item-badge text-uppercase">{{day2session.tags}}</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            {% endif %}
-                                                            {% endfor %}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            {% endfor %}
-                                        
-                                        
+                                {% assign day1Slots = site.data[page.year].agenda | where: "day", "DAY1" | first %}
+                                {% assign day1sessions = day1Slots.slot  %}
+                                {% for item in day1sessions %}
+                                    {% assign day1Sessions = item.sessions %}
+                                <div class="schedule-timeslot">
+                                    <div class="schedule-timeslot-header text-center">
+                                       <span class="schedule-timeslot__time">
+                                        <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }} IST
+                                       </span>
+                                       <!-- <span class="schedule-timeslot__title">Breakout Sessions</span> -->
                                     </div>
-                                    <div>
-                                        <small>* Confirmation of sessions are in progress, agenda will be updated frequently</small>
+
+                                    <div class="schedule-timeslot__sessions">
+                                        {% for day1session in day1Sessions  %}
+                                        {% if day1session.speakers != "TBA" %}
+                                        <div class="schedule-session">
+                                           <div>
+                                              <div class="schedule-session-content">
+                                                 <div class="schedule-session-top-content">
+                                                    <div class="schedule-session-info">
+                                                       <div class="schedule-session-title">
+                                                            {{ day1session.name }}
+                                                       </div>
+                                                       <div class="schedule-session-details-container">
+                                                          <div class="schedule-session-details-block">
+                                                             <div>
+                                                                {% for day1image in day1session.image %}
+                                                                <div class="schedule-session-speaker">
+
+                                                                   <img class="schedule-session-speaker-image" src="assets/images/{{day1image.url}}" alt="">
+                                                                   <div class="schedule-session-speaker-details">
+                                                                      <div class="schedule-session-speaker-name">
+                                                                          {% if day1session.image.size > 1 %}
+                                                                              {{ day1image.name }}
+                                                                           {% else %}
+                                                                                {{ day1session.speakers }}
+                                                                           {% endif %}
+                                                                        </div>
+                                                                      <!-- <div class="schedule-session-speaker-tagline">The (API) uncle you wish you had — the ultimate expert. #api</div> -->
+                                                                   </div>
+                                                                </div>
+                                                                {% endfor %}
+                                                             </div>
+                                                          </div>
+                                                          <div class="schedule-session-details-block schedule-session-location-details">
+                                                             <div class="schedule-session-icon">
+                                                                <svg width="14" height="18">
+                                                                   <g fill="none" fill-rule="evenodd" stroke="#0078d4" stroke-width="1.2" transform="translate(.977 .753)">
+                                                                      <path stroke-linejoin="round" d="M5.948 16.525c3.966-4.292 5.949-7.794 5.949-10.506C11.897 2.695 9.234 0 5.948 0 2.663 0 0 2.695 0 6.02c0 2.673 1.983 6.175 5.948 10.505z"></path>
+                                                                      <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
+                                                                   </g>
+                                                                </svg>
+                                                             </div>
+                                                             <div class="schedule-session-location">{{day1session.tags}}</div>
+                                                          </div>
+                                                          <!-- react-empty: 274 -->
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                                 <!-- <div class="schedule-session-bottom-content">
+                                                    <div class="schedule-session-divider"></div>
+                                                    <div class="schedule-session-tags">
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                         #api
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #programming
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #frontend
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #backend
+                                                       </div>
+                                                    </div>
+                                                 </div> -->
+                                              </div>
+                                           </div>
+                                           <!-- <i title="This session has slides" class="fa fa-file-o schedule__session-material-icon" aria-hidden="true"></i> -->
+                                        </div>
+                                        {% endif %}
+                                        {% endfor %}
                                     </div>
                                 </div>
+                                {% endfor %}
+                               
                             </div>
                             <!-- schedule day1 end -->
                             <!-- schedule day2 start -->
                             <div class="tab-pane events-schedule-days fade" id="monday">
-                                <div class="events-schedule-subitmes">
-                                    <!-- <ul class="nav eventday-sublist gray-color">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#day2room1">Dev</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#day2room2">DevOps</a>
-                                        </li>
+                                {% assign day2Slots = site.data[page.year].agenda | where: "day", "DAY2" | first %}
+                                {% assign day2sessions = day2Slots.slot  %}
+                                {% for item in day2sessions %}
+                                    {% assign day2Sessions = item.sessions %}
+                                <div class="schedule-timeslot">
+                                    <div class="schedule-timeslot-header text-center">
+                                       <span class="schedule-timeslot__time">
+                                        <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }} IST
+                                       </span>
+                                       <!-- <span class="schedule-timeslot__title">Breakout Sessions</span> -->
+                                    </div>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#day2room3">Data</a>
-                                        </li>
+                                    <div class="schedule-timeslot__sessions">
+                                        {% for day2session in day2Sessions  %}
+                                        {% if day2session.speakers != "TBA" %}
+                                        <div class="schedule-session">
+                                           <div>
+                                              <div class="schedule-session-content">
+                                                 <div class="schedule-session-top-content">
+                                                    <div class="schedule-session-info">
+                                                       <div class="schedule-session-title">
+                                                            {{ day2session.name }}
+                                                       </div>
+                                                       <div class="schedule-session-details-container">
+                                                          <div class="schedule-session-details-block">
+                                                             <div>
+                                                                {% for day2image in day2session.image %}
+                                                                <div class="schedule-session-speaker">
 
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#day2room4">Future is now</a>
-                                        </li>
-                                    </ul> -->
-                                    <div class="events-subinner">
-                                        
-                                        {% assign day2Slots = site.data[page.year].agenda | where: "day", "DAY2" | first %}
-                                        
-                                        {% assign day2sessions = day2Slots.slot  %}
-                                        
-                                        
-                                            
-                                            
-                                            {% for item in day2sessions %}
-                                            {% assign day2Sessions = item.sessions %}
-                                            <div class="events-items">
-                                                <div class="row event-author">
-                                                    <div class="col-md-12">
-                                                        <div class="row">
-                                                            <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
-                                                                <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;{{ item.event_start }}  - {{ item.event_end }}
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            {% for day2session in day2Sessions  %}
-                                                            {% if day2session.speakers != "TBA" %}
-                                                            <div class="col-md-4 col-sm-6 text-center mb-3">
-                                                                <div>
-                                                                    <div  class="agenda-speaker-img-div">
-                                                                        {% for day2image in day2session.image %}
-                                                                        <img class="agenda-speaker-img" src="assets/images/{{day2image.url}}" alt="">
-                                                                        {% endfor %}
-                                                                    </div>
-                                                                    <div class="agenda-item-content"><span>{{ day2session.name }}</span>
-                                                                    <span>{{ day2session.speakers }}</span>
-                                                                    <span class="badge badge-info agenda-item-badge text-uppercase">{{day2session.tags}}</span>
-                                                                    </div>
+                                                                   <img class="schedule-session-speaker-image" src="assets/images/{{day2image.url}}" alt="Mike Amundsen">
+                                                                   <div class="schedule-session-speaker-details">
+                                                                      <div class="schedule-session-speaker-name">
+                                                                          {% if day2session.image.size > 1 %}
+                                                                              {{ day2image.name }}
+                                                                           {% else %}
+                                                                                {{ day2session.speakers }}
+                                                                           {% endif %}
+                                                                        </div>
+                                                                      <!-- <div class="schedule-session-speaker-tagline">The (API) uncle you wish you had — the ultimate expert. #api</div> -->
+                                                                   </div>
                                                                 </div>
-                                                            </div>
-                                                            {% endif %}
-                                                            {% endfor %}
-                                                        </div>
+                                                                {% endfor %}
+                                                             </div>
+                                                          </div>
+                                                          <div class="schedule-session-details-block schedule-session-location-details">
+                                                             <div class="schedule-session-icon">
+                                                                <svg width="14" height="18">
+                                                                   <g fill="none" fill-rule="evenodd" stroke="#0078d4" stroke-width="1.2" transform="translate(.977 .753)">
+                                                                      <path stroke-linejoin="round" d="M5.948 16.525c3.966-4.292 5.949-7.794 5.949-10.506C11.897 2.695 9.234 0 5.948 0 2.663 0 0 2.695 0 6.02c0 2.673 1.983 6.175 5.948 10.505z"></path>
+                                                                      <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
+                                                                   </g>
+                                                                </svg>
+                                                             </div>
+                                                             <div class="schedule-session-location">{{day2session.tags}}</div>
+                                                          </div>
+                                                          <!-- react-empty: 274 -->
+                                                       </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            
-                                            {% endfor %}
-                                        
-                                        
+                                                 </div>
+                                                 <!-- <div class="schedule-session-bottom-content">
+                                                    <div class="schedule-session-divider"></div>
+                                                    <div class="schedule-session-tags">
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                         #api
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #programming
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #frontend
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #backend
+                                                       </div>
+                                                    </div>
+                                                 </div> -->
+                                              </div>
+                                           </div>
+                                           <!-- <i title="This session has slides" class="fa fa-file-o schedule__session-material-icon" aria-hidden="true"></i> -->
+                                        </div>
+                                        {% endif %}
+                                        {% endfor %}
                                     </div>
                                 </div>
+                                {% endfor %}
+                                
                                 <div>
                                     <small>* Confirmation of sessions are in progress, agenda will be updated frequently</small>
                                 </div>
@@ -166,78 +222,83 @@
                             <!-- schedule day2 end -->
                             <!-- schedule day3 start -->
                             <div class="tab-pane events-schedule-days fade" id="tuesday">
-                                <div class="events-schedule-subitmes">
-                                    <div class="events-subinner">
-                                        <div class="events-items">
-                                            <div class="row event-author">
-                                                <div class="col-md-12">
-                                                    <div class="row">
-                                                        <div class="col-md-12 text-center mb-3 " style="background-color: #0078d4;color: #fff;">
-                                                            <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;10:00 AM  - 4:00 PM - Online Workshops
-                                                        </div>
+                                <div class="schedule-timeslot">
+                                    <div class="schedule-timeslot-header text-center">
+                                       <span class="schedule-timeslot__time">
+                                        <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;10:00 AM  - 4:00 PM - Online Workshops IST
+                                       </span>
+                                       <!-- <span class="schedule-timeslot__title">Breakout Sessions</span> -->
+                                    </div>
+
+                                    <div class="schedule-timeslot__sessions">
+                                        {% assign workshops = site.data[page.year].workshops   %}
+                                        
+                                        {% for workshop in  workshops %}
+                                        <div class="schedule-session">
+                                           <div>
+                                              <div class="schedule-session-content">
+                                                 <div class="schedule-session-top-content">
+                                                    <div class="schedule-session-info">
+                                                       <div class="schedule-session-title">
+                                                            {{ workshop.name }}
+                                                       </div>
+                                                       <div class="schedule-session-details-container">
+                                                          <div class="schedule-session-details-block">
+                                                             <div>
+                                                                <div class="schedule-session-speaker">
+
+                                                                   <img class="schedule-session-speaker-image" src="{{ workshop.pic }}" alt="{{ workshop.name }}">
+                                                                   <div class="schedule-session-speaker-details">
+                                                                      <!-- <div class="schedule-session-speaker-name">
+                                                                                {{ day2session.speakers }}
+                                                                        </div> -->
+                                                                      <!-- <div class="schedule-session-speaker-tagline">The (API) uncle you wish you had — the ultimate expert. #api</div> -->
+                                                                   </div>
+                                                                </div>
+                                                             </div>
+                                                          </div>
+                                                          <!-- <div class="schedule-session-details-block schedule-session-location-details">
+                                                             <div class="schedule-session-icon">
+                                                                <svg width="14" height="18">
+                                                                   <g fill="none" fill-rule="evenodd" stroke="#0078d4" stroke-width="1.2" transform="translate(.977 .753)">
+                                                                      <path stroke-linejoin="round" d="M5.948 16.525c3.966-4.292 5.949-7.794 5.949-10.506C11.897 2.695 9.234 0 5.948 0 2.663 0 0 2.695 0 6.02c0 2.673 1.983 6.175 5.948 10.505z"></path>
+                                                                      <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
+                                                                   </g>
+                                                                </svg>
+                                                             </div>
+                                                             <div class="schedule-session-location">{{day2session.tags}}</div>
+                                                          </div> -->
+                                                          <!-- react-empty: 274 -->
+                                                       </div>
                                                     </div>
-                                                    
-                                                    <div class="row justify-content-md-center">
-                                                        {% assign workshops = site.data[page.year].workshops   %}
-                                                        {% if page.limit %}
-                                                        {% for workshop in  workshops  limit:page.limit %}
-                                                        <div class="col-lg-2 col-sm-3">
-                                                            <div class="single-team text-center mt-30 ">
-                                                                <a href="{{workshop.url}}">
-                                                                    <div class="team-image">
-                                                                        <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
-                                                                    </div>
-                                                                </a>
-                                                                <div class="team-content">
-                                                                    <!-- <div class="team-social">
-                                                                        <ul class="social">
-                                                                            {% if speaker.website %}
-                                                                            <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
-                                                                            {% endif %}
-                                                                            {% if speaker.twitter %}
-                                                                            <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                                                            {% endif %}
-                                                                            {% if speaker.linkedin %}
-                                                                            <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                                                            {% endif %}
-                                                                        </ul>
-                                                                    </div> -->
-                                                                    <h4 class="team-name">{{ workshop.name }}</h4>
-                                                                    <span class="sub-title">{{ workshop.desc }}</span>
-                                                                </div>
-                                                            </div> <!-- single team -->
-                                                        </div>
-                                                        {% endfor %}
-                                                        {% else %}
-                                                        {% for workshop in workshops %}
-                                                        <div class="col-lg-2 col-sm-3">
-                                                            <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                                                                <div class="team-image">
-                                                                    <a href="{{workshop.url}}">
-                                                                        <img src="{{ workshop.pic }}" alt="{{ workshop.name }} photo">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="team-content">
-                                                                    <!-- <div class="team-social">
-                                                                        <ul class="social">
-                                                                            <li><a href="{{ speaker.website }}"><i class="lni-website"></i></a></li>
-                                                                            <li><a href="{{ speaker.twitter }}"><i class="lni-twitter-original"></i></a></li>
-                                                                            <li><a href="{{ speaker.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
-                                                                        </ul>
-                                                                    </div> -->
-                                                                    <h4 class="team-name">{{ workshop.name }}</h4>
-                                                                    <span class="sub-title">{{ workshop.desc }}</span>
-                                                                </div>
-                                                            </div> <!-- single team -->
-                                                        </div>
-                                                        {% endfor %}
-                                                        {% endif %}
+                                                 </div>
+                                                 <!-- <div class="schedule-session-bottom-content">
+                                                    <div class="schedule-session-divider"></div>
+                                                    <div class="schedule-session-tags">
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                         #api
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #programming
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #frontend
+                                                       </div>
+                                                       <div title="Add to filter" class="schedule-session-tag">
+                                                          #backend
+                                                       </div>
                                                     </div>
-                                                </div>
-                                            </div>
+                                                 </div> -->
+                                              </div>
+                                           </div>
+                                           <!-- <i title="This session has slides" class="fa fa-file-o schedule__session-material-icon" aria-hidden="true"></i> -->
                                         </div>
+                                        
+                                        {% endfor %}
                                     </div>
                                 </div>
+                                
+                                
                                  <!-- <div class="row event-author mt-5">
                                     <span>10.00 AM - 11.00 AM</span>
                                     <div class="col-md-2 text-center">
@@ -327,4 +388,1075 @@
 {
     border: none !important;
 }
+</style>
+
+<style>
+
+.schedule {
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: auto
+}
+
+@media (max-width: 768px) {
+    .schedule {
+        padding-top:30px
+    }
+}
+
+.schedule--fixed-top .schedule__placeholder {
+    height: 70px
+}
+
+@media (max-width: 992px) {
+    .schedule--fixed-top .schedule__placeholder {
+        height:30px
+    }
+}
+
+.schedule__scroller {
+    width: 100%
+}
+
+.schedule__table {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto
+}
+
+.schedule__table-head {
+    display: flex;
+    flex-wrap: wrap
+}
+
+@media (max-width: 768px) {
+    .schedule__table-head {
+        overflow-x:hidden;
+        display: none
+    }
+}
+
+.schedule--fixed-top .schedule__table-head {
+    position: fixed;
+    top: 88px;
+    left: 0;
+    padding: 0 20px;
+    width: 100%;
+    min-width: 800px;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(0,0,0,.28)
+}
+
+@media (max-width: 992px) {
+    .schedule--fixed-top .schedule__table-head {
+        top:38px
+    }
+}
+
+.schedule__body {
+    display: flex;
+    background-image: linear-gradient(#dfdfdf 1px,transparent 1px)
+}
+
+.schedule__tracks {
+    display: flex;
+    position: relative;
+    flex: 1 1 auto;
+    overflow: hidden
+}
+
+.schedule__time-column {
+    width: 40px;
+    text-align: center;
+    background-color: #fff;
+    position: relative
+}
+
+.schedule__column {
+    position: relative
+}
+
+.schedule__time {
+    position: absolute;
+    height: 30px;
+    right: 0;
+    top: -15px;
+    font-size: 12px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.schedule__track {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.schedule__track-location {
+    font-size: 12px
+}
+
+.schedule__session {
+    position: absolute;
+    border: solid 1px #d6dadd;
+    padding: 7px 10px 7px 10px;
+    border-radius: 3px;
+    margin: 0 10px;
+    width: calc(100% - 2 * 10px);
+    background-image: linear-gradient(to top,#f1f3f2,#f9f9f9);
+    text-decoration: none!important;
+    left: 0
+}
+
+.schedule__session:hover {
+    background-image: linear-gradient(to top,#e1e3f5,#e9e9ff)
+}
+
+.schedule__session-classifier {
+    display: none
+}
+
+.schedule__session--keynote .schedule__session-classifier,.schedule__session--social_event .schedule__session-classifier {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000!important;
+    font-weight: 300
+}
+
+.schedule__session--info .schedule__session-content,.schedule__session--keynote .schedule__session-content,.schedule__session--single-track .schedule__session-content,.schedule__session--social_event .schedule__session-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.schedule__session--keynote .schedule__session-title,.schedule__session--single-track .schedule__session-title,.schedule__session--social_event .schedule__session-title {
+    font-size: 18px
+}
+
+.schedule__session--info .schedule__session-title {
+    font-size: 18px
+}
+
+.schedule__session--keynote .schedule__session-speaker,.schedule__session--single-track .schedule__session-speaker {
+    font-size: 16px;
+    font-weight: 300
+}
+
+.schedule__session--keynote .schedule__session-portrait,.schedule__session--single-track .schedule__session-portrait {
+    display: block
+}
+
+.schedule__session--filtered {
+    opacity: .2;
+    pointer-events: none
+}
+
+.schedule__session-info {
+    display: flex;
+    height: 100%
+}
+
+.schedule__session-info-right {
+    width: 100%;
+    position: relative
+}
+
+.schedule__session-portrait {
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+    flex: 0 0 auto
+}
+
+.schedule__session-color {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px
+}
+
+.schedule__session-title {
+    font-size: 12px;
+    color: #000;
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    line-height: 1.2
+}
+
+.schedule__session-materials {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.schedule__session-material-icon:not(:last-of-type) {
+    margin-right: 5px
+}
+
+.schedule__session-speaker {
+    font-size: 12px;
+    color: #666;
+    font-weight: 700;
+    line-height: 1.6
+}
+
+.schedule__session-speaker-tagline {
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1
+}
+
+@media screen and (max-width: 1200px) {
+    .schedule__session-speaker-tagline {
+        display:none
+    }
+}
+
+.schedule__session-description {
+    font-size: 12px;
+    color: #666
+}
+
+.schedule__session-popup {
+    opacity: 0;
+    transition: all .3s;
+    transition-timing-function: cubic-bezier(.17,.67,.87,.66);
+    position: absolute;
+    width: 400px;
+    top: -17px;
+    right: -390px;
+    background-color: #fff;
+    border: solid 1px #dfdfdf;
+    pointer-events: none;
+    padding: 30px
+}
+
+.schedule__session--info .schedule__session-popup {
+    display: none
+}
+
+.schedule__session-content:hover+.schedule__session-popup {
+    opacity: 1;
+    top: -10px
+}
+
+.schedule__session-popup--left {
+    right: auto;
+    left: -390px
+}
+
+.schedule__session-popup--center {
+    right: auto;
+    left: calc(50% - 200px)
+}
+
+.schedule__session-popup-description {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px
+}
+
+.schedule__session-popup-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.schedule__session-popup-top {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center
+}
+
+.schedule__session-popup-portrait {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    margin-bottom: 6px
+}
+
+.schedule__session-popup-speaker {
+    display: inline;
+    font-size: 20px;
+    flex: 1 1 auto
+}
+
+.schedule__session-popup-title {
+    font-size: 20px
+}
+
+.schedule__session-popup-room-time {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px
+}
+
+.schedule__session:hover {
+    z-index: 1
+}
+
+.schedule__session-content {
+    height: 100%;
+    width: 100%
+}
+
+.schedule__event {
+    position: absolute;
+    border: solid 1px #d6dadd;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    margin: 0 10px;
+    width: 130px;
+    background-color: #f0feff;
+    display: block;
+    width: calc(100% - 20px);
+    margin-top: 2px
+}
+
+.schedule__event--break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    background-color: rgba(250,250,250,.5);
+    color: #616161
+}
+
+.schedule--fixed-top .schedule__filterbar {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    right: 0;
+    z-index: 3
+}
+
+@media (max-width: 992px) {
+    .schedule--fixed-top .schedule__filterbar {
+        top:0
+    }
+}
+
+.schedule__date {
+    background-color: #a2a2a2;
+    border-radius: 0;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border: none
+}
+
+.schedule__date:not(:last-child) {
+    margin-right: 5px
+}
+
+.schedule__date--active {
+    background-color: #7b7b7b!important
+}
+
+.schedule__workshops {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.schedule__workshop {
+    padding: 14px;
+    width: 100%;
+    max-width: 900px;
+    border: solid 1px #dfdfdf
+}
+
+.schedule__workshop {
+    margin-bottom: 30px
+}
+
+.schedule__workshop-left {
+    margin-right: 20px
+}
+
+.schedule__workshop-right {
+    padding-top: 10px
+}
+
+.schedule__workshop-speaker-portrait {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    margin-top: 6px
+}
+
+.schedule__workshop-speaker {
+    text-align: center;
+    width: 110px
+}
+
+.schedule__workshop-speakers {
+    display: flex;
+    margin-top: 10px
+}
+
+.schedule__workshop-title {
+    font-size: 26px;
+    color: #000!important;
+    text-decoration: underline
+}
+
+.schedule__workshop-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    padding: 4px
+}
+
+.schedule__workshop-instructor {
+    color: #666;
+    font-size: 14px;
+    text-align: center
+}
+
+.schedule-navbar {
+    position: fixed;
+    z-index: 2;
+    top: 48px;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px
+}
+
+
+
+.schedule-navbar {
+    background-color: #b03322
+}
+
+
+@media screen and (max-width: 992px) {
+    .schedule-navbar {
+        position:unset;
+        top: 0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-navbar {
+        padding-left:10px;
+        padding-right: 10px
+    }
+}
+
+.schedule-navbar__group {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.schedule-navbar__button {
+    padding: 20px;
+    user-select: none;
+    color: #fff;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    cursor: pointer
+}
+
+.schedule-navbar__button .icon {
+    fill: #fff
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-navbar__button {
+        display:none
+    }
+}
+
+.schedule-navbar__button:hover {
+    opacity: .7
+}
+
+.schedule-navbar__button__active {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+}
+
+
+.schedule-navbar__button__active {
+    color: #0078d4
+}
+
+
+.schedule-navbar__button__active .icon {
+    fill: #0078d4
+}
+
+
+.schedule-day-button {
+    position: relative;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    margin: auto 10px;
+    color: #fff;
+    cursor: pointer
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-day-button {
+        height:45px;
+        width: 45px;
+        font-size: 14px;
+        line-height: 1;
+        margin: auto 2px
+    }
+}
+
+.schedule-day-button__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+.schedule-day-button:hover {
+    opacity: .7
+}
+
+.schedule-day-button.active {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2)
+}
+
+
+.schedule-day-button.active {
+    color: #0078d4
+}
+
+
+.schedule-day-button.active .schedule-day-button__type {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5)
+}
+
+
+.schedule-day-button.active .icon {
+    fill: #0078d4
+}
+
+
+.schedule-day-button__type {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    height: 28px;
+    width: 28px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-day-button__type {
+        display:none
+    }
+}
+
+.schedule-day-button__date {
+    font-weight: 700
+}
+
+.schedule-content {
+    margin-top: 128px
+}
+
+@media screen and (max-width: 992px) {
+    .schedule-content {
+        margin-top:0
+    }
+}
+
+.schedule-day-content {
+    background-color: #f2f2f2;
+    padding-bottom: 10px
+}
+
+.schedule-day-title {
+    padding-left: 10%;
+    padding-top: 48px;
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800
+}
+
+
+.schedule-day-title {
+    color: #0078d4
+}
+
+
+@media screen and (max-width: 992px) {
+    .schedule-day-title {
+        padding-top:20px
+    }
+}
+
+.schedule-day-title__type {
+    font-size: 100px;
+    font-family: inherit
+}
+
+@media screen and (max-width: 992px) {
+    .schedule-day-title__type {
+        font-size:30px
+    }
+}
+
+.schedule-day-title__date {
+    margin-top: -5px;
+    margin-left: 10px;
+    opacity: .57;
+    font-size: 30px;
+    font-family: inherit
+}
+
+@media screen and (max-width: 992px) {
+    .schedule-day-title__date {
+        margin-top:0;
+        font-size: 14px
+    }
+}
+
+.schedule-day__timeslots {
+    max-width: 1800px;
+    margin: 64px auto;
+    padding: 20px 20px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-day__timeslots {
+        margin-top:0
+    }
+}
+
+.schedule-timeslot {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #373f45
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-timeslot {
+        font-size:14px;
+        margin-bottom: 10px
+    }
+}
+
+
+.schedule-timeslot__active {
+    color: #0078d4
+}
+
+
+.schedule-timeslot__active .schedule-timeslot-header {
+    border-bottom: 1px solid
+}
+
+.now-indicator {
+    position: absolute;
+    left: -11px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid
+}
+
+.schedule-timeslot-header {
+    position: -webkit-sticky;
+    position: sticky;
+    /* background-color: #0078d4; */
+    background-image: linear-gradient(65deg, #00467b 0, #0078D4 100%);
+    color: #ffffff;
+    font-weight: 700;
+    padding: 3px 0;
+    top: 128px;
+    z-index: 1
+}
+
+@media screen and (max-width: 992px) {
+    .schedule-timeslot-header {
+        top:0
+    }
+}
+
+.schedule-timeslot__time {
+    font-weight: 400
+}
+
+.schedule-timeslot__title {
+    margin-left: 33px
+}
+
+.schedule-timeslot__sessions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    margin-top: 20px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-timeslot__sessions {
+        margin-top:10px
+    }
+}
+
+.schedule-session {
+    border-top: 1px solid #f2f2f2;
+    padding: 16px;
+    transition: transform .2s;
+    transition-timing-function: cubic-bezier(.17,.67,.87,.66);
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    display: block;
+    text-decoration: none!important;
+    cursor: pointer
+}
+
+
+.schedule-session {
+    border-left: 4px solid #0078d4
+}
+
+
+.schedule-session .session-spots {
+    display: flex
+}
+
+.schedule-session .session-spots .fa {
+    padding-right: 4px
+}
+
+.schedule-session .session-rating-component {
+    padding: 20px
+}
+
+.schedule-session .session-rating-component .text-title-1 {
+    color: #7f7f7f;
+    font-size: 16px
+}
+
+.schedule-session .session-rating-component .icon-face-component {
+    height: 40px!important;
+    width: 40px!important;
+    margin-right: 7px!important
+}
+
+.schedule-session:hover {
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    transform: scale(1.01)
+}
+
+.schedule-session:first-of-type {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.schedule-session:last-of-type {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.schedule-timeslot__filtered {
+    display: none
+}
+
+.schedule-session-filtered {
+    display: none
+}
+
+.schedule-session-filtered .schedule-session-divider {
+    display: none
+}
+
+.schedule-session-filtered .schedule-session-details-container {
+    display: none
+}
+
+.schedule-session-filtered .schedule-session-speaker-images {
+    display: none
+}
+
+.schedule-session:only-of-type {
+    grid-column: span 3
+}
+
+.schedule-session-content {
+    color: #7f7f7f;
+    font-size: 14px;
+    line-height: 19px;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.schedule-session-top-content {
+    flex-grow: 1
+}
+
+.schedule-session-bottom-content .signed-up {
+    color: green
+}
+
+.schedule-session-tags {
+    display: flex;
+    color: #9b9b9b;
+    flex-wrap: wrap
+}
+
+.schedule-session-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 1px;
+    background: rgba(0,0,0,.04);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-divider {
+        display:none
+    }
+}
+
+.schedule-session-tag {
+    font-size: 14px;
+    padding: 0 2px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-tag {
+        font-size:12px
+    }
+}
+
+.schedule-session-tag:hover {
+    color: #fff;
+    border-radius: 5px
+}
+
+
+.schedule-session-tag:hover {
+    background: #0078d4
+}
+
+.schedule-session-tag:not(:last-of-type) {
+    margin-right: 10px
+}
+
+.schedule-session-tag__match {
+    color: #fff;
+    border-radius: 5px
+}
+
+
+.schedule-session-tag__match {
+    background: #0078d4
+}
+
+
+.schedule-session-details-container {
+    margin-top: 12px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-details-container {
+        margin-top:5px;
+        margin-bottom: 5px
+    }
+}
+
+.schedule-session-details-block {
+    display: flex
+}
+
+.schedule-session-details-block:not(:last-of-type) {
+    margin-bottom: 11px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-details-block:not(:last-of-type) {
+        margin-bottom:0
+    }
+}
+
+.schedule-session-speaker {
+    margin-bottom: 9px;
+    display: flex
+}
+
+.schedule-session-speaker-name {
+    font-weight: 600;
+    line-height: 1
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-speaker-tagline {
+        display:none
+    }
+}
+
+.schedule-session-location {
+    font-weight: 600;
+    line-height: 1;
+    color: #0078d4
+}
+
+.schedule-session-icon {
+    display: flex;
+    justify-content: center;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px
+}
+
+.schedule-session-speaker-images img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+    border-radius: 55px
+}
+
+.schedule-session-speaker-image {
+    min-width: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin-right: 10px
+}
+
+.schedule-session-speaker-details {
+    padding-top: 15px
+}
+
+.schedule-session-info {
+    margin-left: 10px
+}
+
+.schedule-session-title {
+    color: #000;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 18px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-session-title {
+        font-size:14px
+    }
+}
+
+.schedule-session-title svg {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.schedule-filter-controls__container {
+    background: #fff;
+    padding: 20px 150px
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-filter-controls__container {
+        display:none
+    }
+}
+
+.schedule-filter-controls__items {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.schedule-filter-controls__extra-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.schedule-filter-tag-button {
+    margin: 8px;
+    background: #f6f6f9;
+    border-radius: 2px;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+    color: #7f7f7f;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 2px 6px 0 #dad9e2
+}
+
+.schedule-filter-tag-button-badge {
+    display: inline-block;
+    background-color: #232937;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px
+}
+
+.schedule-filter-tag-button__active {
+    color: #fff
+}
+
+
+.schedule-filter-tag-button__active {
+    background: #0078d4
+}
+
+
+.schedule-filter-tag-button__round {
+    border-radius: 100px
+}
+
+
+
+
 </style>
