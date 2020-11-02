@@ -3,7 +3,7 @@
 short_name : "Priyansha Mishra"
 name: "Priyansha Mishra"
 pic: "/assets/images/Priyansha_Mishra.png"
-title: "Senior Program Manager - Azure Data, Microsoft"
+title: "Partner Technology Strategist, Microsoft"
 linkedin: "https://www.linkedin.com/in/priyansha-mishra-372050111/"
 twitter: "#"
 featured: false
