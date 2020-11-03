@@ -38,7 +38,7 @@
                         "image" : [
                             { "url" : "jon-galloway.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
@@ -70,16 +70,18 @@
                     },
                     {
                         "event_key": "D01-DEV301",
-                        "name": "TBA",
+                        "name": "Eliminate extra dependencies : State management for React apps with hooks",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "Bhavana_Sanagapalli.jpg", "name": "Bhavana Sanagapalli" },
+                            { "url" : "Murali_Guggilam.jpeg", "name": "Murali Guggilam" },
+                            { "url" : "Satish_Agarwal.jpeg", "name": "Satish Agarwal" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "TBA",
+                        "speakers": "Bhavana Sanagapalli, Murali Guggilam, Satish Agarwal",
                         "description": "",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-21",
@@ -1269,7 +1271,7 @@
                         "event_end": "4:00 PM",
                         "event_type": "FUTURE",
                         "speakers": "Anchal Bhandari",
-                        "description": " We find large number of manufacturers and industries, failing or spending huge amount of money due to unexpected downtime. The machines shuts creating the entire line on shop floor inactive, thereby stopping production or assembly in assembly lines. This results in halt in production, calling maintenance engineer for corrective solution, adding new machines if earlier cant be repaired and might be missing customer deadline. This loss of both of time and money is important when we talk about digitalization or industry 4.0. When the competitor is expanding in leaps and bounds digitalizing themselves and we on other hand handling the failures. Digital Transfomation using data, analytics & IoT helps to plan your downtime.",
+                        "description": "We find large number of manufacturers and industries, failing or spending huge amount of money due to unexpected downtime. The machines shuts creating the entire line on shop floor inactive, thereby stopping production or assembly in assembly lines. This results in halt in production, calling maintenance engineer for corrective solution, adding new machines if earlier cant be repaired and might be missing customer deadline. This loss of both of time and money is important when we talk about digitalization or industry 4.0. When the competitor is expanding in leaps and bounds digitalizing themselves and we on other hand handling the failures. Digital Transfomation using data, analytics & IoT helps to plan your downtime.",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-05",
                         "day": "DAY2",
