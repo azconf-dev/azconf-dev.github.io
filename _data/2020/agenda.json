@@ -805,7 +805,7 @@
                         "event_key": "D02-DEV102",
                         "name": "Demystifying Artificial Intelligence with Microsoft Cloud, Azure!",
                         "image" : [
-                            { "url" : "Kasam_Shaikh.jpg" }
+                          { "url": "Kasam.png" }
                         ],
                         "active": "Y",
                         "pinned": "N",

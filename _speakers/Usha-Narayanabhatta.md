@@ -10,8 +10,6 @@ featured: false
 active: Y
 speakerbio: |
     Product Manager working with Microsoft for close to 10 years of experience on various globally successful products such as Microsoft Windows, Azure DevOps (VSTS) and AZURE. Currently working with GitHub.
-
-    He’s a community contributor, technology speaker and hosts hands-on workshops on Mixed Reality, AR/VR and Unity. He has recently delivered talks at Unite India 2018 and 2019 hosted by Unity and at Mixed Reality Dev Summit at Microsoft London.
     
 session: |
     **Session : Enabling DevSecOps best practices with GitHub Actions**        

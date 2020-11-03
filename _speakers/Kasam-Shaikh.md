@@ -2,7 +2,7 @@
 
 short_name : "Kasam Shaikh"
 name: "Kasam Shaikh"
-pic: "/assets/images/Kasam_Shaikh.jpg"
+pic: "/assets/images/Kasam.png"
 title: "Cloud Solution Architect - Capgemini"
 linkedin: "https://www.linkedin.com/in/kasamshaikh/"
 twitter: "https://www.twitter.com/KasamShaikh"
