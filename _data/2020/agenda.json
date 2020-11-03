@@ -9,7 +9,7 @@
                     {
                       
                         "event_key": "D01-KA01",
-                        "name": "Keynote Address",
+                        "name": "Keynote Address - The Joy of Azure",
                         "image" : [ 
                             { "url" : "scott-hanselman.jpg"  }
                             ],
@@ -20,7 +20,7 @@
                         "event_type": "GENERAL",
                         "event_subtype": "KEYNOTE",
                         "speakers": "Scott Hanselman",
-                        "description": "Joy of Azure",
+                        "description": "The Joy of Azure",
                         "venue": "TBA",
                         "sessionTags": "02-00-00-00",
                         "day": "DAY1",
