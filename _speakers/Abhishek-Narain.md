@@ -11,15 +11,8 @@ active: Y
 speakerbio: |
     Abhishek works as a Program Manager in Azure Data group, focusing on Azure Data Factory. He has earlier worked as a Consultant and Technical Evangelist within Microsoft working on Azure - IoT, Big Data, PaaS services and helped Partners/ ISVs architect scalable applications on Azure.
 session: |
-    **Session : Building enterprise-grade data pipelines using Azure Data Factory**
+    **Session : Building cloud-native data pipelines using Azure Data Factory**
 sessiontitle: |
-    Azure Data Factory is a a fully managed, serverless data integration service. In this workshop, we will focus on data data engineers targeting to integrate and transform batch-based big data workloads on Azure using code-free data flows transformation.
-
-    **Modules** : 
-
-    - Azure Data Factory overview
-    - Extract data using 90+ data connectors
-    - Transform and Load data using code-free data flows
-    - ETL patterns and practices – metadata-driven workflows, event-driven data processing pipelines, CI/CD, security, pipeline monitoring and alerting
+   Azure Data Factory is a cloud-native ETL service built for all data integration needs and skill levels.  You can easily construct ETL and ELT processes code-free or write your code.  It is serverless so you can focus on your integration logic rather than infrastructure management.  Because of the great flexibility ADF provides, customers are using ADF in a wide variety of use cases. It integrates with cloud-native security mechanisms to offer real enterprise-grade security. In this session, we will learn how to build cloud-native ETL pipelines using Azure Data Factory.
 
 ---

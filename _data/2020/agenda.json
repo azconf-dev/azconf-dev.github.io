@@ -1126,24 +1126,24 @@
                         "day": "DAY2",
                         "tags": "DevOps"
                     },
-                    {
-                        "event_key": "D02-DAT04",
-                        "name": "Building enterprise-grade data pipelines using Azure Data Factory",
-                       "image" : [
-                            { "url" : "Abhishek_Narain.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start":  "2:00 PM",
-                        "event_end": "3:00 PM",
-                        "event_type": "DATA",
-                        "speakers": "Abhishek Narain",
-                        "description": "Azure Data Factory is a a fully managed, serverless data integration service. In this workshop, we will focus on data data engineers targeting to integrate and transform batch-based big data workloads on Azure using code-free data flows transformation.",
-                        "venue": "TBA",
-                        "sessionTags": "02-01-03-04",
-                        "day": "DAY2",
-                        "tags": "Data"
-                    },
+                  {
+                    "event_key": "D02-DAT04",
+                    "name": "Building cloud-native data pipelines using Azure Data Factory",
+                    "image": [
+                      { "url": "Abhishek_Narain.jpg" }
+                    ],
+                    "active": "Y",
+                    "pinned": "N",
+                    "event_start": "2:00 PM",
+                    "event_end": "3:00 PM",
+                    "event_type": "DATA",
+                    "speakers": "Abhishek Narain",
+                    "description": "Azure Data Factory is a cloud-native ETL service built for all data integration needs and skill levels.  You can easily construct ETL and ELT processes code-free or write your code.  It is serverless so you can focus on your integration logic rather than infrastructure management.  Because of the great flexibility ADF provides, customers are using ADF in a wide variety of use cases. It integrates with cloud-native security mechanisms to offer real enterprise-grade security. In this session, we will learn how to build cloud-native ETL pipelines using Azure Data Factory.",
+                    "venue": "TBA",
+                    "sessionTags": "02-01-03-04",
+                    "day": "DAY2",
+                    "tags": "Data"
+                  },
                     {
                         "event_key": "D02-FUT04",
                         "name": "Session on Communication challenges post covid",
