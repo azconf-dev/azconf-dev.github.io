@@ -4,8 +4,8 @@ short_name : "Manish Sharma"
 name: "Manish Sharma"
 pic: "/assets/images/Manish_Sharma.jpg"
 title: "Sr. Technical Program Manager - Azure Cosmos DB, Microsoft"
-linkedin: "https://www.linkedin.com/in/abhilashca/"
-twitter: "https://twitter.com/abhilashca"
+linkedin: "https://www.linkedin.com/in/mannu2050/"
+twitter: "https://twitter.com/manisharma_ms"
 featured: false
 active: Y
 speakerbio: |

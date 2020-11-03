@@ -15,7 +15,7 @@ speakerbio: |
 
     You can follow peter on twitter @pdtit and check his technical blog on [http://www.007ffflearning.com][1]
 
-    [1]: [http://www.007ffflearning.com]
+    [1]: http://www.007ffflearning.com
 session: |
     **Session :  ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup**
 

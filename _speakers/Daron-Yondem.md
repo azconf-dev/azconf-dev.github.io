@@ -17,9 +17,9 @@ speakerbio: |
 
     If you want to have me in an event of yours, feel free to look at the [past events] I spoke to get a feel of what I can talk about :)
 
-    [1]: [https://mvp.microsoft.com/en-us/PublicProfile/4015692]
-    [2]: [http://rd.microsoft.com/daron.yondem]
-    [3]: [https://daron.blog/tags/speaking]
+    [1]: https://mvp.microsoft.com/en-us/PublicProfile/4015692
+    [2]: http://rd.microsoft.com/daron.yondem
+    [3]: https://daron.blog/tags/speaking
 
 session: |
     **Session :  Function Orchestration in the world of Serverless**

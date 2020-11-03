@@ -11,8 +11,8 @@ active: N
 speakerbio: |
     Rob Richardson is a software craftsman building web properties in ASP.NET and Node, React and Vue. He’s a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks at [https://robrich.org/presentations][1] and follow him on twitter at [@rob_rich][2].
 
-    [1]: [https://robrich.org/presentations]
-    [2]: [https://twitter.com/rob_rich]
+    [1]: https://robrich.org/presentations
+    [2]: https://twitter.com/rob_rich
     
 session: |
     **Session : At The Helm of Kubernetes: Repeatable Infrastructure Creation for Mere Mortals**

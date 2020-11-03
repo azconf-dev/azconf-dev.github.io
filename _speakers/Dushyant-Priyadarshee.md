@@ -12,7 +12,7 @@ speakerbio: |
     Software Engineer with passion for agile practices, DevOps, Microsoft technologies and all things Azure.
     Blog: [https://www.rubberduckdev.com/about][1]
 
-    [1]: [https://www.rubberduckdev.com/about]
+    [1]: https://www.rubberduckdev.com/about
     
 session: |
     **Session : How to automate network security for your Azure functions**

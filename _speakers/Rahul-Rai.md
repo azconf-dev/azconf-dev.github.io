@@ -13,7 +13,7 @@ speakerbio: |
 
     I have authored three books and a free workshop on Microservices orchestrators and Service Mesh: Azure Service Fabric- Microservices with Azure, by Packt, Kubernetes- Kubernetes Succinctly, Istio- Istio Succinctly, by Syncfusion, and Fast Track Istio Workshop on Katacoda. You can connect with me through my blog: [https://thecloudblog.net].
 
-    [1]: [https://thecloudblog.net]
+    [1]: https://thecloudblog.net
     
 session: |
     **Session :  Deployment Certifications at Scale on AKS with Azure Policy and Azure Functions**

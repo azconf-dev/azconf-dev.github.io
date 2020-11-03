@@ -3,7 +3,7 @@
 short_name : "Shanbhag"
 name: "Mithun Shanbhag"
 pic: "/assets/images/Mithun_Shanbhag.jpg"
-title: "Azure Technical Trainer, Microsoft"
+title: "C.E.O - Skewed Ventures"
 linkedin: "https://www.linkedin.com/in/mithunshanbhag/"
 twitter: "https://twitter.com/MithunShanbhag"
 featured: false
@@ -12,8 +12,8 @@ speakerbio: |
 speakerbio: |
     I'm a jack-of-all-trades, splitting my time between writing code and wearing other hats for my startup (cloudskew.com). Ex-MSFT. Trying to be an active tweeter [https://twitter.com/mithunshanbhag][1] and blogger [https://mithunshanbhag.github.io/][2] these days.
 
-    [1]: [https://twitter.com/mithunshanbhag]
-    [2]: [https://mithunshanbhag.github.io/]    
+    [1]: https://twitter.com/mithunshanbhag
+    [2]: https://mithunshanbhag.github.io/  
 session: |
     **Session :  How I built cloudskew.com on Azure**
 
@@ -29,5 +29,5 @@ sessiontitle: |
     - Continuous Integration vs deployment vs release
     - Upcoming architectural changes to handle scale
 
-    [1]: [https://assets.cloudskew.com/assets/misc/cloudskew-architecture-20200116.png]    
+    [1]: https://assets.cloudskew.com/assets/misc/cloudskew-architecture-20200116.png    
 ---
