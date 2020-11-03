@@ -18,7 +18,7 @@ speakerbio: |
     [4]: http://thisdeveloperslife.com
     [5]: http://ratchetandthegeek.com
 session: |
-    
+   **Session : Keynote Address - Joy of Azure** 
 sessiontitle: |
     
 ---

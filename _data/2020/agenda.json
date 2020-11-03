@@ -20,7 +20,7 @@
                         "event_type": "GENERAL",
                         "event_subtype": "KEYNOTE",
                         "speakers": "Scott Hanselman",
-                        "description": "Keynote address",
+                        "description": "Joy of Azure",
                         "venue": "TBA",
                         "sessionTags": "02-00-00-00",
                         "day": "DAY1",
@@ -363,7 +363,7 @@
                         "image" : [
                             { "url" : "Reenu_Saluja.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
@@ -592,7 +592,7 @@
                         "image" : [
                             { "url" : "Javier_Villegas.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
@@ -707,7 +707,7 @@
                         "image" : [
                             { "url" : "Rob_Richardson.jpg" }
                         ],
-                        "active": "Y",
+                        "active": "N",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
@@ -1094,7 +1094,7 @@
                         "image" : [
                             { "url" : "Kevin_Chant.jpg" }
                         ],
-                        "active": "Y",
+                        "active": "N",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",

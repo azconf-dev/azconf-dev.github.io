@@ -7,7 +7,7 @@ title: "Senior Database Architect"
 linkedin: "https://www.linkedin.com/in/kevin-chant"
 twitter: "https://twitter.com/kevchant"
 featured: false
-active: Y
+active: N
 speakerbio: |
     Senior Database Architect originally from the UK and now living in the Netherlands.
 

@@ -19817,6 +19817,7 @@ span.text-white.logo-txt {
 
     .single-team .team-image img {
         width: 100%;
+        border-radius: 175px;
     }
 
     .single-team .team-content {
