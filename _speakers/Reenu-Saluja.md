@@ -3,7 +3,7 @@
 short_name : "Reenu Saluja"
 name: "Reenu Saluja"
 pic: "/assets/images/Reenu_Saluja.jpg"
-title: "Microsoft, Senior Software Engineer, Microsoft"
+title: "Senior Software Engineer, Microsoft"
 linkedin: "https://www.linkedin.com/in/reenusaluja/"
 twitter: "https://twitter.com/ReenuSaluja"
 featured: false
