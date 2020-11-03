@@ -173,7 +173,7 @@
                         "image" : [
                             { "url" : "Prashant_G_Bhoyar.PNG" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
@@ -209,7 +209,7 @@
                         "image" : [
                             { "url" : "Kanika_Pasrija.jpeg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
@@ -227,7 +227,7 @@
                         "image" : [
                           { "url": "RonDagdag.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "11:00 AM",
                         "event_end": "12:00 PM",
@@ -444,7 +444,7 @@
                         "image" : [
                             { "url" : "dj.jpeg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
@@ -709,7 +709,7 @@
                         "image" : [
                             { "url" : "Rob_Richardson.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
@@ -1096,7 +1096,7 @@
                         "image" : [
                             { "url" : "Kevin_Chant.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
