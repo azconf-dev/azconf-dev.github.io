@@ -140,14 +140,13 @@ $(function () {
     $(".navbar-nav a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
     });
- 
+
 
     window.addEventListener('load', (event) => {
-      
-        var currentLocation = window.location; 
-       
-        if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
-        {
+
+        var currentLocation = window.location;
+
+        if ((currentLocation.pathname.includes("/workshops/") || currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/"))) {
             $('#lion_image').show();
             $("#navbarTwo").removeClass("overridenav");
             $("#navbarTwo").addClass("overridenavcol");
@@ -157,19 +156,18 @@ $(function () {
             $("#navbarTwo").removeClass("overridenavcol");
             $("#navbarTwo").addClass("overridenav");
         }
-     
+
     });
 
     $(window).on('scroll', function (event) {
-       
+
         if ($('#navbarlogo').hasClass('navbar-area navbar-two sticky')) {
             $('#lion_image').show();
             $("#navbarTwo").removeClass("overridenav");
             $("#navbarTwo").addClass("overridenavcol");
-        } else { 
-            var currentLocation = window.location; 
-            if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
-            {
+        } else {
+            var currentLocation = window.location;
+            if ((currentLocation.pathname.includes("/workshops/") || currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/"))) {
                 $('#lion_image').show();
                 $("#navbarTwo").removeClass("overridenav");
                 $("#navbarTwo").addClass("overridenavcol");
@@ -274,7 +272,7 @@ $(function () {
 
     // Show or hide the sticky footer button
     $(window).on('scroll', function (event) {
-        var currentLocation = window.location; 
+        var currentLocation = window.location;
         var scrollTopPos = 600;
         if ((currentLocation.pathname.includes("/2020/call-for-speakers/") || currentLocation.pathname.includes("/code-of-conduct/") || currentLocation.pathname.includes("/speakers/") || currentLocation.pathname.includes("/cfp/")))
             scrollTopPos = 10;
