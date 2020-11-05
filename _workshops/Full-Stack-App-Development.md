@@ -48,7 +48,7 @@ contents: |
         * Adding Service to retrieve content from Web API
         * Routing to navigate between the pages.
     * **React JS**
-        * Creating the same UI using Client
+        * Creating the same UI using React JS
         * Integrating with Web API
     * **Blazor WASM UI**
         * Integrating with Web API
