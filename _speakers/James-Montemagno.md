@@ -15,7 +15,8 @@ speakerbio: |
     [1]: https://www.montemagno.com
     [2]: https://mergeconflict.fm    
 session: |
-    
+    **Session : Taking Mobile Development Serverless with C#**
 sessiontitle: |
-    
+    Join James as he walks through his latest creation, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned, preparing for release, continuous integration, user testing, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in.
+
 ---
