@@ -7,7 +7,7 @@ title: "Enterprise Architect, Microsoft MVP"
 linkedin: "https://www.linkedin.com/in/erobrich/"
 twitter: "https://twitter.com/rob_rich"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Rob Richardson is a software craftsman building web properties in ASP.NET and Node, React and Vue. He’s a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks at [https://robrich.org/presentations][1] and follow him on twitter at [@rob_rich][2].
 
