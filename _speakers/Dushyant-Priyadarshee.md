@@ -7,7 +7,7 @@ title: "Senior Specialist Platform Engineer, NewDay"
 linkedin: "https://www.linkedin.com/in/dpriyadarshee"
 twitter: "https://twitter.com/rubberduckdev"
 featured: false
-active: N
+active: Y
 speakerbio: |
     Software Engineer with passion for agile practices, DevOps, Microsoft technologies and all things Azure.
     Blog: [https://www.rubberduckdev.com/about][1]

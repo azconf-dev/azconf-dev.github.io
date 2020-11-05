@@ -42,7 +42,7 @@
                     {{ page.session  | markdownify }}
                 
             </div>
-            <div class="row  justify-content-md-left mt-10">
+            <div id="sessiontitle" class="row text  justify-content-md-left mt-10">
                 
                 {{ page.sessiontitle  | markdownify }}
             
@@ -70,3 +70,16 @@
         </ul>
     </section> -->
 </section>
+<style>
+    #sessiontitle p
+    {
+      width:100%
+        
+    }
+    #sessiontitle ul
+    {
+      margin: 10px 20px;
+      list-style-type:initial;
+        
+    }
+</style>
