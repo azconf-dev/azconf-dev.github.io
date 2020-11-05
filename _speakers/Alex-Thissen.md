@@ -4,7 +4,7 @@ short_name : "Alex Thissen"
 name: "Alex Thissen"
 pic: "/assets/images/Alex_Thissen.jpg"
 title: "Cloud Architect, Microsoft MVP"
-linkedin: "https://www.linkedin.com/in/amrrs/"
+linkedin: "https://www.linkedin.com/in/alexthissen/"
 twitter: "https://twitter.com/alexthissen"
 featured: false
 active: Y
