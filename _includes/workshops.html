@@ -12,7 +12,7 @@
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
-            {% assign workshops = site.data[page.year].workshops   %}
+            {% assign workshops = site.workshops   %}
             {% if page.limit %}
             {% for workshop in  workshops  limit:page.limit %}
             <div class="col-lg-2 col-sm-3">
@@ -37,7 +37,7 @@
                             </ul>
                         </div> -->
                         <h4 class="team-name">{{ workshop.name }}</h4>
-                        <span class="sub-title">{{ workshop.desc }}</span>
+                        <span class="sub-title">{{ workshop.time }}</span>
                     </div>
                 </div> <!-- single team -->
             </div>
@@ -70,3 +70,4 @@
           <!-- Speakers ends-->
     </div> <!-- container -->
 </section>
+

@@ -231,65 +231,67 @@
                                     </div>
 
                                     <div class="schedule-timeslot__sessions">
-                                        {% assign workshops = site.data[page.year].workshops   %}
+                                        {% assign workshops = site.workshops   %}
                                         
                                         {% for workshop in  workshops %}
                                         <div class="schedule-session">
-                                           <div>
-                                              <div class="schedule-session-content">
-                                                 <div class="schedule-session-top-content">
-                                                    <div class="schedule-session-info">
-                                                       <div class="schedule-session-title">
-                                                            {{ workshop.name }}
-                                                       </div>
-                                                       <div class="schedule-session-details-container">
-                                                          <div class="schedule-session-details-block">
-                                                             <div>
-                                                                <div class="schedule-session-speaker">
+                                           <div> 
+                                               <a href="{{workshop.url}}">
+                                                    <div class="schedule-session-content">
+                                                        <div class="schedule-session-top-content">
+                                                            <div class="schedule-session-info">
+                                                            <div class="schedule-session-title">
+                                                                    {{ workshop.name }}
+                                                            </div>
+                                                            <div class="schedule-session-details-container">
+                                                                <div class="schedule-session-details-block">
+                                                                    <div>
+                                                                        <div class="schedule-session-speaker">
 
-                                                                   <img class="schedule-session-speaker-image" src="{{ workshop.pic }}" alt="{{ workshop.name }}">
-                                                                   <div class="schedule-session-speaker-details">
-                                                                      <!-- <div class="schedule-session-speaker-name">
-                                                                                {{ day2session.speakers }}
-                                                                        </div> -->
-                                                                      <!-- <div class="schedule-session-speaker-tagline">The (API) uncle you wish you had — the ultimate expert. #api</div> -->
-                                                                   </div>
+                                                                        <img class="schedule-session-speaker-image" src="{{ workshop.pic }}" alt="{{ workshop.name }}">
+                                                                        <div class="schedule-session-speaker-details">
+                                                                            <!-- <div class="schedule-session-speaker-name">
+                                                                                        {{ day2session.speakers }}
+                                                                                </div> -->
+                                                                            <!-- <div class="schedule-session-speaker-tagline">The (API) uncle you wish you had — the ultimate expert. #api</div> -->
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                             </div>
-                                                          </div>
-                                                          <!-- <div class="schedule-session-details-block schedule-session-location-details">
-                                                             <div class="schedule-session-icon">
-                                                                <svg width="14" height="18">
-                                                                   <g fill="none" fill-rule="evenodd" stroke="#0078d4" stroke-width="1.2" transform="translate(.977 .753)">
-                                                                      <path stroke-linejoin="round" d="M5.948 16.525c3.966-4.292 5.949-7.794 5.949-10.506C11.897 2.695 9.234 0 5.948 0 2.663 0 0 2.695 0 6.02c0 2.673 1.983 6.175 5.948 10.505z"></path>
-                                                                      <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
-                                                                   </g>
-                                                                </svg>
-                                                             </div>
-                                                             <div class="schedule-session-location">{{day2session.tags}}</div>
-                                                          </div> -->
-                                                          <!-- react-empty: 274 -->
-                                                       </div>
+                                                                <!-- <div class="schedule-session-details-block schedule-session-location-details">
+                                                                    <div class="schedule-session-icon">
+                                                                        <svg width="14" height="18">
+                                                                        <g fill="none" fill-rule="evenodd" stroke="#0078d4" stroke-width="1.2" transform="translate(.977 .753)">
+                                                                            <path stroke-linejoin="round" d="M5.948 16.525c3.966-4.292 5.949-7.794 5.949-10.506C11.897 2.695 9.234 0 5.948 0 2.663 0 0 2.695 0 6.02c0 2.673 1.983 6.175 5.948 10.505z"></path>
+                                                                            <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
+                                                                        </g>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="schedule-session-location">{{day2session.tags}}</div>
+                                                                </div> -->
+                                                                <!-- react-empty: 274 -->
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="schedule-session-bottom-content">
+                                                            <div class="schedule-session-divider"></div>
+                                                            <div class="schedule-session-tags">
+                                                            <div title="Add to filter" class="schedule-session-tag">
+                                                                #api
+                                                            </div>
+                                                            <div title="Add to filter" class="schedule-session-tag">
+                                                                #programming
+                                                            </div>
+                                                            <div title="Add to filter" class="schedule-session-tag">
+                                                                #frontend
+                                                            </div>
+                                                            <div title="Add to filter" class="schedule-session-tag">
+                                                                #backend
+                                                            </div>
+                                                            </div>
+                                                        </div> -->
                                                     </div>
-                                                 </div>
-                                                 <!-- <div class="schedule-session-bottom-content">
-                                                    <div class="schedule-session-divider"></div>
-                                                    <div class="schedule-session-tags">
-                                                       <div title="Add to filter" class="schedule-session-tag">
-                                                         #api
-                                                       </div>
-                                                       <div title="Add to filter" class="schedule-session-tag">
-                                                          #programming
-                                                       </div>
-                                                       <div title="Add to filter" class="schedule-session-tag">
-                                                          #frontend
-                                                       </div>
-                                                       <div title="Add to filter" class="schedule-session-tag">
-                                                          #backend
-                                                       </div>
-                                                    </div>
-                                                 </div> -->
-                                              </div>
+                                                </a>
                                            </div>
                                            <!-- <i title="This session has slides" class="fa fa-file-o schedule__session-material-icon" aria-hidden="true"></i> -->
                                         </div>
