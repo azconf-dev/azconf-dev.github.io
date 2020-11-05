@@ -9,8 +9,10 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
-    gtag('config', 'UA-7073232-13');
+    if (document.location.hostname != 'localhost' && document.location.hostname != '127.0.0.1') {
+        gtag('config', 'UA-7073232-13');
+    }
+    
 </script>
 
 <!-- Twitter universal website tag code -->

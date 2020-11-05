@@ -78,6 +78,9 @@ collections:
   speakers:
     output: true
     sort_by: name
+  workshops:
+      output: true
+      sort_by: name
 
 defaults:
   - scope:
@@ -85,3 +88,8 @@ defaults:
       type: "speakers"
     values:
       layout: "speaker"
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"
