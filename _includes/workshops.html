@@ -12,7 +12,7 @@
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
-            {% assign workshops = site.workshops   %}
+            {% assign workshops = site.workshops  | sort: "sortorder"   %}
             {% if page.limit %}
             {% for workshop in  workshops  limit:page.limit %}
             <div class="col-lg-2 col-sm-3">
@@ -43,7 +43,7 @@
             </div>
             {% endfor %}
             {% else %}
-            {% for workshop in workshops %}
+            {% for workshop in workshops | sort: "sortorder" %}
             <div class="col-lg-2 col-sm-3">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="team-image">

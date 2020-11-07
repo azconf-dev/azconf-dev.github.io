@@ -17,6 +17,7 @@ time: "10:00 AM - 01:00 PM"
 charityorg: ""
 attendeelimit: 35
 prerequisites: ""
+sortorder: "1"
 description: |
     
     
