@@ -2,7 +2,7 @@
 
 short_name : "Mayur Tendulkar"
 name: "Mayur Tendulkar"
-pic: "/assets/images/Mayur-Tendulkar.jpg"
+pic: "/assets/images/Mayur_Tendulkar.jpg"
 title: "Senior Customer Engineer, Azure FastTrack - Microsoft India"
 linkedin: "https://www.linkedin.com/in/mtendulkar/"
 twitter: "https://twitter.com/mayur_tendulkar"

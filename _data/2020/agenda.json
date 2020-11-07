@@ -1092,17 +1092,17 @@
                     },
                     {
                         "event_key": "D02-DEV304",
-                        "name": "Battle tested project planning with Azure Devops boards",
+                        "name": "Let’s Migrate That Puppy",
                         "image" : [
-                            { "url" : "Kevin_Chant.jpg" }
+                            { "url" : "Mayur_Tendulkar.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "Kevin Chant",
-                        "description": "Organising your project may be one of the most important things about your project. Azure boards within Azure DevOps give you the capability to organise your project and analyse the it’s progress. Within this session we’ll show you how to design your own dashboard, the do and don’ts, go into analytics and use extensions such as sprint goals. We will also show you how to align with roadmaps to get the timeline, planning and portfolio right and discuss migrations strategies from other board apps (rip that band aid off). Do you want your manager to stop bugging you about your project’s progress, come to this session? Which is being co-presented by an MVP and somebody who is a Microsoft Certified DevOps Engineer Expert.",
+                        "speakers": "Mayur Tendulkar",
+                        "description": "So you decided to migrate your application to the cloud. But this journey to the cloud might be baffling considering so many options. Should you migrate to Virtual Machines, Web applications, Severless or Kubernetes? Join Mayur Tendulkar to find out answers to these questions and make this journey easier.",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-24",
                         "day": "DAY2",
@@ -1243,17 +1243,17 @@
                     },
                     {
                         "event_key": "D02-DAT05",
-                        "name": "TBA",
+                        "name": "Get your hands dirty with AI/ML with Azure",
                        "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "ritesh.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "DATA",
-                        "speakers": "TBA",
-                        "description": "Announcing soon",
+                        "speakers": "Ritesh Modi",
+                        "description": "Lets solve a business problem togather using python, pandas, sklearn & matplotlib. In this session, We will- Learn to use Azure studio for solving ai/ml problems - Understand the process of using python libraries  - Developing models for a business problem - Identifying an algorithm - Using hyperparameters to tune the accuracy - Training and testing the model    ",
                         "venue": "TBA",
                         "sessionTags": "02-01-03-05",
                         "day": "DAY2",
