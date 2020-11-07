@@ -4,7 +4,7 @@ short_name : "Ritesh"
 name: "Ritesh Modi"
 pic: "/assets/images/ritesh.jpg"
 title: "Senior Engineer - Commercial Engineering, Microsoft"
-linkedin: "https://www.linkedin.com/in/ritesh-modi/s"
+linkedin: "https://www.linkedin.com/in/ritesh-modi/"
 twitter: "#"
 featured: false
 active: Y
