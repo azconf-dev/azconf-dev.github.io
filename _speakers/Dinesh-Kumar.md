@@ -1,7 +1,7 @@
 ---
 
 short_name : "Dinesh-Kumar"
-name: "Dinesh-Kumar"
+name: "Dinesh Kumar"
 pic: "/assets/images/Dinesh-Kumar.png"
 title: "Product Manager, Reports & Analytics Squad - Kissflow Inc"
 linkedin: "https://www.linkedin.com/in/dinesh-kumar-prabakaran/"
@@ -9,7 +9,7 @@ twitter: "https://www.twitter.com/dinuswt22"
 featured: false
 active: Y
 speakerbio: |
-    
+    Being technology optimist, coming through 8+ years of work around data, he is deeply involved along with a great team to design and implement B2B products around Data stack as SaaS and installable format for Big Data, ETL and BI.
     
 session: |
     **Workshop : Become Data Nerd with no code using ML.Net and Power BI**
