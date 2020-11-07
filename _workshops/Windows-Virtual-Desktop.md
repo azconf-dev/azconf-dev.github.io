@@ -12,12 +12,12 @@ pic: "/assets/images/workshops/windows-virtual-desktop.png"
 desc: "Announcing soon"
 type: "Paid"
 fee: "3000.00"
-duration: "3"
+duration: 3
 time: "10:00 AM - 01:00 PM"
 charityorg: ""
 attendeelimit: 30
 prerequisites: ""
-sortorder: 1
+sortorder: "1"
 description: |
     
     
