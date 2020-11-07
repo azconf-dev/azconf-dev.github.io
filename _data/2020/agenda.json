@@ -646,7 +646,7 @@
                         "venue": "TBA",
                         "sessionTags": "01-02-00-00",
                         "day": "DAY1",
-                        "tags":"Keynote"
+                        "tags":"Closing Note"
                     }
                 ]
             }
@@ -1298,7 +1298,7 @@
                         "venue": "TBA",
                         "sessionTags": "02-02-00-00",
                         "day": "DAY2",
-                        "tags": "Keynote"
+                        "tags": "Closing Note"
                     }
                 ]
             }

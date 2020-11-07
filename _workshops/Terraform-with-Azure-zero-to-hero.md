@@ -13,10 +13,11 @@ desc: "Announcing soon"
 type: "Paid"
 fee: "2500.00"
 duration: 6
-time: "10:00 AM - 17:00 PM"
+time: "10:00 AM - 05:00 PM"
 charityorg: ""
 attendeelimit: 25
 prerequisites: ""
+sortorder: "1"
 description: |
     
     
