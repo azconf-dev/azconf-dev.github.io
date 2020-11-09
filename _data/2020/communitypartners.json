@@ -37,13 +37,6 @@
    
   },
   {
-    "name": "Elastic",
-    "pic": "/assets/images/elastic.png",
-    "website": "https://www.elastic.co/community/",
-    "facebook": "https://www.facebook.com/elastic.co",
-    "twitter": "https://www.twitter.com/elastic" 
-  },
-  {
     "name": "Kubernetes-Pune",
     "pic": "/assets/images/kubernetes-pune.png",
     "website": "https://www.meetup.com/Kubernetes-Pune/",
