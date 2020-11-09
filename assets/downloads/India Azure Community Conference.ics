@@ -1,0 +1,1004 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:India Azure Community Conference 2020
+NAME:India Azure Community Conference 2020
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-557596972@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T090000
+DTEND;TZID=Asia/Calcutta:20201124T100000
+SUMMARY:Keynote Address - The Joy of Azure by Scott Hanselman
+DESCRIPTION:The Joy of Azure
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Address - The Joy of Azure by Scott Hanselman
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-384244504@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:Simplify Micro services development with Tye by Jon Galloway
+DESCRIPTION:Tye is a tool that makes developing\, testing\, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Simplify Micro services development with Tye by Jon Galloway
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-927906865@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:What�s new with Xamarin? by Maddy Leger
+DESCRIPTION:Xamarin developers are creating beautiful cross-platform mobile apps faster and easier than ever. Xamarin.Forms 5 introduces new controls to help developers create modern\, appealing app UX with less code. Along with the new SDK\, the Xamarin team has been hard at work making improvements to every aspect of the .NET mobile development process. We�ve made it more intuitive to write code\, faster to build and deploy your apps\, and easier to iterate on your UIs with a wide variety of tools and features. Join Maddy Leger\, Xamarin Program Manager\, to learn about some of the latest features coming to Xamarin like XAML Hot Reload for Xamarin.Forms\, Hot Restart for iOS development on Windows\, custom drawn UI\, and more!
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:What�s new with Xamarin? by Maddy Leger
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1902988847@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:Eliminate extra dependencies : State management for React apps with hooks by Bhavana Sanagapalli\, Murali Guggilam\, Satish Agarwal
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eliminate extra dependencies : State management for React apps with hooks by Bhavana Sanagapalli, Murali Guggilam, Satish Agarwal
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1724623703@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:DevOps: The Return of Security by Mustafa Toroman
+DESCRIPTION:In DevOps processes\, security is often forgotten or neglected. Increasingly more companies are recognizing this problem. But this doesn�t have to be a problem as long as you start implementing security in DevOps on time. Lot of features\, that DevOps processes use\, can be turned to our favor and used to increase security . Join us in this feature-packed session where you will discover DevOps security nuggets\, see real world examples and learn to become DevOps security expert!
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DevOps: The Return of Security by Mustafa Toroman
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1544146545@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:Say YES! to NoSQL: A Guide on When to Ditch Relational Databases by Adrienne Tacke
+DESCRIPTION:If you're like many developers\, relational databases are your bread and butter. They work (mostly) and are a logical solution to your application's data management needs. They've been the standard and that's what's always worked. And then...NoSQL databases came along. You may find that you're now in a spiral of questions: What is this? Is this better than a relational database? What do we need another database technology for? Does this mean there's no structured query language? Do I migrate my existing database to this model? In this talk\, I'll answer these questions (and many more) to help you understand the what\, how\, and why of NoSQL databases as it relates to the modern applications we strive to build today. You'll leave with a definitive guide on NoSQL databases and be confident in deciding whether or not it is the right database solution for you!
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Say YES! to NoSQL: A Guide on When to Ditch Relational Databases by Adrienne Tacke
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-162085517@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T100000
+DTEND;TZID=Asia/Calcutta:20201124T110000
+SUMMARY:Towards an Evolutionary Architecture by Venkat Subramaniam
+DESCRIPTION:Big up front design is discouraged in agile development. However\, we know that architecture plays a significant part in software systems. Evolving architecture during the development of an application seems to be a risky business. In this presentation\, we will discuss the reasons to evolve the architecture\, some of the core principles that can help us develop in such a manner\, and the ways to minimize the risk and succeed in creating a practical and useful architecture.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Towards an Evolutionary Architecture by Venkat Subramaniam
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2004396277@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Getting Started with Microservices using Clean Architecture by Rahul Sahay
+DESCRIPTION:In this session\, you will get to know about clean architecture basics and how to separate the domain and bounded contexts. You will also learn how to apply best practices from Microservices world to build the Enterprise app. A comprehensive introduction into the modern microservices architecture based on the most popular technologies such as .NET Core\, Docker\, DDD\, Clean architecture and many more. Session\, will be completely demo and based on actual enterprise practices.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Getting Started with Microservices using Clean Architecture by Rahul Sahay
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-519734275@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Building Intelligent Bots using Microsoft Bot Framework and Cognitive Services by Prashant G Bhoyar
+DESCRIPTION:Microsoft Cognitive Services let you build apps with powerful algorithms to see\, hear\, speak\, understand\, and interpret our needs using natural methods of communication\, with just a few lines of code. Easily add intelligent features � such as emotion and sentiment detection\, vision and speech recognition\, language understanding\, knowledge\, and search � into your app\, across devices and platforms such as iOS\, Android\, and Windows\, keep improving\, and are easy to set up. In this demo-driven session\, we will cover how to build the intelligent bots in using Microsoft Bot Framework and Cognitive Services and deploy in multiple platforms (channels) like Microsoft Teams\, SharePoint\, Public-Facing Web Sites\, etc
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Building Intelligent Bots using Microsoft Bot Framework and Cognitive Services by Prashant G Bhoyar
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1304978351@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Jamstack\, static sites and Azure by Facundo Giuliani
+DESCRIPTION:Do you remember Microsoft FrontPage? Static web pages are back with the Jamstack! With some of the tools and concepts developed in the last years\, we can get advantage of features that static web pages offer and get web apps with better performance\, more security\, easier scaling and cheaper costs.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jamstack, static sites and Azure by Facundo Giuliani
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1952790702@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Github actions - Setting Azure Infrastructure by Kanika Pasrija
+DESCRIPTION:GitHub Actions is an end-to-end software development platform that offers a seamless code to cloud experience. By automating workflows\, CI/CD\, and other common tasks\, Actions greatly simplifies and improves developer workflows and productivity. One of the scenarios where actions play a significant role is setting Azure infrastructure using code. We can use arm-deploy action for the same. Arm-deploy is a GitHub Action to deploy ARM templates which adds maturity to pipelines. In the session\, we'll discuss about github actions\, workflows and focus on arm-deploy action to setup azure infrastructure.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Github actions - Setting Azure Infrastructure by Kanika Pasrija
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2025761468@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Men from Mars\, Women from Venus: both can code .NET in Jupyter by Ron Dagdag
+DESCRIPTION:Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code\, equations\, visualizations and narrative text. Attend this session and learn how you can write .NET code with Jupyter Notebooks running in Raspberry Pi\; read sensor data\, build dashboard and control an IoT device all from the browser.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Men from Mars, Women from Venus: both can code .NET in Jupyter by Ron Dagdag
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-384700964@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T110000
+DTEND;TZID=Asia/Calcutta:20201124T120000
+SUMMARY:Interpretable Machine Learning with Python Examples by Abdul Majed Raja RS
+DESCRIPTION:Machine Learning Systems are becoming so ubiquitous in our daily life. With the rise of Blackbox models\, ML Solutions based on them are often blamed for lack of transparency and hence its trustworthiness on fairness is being questioned. In some of the countries\, the law of the land requires the organization that owns the ML Models to explain its predictions. Hence it�s high time for Machine Learning Engineers and Data Scientists to practice Interpretable ML which is also referred to as Explainable AI (XAI). This talk helps you understand the following:What is Interpretable ML / Explainable AI ? Why is Interpretability required in Machine Learning? How is it relevant to me? Types of Interpretability (Global & Local)IML with Python References (LIME\, SHAP)
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Interpretable Machine Learning with Python Examples by Abdul Majed Raja RS
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-336209167@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T120000
+DTEND;TZID=Asia/Calcutta:20201124T130000
+SUMMARY:Lunch  & Virtual Networking by 
+DESCRIPTION:Lunch Break
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch  & Virtual Networking by 
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-652944251@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:Let's Chat-Bots using Azure AI by Liji Thomas
+DESCRIPTION:The advancement in Conversational AI has revolutionized human interactions\, with massive implications across industries. Join Liji as she shares her experiences from building real-world conversational experiences using Azure AI tools. The session will help you understand the capabilities of Microsoft Bot Framework and how an interactive bot is structured. Learn how to create a Virtual Assistant using Azure Bot Service from scratch and within minutes! Give a human side to your bot using Azure Cognitive Services. Add AI capabilities for Natural Language Understanding (NLU) and answering user queries. Finally. connect your virtual assistant to multiple platforms including Amazon Alexa.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Let's Chat-Bots using Azure AI by Liji Thomas
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1652217906@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:Architect using Serverless to save cost by Karthikeyan V K
+DESCRIPTION:This session is to help you to save cloud cost by moving your workload to serverless technologies. We will look into how you can leverage all the serverless options available in Azure. You will learn Autoscaling using Virtual Nodes\, How you can use KEDA to leverage HPA(Horizontal Pod Autoscaler)\, and pay less than a dollar to run your workloads in the cloud. You will also look into all the real-time problems faced by the speaker and how you can learn from his experience. This will be a session packed with demos and real-time problems and solutions
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Architect using Serverless to save cost by Karthikeyan V K
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1153298358@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:Deploying Micro Frontends to a Kubernetes Cluster by Vinci Rufus
+DESCRIPTION:Micro frontends are a rage\, but teams generally struggle with trying to deploy their Micro frontends on to a Production Environment. This talk will walk you through an end to end process of setting up a micro frontend app using monorepos and trunk-based development and how do we go about setting up a CI & CD pipeline for deploying it into an AKS cluster using Azure DevOps.We will also look at Review Apps to create feature environments for every PR thats raised. 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deploying Micro Frontends to a Kubernetes Cluster by Vinci Rufus
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1263725366@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:How to automate network security for your Azure functions by Dushyant Priyadarshee
+DESCRIPTION:Azure functions can be kept secured with restricted access setup or Azure AD based authentication etc. We will see some basic access control to secure an Azure function. Then we will use dotnet based Azure function as an example to describe an ecosystem. There will be few Azure tech introductions e.g. Azure event grid\, resource graph explorer etc and few demos with a dotnet core Azure function. Overall we will discuss and design the architecture of a system automating the network security for the ecosystem with multiple Azure functions. This idea can be spanned to a more complex environment\, we might touch on that.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:How to automate network security for your Azure functions by Dushyant Priyadarshee
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1236352286@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:Process large-scale data and computational function in serverless manner by Reenu Saluja
+DESCRIPTION:There are challenges for large scale data processing which include analyzing rapidly growing data\, getting data insights\, calculating complex computational functions etc. During this session\, we will discuss about\, how these challenges can be addressed using serverless distributed data processing system with a demonstration
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Process large-scale data and computational function in serverless manner by Reenu Saluja
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-107006041@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T130000
+DTEND;TZID=Asia/Calcutta:20201124T140000
+SUMMARY:Power of Azure in Mixed Reality by Abhilash Ashok
+DESCRIPTION:The session gives an overview on building secure\, collaborative solutions using various mixed reality solutions available in Azure. Get to know how to build rich immersive 3D applications and experiences that map\, persist\, and restore 3D content at real-world scale using Azure Spatial Anchors. The talk also shows how to render high-quality\, interactive 3D content\, and stream it to your devices in real time using Azure Remote Rendering. The talk covers technology overview\, getting started\, code samples and cross-platform live demos.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Power of Azure in Mixed Reality by Abhilash Ashok
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1779440685@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:eShop on Dapr: Build microservice applications the easy way by Sander Molenkamp\; Edwin
+DESCRIPTION:Dapr is an open source\, event-driven\, portable runtime for building microservices. It provides powerful building blocks to make it easy for developers to build resilient microservice applications using a variety of languages and frameworks. In this session we'll introduce the Dapr building blocks and show how they can be applied to 'eShop on Containers'\; a .NET microservices reference application. You'll learn about both the benefits and the limitations of using Dapr in your microservice applications.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:eShop on Dapr: Build microservice applications the easy way by Sander Molenkamp; Edwin
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1272100609@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:Who tests their cloud code anyway? by Lars Klint
+DESCRIPTION:If you are a developer\, you know as well as me that testing your code is optional. And when we suddenly involve cloud computing\, there are even more excuses not to test your applications and infrastructure. In this talk\, I will explain and demonstrate some of the many options you have in Azure for testing every part of your development life cycle. I go through everything from A/B testing to performance testing to architecture testing\, all sprinkled with animal photos. Join me. Enough of your excuses.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Who tests their cloud code anyway? by Lars Klint
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-237278114@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:Build Semantic-Cloud-Notes App using Azure AI\, MongoDB\, and Angular by Dhananjay Kumar
+DESCRIPTION:This talk teaches you to create a Semantic Cloud Notes App in less than an hour. In this step-by-step live coding-based talk\, you will learn to leverage MongoDB Atlas and Realm's power in an Angular App and use Azure cognitive services to find emotions in the notes. The first part of the talk introduces MongoDB Realm and explains how it can accelerate the development process and help you Build apps fast and Build them right. The second part demonstrates how easy it is to use MongoDB Realm in a web application\, in this case\, Angular. All it takes few lines of codes to add authentication\, save data\, create an index for faster fetch\, etc. You will learn to write that code in a step-by-step manner. The third part teaches you to use Azure Cognitive Services to find emotions in the notes\, and in the end\, we will deploy the app on azure web apps. This talk is for any developer who knows little concepts of NoSQL\, cloud\, and JavaScript. The main take away of the talk will be understanding various components of an app from storage to development to analysis. Come and learn to build an Angular smart app faster using MongoDB and Azure
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Build Semantic-Cloud-Notes App using Azure AI, MongoDB, and Angular by Dhananjay Kumar
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-355089763@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:Deep dive into Azure Virtual Machine Scale Sets by Jasjit Chopra
+DESCRIPTION:In this session\, we will cover advanced topics and scenarios related to Azure Virtual Machine Scale Sets. We will learn: - Different ways to manage multiple VMs for different types of application workloads and their integration with Azure load balancer - Different ways to deploy and monitor your scale sets - New features including scale-in-policy\, terminate notifications\, and instance protection
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deep dive into Azure Virtual Machine Scale Sets by Jasjit Chopra
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-175777546@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:Azure IoT Edge Deployment using Kubernetes APIs by Ilyas
+DESCRIPTION:K8s arguably the developer's haven and of course a clear winner and a market leader with 70\,000 stars on Github. K8s greatly simplifies how developers build and run container-based solutions without the need for deep Kubernetes experience. With the support for K8s with IoTEdge\, we could deploy custom modules\, third party components\, AI/ML models using K8s APIs. In this demo-heavy session\, let's learn why K8s deployment model for IoT Edge over the native option\, use-cases/scenarios\, and of course will see a complete demo of deploying modules using K8s APIs.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Azure IoT Edge Deployment using Kubernetes APIs by Ilyas
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-28229862@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T140000
+DTEND;TZID=Asia/Calcutta:20201124T150000
+SUMMARY:Simplifying Blockchain with the help of Cloud by Gnana Lakshmi
+DESCRIPTION:Blockchain has become a pivotal technology in the way it has revolutionized the industry. Starting from Decentralized finance\, Supply chain management to Self Sovereign Identity\, blockchain has shown immense potential to manage transactions across various domains. One of the drawbacks when it comes to working with blockchain is the bandwidth required to deploy your own network and perform operations on it. This is where cloud can make a big difference. Cloud platforms like Microsoft Azure have built Blockchain offerings in a short span of time to address the challenges faced by developers during deployment and operations. With cloud offerings like Azure Blockchain service\, everything is available at one-click. This talk is designed for beginners\, where I will introduce blockchain and also talk about how blockchain network deployment and operations can be simplified using Azure Blockchain Service.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Simplifying Blockchain with the help of Cloud by Gnana Lakshmi
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-737711872@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:Event-driven autoscaling on Kubernetes with KEDA and Azure Functions by Erwin Staal
+DESCRIPTION:Event-driven\, serverless architectures are a hot topic in today�s cloud-native application development. To take full advantage of the serverless benefits of event-driven\, your application needs to scale and react to those events instantly. It needs to be able to scale from zero to potentially thousands of instances. KEDA is an open-sourced component that provides event-driven autoscaling for your Kubernetes workloads. KEDA works with any container\, but to enable additional serverless capabilities within Kubernetes you can pair KEDA with the Azure Functions runtime. Don't get fooled by 'Azure' in the name. Azure Functions provides a programming model that can run anywhere: in a container running on-premises\, fully managed in Azure\, or in any Kubernetes cluster and they can be written in many languages. It allows application developers not to worry anymore about writing the code to connect\, trigger\, and pull from an event source like RabbitMQ\, Kafka\, or Azure Event Hubs. That�s all handled for you. In this demo-filled session\, we will start with a quick introduction to both Kubernetes and Azure Functions. You will then see how you can create your first cluster and install KEDA\, deploy a function and scale that to thousands of instances based on events.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event-driven autoscaling on Kubernetes with KEDA and Azure Functions by Erwin Staal
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-842298649@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:Supercharge your App Service to a Global scale by Tiago Costa
+DESCRIPTION:When architecting applications today\, making then globally available is the standard. When designing the infrastructure for a new application we need to start from the premises that we have a global disperse customer base. This is a good challenge for Azure Architects. Creating global applications is no easy piece\, we can hit a lot of concerns\, not only technical but also business related and even legal. In this session\, we will check how Azure App Service can helps us reach this global application goal and how other related services\, like: Azure Front Door\, Traffic Manager\, Azure Storage\, Azure CDN\, Azure Functions\, Cognitive Search\, Azure Redis Caches\, Cosmos DB and messaging services can help you to create a global scale application. Expect a heavily-demo depended session\, based on the real-world experience in implementing this services in several customer
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Supercharge your App Service to a Global scale by Tiago Costa
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-999268197@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:How I built cloudskew.com on Azure by Mithun Shanbhag
+DESCRIPTION:I'll talk about lessons learnt\, key decisions & tradeoffs made while building cloudskew.com (an online editor for creating cloud architecture diagrams). The architecture of cloudskew is publicly documented: https://assets.cloudskew.com/assets/misc/cloudskew-architecture-20200116.png
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:How I built cloudskew.com on Azure by Mithun Shanbhag
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-668393979@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:Managing SIEM And SOAR using Azure Sentinel by Keshav Jain
+DESCRIPTION:Microsoft Azure Sentinel is a scalable\, cloud-native\, security information event management (SIEM) and security orchestration automated response (SOAR) solution. Azure Sentinel\, as a cloud security solution can play in securing enterprise. In the past years\, enterprises were forwarding security alerts to their on-premise SIEM solution as part of their cloud security strategy. However\, some of these tools were struggling to keep pace with the increasing volume and variety of data they process. Some of the common issues were inability of their SIEMs to scale and the volume of alerts they must investigate. Azure Sentinel is a central place to analyze your security data\, across all parts of your environment. Using the dashboards technology already available in Azure\, Sentinel can provide a single pane of glass on the security of your environment.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Managing SIEM And SOAR using Azure Sentinel by Keshav Jain
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-421293514@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:Introduction to Azure Data Platform by Javier Villegas
+DESCRIPTION:Azure Data Platform offers various services for all data professionals (Data Scientist\, DBA\, Developers\, etc.) We will know all these services in order to select the most convenient for our next project
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Introduction to Azure Data Platform by Javier Villegas
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1427797294@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T150000
+DTEND;TZID=Asia/Calcutta:20201124T160000
+SUMMARY:Content Moderator - A State of Art Cognitive Service by Niloshima Srivastava
+DESCRIPTION:In this session\, I would like to explain the core concepts of Azure Cognitive Service Content Moderator API. It is going to be a hands-on session which will complete - 1. The Core Concepts (Why to moderate\, Ways to Moderate\, and the Content Moderator API)  2. What is Automated Image Moderation (Concept and Demo)   3. Job Operations & Review Operations (Concepts and Demo)
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Content Moderator - A State of Art Cognitive Service by Niloshima Srivastava
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-523131916@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201124T160000
+DTEND;TZID=Asia/Calcutta:20201124T163000
+SUMMARY:Closing Note by Sandeep Alur
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Closing Note by Sandeep Alur
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-7198220@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T090000
+DTEND;TZID=Asia/Calcutta:20201125T100000
+SUMMARY:Keynote Address - Exploring The Multi-Cloud Paradigm Through Azure Arc by Janakiram MSV
+DESCRIPTION:Azure Arc is Microsoft�s hybrid and multi-cloud platform. It has three components � Arc enabled servers\, Arc enabled Kubernetes clusters\, and Arc enabled data services. Attend this session to learn everything about Azure Arc capabilities. From registering and managing VMs to Kubernetes clusters to scaling PostgreSQL Hyperscale\, this session has it all.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Address - Exploring The Multi-Cloud Paradigm Through Azure Arc by Janakiram MSV
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1627563428@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:Taking Mobile Development Serverless with C# by James Montemagno
+DESCRIPTION:Join James as he walks through his latest creation\, Island Tracker(https://islandtracker.app) for Animal Crossing on iOS and Android. Built full cross-platform with Xamarin.Forms and leveraging Azure Functions and Table Storage as the cloud backend he will discuss his full architecture and demo how it all was pulled together. He will talk about lessons learned\, preparing for release\, continuous integration\, user testing\, and more! If you have ever wanted an insight into creating and deploying a cloud connected app then join in
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Taking Mobile Development Serverless with C# by James Montemagno
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-406723875@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:At The Helm of Kubernetes: Repeatable Infrastructure Creation for Mere Mortals by Rob Richardson
+DESCRIPTION:As we get deeper into Kubernetes yaml files\, we see a lot of duplication. Can we move to a higher level that eliminates this duplication? Let's look at Helm\, a tool both for templating k8s yaml files and for installing complex infrastructure dependencies as one package. With Helm 3\, we now have deeper integration and more security when working with Kubernetes. Join us on this path to a simpler\, more repeatable\, and more discoverable yaml experience.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:At The Helm of Kubernetes: Repeatable Infrastructure Creation for Mere Mortals by Rob Richardson
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2012985500@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:Distributed Messaging patterns by Cecil Philip
+DESCRIPTION:Distributed systems are composed of a collection of services that each have their own roles and requirements. As we�re designing these systems\, it�s important for us to understand how we communicate with these services and also how they communicate with each other. In this session\, we will explore some of the options for communicating between distributed services. We�ll see some of the standard protocols and patterns that we can all use today\, regardless of whether you�re running in the cloud\, on-premises or a little of both.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Distributed Messaging patterns by Cecil Philip
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1415364281@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:Deployment Certifications at Scale on AKS with Azure Policy and Azure Functions by Rahul Rai\, Tarun Pabbi
+DESCRIPTION:Do you know that your Kubernetes cluster can talk to you? And that too\, with voice or SMS messages? Controlling resource deployments on an Azure Kubernetes Service (AKS) cluster can quickly become challenging\, particularly when multiple Continuous Delivery pipelines target the same cluster. In such scenarios\, you want to build smarts within the Kubernetes cluster to admit or deny pods that do not meet your admission criteria. With Azure Policy for AKS\, you can write static admission rules for your Kubernetes cluster. But what if your admission demands are dynamic or you want to roll out custom admission policies? By creating custom admission webhooks for Kubernetes\, you can define custom policies that regulate the deployment of resources to a cluster. In this session\, we will present how you can administer Azure Policies for AKS and subsequently build a serverless validating admission webhook with Azure Functions to apply governance policies on the deployments in Kubernetes. Azure Functions allow you to integrate with external services without writing a single line of integration code. We will use the Azure Function�s native Twilio binding to send SMS updates on Kubernetes deployments to the Ops/SRE team. After participating in this session\, you will understand how easy it is to write custom validating webhooks for Kubernetes. Also\, you will learn to build and deploy a serverless infrastructure to certify deployments at scale.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deployment Certifications at Scale on AKS with Azure Policy and Azure Functions by Rahul Rai, Tarun Pabbi
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1765508418@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:How I have improved the Database performance from 5 seconds to 1 millisecond? by Manish Sharma
+DESCRIPTION:In this session\, I will talk about a customer engagement which got started from customer getting 5 seconds against their expected benchmark of 50 milliseconds. I will discuss the optimization pointers and how we implemented them.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:How I have improved the Database performance from 5 seconds to 1 millisecond? by Manish Sharma
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-385969497@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T100000
+DTEND;TZID=Asia/Calcutta:20201125T110000
+SUMMARY:But First\, the Team! by Scott Graffius
+DESCRIPTION:Want great Cloud or Web Development projects? Among other things\, It takes a great team! Enter Bruce Tuckman's phases of team development � a model that�s stood the test of time because it remains highly relevant and beneficial. If you are a leader (or aspire to be one)\, a member of a team (or may be in one in the future)\, or a just looking to develop your skills\, this talk (based on Tuckman's model\, but with fresh angle) will give you a practical framework with actionable tips for working in and leading teams successfully. You'll learn about the five phases � Forming\, Storming\, Norming\, Performing\, and Adjourning � including detailed descriptions of each along with proven strategies for addressing challenges or issues that may occur along the way. You'll understand how to use the model to your advantage by effectively navigating all of the phases\, from team set-up to the after-party!
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:But First, the Team! by Scott Graffius
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1563211737@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:Demystifying Artificial Intelligence with Microsoft Cloud\, Azure! by Kasam Shaikh
+DESCRIPTION: With AI is Empowerment\, Microsoft has offered a vast range of ready to use AI services offerings. The most interesting part is\, one can use these AI offerings in Azure Ecosystems\, driving the application to next level Intelligence with seamless integrations. You will explore the use of Azure AI in\, Azure IPaaS\, Azure SQL\, Azure Serverless Offerings\, and Low Code Power Platforms. At the end of the session\, you will learn to implement & decide the right Azure AI offerings to be used as per your buisness needs.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demystifying Artificial Intelligence with Microsoft Cloud, Azure! by Kasam Shaikh
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-114235617@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:Managing Microservices with Servicemesh by Swaminathan Vetri
+DESCRIPTION:Getting started with microservices is easy. As you start building tens/hundreds of microservices is when you would notice things are going out of control. That's where Service mesh comes to the rescue. In this session\, you will learn how service mesh can help with easy traffic management & observability for your microservices. The session would cover specifically about SMI (Service Mesh Interface) and OSM - Open Service Mesh
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Managing Microservices with Servicemesh by Swaminathan Vetri
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-604599845@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:Function Orchestration in the world of Serverless by Daron Y�ndem
+DESCRIPTION:You have a function\, or two\, or maybe more? Now is the time to talk about making sure you have full control on how data and communication flows between your functions. You need something to control how your functions interact to each other. You need something that can give you granular control\, or sometimes maybe a simple user interface to get it done. This session is about your options in Azure to accomplish all that. We will look into Durable Functions and Logic Apps to understand where they can help us scaling our serverless move.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Function Orchestration in the world of Serverless by Daron Y�ndem
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1938846505@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:Infrastructure as Code with Terraform - The Fundamentals by Ravikanth Chaganti
+DESCRIPTION:With the emergence of DevOps / SRE / Agile methods of application deployment and management\, infrastructure and configuration as code (IaC and CaC) are the most discussed topics in the cloud and cloud native space. There are many platforms and tools that enable IaC for different on-prem and cloud application architectures. Terraform stands in a unique position here with support for many cloud platforms and on-prem applications. This session provides an overview of what is Hashicorp Terraform and demonstrates its capabilities. At the end of the session\, you will have the necessary knowledge to get started with Terraform for Azure deployments.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Infrastructure as Code with Terraform - The Fundamentals by Ravikanth Chaganti
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2027230081@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:I(o)T takes two! Meet Azure Digital Twins by Glenn Colpaert
+DESCRIPTION:As announced at Microsoft Build 2020\, Azure Digital Twins has a new public preview. Azure Digital Twins allow the customer to create rich models that allow optimizations of the general flow of business. Digital Twins is a platform for developers to model the real world\, controlled using a rich set of REST APIs and C# SDK. In this session\, we are going through all the new capabilities of the new Azure Digital Twin platform. Glenn will show you how to model your Digital Twin Graph and use the live execution environment to create a rich ecosystem for your IoT data processing. Attendees will learn when and how Azure Digital Twins is ideal for their IoT solution. Making sure they are ready to build the next generation of IoT platforms.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:I(o)T takes two! Meet Azure Digital Twins by Glenn Colpaert
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2146648579@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T110000
+DTEND;TZID=Asia/Calcutta:20201125T120000
+SUMMARY:Do No Harm - A Checklist for Responsible AI by Priyansha Mishra
+DESCRIPTION:The session will cover the guiding principles of Responsible AI and showcase demos of the tools and technology Microsoft offers to put these principles into action. This will be a detailed technical discussion with demos and is intended to be a L300-L400 session.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Do No Harm - A Checklist for Responsible AI by Priyansha Mishra
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-524527929@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T120000
+DTEND;TZID=Asia/Calcutta:20201125T130000
+SUMMARY:Lunch Break by 
+DESCRIPTION:Lunch Break
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch Break by 
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-597624233@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:ACR\, ACI\, ACS\, AKS\, DCK... aka the Container Alphabet Soup by Peter De Tender
+DESCRIPTION:The world is wild about Containers\, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now\, based on the recent amount of questions I got on the topic\, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure\, by using the different Azure Container solutions available. Starting from the basics\, moving to more complex architectures and scenarios. And as usual in Peter's sessions\, more live demos than PPTX-talk
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup by Peter De Tender
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1309318579@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:Build high-performance APIs with gRPC and .NET by James Newton-King
+DESCRIPTION:gRPC is a modern high performance RPC (Remote Procedure Call) framework with excellent cross-platform support. gRPC is based on HTTP/2\, Protocol Buffers and other modern standards-based technologies. Together with excellent tooling\, gRPC helps you create high throughput\, low latency\, real-time services. In this talk I'll introduce gRPC and compare it with familiar REST-based JSON APIs. You will see how to create gRPC services on ASP.NET Core\, and how to integrate gRPC with dependency injection\, logging\, and authentication. Learn how to use gRPC to create lightning fast microservices and frontend applications
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Build high-performance APIs with gRPC and .NET by James Newton-King
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-530117893@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:Serverless Trends of the Season by Nandeesh Swami
+DESCRIPTION:Serverless is where the industry is moving towards. Serverless Applications started off as a modest application handling part of backend logic/working on a trigger to become the main application in a Cloud LOB suite. In this session we discuss on how Industry is mixing and matching Serverless apps\, thereby evolving Serverless patterns. We will look into some anti patterns\, architectures and practices which can break the application.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Serverless Trends of the Season by Nandeesh Swami
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2048509771@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:Build great solution with Microsoft Well Architected Framework(WAF) by Maheshkumar R
+DESCRIPTION:Come and join why WAF maters to you be it a Developer or Architect or DevOps. Running Day1 job on Azure or any cloud is easy but Day2 onwards require certain maturity and best practices to leverage the fullest potential. We will be learning the pillars of WAF with demos to visualize better. I am sure\, you will start implement some of them on the same day once you the gap. Cloud is a moving target as they keep improvise or update the stuff all the time. How can someone tell me cloud adoption maturity and comment the gap? I know it may looks like a consultation work and taxing but trust me\, its so easy to learn WAF and implement them to reap the benefits.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Build great solution with Microsoft Well Architected Framework(WAF) by Maheshkumar R
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-993527946@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:Never miss the bus with Azure Function\, IFTTT\, Azure SQL and GeoSpatial data by Davide Mauri
+DESCRIPTION:Public transportation is a blessing\, but sometimes it can be a challenge. If I miss my bus\, I might have to wait for 30 minutes to catch the next one. It would be great if someone could create a simple application that gets real-time bus information\, also allowing the creation of geofence: when the bus enters that area\, you know it�s time to leave the office. You can catch the bus right on time and never have to wait for the next one! I�ve been using it for more than a year now and it�just works. Like magic. With the aid of Azure Function\, Azure SQL and a service like IFTTT\, creating such solutions is fun\, and paves the way for improvements and integrations that make people�s lives easier. In this session we�ll analyze the solution from the inside out.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Never miss the bus with Azure Function, IFTTT, Azure SQL and GeoSpatial data by Davide Mauri
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-574268890@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T130000
+DTEND;TZID=Asia/Calcutta:20201125T140000
+SUMMARY:Future of developers in the age of AI by Venkatarangan Thirumalai
+DESCRIPTION:We will explore whether AI will replace software developers by 2040 and how to stay relevant
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Future of developers in the age of AI by Venkatarangan Thirumalai
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-588571412@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Building better security for your API platform using Azure API Management by Eldert Grootenboer
+DESCRIPTION:These days we use APIs to expose all our microservices \, processes\, and data\, and all this while working in a PaaS or serverless environment. But how do we ensure this is done in a secure and governed way? This is where Azure API Management comes in\, where we can create a repository of all our APIs\, and make sure to expose all of these securely in a standardized manner. In this session we will dive into the most common security hazards\, and see how API Management helps us solve these. You will learn all about the strengths and weaknesses of the product\, best practices\, and how to harden the defenses of your services.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Building better security for your API platform using Azure API Management by Eldert Grootenboer
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-756913726@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Dapr for building distributed .NET Core applications by Alex Thissen
+DESCRIPTION:Modern distributed applications require much more than just application logic. Features such as state management for services\, communication using publish/subscribe messaging and event driven binding to cloud resources might be needed. Dapr introduces a runtime to offer such building blocks\, and is less invasive in your application\, allowing you to pick-and-choose what you need. In this session we will look at the approach that the Dapr runtime takes with a sidecar architecture\, separating application logic from the Dapr runtime components. You will also see what it takes to develop distributed applications in .NET Core using Dapr's features and how to bind to messaging infrastructure\, cloud resources and use the actor programming model and client proxies. At the end you know what it takes to combine Dapr in your ASP.NET Core applications using routing\, controllers or using gRPC clients.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dapr for building distributed .NET Core applications by Alex Thissen
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-85099579@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Let�s Migrate That Puppy by Mayur Tendulkar
+DESCRIPTION:So you decided to migrate your application to the cloud. But this journey to the cloud might be baffling considering so many options. Should you migrate to Virtual Machines\, Web applications\, Severless or Kubernetes? Join Mayur Tendulkar to find out answers to these questions and make this journey easier.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Let�s Migrate That Puppy by Mayur Tendulkar
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2100516110@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Enabling DevSecOps best practices with GitHub Actions by Usha Narayanabhatta
+DESCRIPTION: As digital transformation has evolved\, enterprises are expected to deliver continuous value by releasing frequent feature updates with little to no disruption to their customers. Although many organisations are adopting DevOps\, implementing effective practices at enterprise-scale can be an overhead. In this session we will show you how to use GitHub Actions for Azure to easily create code-to-cloud automation workflows that apply DevSecOps best practices.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Enabling DevSecOps best practices with GitHub Actions by Usha Narayanabhatta
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1926425124@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Building cloud-native data pipelines using Azure Data Factory by Abhishek Narain
+DESCRIPTION:Azure Data Factory is a cloud-native ETL service built for all data integration needs and skill levels.  You can easily construct ETL and ELT processes code-free or write your code.  It is serverless so you can focus on your integration logic rather than infrastructure management.  Because of the great flexibility ADF provides\, customers are using ADF in a wide variety of use cases. It integrates with cloud-native security mechanisms to offer real enterprise-grade security. In this session\, we will learn how to build cloud-native ETL pipelines using Azure Data Factory.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Building cloud-native data pipelines using Azure Data Factory by Abhishek Narain
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1350921185@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T140000
+DTEND;TZID=Asia/Calcutta:20201125T150000
+SUMMARY:Session on Communication challenges post covid by Kumar Subramaniam
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session on Communication challenges post covid by Kumar Subramaniam
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1839955022@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:The world of Web Components by Nishu Goel
+DESCRIPTION:In the era of changing frameworks and technologies in the world of web\, the idea of finding something consistent is a bliss. In this session\, we will see how Polymer components\, Angular components can be created as custom elements to be used in other frameworks and how the issues like learning curve of different frameworks\, reusability\, etc. can be looked into\, using Web components.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The world of Web Components by Nishu Goel
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-59077051@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:Building Microservices Using ASP.NET Core and AKS by Shailendra Chauhan
+DESCRIPTION:? Introduction to Microservices    ? Advantages of Microservices    ? Tools For Building Microservices    ? Creating Microservices Using ASP.NET Core    ? Microservices Deployment Using Azure Kubernetes Service (AKS)
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Building Microservices Using ASP.NET Core and AKS by Shailendra Chauhan
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1195587554@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:What you need to know about security for cloud DevOps by Mohamed Radwan
+DESCRIPTION:DevOps is all about speeding up the cadence of delivering software to provide continuous values to the end-users. So\, how can you embrace DevOps practices without compromise security? In this session\, you will learn how to use governance technologies\, security best practices\, and tools to secure source code\, infrastructure-as-code\, the actual environment as well as the application. You will learn how DevOps improves security not only for the application or environment but for the entire end-to-end Lifecycle.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:What you need to know about security for cloud DevOps by Mohamed Radwan
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-328974020@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:Running VM workload on Kubernetes using KubeVirt by Neependra Khare
+DESCRIPTION:Kubernetes Project was started to orchestrate containers only but over time it evolved now it can orchestrate serverless and VM workload as well. It has truly become a general-purpose orchestrator to run a mixed workload\, which is a real need for many companies. In this session\, I'll provide the introduction to the KubeVirt project using which we can orchestrate VM workload along with container workload on Kubernetes and give few demos along on how we are using in production.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Running VM workload on Kubernetes using KubeVirt by Neependra Khare
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-2123921729@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:Get your hands dirty with AI/ML with Azure by Ritesh Modi
+DESCRIPTION:Lets solve a business problem togather using python\, pandas\, sklearn & matplotlib. In this session\, We will- Learn to use Azure studio for solving ai/ml problems - Understand the process of using python libraries  - Developing models for a business problem - Identifying an algorithm - Using hyperparameters to tune the accuracy - Training and testing the model    
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get your hands dirty with AI/ML with Azure by Ritesh Modi
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-786241255@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T150000
+DTEND;TZID=Asia/Calcutta:20201125T160000
+SUMMARY:Plan your unplanned downtime by Anchal Bhandari
+DESCRIPTION:We find large number of manufacturers and industries\, failing or spending huge amount of money due to unexpected downtime. The machines shuts creating the entire line on shop floor inactive\, thereby stopping production or assembly in assembly lines. This results in halt in production\, calling maintenance engineer for corrective solution\, adding new machines if earlier cant be repaired and might be missing customer deadline. This loss of both of time and money is important when we talk about digitalization or industry 4.0. When the competitor is expanding in leaps and bounds digitalizing themselves and we on other hand handling the failures. Digital Transfomation using data\, analytics & IoT helps to plan your downtime.
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Plan your unplanned downtime by Anchal Bhandari
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T082336Z
+UID:20201109T082336Z-1534319384@marudot.com
+DTSTART;TZID=Asia/Calcutta:20201125T160000
+DTEND;TZID=Asia/Calcutta:20201125T163000
+SUMMARY:Closing Note by Aditee Rele
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Closing Note by Aditee Rele
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

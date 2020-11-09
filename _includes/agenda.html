@@ -34,9 +34,7 @@
 
                         <!-- Tab panes -->
                         <div class="events-schedule-contents tab-content">
-                            <!-- <div style="float: right;">
-                                <small><a href="assets/downloads/Agenda.xlsx" target="_blank">Download Agenda</a></small>
-                            </div> -->
+                            
                             <!-- schedule day1 start -->
                             <div class="tab-pane events-schedule-days active show fade" id="sunday">
                                 {% assign day1Slots = site.data[page.year].agenda | where: "day", "DAY1" | first %}
@@ -363,7 +361,12 @@
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div >
+                    <small><a href="assets/downloads/Agenda.xlsx" target="_blank">Download Agenda</a></small>
+                    <small><a href="assets/downloads/India Azure Community Conference.ics" target="_blank"><i class="fa fa-clock-o"></i></small>
+                </div>
+            </div>
         </div>
     </div>
 </section>
