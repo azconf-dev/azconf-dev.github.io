@@ -12,6 +12,7 @@ pic: "/assets/images/workshops/full-stack-development.jpg"
 desc: "Announcing soon"
 type: "Paid"
 fee: "500.00"
+regurl: "https://imjo.in/NsXRTu"
 duration: 3
 time: "10:00 AM - 01:00 PM"
 charityorg: ""

@@ -12,6 +12,7 @@ pic: "/assets/images/workshops/terraform.png"
 desc: "Announcing soon"
 type: "Paid"
 fee: "2500.00"
+regurl: "https://imjo.in/CsxtHk"
 duration: 6
 time: "10:00 AM - 05:00 PM"
 charityorg: ""

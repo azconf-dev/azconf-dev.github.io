@@ -12,6 +12,7 @@ pic: "/assets/images/workshops/elastic.png"
 desc: "Announcing soon"
 type: "Paid"
 fee: "200.00"
+regurl: "https://imjo.in/kV7u3H"
 duration: 2
 time: "01:00 PM - 03:00 PM"
 charityorg: ""
