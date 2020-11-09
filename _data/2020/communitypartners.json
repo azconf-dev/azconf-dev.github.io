@@ -63,5 +63,19 @@
     "website": "https://www.meetup.com/en-AU/OpenDataAutonomy/",
     "facebook": "#",
     "twitter": "#" 
+  },
+  {
+    "name": "PyConf 2020",
+    "pic": "/assets/images/Pyconf.png",
+    "website": "#",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "PyConf 2020",
+    "pic": "/assets/images/Tecoholic.jpg",
+    "website": "https://tecoholic.com/",
+    "facebook": "#",
+    "twitter": "#" 
   }
 ]
