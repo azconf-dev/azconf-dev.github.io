@@ -6,7 +6,7 @@ pic: "/assets/images/kumar_subramanian.jpeg"
 title: "Global Program Manager, ABB"
 linkedin: "https://www.linkedin.com/in/espookumar/"
 twitter: "#"
-featured: true
+featured: false
 active: Y
 speakerbio: |
     Iam an experienced technical leader and an architect with a background in many different programming languages, technologies, and platforms. I have worked successfully at the highest level across a number of domains including manufacturing, banking, telecoms, and Marine.
