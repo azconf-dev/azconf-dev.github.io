@@ -527,7 +527,7 @@
                     },
                     {
                         "event_key": "D01-DAT04",
-                        "name": "Azure IoT Edge Deployment using Kubernetes APIs",
+                        "name": "Deploying Azure IoT Edge Modules using Kubernetes API",
                         "image" : [
                             { "url" : "ilyas.png" }
                         ],
@@ -1179,7 +1179,6 @@
                         "trackname": "Track 1",
                         "hashtags": "#dev   #api-management   #azure-api #best-practices"
                     },
-                    
                     {
                         "event_key": "D02-DEV204",
                         "name": "Dapr for building distributed .NET Core applications",
@@ -1262,16 +1261,16 @@
                   },
                     {
                         "event_key": "D02-FUT04",
-                        "name": "Session on Communication challenges post covid",
+                        "name": "Changing team communication dynamics in the new normal",
                         "image" : [
-                            { "url" : "speaker-placeholder.png" }
+                            { "url" : "kumar_subramanian.jpeg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start":  "2:00 PM",
                         "event_end": "3:00 PM",
                         "event_type": "FUTURE",
-                        "speakers": "Kumar Subramaniam",
+                        "speakers": "Kumar Subramanian",
                         "description": "",
                         "venue": "TBA",
                         "sessionTags": "02-01-04-04",
