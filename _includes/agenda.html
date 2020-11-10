@@ -90,12 +90,21 @@
                                                                    </g>
                                                                 </svg>
                                                              </div>
-                                                             <div class="schedule-session-location">{{day1session.tags}}</div>
+                                                             <div class="schedule-session-location">{{day1session.trackname}}</div>
+                                                             
                                                           </div>
                                                           <!-- react-empty: 274 -->
                                                        </div>
                                                     </div>
                                                  </div>
+                                                 {% if day1session.hashtags %}
+                                                <div class="schedule-session-bottom-content">
+                                                <div class="schedule-session-divider"></div>
+                                                <div class="schedule-session-tags">
+                                                    <div title="Add to filter" class="schedule-session-tag">{{day1session.hashtags}}</div>
+                                                </div>
+                                            </div>
+                                                {% endif %}
                                                  <!-- <div class="schedule-session-bottom-content">
                                                     <div class="schedule-session-divider"></div>
                                                     <div class="schedule-session-tags">
@@ -179,13 +188,22 @@
                                                                       <ellipse cx="6" cy="6.071" rx="2.4" ry="2.429"></ellipse>
                                                                    </g>
                                                                 </svg>
-                                                             </div>
-                                                             <div class="schedule-session-location">{{day2session.tags}}</div>
+                                                             
+                                                            </div>
+                                                            <div class="schedule-session-location">{{day2session.trackname}}</div>
                                                           </div>
                                                           <!-- react-empty: 274 -->
                                                        </div>
                                                     </div>
                                                  </div>
+                                                 {% if day2session.hashtags %}
+                                                <div class="schedule-session-bottom-content">
+                                                    <div class="schedule-session-divider"></div>
+                                                    <div class="schedule-session-tags">
+                                                        <div title="Add to filter" class="schedule-session-tag">{{day2session.hashtags}}</div>
+                                                    </div>
+                                                </div>
+                                                {% endif %}
                                                  <!-- <div class="schedule-session-bottom-content">
                                                     <div class="schedule-session-divider"></div>
                                                     <div class="schedule-session-tags">
@@ -1268,12 +1286,14 @@
 
 .schedule-session-tag {
     font-size: 14px;
-    padding: 0 2px
+    padding: 0 2px;
+    word-spacing: 10px;
 }
 
 @media screen and (max-width: 768px) {
     .schedule-session-tag {
-        font-size:12px
+        font-size:12px;
+        word-spacing: 8px;
     }
 }
 
