@@ -1,7 +1,7 @@
 ---
 
-short_name : "Abilash Ashok"
-name: "Abilash Ashok"
+short_name : "Abhilash Ashok"
+name: "Abhilash Ashok"
 pic: "/assets/images/abhilash-ashok.jpg"
 title: "Solutions Architect - AR/VR, Cyient"
 linkedin: "https://www.linkedin.com/in/abhilashca/"
