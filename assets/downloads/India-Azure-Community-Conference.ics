@@ -484,13 +484,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-1427797294@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201124T150000
 DTEND;TZID=Asia/Calcutta:20201124T160000
-SUMMARY:Content Moderator - A State of Art Cognitive Service by Niloshima Srivastava
+SUMMARY:Exploring Machine Learning for .Net Developers
 DESCRIPTION:In this session\, I would like to explain the core concepts of Azure Cognitive Service Content Moderator API. It is going to be a hands-on session which will complete - 1. The Core Concepts (Why to moderate\, Ways to Moderate\, and the Content Moderator API)  2. What is Automated Image Moderation (Concept and Demo)   3. Job Operations & Review Operations (Concepts and Demo)
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Content Moderator - A State of Art Cognitive Service by Niloshima Srivastava
+DESCRIPTION:Exploring Machine Learning for .Net Developers by Niloshima Srivastava
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

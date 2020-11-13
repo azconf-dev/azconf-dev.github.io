@@ -12,13 +12,14 @@ active: Y
 speakerbio: |
     A technology enthusiast and a C#Corner MVP. 11 years of experience with Microsoft technology stack. A Hardcore Microsoft Gal
 session: |
-    **Session - Content Moderator - A State of Art Cognitive Service**
+    **Session - Exploring Machine Learning for .Net Developers**
 sessiontitle: |
-    In this session, I would like to explain the core concepts of Azure Cognitive Service Content Moderator API. It is going to be a hands-on session which will complete -
+    In this talk, I would like to cover the following - 
+    -	An Introduction to ML.NET
+    -	What Apache Spark offers for .NET Stack
+    -	Add the intelligence with Cognitive Services
+    -	Explore Azure ML
 
-    1. The Core Concepts (Why to moderate, Ways to Moderate, and the Content Moderator API)
-    2. What is Automated Image Moderation (Concept and Demo)
-    3. Job Operations & Review Operations (Concepts and Demo)
 
 ---
 
