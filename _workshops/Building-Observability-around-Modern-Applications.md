@@ -3,11 +3,11 @@
 short_name: "Building Observability around Modern Applications"
 name: "Building Observability around Modern Applications"
 title: "Building Observability around Modern Applications"
-trainer: "Aravind Putrevu"
-trainertitle: "Developer Advocate - India & ASEAN, Elastic"
+trainer: "Aravind, Animesh, Ravindra"
+trainertitle: ""
 twitter: "#"
-linkedin: "https://www.linkedin.com/in/aravindputrevu/"
-image: "Aravind_Putrevu.png"
+linkedin: "https://www.elastic.co/"
+image: "elastic.png"
 pic: "/assets/images/workshops/elastic.png"
 desc: "Announcing soon"
 type: "Paid"
@@ -23,6 +23,11 @@ description: |
     
     
 contents: |
+    **Trainers**
+    - [Aravind Putrevu - Developer Advocate - India & ASEAN, Elastic][1]
+    - [Animesh Bansriyar - Principal Solutions Architect, Elastic][2]
+    - [Ravindra Ramnani -Senior Solutions Architect, Elastic][3]
+
     Explore how Elastic can help you monitor and troubleshoot your applications in real-time. Learn how to leverage the Elastic Stack to monitor multiple deployments and resolve challenges in your environment. 
     In this workshop, will create an Azure cloud deployment, collect logs, metrics, and traces from an application. 
 
@@ -34,5 +39,7 @@ contents: |
     **30 day free use of platform as well as the content shown during the workshop will be provided to the attendees**
 
     
-
+    [1]: https://www.linkedin.com/in/aravindputrevu/
+    [2]: https://www.linkedin.com/in/animeshbansriyar/
+    [3]: https://www.linkedin.com/in/ravindra-ramnani/
 ---
