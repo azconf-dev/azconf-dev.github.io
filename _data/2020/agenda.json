@@ -36,7 +36,7 @@
                 "sessions": [
                     {
                         "event_key": "D01-DEV101",
-                        "name": "Simplify Micro services development with Tye",
+                        "name": "Simplify Microservices development with Tye",
                         "image" : [
                             { "url" : "jon-galloway.jpg" }
                         ],
