@@ -11,7 +11,7 @@ image: "amit-malik.jpg"
 pic: "/assets/images/workshops/windows-virtual-desktop.png"
 desc: "Announcing soon" 
 type: "Paid"
-fee: "3000.00"
+fee: "500.00"
 regurl: "https://imjo.in/e2uW5z"
 duration: 3
 time: "10:00 AM - 01:00 PM"
