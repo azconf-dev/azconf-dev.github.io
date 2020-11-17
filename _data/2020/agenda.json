@@ -904,23 +904,23 @@
                     },
                     {
                         "event_key": "D02-DEV202",
-                        "name": "Managing Microservices with Servicemesh",
+                        "name": "Modern Virtual Machine Management with Azure Automanage",
                         "image" : [
-                            { "url" : "swami.jpg" }
+                            { "url" : "amit-malik.jpg" }
                         ],
-                        "active": "N",
+                        "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "Swaminathan Vetri",
-                        "description": "Getting started with microservices is easy. As you start building tens/hundreds of microservices is when you would notice things are going out of control. That's where Service mesh comes to the rescue. In this session, you will learn how service mesh can help with easy traffic management & observability for your microservices. The session would cover specifically about SMI (Service Mesh Interface) and OSM - Open Service Mesh",
+                        "speakers": "Amit Malik",
+                        "description": "Azure Automanage, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-12",
                         "day": "DAY1",
                         "tags": "Dev-2",
                         "trackname": "Track 2",
-                        "hashtags": "#dev,  #microservices   #service-mesh   #traffic-management   #observability"
+                        "hashtags": "#dev,  #azure   #virtual-machine   #lifecycle-management   #azure-automanage"
                     },
                     {
                         "event_key": "D02-DEV302",

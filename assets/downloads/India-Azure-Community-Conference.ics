@@ -633,13 +633,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-114235617@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201125T110000
 DTEND;TZID=Asia/Calcutta:20201125T120000
-SUMMARY:Managing Microservices with Servicemesh by Swaminathan Vetri
-DESCRIPTION:Getting started with microservices is easy. As you start building tens/hundreds of microservices is when you would notice things are going out of control. That's where Service mesh comes to the rescue. In this session\, you will learn how service mesh can help with easy traffic management & observability for your microservices. The session would cover specifically about SMI (Service Mesh Interface) and OSM - Open Service Mesh
+SUMMARY:Modern Virtual Machine Management with Azure Automanage by Amit Malik
+DESCRIPTION:Azure Automanage\, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session\, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Managing Microservices with Servicemesh by Swaminathan Vetri
+DESCRIPTION:Modern Virtual Machine Management with Azure Automanage by Amit Malik
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
