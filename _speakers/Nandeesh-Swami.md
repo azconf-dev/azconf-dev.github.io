@@ -14,6 +14,6 @@ speakerbio: |
 session: |
     **Session : Serverless Trends of the Season**
 sessiontitle: |
-    Serverless is where the industry is moving towards. Serverless Applications started off as a modest application handling part of backend logic/working on a trigger to become the main application in a Cloud LOB suite. In this session we discuss on how Industry is mixing and matching Serverless apps, thereby evolving Serverless patterns. We will look into some anti patterns, architectures and practices which can break the application.
+    Serverless is where the industry is moving towards. Serverless Applications started off as a modest application, handling part of backend logic/working on a trigger to becoming the main application in a Cloud LOB suite. In this session we discuss on what is trending in the Serverless world and how Industry is mixing and matching Serverless apps, thereby evolving Serverless patterns. We will look into some anti patterns, architectures and practices which can break the application
 ---
 
