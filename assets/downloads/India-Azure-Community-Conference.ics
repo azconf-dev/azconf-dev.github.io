@@ -633,13 +633,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-114235617@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201125T110000
 DTEND;TZID=Asia/Calcutta:20201125T120000
-SUMMARY:Modern Virtual Machine Management with Azure Automanage by Amit Malik
-DESCRIPTION:Azure Automanage\, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session\, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A
+SUMMARY:TBA
+DESCRIPTION:TBA
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Modern Virtual Machine Management with Azure Automanage by Amit Malik
+DESCRIPTION:TBA
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -962,13 +962,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-2123921729@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201125T150000
 DTEND;TZID=Asia/Calcutta:20201125T160000
-SUMMARY:Get your hands dirty with AI/ML with Azure by Ritesh Modi
-DESCRIPTION:Lets solve a business problem togather using python\, pandas\, sklearn & matplotlib. In this session\, We will- Learn to use Azure studio for solving ai/ml problems - Understand the process of using python libraries  - Developing models for a business problem - Identifying an algorithm - Using hyperparameters to tune the accuracy - Training and testing the model    
+SUMMARY:Modern Virtual Machine Management with Azure Automanage by Amit Malik
+DESCRIPTION:Azure Automanage\, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session\, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A 
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Get your hands dirty with AI/ML with Azure by Ritesh Modi
+DESCRIPTION:Modern Virtual Machine Management with Azure Automanage by Amit Malik
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

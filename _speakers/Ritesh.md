@@ -7,7 +7,7 @@ title: "Senior Engineer - Commercial Engineering, Microsoft"
 linkedin: "https://www.linkedin.com/in/ritesh-modi/"
 twitter: "#"
 featured: false
-active: Y
+active: N
 speakerbio: |
     Ritesh have 17+ years of rich IT experience in architecture, solutioning, planning, design, development, delivery of large and complex digital transformation projects and programs.
 

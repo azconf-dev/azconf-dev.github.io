@@ -904,23 +904,23 @@
                     },
                     {
                         "event_key": "D02-DEV202",
-                        "name": "Modern Virtual Machine Management with Azure Automanage",
+                        "name": "",
                         "image" : [
-                            { "url" : "amit-malik.jpg" }
+                            { "url" : "" }
                         ],
-                        "active": "Y",
+                        "active": "N",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "Amit Malik",
-                        "description": "Azure Automanage, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A",
+                        "speakers": "",
+                        "description": "",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-12",
                         "day": "DAY1",
                         "tags": "Dev-2",
                         "trackname": "Track 2",
-                        "hashtags": "#dev,  #azure   #virtual-machine   #lifecycle-management   #azure-automanage"
+                        "hashtags": "#dev,  "
                     },
                     {
                         "event_key": "D02-DEV302",
@@ -1368,23 +1368,23 @@
                     },
                     {
                         "event_key": "D02-DAT05",
-                        "name": "Get your hands dirty with AI/ML with Azure",
+                        "name": "Modern Virtual Machine Management with Azure Automanage",
                        "image" : [
-                            { "url" : "ritesh.jpg" }
+                            { "url" : "amit-malik.jpg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "3:00 PM",
                         "event_end": "4:00 PM",
                         "event_type": "DATA",
-                        "speakers": "Ritesh Modi",
-                        "description": "Lets solve a business problem togather using python, pandas, sklearn & matplotlib. In this session, We will- Learn to use Azure studio for solving ai/ml problems - Understand the process of using python libraries  - Developing models for a business problem - Identifying an algorithm - Using hyperparameters to tune the accuracy - Training and testing the model    ",
+                        "speakers": "Amit Malik",
+                        "description": "Azure Automanage, an Azure service still in preview eliminates the complexity of operations and lifecycle management for virtual machines in Azure. In this demo packed session, you’ll learn about best practices of server operations management on Azure and how Azure Automanage is revolutionizing it. Agenda: - What is Azure Automanage? - How does it modernize the Server Management? - How to Setup Azure Automanage - Automanage in Action – Demo - Q&A",
                         "venue": "TBA",
                         "sessionTags": "02-01-03-05",
                         "day": "DAY2",
                         "tags": "Data",
                         "trackname": "Track 5",
-                        "hashtags": "#data   #azure   #python #au #machine-learning"
+                        "hashtags": "#data   #azure   #virtual-machine   #lifecycle-management   #azure-automanage"
                     },
                     {
                         "event_key": "D02-FUT05",
