@@ -633,13 +633,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-114235617@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201125T110000
 DTEND;TZID=Asia/Calcutta:20201125T120000
-SUMMARY:TBA
-DESCRIPTION:TBA
+SUMMARY:Running Elasticsearch on Azure by Animesh Bansriyar\, Ravindra Ramnani
+DESCRIPTION:Elasticsearch (ELK stack) is the most popular Opensource Search engine also used for Observability and Threat hunting. In this session, we'll see how one can run and leverage the power of Opensource Search and Analytics on the Azure cloud platform.  Agenda - Elastic Stack 101 - Deployment Options on Azure - Building Search Engine - Building Observability Platform
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TBA
+DESCRIPTION:Running Elasticsearch on Azure by Animesh Bansriyar\, Ravindra Ramnani
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

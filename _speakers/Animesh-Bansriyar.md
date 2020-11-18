@@ -12,8 +12,23 @@ speakerbio: |
     Animesh Bansriyar is a Principal Solutions Architect with Elastic, and has over 18 years of experience in large scale Solution Architecture and Product Engineering, in areas of Search, Machine Learning, Network Security and Telco IP and Messaging  
 
 session: |
-    **Workshop : Elasticsearch for Beginners: Search, Observe and Protect**
+    **Session : Running Elasticsearch on Azure**
+
 sessiontitle: |
+    Elasticsearch (ELK stack) is the most popular Opensource Search engine also used for Observability and Threat hunting.
+    In this session, we'll see how one can run and leverage the power of Opensource Search and Analytics on the Azure cloud platform. 
+
+    Agenda
+
+    - Elastic Stack 101
+    - Deployment Options on Azure
+    - Building Search Engine
+    - Building Observability Platform
+
+
+
+    **Workshop : Elasticsearch for Beginners: Search, Observe and Protect**
+
     Elasticsearch is the world's most popular open-source distributed Search Engine. One can build Search, Analytical, and Security solutions on Elasticsearch. 
 
     In this workshop, we'll learn the bare minimum and terminology to understand Elasticsearch and few other tools Kibana, Beats, which make up Elastic Stack. 
