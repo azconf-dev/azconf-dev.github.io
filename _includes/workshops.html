@@ -12,7 +12,8 @@
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
-            {% assign workshops = site.workshops  | sort: "sortorder"   %}
+            {% assign workshopunsorted =  site.workshops  | where: 'active', true %}
+            {% assign workshops = workshopunsorted  | sort: "sortorder"   %}
             
             {% if page.limit %}
             {% for workshop in  workshops  limit:page.limit %}
