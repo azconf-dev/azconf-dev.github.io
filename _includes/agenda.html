@@ -247,7 +247,8 @@
                                     </div>
 
                                     <div class="schedule-timeslot__sessions">
-                                        {% assign workshops = site.workshops   | sort: "sortorder"  %}
+                                        {% assign workshopunsorted =  site.workshops  | where: 'active', true %}
+                                        {% assign workshops = workshopunsorted   | sort: "sortorder"  %}
                                         
                                         {% for workshop in  workshops %}
                                         <div class="schedule-session">
