@@ -906,15 +906,15 @@
                         "event_key": "D02-DEV202",
                         "name": "Running Elasticsearch on Azure",
                         "image" : [
-                            { "url" : "Animesh-Bansriyar.jpeg" , "name" : "Animesh Bansriyar"},
-                            { "url" : "Ravindra-Ramnani.png" , "name" : "Ravindra Ramnani" }
+                            { "url" : "Aravind_Putrevu.png"}
+                           
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "10:00 AM",
                         "event_end": "11:00 AM",
                         "event_type": "DEV",
-                        "speakers": "Animesh Bansriyar, Ravindra Ramnani",
+                        "speakers": "Aravind Putrevu",
                         "description": "Elasticsearch (ELK stack) is the most popular Opensource Search engine also used for Observability and Threat hunting. In this session, we'll see how one can run and leverage the power of Opensource Search and Analytics on the Azure cloud platform.  Agenda - Elastic Stack 101 - Deployment Options on Azure - Building Search Engine - Building Observability Platform",
                         "venue": "TBA",
                         "sessionTags": "01-00-01-12",
