@@ -20,8 +20,8 @@ speakerbio: |
     [1]: mailto:imsharmasagar@outlook.com
     [2]: https://cloudsharma.com
 session: |
-    **Session : Azure Governance with Policies and Blueprints**
+    **Session : Azure Governance using Policies and Blueprints**
 sessiontitle: |
-    
+    Governance provides mechanisms and processes to maintain control over your applications and resources in Azure. In this session Sagar is going to talk about Azure Policies and Blueprints which are the most important services from Azure Governance portfolio. Join him to know how to manage your Azure infrastructure seamlessly
     
 ---
