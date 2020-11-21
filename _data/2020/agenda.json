@@ -337,26 +337,26 @@
                     "trackname": "Track 1",
                     "hashtags": "#dev   #azure-ai   #chat-bot   #cognitive-services"
                   },
-                    {
-                        "event_key": "D01-DEV203",
-                        "name": "Architect using Serverless to save cost",
-                        "image" : [
-                            { "url" : "Karthikeyan.jpg" }
-                        ],
-                        "active": "Y",
-                        "pinned": "N",
-                        "event_start": "1:00 PM",
-                        "event_end": "2:00 PM",
-                        "event_type": "DEV",
-                        "speakers": "Karthikeyan V K",
-                        "description": "This session is to help you to save cloud cost by moving your workload to serverless technologies. We will look into how you can leverage all the serverless options available in Azure. You will learn Autoscaling using Virtual Nodes, How you can use KEDA to leverage HPA(Horizontal Pod Autoscaler), and pay less than a dollar to run your workloads in the cloud. You will also look into all the real-time problems faced by the speaker and how you can learn from his experience. This will be a session packed with demos and real-time problems and solutions",
-                        "venue": "TBA",
-                        "sessionTags": "01-00-01-13",
-                        "day": "DAY1",
-                        "tags": "Dev-2",
-                        "trackname": "Track 2",
-                        "hashtags": "#dev   #microservices   #serverless   #keda"
-                    },
+                  {
+                    "event_key": "D01-DEV203",
+                    "name": "Architect using KEDA/Helm/Virtual-Kubelets to save cost",
+                    "image": [
+                      { "url": "Karthikeyan.jpg" }
+                    ],
+                    "active": "Y",
+                    "pinned": "N",
+                    "event_start": "1:00 PM",
+                    "event_end": "2:00 PM",
+                    "event_type": "DEV",
+                    "speakers": "Karthikeyan V K",
+                    "description": "This session is to help you to save cloud cost by moving your workload to serverless technologies. We will look into how you can leverage all the serverless options available in Azure. You will learn Autoscaling using Virtual Nodes, How you can use KEDA to leverage HPA(Horizontal Pod Autoscaler), and pay less than a dollar to run your workloads in the cloud. You will also look into all the real-time problems faced by the speaker and how you can learn from his experience. This will be a session packed with demos and real-time problems and solutions",
+                    "venue": "TBA",
+                    "sessionTags": "01-00-01-13",
+                    "day": "DAY1",
+                    "tags": "Dev-2",
+                    "trackname": "Track 2",
+                    "hashtags": "#dev   #microservices   #serverless   #keda"
+                  },
                     {
                         "event_key": "D01-DEV303",
                         "name": "Deploying Micro Frontends to a Kubernetes Cluster",
