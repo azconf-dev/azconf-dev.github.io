@@ -18,8 +18,9 @@ time: "10:00 AM - 01:00 PM"
 charityorg: ""
 attendeelimit: 30
 prerequisites: ""
-sortorder: "1"
+sortorder: "3"
 active: true
+stopreg: false
 description: |
     
     

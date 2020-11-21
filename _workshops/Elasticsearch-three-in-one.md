@@ -20,6 +20,7 @@ attendeelimit: 150
 prerequisites: ""
 sortorder: "1"
 active: false
+stopreg: false
 description: |
     
     

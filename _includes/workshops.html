@@ -7,16 +7,17 @@
             <div class="col-lg-8">
                 <div class="section-title text-center pb-20">
                     <h2 class="title">Live Workshops</h2>
+                    <span  class="text font-italic" style="font-size: 14px;color: #1863ffad;"">* Proceeds will be donated to charity. Alone we can do so little; together we can do so much</span>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
 
         <div class="row justify-content-md-center">
             {% assign workshopunsorted =  site.workshops  | where: 'active', true %}
-            {% assign workshops = workshopunsorted  | sort: "sortorder"   %}
+            {% assign workshops = workshopunsorted  | sort: 'sortorder'  %}
             
             {% if page.limit %}
-            {% for workshop in  workshops  limit:page.limit %}
+            {% for workshop in  workshops   limit:page.limit %}
             <div class="col-lg-2 col-sm-3">
                 <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <a href="{{workshop.url}}">

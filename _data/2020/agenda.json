@@ -1036,23 +1036,23 @@
                 "sessions" : [
                     {
                         "event_key": "D02-DEV103",
-                        "name": "ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup",
+                        "name": "Azure Governance with Policies and Blueprints",
                         "image" : [
-                            { "url" : "Peter_De_Tender.jpg" }
+                            { "url" : "Sagar_Sharma.jpeg" }
                         ],
                         "active": "Y",
                         "pinned": "N",
                         "event_start": "1:00 PM",
                         "event_end": "2:00 PM",
                         "event_type": "DEV",
-                        "speakers": "Peter De Tender",
-                        "description": "The world is wild about Containers, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now, based on the recent amount of questions I got on the topic, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure, by using the different Azure Container solutions available. Starting from the basics, moving to more complex architectures and scenarios. And as usual in Peter's sessions, more live demos than PPTX-talk",
+                        "speakers": "Sagar Sharma",
+                        "description": "",
                         "venue": "TBA",
                         "sessionTags": "02-01-01-03",
                         "day": "DAY2",
                         "tags": "Dev-1",
                         "trackname": "Track 1",
-                        "hashtags": "#dev,  #containers   #azure   #docker"
+                        "hashtags": "#dev,  #governance   #azure   #azure-policy #azure-blueprints"
                     },
                     {
                         "event_key": "D02-DEV203",

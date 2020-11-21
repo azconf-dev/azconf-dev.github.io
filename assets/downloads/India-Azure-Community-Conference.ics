@@ -723,13 +723,13 @@ DTSTAMP:20201109T082336Z
 UID:20201109T082336Z-597624233@marudot.com
 DTSTART;TZID=Asia/Calcutta:20201125T130000
 DTEND;TZID=Asia/Calcutta:20201125T140000
-SUMMARY:ACR\, ACI\, ACS\, AKS\, DCK... aka the Container Alphabet Soup by Peter De Tender
-DESCRIPTION:The world is wild about Containers\, and so is Azure! Where container support has been part of the Azure platform for almost 3 years now\, based on the recent amount of questions I got on the topic\, it seems most partners and customers are only looking at it now. Which comes with the related confusion in terminology and capabilities. And that's exactly what I will show you during my session: how to run Docker (DCK) containers in Azure\, by using the different Azure Container solutions available. Starting from the basics\, moving to more complex architectures and scenarios. And as usual in Peter's sessions\, more live demos than PPTX-talk
+SUMMARY:Azure Governance with Policies and Blueprints by Sagar Sharma
+DESCRIPTION:
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACR, ACI, ACS, AKS, DCK... aka the Container Alphabet Soup by Peter De Tender
+DESCRIPTION:Azure Governance with Policies and Blueprints by Sagar Sharma
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
