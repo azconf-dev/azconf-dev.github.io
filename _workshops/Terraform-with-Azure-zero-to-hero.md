@@ -39,5 +39,5 @@ contents: |
     **Pre-requisites**
     - Azure Subscription and a computer to try out workshop exercises
     
-
+    **Free Azure infrastructure will be provided to attendees for a limited period of time to try out**
 ---

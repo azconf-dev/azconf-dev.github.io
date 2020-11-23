@@ -60,6 +60,6 @@ contents: |
         * Integrating the Web API with Application Insights
 
 
-
+    **Free Azure infrastructure will be provided to attendees for a limited period of time to try out**
 
 ---
