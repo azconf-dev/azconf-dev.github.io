@@ -38,12 +38,14 @@
                         <li><span class="sub-title">Date : November 26</span></li>
                         <li><span class="sub-title">Time : {{ page.time }}</span></li>
                         <li><span class="sub-title">Slots : {{ page.attendeelimit }}</span></li>
-                        <li> <div class="sub-title">Fee : INR {{ page.fee }}*</div></li>
+                        
                         {% if page.stopreg == false %}
+                        <li> <div class="sub-title">Fee : INR {{ page.fee }}*</div></li>
                         <li> <div class="btnPayNow"> 
                             <a href="{{page.regurl}}" target="_blank" style="color:white" >Book Now</a> </div></li>
                         <li><span class="text font-italic" style="font-size:12px">The amount collected as fees will be contributed to charity in full. Please refer the terms given below</span> </li>
                         {% else %}
+                        
                         <li><div > 
                             <span class="sub-title pt-10"><strong>For free registration, drop an email to <a href="mailto:amaldevv@outlook.com">amaldevv@outlook.com</a> mentioning your First Name, Last Name & Email Address</strong></span>
                             <!-- <a href="#" target="_blank" style="color:white" >SOLD OUT</a> </div><span class="sub-title pl-10">Drop an email to <a href="mailto:organizers@azconf.dev">organizers@azconf.dev</a> to join the waitlist </span></li> -->
