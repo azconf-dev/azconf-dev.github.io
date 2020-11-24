@@ -41,9 +41,17 @@
                         
                         {% if page.stopreg == false %}
                         <li> <div class="sub-title">Fee : INR {{ page.fee }}*</div></li>
+                        {% if page.soldout %}
+                        <li> <div class="btnPayNow"> 
+                            <a href="#" target="_blank" style="color:white" >SOLD OUT</a> </div></li>
+                        </li>
+                        <li><span class="text font-italic" style="font-size:12px">The amount collected as fees will be contributed to charity in full. Please refer the terms given below</span> </li>
+                        {% else %}
+                        
                         <li> <div class="btnPayNow"> 
                             <a href="{{page.regurl}}" target="_blank" style="color:white" >Book Now</a> </div></li>
                         <li><span class="text font-italic" style="font-size:12px">The amount collected as fees will be contributed to charity in full. Please refer the terms given below</span> </li>
+                        {% endif %}
                         {% else %}
                         
                         <li><div > 
