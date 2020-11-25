@@ -159,16 +159,16 @@ $(function () {
 
     });
 
-    $(document).ready(function () {
-        //$("#delCookie").click(function(){
-        //    del_cookie("cookie");   
-        //}); 
-        $("#exampleModalCenter").modal("show");
-        var expire = new Date();
-        expire = new Date(expire.getTime() + 7776000000);
-        document.cookie = "cookie=here; expires=" + expire;
+    //$(document).ready(function () {
+    //    //$("#delCookie").click(function(){
+    //    //    del_cookie("cookie");   
+    //    //}); 
+    //    $("#exampleModalCenter").modal("show");
+    //    var expire = new Date();
+    //    expire = new Date(expire.getTime() + 7776000000);
+    //    document.cookie = "cookie=here; expires=" + expire;
 
-    });
+    //});
 
     $(window).on('scroll', function (event) {
 

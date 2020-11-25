@@ -19,8 +19,9 @@ charityorg: ""
 attendeelimit: 30
 prerequisites: ""
 sortorder: "3"
-active: false
+active: true
 stopreg: false
+soldout: true
 description: |
     
     
