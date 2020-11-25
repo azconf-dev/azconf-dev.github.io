@@ -21,7 +21,7 @@ prerequisites: ""
 sortorder: "3"
 active: true
 stopreg: false
-soldout: true
+soldout: false
 description: |
     
     
